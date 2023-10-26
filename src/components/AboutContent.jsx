@@ -29,6 +29,7 @@ import Logo9 from '../assets/logo9.png';
 import Logo3 from '../assets/logo3.png';
 import Logo7 from '../assets/logo7.png';
 import Logo44 from '../assets/logo44.png';
+import { Link } from 'react-router-dom';
 
 
 const AboutContent = () => {
@@ -39,14 +40,34 @@ const AboutContent = () => {
     const [showInfo4, setShowInfo4] = useState(false);
     const [showInfo5, setShowInfo5] = useState(false);
     const [showInfo6, setShowInfo6] = useState(false);
+    const [showInfo7, setShowInfo7] = useState(false);
+    const [showInfo8, setShowInfo8] = useState(false);
+    
 
     const handleInfo1Click = () => {
         setShowInfo1(true);
         setShowInfo2(false);
+        setShowInfo7(false);
+        setShowInfo8(false);
     };
     const handleInfo2Click = () => {
         setShowInfo2(true);
         setShowInfo1(false);
+        setShowInfo7(false);
+        setShowInfo8(false);
+    };
+    const handleInfo7Click = () => {
+        setShowInfo7(true);
+        setShowInfo1(false);
+        setShowInfo2(false);
+        setShowInfo8(false);
+        
+    };
+    const handleInfo8Click = () => {
+        setShowInfo8(true);
+        setShowInfo1(false);
+        setShowInfo7(false);
+        setShowInfo2(false);
     };
     const handleInfo3Click = () => {
         setShowInfo3(true);
@@ -95,8 +116,10 @@ const AboutContent = () => {
         </div>
         <div className='flex flex-col py-8 gap-10 items-center bg-gray-200'>
             <span className='flex rounded-lg shadow-xl w-fit h-fit bg-white'>
-                <span className={`${showInfo1 ? 'border-b-2 border-b-[#061c56]' : 'border-b-2 border-transparent'} uppercase font-semibold text-sm px-16 py-5 border-r border-black/10 cursor-pointer`} onClick={handleInfo1Click}>Ethos</span>
-                <span className={`${showInfo2 ? 'border-b-2 border-b-[#061c56]' : 'border-b-2 border-transparent'} uppercase font-semibold text-sm px-16 py-5 border-r border-black/10 cursor-pointer`} onClick={handleInfo2Click}>Values</span>
+                <span className={`${showInfo1 ? 'border-b-2 border-b-[#061c56]' : 'border-b-2 border-transparent'} uppercase font-semibold text-sm px-16 py-5 border-r border-black/10 cursor-pointer`} onClick={handleInfo1Click}>Our Vision</span>
+                <span className={`${showInfo2 ? 'border-b-2 border-b-[#061c56]' : 'border-b-2 border-transparent'} uppercase font-semibold text-sm px-16 py-5 border-r border-black/10 cursor-pointer`} onClick={handleInfo2Click}>Our Values</span>
+                <span className={`${showInfo7 ? 'border-b-2 border-b-[#061c56]' : 'border-b-2 border-transparent'} uppercase font-semibold text-sm px-16 py-5 border-r border-black/10 cursor-pointer`} onClick={handleInfo7Click}>Our Mission</span>
+                <span className={`${showInfo8 ? 'border-b-2 border-b-[#061c56]' : 'border-b-2 border-transparent'} uppercase font-semibold text-sm px-16 py-5 border-r border-black/10 cursor-pointer`} onClick={handleInfo8Click}>Temple Flame</span>
             </span>
             <span className='flex rounded-lg bg-white p-6 w-[53rem] h-[26rem]'>
                 {showInfo1 && 
@@ -182,6 +205,16 @@ const AboutContent = () => {
                     </div>
 
                 }
+                {showInfo7 && 
+                    <div className='flex gap-5 items-center justify-center w-full'>
+                        <span className='text-4xl font-semibold w-[30rem] text-center flex justify-center text-[#061c56]'>To empower the pupils to pursue a passion for acquiring knowledge,lead lives of integrity and be self motivated and socially responsiblecitizens of the world.</span>
+                    </div>
+                }
+                {showInfo8 && 
+                    <div className='flex gap-5 items-center justify-center w-full'>
+                        <span className='text-4xl font-semibold w-[30rem] text-center flex justify-center text-[#f6bc75]'>The blue flame is the hottest of all flames. As hot as the blue flame burns, so does our zeal at Temple burn in pursuance of knowledge, truth and good character.</span>
+                    </div>
+                }
                 
             </span>
         </div>
@@ -203,7 +236,7 @@ const AboutContent = () => {
                             <CiLocationOn className='w-6 h-6 text-[#061c56]'/>
                             <span className='text-xs font-light opacity-80'>213, Ikorodu Road, Illupeju, Lagos</span>
                         </span>
-                        <span className='text-[#061c56] flex justify-center py-4 text-sm font-normal border-2 rounded-lg border-[#061c56]'>Learn More</span>
+                        <Link to='/early-years'><span className='text-[#061c56] flex justify-center py-4 text-sm font-normal border-2 rounded-lg border-[#061c56]'>Learn More</span></Link>
                     </span>
                 </span>
                 <span className='flex flex-col '>
@@ -224,7 +257,7 @@ const AboutContent = () => {
                                 <span className='text-xs font-light opacity-80'>Illupeju, Lagos</span>
                             </span>
                         </span>
-                        <span className='text-[#061c56] flex justify-center py-4 text-sm font-normal border-2 rounded-lg border-[#061c56]'>Learn More</span>
+                        <Link to='/primary '><span className='text-[#061c56] flex justify-center py-4 text-sm font-normal border-2 rounded-lg border-[#061c56]'>Learn More</span></Link>
                     </span>
                 </span>
                 <span className='flex flex-col '>
@@ -248,7 +281,7 @@ const AboutContent = () => {
                                 <span className='text-xs font-light opacity-80'>st,Adeniyi Jones,Ikeja,Lagos.</span>
                             </span>
                         </span>
-                        <span className='text-[#061c56] flex justify-center py-4 text-sm font-normal border-2 rounded-lg border-[#061c56]'>Learn More</span>
+                        <Link to='/secondary'><span className='text-[#061c56] flex justify-center py-4 text-sm font-normal border-2 rounded-lg border-[#061c56]'>Learn More</span></Link>
                     </span>
                 </span>
                 <span className='flex flex-col '>
@@ -266,7 +299,7 @@ const AboutContent = () => {
                             <CiLocationOn className='w-6 h-6 text-[#061c56]'/>
                             <span className='text-xs font-light opacity-80'>213, Ikorodu Road, Illupeju, Lagos</span>
                         </span>
-                        <span className='text-[#061c56] flex justify-center py-4 text-sm font-normal border-2 rounded-lg border-[#061c56]'>Learn More</span>
+                        <Link to='/college'><span className='text-[#061c56] flex justify-center py-4 text-sm font-normal border-2 rounded-lg border-[#061c56]'>Learn More</span></Link>
                     </span>
                 </span>
             </div>

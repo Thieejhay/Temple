@@ -5,46 +5,63 @@ import 'react-big-calendar/lib/css/react-big-calendar.css';
 
 
 const events = [
-    {
-      id: 1,
-      title: '1st Temple examination',
-      start: new Date(2023, 11, 1, 9, 0), 
-      end: new Date(2023, 11, 4, 10, 0),
-      type: 'study'
-    },
-    {
-      id: 2,
-      title: 'National education Day',
-      start: new Date(2023, 11, 7, 14, 0),
-      end: new Date(2023, 11, 12, 15, 0),
-      type: 'holiday'
-    },
-    {
-        id: 3,
-        title: 'OSIS activity',
-        start: new Date(2023, 11, 15, 14, 0),
-        end: new Date(2023, 11, 16, 15, 0),
-        type: 'activity'
-      },
-      {
-        id: 4,
-        title: 'Study Tour to Indonesia',
-        start: new Date(2023, 11, 18, 14, 0),
-        end: new Date(2023, 11, 21, 15, 0),
-        type: 'tour'
-      },
-      {
-        id: 5,
-        title: 'Semester Break',
-        start: new Date(2023, 11, 23, 14, 0),
-        end: new Date(2023, 11, 30, 15, 0),
-        type: 'break'
-      },
+  {
+    id: 16,
+    title: 'Revision Week',
+    start: new Date(2023, 10, 27, 0, 0),
+    end: new Date(2023, 11, 1, 0, 0),
+    type: 'green'
+  },
+  {
+    id: 17,
+    title: 'End of Term Examination',
+    start: new Date(2023, 11, 4, 0, 0),
+    end: new Date(2023, 11, 8, 0, 0),
+    type: 'purple'
+  },
+  {
+    id: 18,
+    title: 'Entrance Examination',
+    start: new Date(2023, 11, 8, 0, 0),
+    end: new Date(2023, 11, 8, 0, 0),
+    type: 'orange'
+  },
+  {
+    id: 19,
+    title: 'Christmas Concert',
+    start: new Date(2023, 11, 14, 0, 0),
+    end: new Date(2023, 11, 16, 0, 0),
+    type: 'blue'
+  },
+  {
+    id: 20,
+    title: 'Vacation',
+    start: new Date(2023, 11, 18, 0, 0),
+    end: new Date(2024, 0, 5, 0, 0),
+    type: 'yellow'
+  },
     
   ];
   const localizer = momentLocalizer(moment);
 
 const DecCalendar = () => {
+
+  const formatDateRange = (start, end) => {
+    const startDate = moment(start).format('D');
+    const endDate = moment(end).format('D');
+    const startMonth = moment(start).format('MMMM');
+    const endMonth = moment(end).format('MMMM');
+    
+    if (startMonth === endMonth) {
+      if (startDate === endDate) {
+        return `${startDate} ${startMonth}`;
+      } else {
+        return `${startDate}-${endDate} ${startMonth}`;
+      }
+    } else {
+      return `${startDate} ${startMonth} - ${endDate} ${endMonth}`;
+    }
+  };
 
     const calendarStyles = `
     .rbc-header {
@@ -67,17 +84,17 @@ const DecCalendar = () => {
     let backgroundColor = '';
     let borderColor = '';
   
-    if (event.type === 'study') {
+    if (event.type === 'green') {
       backgroundColor = 'green';
-    } else if (event.type === 'activity') {
+    } else if (event.type === 'yellow') {
       backgroundColor = 'yellow';
-    } else if (event.type === 'tour') {
+    } else if (event.type === 'orange') {
       backgroundColor = 'orange';
-    } else if (event.type === 'holiday') {
+    } else if (event.type === 'blue') {
     backgroundColor = 'blue';
-    } else if (event.type === 'break') {
+    } else if (event.type === 'purple') {
     backgroundColor = 'purple';
-    } else if (event.type === 'party') {
+    } else if (event.type === 'pink') {
         backgroundColor = 'lightpink';
   }
   
@@ -93,7 +110,7 @@ const DecCalendar = () => {
   return (
     <div className='flex w-fit border border-transparent bg-white'>
         <style>{calendarStyles}</style>
-        <div className="w-[19rem] p-4">
+        <div className="w-[19rem] px-4 py-3">
             <Calendar
             localizer={localizer}
             events={events}
@@ -107,12 +124,12 @@ const DecCalendar = () => {
             // formats={{ dayFormat: customDayFormat }}
             />
         </div>
-        <div className="py-4">
+        <div className="py-2">
             <h2 className='text-lg font-semibold mb-4 mt-3'>Events for December 2023</h2>
             <span className='flex flex-col gap-3 w-[19rem]'>
                 {events.map((event) => (
-                    <span key={event.id} className='flex'>
-                        <span className='text-sm font-semibold w-[8rem]'>{moment(event.start).format('D')} - {' '} {moment(event.end).format('D MMMM ')}</span>
+                    <span key={event.id} className='flex gap-2'>
+                        <span className='text-sm font-semibold'>{formatDateRange(event.start, event.end)}</span>
                         <span className='text-sm font-normal opacity-80'>{event.title}</span>
                     </span>
                 ))}

@@ -5,47 +5,69 @@ import 'react-big-calendar/lib/css/react-big-calendar.css';
 
 
 const events = [
-    {
-      id: 1,
-      title: '1st Temple examination',
-      start: new Date(2024, 1, 1, 9, 0), 
-      end: new Date(2024, 1, 5, 10, 0),
-      type: 'study'
-    },
-    {
-      id: 2,
-      title: 'National education Day',
-      start: new Date(2024, 1, 7, 14, 0),
-      end: new Date(2024, 1, 12, 15, 0),
-      type: 'holiday'
-    },
-    {
-        id: 3,
-        title: 'OSIS activity',
-        start: new Date(2024, 1, 15, 14, 0),
-        end: new Date(2024, 1, 16, 15, 0),
-        type: 'activity'
-      },
-      {
-        id: 4,
-        title: 'Study Tour to Indonesia',
-        start: new Date(2024, 1, 18, 14, 0),
-        end: new Date(2024, 1, 21, 15, 0),
-        type: 'tour'
-      },
-      {
-        id: 4,
-        title: 'Semester Break',
-        start: new Date(2024, 1, 25, 14, 0),
-        end: new Date(2024, 1, 31, 15, 0),
-        type: 'break'
-      },
-      
-    
+  {
+    id: 25,
+    title: "Boarders' Visiting Day",
+    start: new Date(2024, 1, 3, 0, 0), 
+    end: new Date(2024, 1, 3, 0, 0),
+    type: 'green'
+  },
+  {
+    id: 26,
+    title: 'Cycle Test',
+    start: new Date(2024, 1, 5, 0, 0), 
+    end: new Date(2024, 1, 9, 0, 0),
+    type: 'purple'
+  },
+  {
+    id: 27,
+    title: 'Inter House Sport EYFS/PRI',
+    start: new Date(2024, 1, 17, 0, 0), 
+    end: new Date(2024, 1, 17, 0, 0),
+    type: 'orange'
+  },
+  {
+    id: 28,
+    title: "Open Day",
+    start: new Date(2024, 1, 22, 0, 0), 
+    end: new Date(2024, 1, 23, 0, 0),
+    type: 'blue'
+  },
+  {
+    id: 23,
+    title: 'Inter House Sport SEC/COL',
+    start: new Date(2024, 1, 24, 0, 0), 
+    end: new Date(2024, 1, 24, 0, 0),
+    type: 'yellow'
+  },
+  {
+    id: 29,
+    title: 'Half-Term Break',
+    start: new Date(2024, 1, 26, 0, 0), 
+    end: new Date(2024, 2, 1, 0, 0),
+    type: 'pink'
+  },
   ];
   const localizer = momentLocalizer(moment);
 
 const FebCalendar = () => {
+
+  const formatDateRange = (start, end) => {
+    const startDate = moment(start).format('D');
+    const endDate = moment(end).format('D');
+    const startMonth = moment(start).format('MMMM');
+    const endMonth = moment(end).format('MMMM');
+    
+    if (startMonth === endMonth) {
+      if (startDate === endDate) {
+        return `${startDate} ${startMonth}`;
+      } else {
+        return `${startDate}-${endDate} ${startMonth}`;
+      }
+    } else {
+      return `${startDate} ${startMonth} - ${endDate} ${endMonth}`;
+    }
+  };
 
     const calendarStyles = `
     .rbc-header {
@@ -68,18 +90,18 @@ const FebCalendar = () => {
     let backgroundColor = '';
     let borderColor = '';
   
-    if (event.type === 'study') {
-      backgroundColor = 'blue';
-    } else if (event.type === 'activity') {
+    if (event.type === 'green') {
+      backgroundColor = 'green';
+    } else if (event.type === 'yellow') {
       backgroundColor = 'yellow';
-    } else if (event.type === 'tour') {
-      backgroundColor = 'lightpink';
-    } else if (event.type === 'holiday') {
-    backgroundColor = 'green';
-    } else if (event.type === 'break') {
-    backgroundColor = 'lilac';
-    } else if (event.type === 'party') {
-        backgroundColor = 'orange';
+    } else if (event.type === 'orange') {
+      backgroundColor = 'orange';
+    } else if (event.type === 'blue') {
+    backgroundColor = 'blue';
+    } else if (event.type === 'purple') {
+    backgroundColor = 'purple';
+    } else if (event.type === 'pink') {
+        backgroundColor = 'lightpink';
   }
   
     return {
@@ -108,13 +130,13 @@ const FebCalendar = () => {
             // formats={{ dayFormat: customDayFormat }}
             />
         </div>
-        <div className="py-7">
+        <div className="py-4">
             <h2 className='text-lg font-semibold mb-4 mt-3'>Events for Febuary 2024</h2>
             <span className='flex flex-col gap-3 w-[19rem]'>
                 {events.map((event) => (
-                    <span key={event.id} className='flex'>
-                        <span className='text-sm font-semibold w-[8rem]'>{moment(event.start).format('D')} - {' '} {moment(event.end).format('D MMMM ')}</span>
-                        <span className='text-sm font-normal opacity-80'>{event.title}</span>
+                    <span key={event.id} className='flex gap-2'>
+                      <span className='text-sm font-semibold'>{formatDateRange(event.start, event.end)}</span>
+                      <span className='text-sm font-normal opacity-80'>{event.title}</span>
                     </span>
                 ))}
             </span>

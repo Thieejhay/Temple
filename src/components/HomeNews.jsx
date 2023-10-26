@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import { Pagination, Navigation } from 'swiper/modules';
 import {swiper} from '../data/data'
@@ -42,7 +43,7 @@ const HomeNews = () => {
                                 <span className='text-xs pl-1 opacity-40'>{swiper.day}</span>
                             </span>
                             <span className='text-xs font-normal w-56'>{swiper.mssg}</span>
-                            <span className='text-sm font-normal text-[#061c56]'>Read More</span>
+                            <Link to='/news&events'><span className='text-sm font-normal text-[#061c56]'>Read More</span></Link>
                         </span>
                     </SwiperSlide>
                 ))}

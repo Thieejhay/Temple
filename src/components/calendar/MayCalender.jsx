@@ -5,46 +5,59 @@ import 'react-big-calendar/lib/css/react-big-calendar.css';
 
 
 const events = [
-  {
-    id: 12,
-    title: 'EYFS & Pri Dicussion Day',
-    start: new Date(2023, 10, 4, 0, 0),
-    end: new Date(2023, 10, 4, 0, 0),
-    type: 'orange'
-  },
-  {
-    id: 13,
-    title: 'Mathlympics',
-    start: new Date(2023, 10, 8, 0, 0),
-    end: new Date(2023, 10, 10, 0, 0),
-    type: 'blue'
-  },
-  {
-    id: 14,
-    title: 'Sec/Col Discussion Day',
-    start: new Date(2023, 10, 11, 0, 0),
-    end: new Date(2023, 10, 11, 0, 0),
-    type: 'yellow'
-  },
-  {
-    id: 15,
-    title: 'Cycle Test 2',
-    start: new Date(2023, 10, 13, 0, 0),
-    end: new Date(2023, 10, 17, 0, 0),
-    type: 'pink'
-  },
-  {
-    id: 16,
-    title: 'Revision Week',
-    start: new Date(2023, 10, 27, 0, 0),
-    end: new Date(2023, 11, 1, 0, 0),
-    type: 'green'
-  },
-    
+    {
+          id: 40,
+          title: "EYFS & Pri Parent's Discussion Day",
+          start: new Date(2024, 4, 4, 0, 0),
+          end: new Date(2024, 4, 4, 0, 0),
+          type: 'yellow'
+        },
+        {
+          id: 41,
+          title: "Sec & Col Parent's Discussion Day",
+          start: new Date(2024, 4, 11, 0, 0),
+          end: new Date(2024, 4, 11, 0, 0),
+          type: 'pink'
+        },
+        {
+          id: 42,
+          title: "Boarders' Visiting Day",
+          start: new Date(2024, 4, 18, 0, 0),
+          end: new Date(2024, 4, 18, 0, 0),
+          type: 'green'
+        },
+          {
+            id: 44,
+            title: "Cycle Test",
+            start: new Date(2024, 4, 20, 0, 0),
+            end: new Date(2024, 4, 24, 0, 0),
+            type: 'purple'
+          },
+          {
+            id: 45,
+            title: "KS4 Parent's Forum",
+            start: new Date(2024, 4, 25, 0, 0),
+            end: new Date(2024, 4, 25, 0, 0),
+            type: 'orange'
+          },
+          {
+            id: 46,
+            title: "Children's Day",
+            start: new Date(2024, 4, 27, 0, 0),
+            end: new Date(2024, 4, 27, 0, 0),
+            type: 'purple'
+          },
+          {
+            id: 47,
+            title: "ELD Parent's Forum",
+            start: new Date(2024, 4, 30, 0, 0),
+            end: new Date(2024, 4, 30, 0, 0),
+            type: 'orange'
+          },
   ];
   const localizer = momentLocalizer(moment);
 
-const NovCalendar = () => {
+const MayCalendar = () => {
 
   const formatDateRange = (start, end) => {
     const startDate = moment(start).format('D');
@@ -105,7 +118,7 @@ const NovCalendar = () => {
       },
     };
   };
-  const initialDate = new Date(2023, 10, 1)
+  const initialDate = new Date(2024, 4, 1)
 
   return (
     <div className='flex w-fit border border-transparent bg-white'>
@@ -124,13 +137,13 @@ const NovCalendar = () => {
             // formats={{ dayFormat: customDayFormat }}
             />
         </div>
-        <div className="py-7">
-            <h2 className='text-lg font-semibold mb-4 mt-3'>Events for November 2023</h2>
+        <div className="py-[14px]">
+            <h2 className='text-lg font-semibold mb-1 mt-1'>Events for May 2024</h2>
             <span className='flex flex-col gap-3 w-[19rem]'>
                 {events.map((event) => (
-                    <span key={event.id} className='flex gap-2 '>
-                        <span className='text-sm font-semibold'>{formatDateRange(event.start, event.end)}</span>
-                        <span className='text-sm font-normal opacity-80'>{event.title}</span>
+                    <span key={event.id} className='flex gap-2'>
+                      <span className='text-xs font-semibold'>{formatDateRange(event.start, event.end)}</span>
+                      <span className='text-xs font-normal opacity-80'>{event.title}</span>
                     </span>
                 ))}
             </span>
@@ -139,4 +152,4 @@ const NovCalendar = () => {
   )
 }
 
-export default NovCalendar
+export default MayCalendar

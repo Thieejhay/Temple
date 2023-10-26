@@ -1,5 +1,6 @@
 import React from 'react';
 import { HiOutlineCheckCircle } from 'react-icons/hi';
+import pic1 from '../assets/Sec.png'
 import Pic from '../assets/gallery/Sec.png';
 import Pic2 from '../assets/gallery/Sec2.png';
 import Pic3 from '../assets/gallery/Pic12.png';
@@ -15,11 +16,11 @@ const Section3Content = () => {
             <span className='text-4xl font-semibold'>Secondary School</span>
         </span>
         <div className='flex flex-col gap-10 mb-8'>
-            <span className='flex pl-40'>
-                <span className='w-[35rem] bg-gray-100'></span>
-                <span className='flex flex-col gap-3 pl-24 pt-8 pb-8 bg-[#544E5D] w-full text-white'>
+            <span className='flex pr-24 pl-12'>
+                <img className='w-[34rem]' src={pic1} alt=''></img>
+                <span className='flex flex-col -ml-36 gap-3 pl-12 pt-4 pb-4 bg-[#544E5D] w-full text-white'>
                     <span className=' text-5xl font-bold w-[32rem]'>Welcome Address by Principal </span>
-                    <span className='text-s1 w-[42rem] space-y-3'>
+                    <span className='text-sm w-[42rem] space-y-3'>
                         <p>Temple Secondary School (TSS) is a British School which proudly offers unique opportunities for every child (from age 11) to acquire quality education as a springboard for remarkable life achievements and actualisation of dreams. At TSS, there are proven, result-oriented, multi-dimensional approaches with state-of-the-art facilities employed towards discovering every child's potential, positioning them for stardom and excellence. Our staff capacity is poised to passionately deliver the very best in academics, sports, music and other extra-curricular engagements.  Our pastoral care is driven and dispensed with intentionality and professionalism. As an academically inclusive school, our Exceptional Learners Department (ELD) boasts of experts trained to perfectly teach and provide robust care for children with learning challenges. We believe education is a journey, and we are committed to providing a nurturing and inspiring environment for all children to thrive. We educate the whole child because every child is worthy.Welcome to TSS!</p>
                     </span>
                     <span className='flex flex-col gap-1 w-[42rem] items-end italic'>

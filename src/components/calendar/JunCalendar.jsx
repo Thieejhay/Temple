@@ -5,46 +5,45 @@ import 'react-big-calendar/lib/css/react-big-calendar.css';
 
 
 const events = [
-  {
-    id: 12,
-    title: 'EYFS & Pri Dicussion Day',
-    start: new Date(2023, 10, 4, 0, 0),
-    end: new Date(2023, 10, 4, 0, 0),
-    type: 'orange'
-  },
-  {
-    id: 13,
-    title: 'Mathlympics',
-    start: new Date(2023, 10, 8, 0, 0),
-    end: new Date(2023, 10, 10, 0, 0),
-    type: 'blue'
-  },
-  {
-    id: 14,
-    title: 'Sec/Col Discussion Day',
-    start: new Date(2023, 10, 11, 0, 0),
-    end: new Date(2023, 10, 11, 0, 0),
-    type: 'yellow'
-  },
-  {
-    id: 15,
-    title: 'Cycle Test 2',
-    start: new Date(2023, 10, 13, 0, 0),
-    end: new Date(2023, 10, 17, 0, 0),
-    type: 'pink'
-  },
-  {
-    id: 16,
-    title: 'Revision Week',
-    start: new Date(2023, 10, 27, 0, 0),
-    end: new Date(2023, 11, 1, 0, 0),
-    type: 'green'
-  },
-    
+    {
+        id: 48,
+        title: "Entrance Examination",
+        start: new Date(2024, 5, 1, 0, 0), 
+        end: new Date(2024, 5, 1, 0, 0),
+        type: 'blue'
+      },
+      {
+        id: 43,
+        title: 'Open Day',
+        start: new Date(2024, 5, 6, 0, 0), 
+        end: new Date(2024, 5, 7, 0, 0),
+        type: 'yellow'
+      },
+      {
+        id: 49,
+        title: 'Half-Term Break',
+        start: new Date(2024, 5, 10, 0, 0), 
+        end: new Date(2024, 5, 14, 0, 0),
+        type: 'pink'
+      },
+      {
+        id: 50,
+        title: 'Second Half Term Resumes',
+        start: new Date(2024, 5, 17, 0, 0), 
+        end: new Date(2024, 5, 17, 0, 0),
+        type: 'purple'
+      },
+      {
+        id: 51,
+        title: "Cycle Test 2",
+        start: new Date(2024, 5, 24, 0, 0), 
+        end: new Date(2024, 5, 28, 0, 0),
+        type: 'pink'
+      },
   ];
   const localizer = momentLocalizer(moment);
 
-const NovCalendar = () => {
+const JunCalendar = () => {
 
   const formatDateRange = (start, end) => {
     const startDate = moment(start).format('D');
@@ -105,7 +104,7 @@ const NovCalendar = () => {
       },
     };
   };
-  const initialDate = new Date(2023, 10, 1)
+  const initialDate = new Date(2024, 5, 1)
 
   return (
     <div className='flex w-fit border border-transparent bg-white'>
@@ -124,13 +123,13 @@ const NovCalendar = () => {
             // formats={{ dayFormat: customDayFormat }}
             />
         </div>
-        <div className="py-7">
-            <h2 className='text-lg font-semibold mb-4 mt-3'>Events for November 2023</h2>
+        <div className="py-[14px]">
+            <h2 className='text-lg font-semibold mb-1 mt-1'>Events for June 2024</h2>
             <span className='flex flex-col gap-3 w-[19rem]'>
                 {events.map((event) => (
-                    <span key={event.id} className='flex gap-2 '>
-                        <span className='text-sm font-semibold'>{formatDateRange(event.start, event.end)}</span>
-                        <span className='text-sm font-normal opacity-80'>{event.title}</span>
+                    <span key={event.id} className='flex gap-2'>
+                      <span className='text-xs font-semibold'>{formatDateRange(event.start, event.end)}</span>
+                      <span className='text-xs font-normal opacity-80'>{event.title}</span>
                     </span>
                 ))}
             </span>
@@ -139,4 +138,4 @@ const NovCalendar = () => {
   )
 }
 
-export default NovCalendar
+export default JunCalendar

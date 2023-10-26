@@ -1,5 +1,6 @@
 import React from 'react';
 import { HiOutlineCheckCircle } from 'react-icons/hi';
+import pic1 from '../assets/Eyfs.png'
 import Pic from '../assets/gallery/pic.png';
 import Pic2 from '../assets/gallery/pic8.png';
 import Pic3 from '../assets/gallery/Creche.png';
@@ -16,11 +17,20 @@ const Section1Content = () => {
             <span className='text-sm opacity-70 font-normal text-center'>Early Years and Foundation stage are between 6 months and 5 years</span>
         </span>
         <div className='flex flex-col gap-10 mb-8'>
-            <span className='flex pl-40'>
-                <span className='w-[32rem] bg-gray-100'></span>
-                <span className='flex flex-col gap-7 pl-24 pt-12 pb-16 bg-[#544E5D] w-full text-white'>
+            <span className='flex pr-24 pl-12' >
+                <img className='w-[34rem]' src={pic1} alt=''></img>
+                <span className='flex flex-col -ml-36 gap-3 pl-12 pt-8 pb-4 bg-[#544E5D] w-full text-white'>
                     <span className=' text-5xl font-bold w-[30rem]'>Welcome Address by Head Teacher </span>
-                    <span className='text-base w-[32rem]'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</span>
+                    <span className='text-sm w-[42rem] space-y-3'>
+                        <p>It is with great pleasure we welcome you and our little ones to the 2023/2024 Session.</p>
+                        <p>We realise that this will be a new experience for your child having been at home for some weeks and for others, a change of school.</p>
+                        <p>We would like for this to be as pleasant a transition as possible and so we are sending you this information pack.</p>
+                        <p>We hope it will answer any questions you might have and if it does not, please do not hesitate to get in touch.</p>
+                    </span>
+                    <span className='flex flex-col gap-1 w-[42rem] items-end italic'>
+                        <span className='text-lg '>Mrs. Johnson-Nadar</span>
+                        <span className='text-lg '>Head Section</span>
+                    </span>
                 </span>
             </span>
             <span className='flex flex-col gap-6 pr-32 pl-40'>

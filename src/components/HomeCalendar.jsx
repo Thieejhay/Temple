@@ -3,64 +3,32 @@ import { Calendar, momentLocalizer } from 'react-big-calendar';
 import moment from 'moment';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import { IoIosArrowForward, IoIosArrowBack} from 'react-icons/io';
+import {events} from '../data/data'
 
 
-const events = [
-    {
-      id: 1,
-      title: '1st Temple examination',
-      start: new Date(2023, 10, 1, 9, 0), 
-      end: new Date(2023, 10, 4, 10, 0),
-      type: 'study'
-    },
-    {
-      id: 2,
-      title: 'National education Day',
-      start: new Date(2023, 10, 7, 14, 0),
-      end: new Date(2023, 10, 12, 15, 0),
-      type: 'holiday'
-    },
-    {
-        id: 3,
-        title: 'OSIS activity',
-        start: new Date(2023, 10, 15, 14, 0),
-        end: new Date(2023, 10, 16, 15, 0),
-        type: 'activity'
-      },
-      {
-        id: 4,
-        title: 'Study Tour to Indonesia',
-        start: new Date(2023, 10, 18, 14, 0),
-        end: new Date(2023, 10, 21, 15, 0),
-        type: 'tour'
-      },
-      {
-        id: 5,
-        title: 'Semester Break',
-        start: new Date(2023, 10, 23, 14, 0),
-        end: new Date(2023, 10, 30, 15, 0),
-        type: 'break'
-      },
-      {
-        id: 5,
-        title: 'Cultural week',
-        start: new Date(2023, 9, 19, 14, 0),
-        end: new Date(2023, 9, 25, 15, 0),
-        type: 'party'
-      },
-    
-  ];
+
 
   const localizer = momentLocalizer(moment);
 
 const HomeCalendar = () => {
 
     const [activeMonth, setActiveMonth] = useState(new Date());
-
-    // const customDayFormat = (date, culture, localizer) => {
-    //     const firstLetterOfDay = localizer.format(date, 'dddd', culture).charAt(0);
-    //     return firstLetterOfDay;
-    //   };
+    const formatDateRange = (start, end) => {
+      const startDate = moment(start).format('D');
+      const endDate = moment(end).format('D');
+      const startMonth = moment(start).format('MMMM');
+      const endMonth = moment(end).format('MMMM');
+      
+      if (startMonth === endMonth) {
+        if (startDate === endDate) {
+          return `${startDate} ${startMonth}`;
+        } else {
+          return `${startDate}-${endDate} ${startMonth}`;
+        }
+      } else {
+        return `${startDate} ${startMonth} - ${endDate} ${endMonth}`;
+      }
+    };
     
     
 
@@ -97,6 +65,13 @@ const HomeCalendar = () => {
     .rbc-month-view {
       background-color: #f0f0f0;
     }
+    .rbc-day-bg {
+      border: none; // Remove the border of the date cells
+      text-indent: -9999px; // Hide text inside date cells
+    }
+    .rbc-event-content {
+      display: none; // Hide the event content
+    }
     .rbc-calendar {
         background-color: #f0f0f0; /* Set your desired background color here */
         border-radius: 25px; 
@@ -110,17 +85,17 @@ const HomeCalendar = () => {
     let borderColor = '';
   
 
-    if (event.type === 'study') {
+    if (event.type === 'blue') {
       backgroundColor = 'blue';
-    } else if (event.type === 'activity') {
+    } else if (event.type === 'yellow') {
       backgroundColor = 'yellow';
-    } else if (event.type === 'tour') {
+    } else if (event.type === 'pink') {
       backgroundColor = 'lightpink';
-    } else if (event.type === 'holiday') {
+    } else if (event.type === 'green') {
     backgroundColor = 'green';
-    } else if (event.type === 'break') {
+    } else if (event.type === 'purple') {
     backgroundColor = 'lilac';
-    } else if (event.type === 'party') {
+    } else if (event.type === 'orange') {
         backgroundColor = 'orange';
   }
   
@@ -143,6 +118,7 @@ const HomeCalendar = () => {
             endAccessor="end"
             style={{ height: 350 }}
             views={false}
+            dayLayoutAlgorithm="no-overlap"
             components={{
                 toolbar: customToolbar,
               }}
@@ -152,10 +128,10 @@ const HomeCalendar = () => {
         </div>
         <div className="w-1/4 p-4 mt-3">
             <h2 className='text-lg font-semibold mb-4'>Events for {moment(activeMonth).format('MMMM YYYY')}</h2>
-            <span className='flex flex-col gap-7 w-[30rem]'>
+            <span className='flex flex-col gap-5 w-[30rem]'>
                 {activeEvents.map((event) => (
-                    <span key={event.id} className='flex'>
-                        <span className='text-base font-semibold w-[10rem]'>{moment(event.start).format('D')} - {' '} {moment(event.end).format('D MMMM ')}</span>
+                    <span key={event.id} className='flex gap-4'>
+                        <span className='text-base font-semibold'>{formatDateRange(event.start, event.end)}</span>
                         <span className='text-base font-normal opacity-80'>{event.title}</span>
                     </span>
                 ))}

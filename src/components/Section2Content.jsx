@@ -1,5 +1,6 @@
 import React from 'react';
 import { HiOutlineCheckCircle } from 'react-icons/hi';
+import pic1 from '../assets/Prim.png'
 import Pic from '../assets/gallery/Primary6.png';
 import Pic2 from '../assets/gallery/Primary.png';
 import Pic3 from '../assets/gallery/pic3.png';
@@ -15,11 +16,11 @@ const Section2Content = () => {
             <span className='text-4xl font-semibold'>Primary School</span>
         </span>
         <div className='flex flex-col gap-10 mb-8'>
-            <span className='flex pl-40'>
-                <span className='w-[35rem] bg-gray-100'></span>
-                <span className='flex flex-col gap-3 pl-24 pt-8 pb-8 bg-[#544E5D] w-full text-white'>
+            <span className='flex pr-24 pl-12'>
+                <img className='w-[34rem]' src={pic1} alt=''></img>
+                <span className='flex flex-col -ml-36 gap-1 pl-12 pt-4 pb-4 bg-[#544E5D] w-full text-white'>
                     <span className=' text-5xl font-bold w-[35rem]'>Welcome Address by Head of Primary School </span>
-                    <span className='text-s1 w-[42rem] space-y-3'>
+                    <span className='text-sm w-[42rem] space-y-3'>
                         <p>We are thrilled to welcome you to our Temple School Primary Section, where we capture the essence of what makes our school an extraordinary place of learning and growth!</p>
                         <p>We are dedicated to nurturing young minds, fostering creativity, and inspiring a lifelong love for learning. Our web page is a window into the vibrant world of our primary school, where every day is filled with curiosity, discovery, and endless possibilities.</p>
                         <p>Our web page does not just showcase our school; it is a testament to the incredible journey of growth and discovery that each child undertakes at Temple Primary School because every child is worthy! We invite you to engage with us, celebrate our successes, and join our community in shaping the future leaders of tomorrow.</p>
