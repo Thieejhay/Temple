@@ -47,7 +47,7 @@ const HomeContent = () => {
             </div>
         </div>
         <div className='flex flex-col pb-12 justify-center items-center'>
-            <span className='text-xl font-medium uppercase'>Empowering Tomorrow's Leaders: Nuturing the promise within</span>
+            <span className='text-xl font-medium uppercase'>Educating The Whole Child Because Every Child Is Worthy</span>
             <span className='flex flex-col mt-5 items-center gap-1'>
                 <span className='text-sm font-normal opacity-60 text-center px-40'>We believe in nurturing the potential within every young mind, guiding them towards a future brimming with possibilities. With faith in our students' potential and a dedication to holistic growth, we embark on a journey of learning that goes beyond textbooks, fostering character, compassion, and curiosity along the way.</span>
                 

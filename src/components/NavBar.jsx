@@ -49,7 +49,7 @@ const NavBar = () => {
                 <Link to='/programs'><span className='text-sm font-semibold uppercase'>programs</span></Link>
                 <Link to=''><span className='text-sm font-semibold uppercase'>admissions</span></Link>
                 <Link to='/news&events'><span className='text-sm font-semibold uppercase'>news & events</span></Link>
-                <Link to='/contact-us'><span className='text-sm font-semibold uppercase'>Contact us</span></Link>
+                <Link to=''><span className='text-sm font-semibold uppercase'>Contact us</span></Link>
             </span>
         </div>
     </div>
