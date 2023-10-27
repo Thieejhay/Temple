@@ -9,7 +9,6 @@
     "@testing-library/user-event": "^13.5.0",
     "framer-motion": "^7.10.0",
     "google-map-react": "^2.2.1",
-    "google-maps-react": "^2.0.6",
     "moment": "^2.29.4",
     "react": "^18.2.0",
     "react-big-calendar": "^1.8.4",
