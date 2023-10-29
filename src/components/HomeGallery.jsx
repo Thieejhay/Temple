@@ -11,12 +11,13 @@ import Pic9 from '../assets/gallery/pic9.png'
 import Pic10 from '../assets/gallery/pic10.png'
 
 const HomeGallery = () => {
+
   return (
     <div className='flex flex-col py-8 px-28'>
         <div className='flex justify-between '>
             <img className='w-52 h-48 rounded-lg' src={Pic2} alt=''></img>
-            <span className='flex flex-col gap-2 text-center'>
-                <span className='uppercase text-3xl font-semibold'>Gallery</span>
+            <span className='flex flex-col gap-2 text-center mt-6'>
+                <span className='uppercase text-5xl font-bold'>Gallery</span>
             </span>
             <img className='w-52 h-48 rounded-lg' src={Pic3} alt=''></img>
         </div>
@@ -32,15 +33,17 @@ const HomeGallery = () => {
             <img className='w-52 h-48 rounded-lg' src={Pic10} alt=''></img>
             <img className='w-[22rem] h-48 rounded-lg' src={Pic9} alt=''></img>
         </div>
-        <div className='flex justify-between mt-8'>
+        <div className='flex gap-12 items-center justify-center mt-20'>
             <span className='flex flex-col gap-4 justify-center'>
                 <span className='text-3xl font-semibold uppercase w-60'>
                     Watch Our Videos
                 </span>
                 <span className='text-base font-normal opacity-80 w-80'>A leading British International school offering quality education in Nigeria</span>
-                <span className='px-5 py-2 bg-[#d9bc6d] text-sm w-fit rounded-md'>Watch more on our youtube channel</span>
+                <a href='https://youtube.com/@TempleSchools' rel="noreferrer" target='_blank'><span className='px-5 py-2 bg-[#d9bc6d] text-sm w-fit rounded-md'>Watch more on our youtube channel</span></a>
             </span>
-            <span className='w-[27rem] h-72 bg-gray-300'></span>
+            <span className='bg-gray-300'>
+                <iframe width="570" height="310" className='rounded-lg' src="https://www.youtube.com/embed/tEh0P9MNmls?si=dIba9KcA5DSJi1D3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </span>
         </div>
     </div>
   )

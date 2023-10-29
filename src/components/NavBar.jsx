@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
-    <div className='flex flex-col text-white'>
+    <div className='flex flex-col text-white w-screen'>
         <div className='flex justify-between bg-[#061c56] py-4 px-12'>
             <span className='flex gap-3 items-center'>
                 <img className='w-16 h-16' src={Logo} alt=''></img>
@@ -29,25 +29,28 @@ const NavBar = () => {
                 <Link to='/'><span className='text-sm font-semibold uppercase'>Home</span></Link>
                 <Link to='/about-us'><span className='text-sm font-semibold uppercase'>About us</span></Link>
                 <span className='group relative'>
-                    <Link to='/section'><span className='text-sm font-semibold uppercase'>section</span></Link>
+                    <Link to='/section'><span className='text-sm font-semibold uppercase'>sections</span></Link>
                     <span className=' flex flex-col absolute mt-2 w-40 -left-10 rounded-sm shadow-lg bg-[#061c56]/90
                     opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
                         <Link to='/early-years' className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'><span>
-                            Early-years
+                            Early Years and Foundation Stage
                         </span></Link>
+                        <hr className='w-full h-1 text-white opacity-50'></hr>
                         <Link to='/primary' className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'><span >
                             Primary school
                         </span></Link>
+                        <hr className='w-full h-1 text-white opacity-50'></hr>
                         <Link to='/secondary' className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'><span >
                             Secondary School
                         </span></Link>
+                        <hr className='w-full h-1 text-white opacity-50'></hr>
                         <Link to='/college' className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'><span >
                             College
                         </span></Link>
                     </span>
                 </span>
                 <Link to='/programs'><span className='text-sm font-semibold uppercase'>programs</span></Link>
-                <Link to=''><span className='text-sm font-semibold uppercase'>admissions</span></Link>
+                <Link to='/eld'><span className='text-sm font-semibold uppercase'>eld</span></Link>
                 <Link to='/news&events'><span className='text-sm font-semibold uppercase'>news & events</span></Link>
                 <Link to=''><span className='text-sm font-semibold uppercase'>Contact us</span></Link>
             </span>

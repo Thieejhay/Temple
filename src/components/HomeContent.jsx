@@ -86,7 +86,7 @@ const HomeContent = () => {
                         <span className='text-2xl font-normal tracking-wider'>passionate, hard-working and full of ideas.</span>
                     </span>
                 </span>
-                <div className='px-6 py-3 text-xs w-fit h-fit  font-medium text-white bg-[#f6bc75] rounded-md drop-shadow-md'>Apply Now</div>
+                <a href='https://basic.edves.net/#tab2' rel="noreferrer" target='_blank'><span className='px-6 py-3 text-xs w-fit h-fit  font-medium text-white bg-[#f6bc75] rounded-md drop-shadow-md'>Apply Now</span></a>
             </span>
             <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
         </div>

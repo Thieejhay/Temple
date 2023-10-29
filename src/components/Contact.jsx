@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../assets/Templelogo.png';
 import wave from '../assets/wave.png';
 import wave2 from '../assets/wave2.png';
-import { BiLogoFacebook, BiLogoYoutube, BiLogoLinkedin, BiLogoInstagram, BiLogoTwitter } from 'react-icons/bi';
+import { BiLogoFacebook, BiLogoYoutube, BiLogoInstagram, BiLogoTwitter } from 'react-icons/bi';
 
 
 const Contact = () => {
@@ -18,16 +18,15 @@ const Contact = () => {
                         <img className='w-10 h-10' src={Logo} alt=''></img>
                         <span className='text-3xl font-medium text-white'>Temple</span>
                     </span>
-                    <span className='text-sm font-normal text-white w-[38rem]'>Temple School is situated on four sites - two in llupeju one in Ikeja and the other is off Allen Avenue. Ilupeju is home to the Early Years and Primary Schools, while the secondary school is in Ikeja and the College is off Allen Avenue. All four sites are within easy to access areas in mainland Lagos.</span>
+                    <span className='text-sm font-normal text-white w-[38rem]'>Temple School is situated on four sites: two in Lupeju, one in Ikeja, and the other off Allen Avenue. Ilupeju is home to the Early Years and Primary Schools, while the secondary school is in Ikeja and the college is off Allen Avenue. All four sites are within easy-to-access areas on mainland Lagos.</span>
                 </span>
                 <span className='flex flex-col gap-5'>
                     <span className='text-white text-2xl font-medium'>Follow Us</span>
                     <span className='flex gap-10'>
-                        <BiLogoFacebook className='text-white w-6 h-6'/>
-                        <BiLogoTwitter className='text-white w-6 h-6'/>
-                        <BiLogoYoutube className='text-white w-6 h-6'/>
-                        <BiLogoLinkedin className='text-white w-6 h-6'/>
-                        <BiLogoInstagram className='text-white w-6 h-6'/>
+                    <a href='https://facebook.com/TempleSchool' rel="noreferrer" target='_blank'><BiLogoFacebook className='text-white w-6 h-6'/></a>
+                    <a href='https://twitter.com/TempleSchools' rel="noreferrer" target='_blank'><BiLogoTwitter className='text-white w-6 h-6'/></a>
+                    <a href='https://youtube.com/@TempleSchools' rel="noreferrer" target='_blank'><BiLogoYoutube className='text-white w-6 h-6'/></a>
+                    <a href='https://instagram.com/templeschools' rel="noreferrer" target='_blank'><BiLogoInstagram className='text-white w-6 h-6'/></a>
                     </span>
                 </span>
             </span>

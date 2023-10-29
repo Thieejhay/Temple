@@ -11,6 +11,7 @@ import Section2 from "./Pages/Section2";
 import Section3 from "./Pages/Section3";
 import Section4 from "./Pages/Section4";
 import Section5 from "./Pages/Section5";
+import News1 from "./Pages/News1";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path='college' element={<Section4 />}></Route>
         <Route path='eld' element={<Section5 />}></Route>
         <Route path='programs' element={<Programs />}></Route>
+        <Route path='news-1' element={<News1 />}></Route>
     </Routes>
    
   );

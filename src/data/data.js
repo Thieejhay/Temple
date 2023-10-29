@@ -1,55 +1,41 @@
-import news1 from '../assets/news1.png';
-import news2 from '../assets/news2.png';
+import news1 from '../assets/news.png';
+import news3 from '../assets/news3.png';
+import news4 from '../assets/news4.png';
+import news5 from '../assets/news5.png';
+import news6 from '../assets/news6.png';
+
 
 
 export const swiper = [
     {
         id: 0,
-        title: 'Temple secondary school hosted group 4 of the 2018 akintola williams national youth debate',
-        date: 'By Admin on Nov 23rd, 2020',
-        day: '1 day ago',
-        mssg: 'Lorem ipsum dolor, sit amet conse ctetur adipisicing elit. Consequuntur....',
+        title: 'Open Day- All school section',
+        mssg: "Join us for Temple School's Open Day!",
         src: news1
     },
     {
         id: 1,
-        title: 'Temple secondary school hosted group 4 of the 2018 akintola williams national youth debate',
-        date: 'By Admin on Nov 23rd, 2020',
-        day: '2 day ago',
-        mssg: 'Lorem ipsum dolor, sit amet conse ctetur adipisicing elit. Consequuntur....',
-        src: news2
+        title: "Counting down...Temple School's 20th Anniversary",
+        mssg: 'The Temple School Journey. Where Passion meets Education ',
+        src: news3
     },
     {
         id: 2,
-        title: 'Temple secondary school hosted group 4 of the 2018 akintola williams national youth debate',
-        date: 'By Admin on Nov 23rd, 2020',
-        day: '3 day ago',
-        mssg: 'Lorem ipsum dolor, sit amet conse ctetur adipisicing elit. Consequuntur....',
-        src: news1
+        title: 'Congratulations to our Temple Ambassador - Maria Norman-Salako ',
+        mssg: 'Maria Norman-Salako wins second place in AISEN art competition. ',
+        src: news4
     },
     {
         id: 3,
-        title: 'Temple secondary school hosted group 4 of the 2018 akintola williams national youth debate',
-        date: 'By Admin on Nov 23rd, 2020',
-        day: '4 day ago',
-        mssg: 'Lorem ipsum dolor, sit amet conse ctetur adipisicing elit. Consequuntur....',
-        src: news1
+        title: 'Temple School receives Beacon of Safety Award from Safe Schools Lagos (SSLAG). ',
+        mssg: 'Safety Award from Safe Schools Lagos (SSLAG). ',
+        src: news5
     },
     {
         id: 3,
-        title: 'Temple secondary school hosted group 4 of the 2018 akintola williams national youth debate',
-        date: 'By Admin on Nov 23rd, 2020',
-        day: '5 day ago',
-        mssg: 'Lorem ipsum dolor, sit amet conse ctetur adipisicing elit. Consequuntur....',
-        src: news1
-    },
-    {
-        id: 3,
-        title: 'Temple secondary school hosted group 4 of the 2018 akintola williams national youth debate',
-        date: 'By Admin on Nov 23rd, 2020',
-        day: '6 day ago',
-        mssg: 'Lorem ipsum dolor, sit amet conse ctetur adipisicing elit. Consequuntur....',
-        src: news1
+        title: 'Celebrating New Leaders - The Flame Bearers and The Aviators! ',
+        mssg: 'Join us in congratulating the outstanding members of our Students Representative Council',
+        src: news6
     },
 ];
 
@@ -58,7 +44,7 @@ export const swiperalumna = [
     {
         id: 0,
         img: '',
-        mssg: 'I am glad to have been given this opportunity to share my experiences and my journey through Temple School. I have a bad habit of always only looking straight and forward, so it was personally refreshing to sit down and reminisce about past moments that helped define the person I am today.I would like to urge anyone reading this to explore different options (academically and extracurricular-wise) to find thosethings you truly enjoy and are willing to strive for excellence towards, as that is what Temple School, in my experience,promotes; many varities of opportunities to shine brightly. This is the one thing that I have been made to take to heart, havingleft the secondary school environment and continue to do so.',
+        mssg: 'I am glad to have been given this opportunity to share my experiences and my journey through Temple School. I have a bad habit of always only looking straight and forward, so it was personally refreshing to sit down and reminisce about past moments that helped define the person I am today. I would like to urge anyone reading this to explore different options (academically and extracurricular-wise) to find those things you truly enjoy and are willing to strive for excellence towards, as that is what Temple School, in my experience, promotes: many varieties of opportunities to shine brightly. This is the one thing that I have been made to take to heart, having left the secondary school environment and continuing to do so.',
         name: 'Chukwunonso Nzenwa',
         desc: 'Reaching for Greater Heights',
         rating: '4.8'
@@ -147,14 +133,14 @@ export const events = [
       },
       {
         id: 10,
-        title: 'Half Term Break',
+        title: 'Half-Term Break',
         start: new Date(2023, 9, 23, 0, 0),
         end: new Date(2023, 9, 27, 0, 0),
         type: 'green'
       },
       {
         id: 11,
-        title: 'Second Half Term Resumes',
+        title: 'Second Half-Term Resumes',
         start: new Date(2023, 9, 30, 0, 0),
         end: new Date(2023, 9, 30, 0, 0),
         type: 'purple'
@@ -175,7 +161,7 @@ export const events = [
       },
       {
         id: 14,
-        title: 'Secondary * College Discussion Day',
+        title: 'Secondary & College Discussion Day',
         start: new Date(2023, 10, 11, 0, 0),
         end: new Date(2023, 10, 11, 0, 0),
         type: 'yellow'
@@ -287,7 +273,7 @@ export const events = [
         },
         {
           id: 30,
-          title: 'Second Half Term Resumes',
+          title: 'Second Half-Term Resumes',
           start: new Date(2024, 2, 4, 0, 0),
           end: new Date(2024, 2, 4, 0, 0),
           type: 'purple'
@@ -427,7 +413,7 @@ export const events = [
           },
           {
             id: 50,
-            title: 'Second Half Term Resumes',
+            title: 'Second Half-Term Resumes',
             start: new Date(2024, 5, 17, 0, 0), 
             end: new Date(2024, 5, 17, 0, 0),
             type: 'purple'

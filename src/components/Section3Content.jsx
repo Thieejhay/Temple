@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { HiOutlineCheckCircle } from 'react-icons/hi';
 import pic1 from '../assets/Sec.png'
 import Pic from '../assets/gallery/Sec.png';
@@ -8,8 +8,27 @@ import Pic4 from '../assets/gallery/Primary4.png';
 import Pic5 from '../assets/gallery/Sec3.png';
 import Pic6 from '../assets/gallery/pic9.png';
 import Pic7 from '../assets/gallery/pic7.png';
+import { BsPlus, BsDot } from 'react-icons/bs'
+import { BiMinus } from 'react-icons/bi'
 
 const Section3Content = () => {
+
+    const [showMore, setShowMore] = useState({
+        showMore1: false,
+        showMore2: false,
+        showMore3: false,
+        showMore4: false,
+        showMore5: false,
+        showMore6: false,
+      });
+    
+      const toggleShowMore = (key) => {
+        setShowMore((prevState) => ({
+          ...Object.fromEntries(Object.entries(prevState).map(([k, v]) => (k === key ? [k, !v] : [k, false]))),
+        }));
+      };
+
+
   return (
     <div className='flex flex-col w-screen'>
         <span className='flex flex-col justify-center items-center gap-4 py-28 bg-[#EEEEEE]'>
@@ -115,18 +134,110 @@ const Section3Content = () => {
             </span>
             <span className='flex flex-col mt-8'>
                 <span className='text-3xl font-semibold text-center mb-5'>Admissions Procedure</span>
-                <span className='flex flex-col gap-2 px-32'>
-                    <span className='px-4 py-3 border-2 border-[#061c56] flex'>
+                <span className='flex flex-col px-24 gap-10'>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-white'>
+                        <span className=' flex justify-between items-center opacity-80'>
                             <span className='text-xl'>Obtaining the Registration Form</span>
+                            <span onClick={() => toggleShowMore('showMore1')}>{showMore.showMore1 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
+                        </span>
+                        {showMore.showMore1 && 
+                            <span className='flex flex-col pl-6 space-y-2 pt-4 opacity-70'>
+                                <span className='flex gap-2 items-center'>
+                                    <span className='text-xl font-bold'><BsDot /></span>
+                                    <span className='text-lg font-normal'>Pick up registration from any section of the school (Early Years/Primary/Secondary). See respective addresses below.</span>
+                                </span>
+                                <span className='flex gap-2 items-center'>
+                                    <span className='text-xl font-bold'><BsDot /></span>
+                                    <span className='text-lg font-normal'>Forms cost N10,000 (Early Years Foundation Stage and Primary), N15,000 (Secondary) and N20,000 (College)</span>
+                                </span>
+                                <span className='flex gap-2 items-center'>
+                                    <span className='text-xl font-bold'><BsDot /></span>
+                                    <span className='text-lg font-normal'>Submission must be done before the entrance examinations which will be indicated at the time of purchase</span>
+                                </span>
+                            </span>
+                        }
                     </span>
-                    <span className='px-4 py-3 border-2 border-[#061c56] flex'>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#f6bc75] text-white'>
+                        <span className=' text-white flex justify-between items-center opacity-90'>
                             <span className='text-xl'>The following must be submitted with the registration form</span>
+                            <span onClick={() => toggleShowMore('showMore2')}>{showMore.showMore2 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
+                        </span>
+                        {showMore.showMore2 && 
+                            <span className='flex flex-col pl-6 space-y-2 pt-4 opacity-70'>
+                                <span className='flex gap-2 items-center'>
+                                    <span className='text-xl font-bold'><BsDot /></span>
+                                    <span className='text-lg font-normal'>A current passport photograph</span>
+                                </span>
+                                <span className='flex gap-2 items-center'>
+                                    <span className='text-xl font-bold'><BsDot /></span>
+                                    <span className='text-lg font-normal'>A copy of the child's birth certificate</span>
+                                </span>
+                                <span className='flex gap-2 items-center'>
+                                    <span className='text-xl font-bold'><BsDot /></span>
+                                    <span className='text-lg font-normal'>The previous term's report card</span>
+                                </span>
+                                <span className='flex gap-2 items-center'>
+                                    <span className='text-xl font-bold'><BsDot /></span>
+                                    <span className='text-lg font-normal'>A medical report after admission is offered</span>
+                                </span>
+                            </span>
+                        }
                     </span>
-                    <span className='px-4 py-3 border-2 border-[#061c56] flex'>
-                            <span className='text-xl'>Individual visits to the school & Entrance examinations</span>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-white'>
+                        <span className=' text-white flex justify-between items-center opacity-80'>
+                            <span className='text-xl'>Individual visits to the school</span>
+                            <span onClick={() => toggleShowMore('showMore3')}>{showMore.showMore3 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
+                        </span>
+                        {showMore.showMore3 && 
+                            <span className='flex flex-col px-6 space-y-2 pt-4 opacity-70'>
+                                <span className='flex gap-2 items-center'>
+                                    <span className='text-xl font-bold'><BsDot /></span>
+                                    <span className='text-lg font-normal'>A visit to the school can be arranged for the prospective student and their parents. During this visit the student will be taken on a tour of the school and the parents will have the opportunity to speak with the Head of School and/or the sectional heads. Arrangements can also be made for the student to spend the day in the school.</span>
+                                </span>
+                            </span>
+                        }
                     </span>
-                    <span className='px-4 py-3 border-2 border-[#061c56] flex'>
-                            <span className='text-xl'>Acceptance & Orientation for new students</span>
+                    <span className='flex flex-col gap-3 px-2 py-3 rounded-sm bg-[#f6bc75] text-white'>
+                        <span className=' text-white flex justify-between items-center opacity-90'>
+                            <span className='text-xl'>Entrance examinations</span>
+                            <span onClick={() => toggleShowMore('showMore4')}>{showMore.showMore4 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
+                        </span>
+                        {showMore.showMore4 && 
+                            <span className='flex flex-col px-6 space-y-2 pt-4 opacity-70'>
+                                <span className='flex gap-2 items-center'>
+                                    <span className='text-xl font-bold'><BsDot /></span>
+                                    <span className='text-lg font-normal'>The entrance exams take place in December and in April. As stated earlier, students who pass the entrance examinations may be invited in for an interview</span>
+                                </span>
+                            </span>
+                        }
+                    </span>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-white'>
+                        <span className=' text-white flex justify-between items-center opacity-80'>
+                            <span className='text-xl'>Acceptance</span>
+                            <span onClick={() => toggleShowMore('showMore5')}>{showMore.showMore5 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
+                        </span>
+                        {showMore.showMore5 && 
+                            <span className='flex flex-col pl-6 space-y-2 pt-4 opacity-70'>
+                                <span className='flex gap-2 items-center'>
+                                    <span className='text-xl font-bold'><BsDot /></span>
+                                    <span className='text-lg font-normal'>Offer letters will be sent to the successful students. The tuition fees must be paid on or before the first day of the term</span>
+                                </span>
+                            </span>
+                        }
+                    </span>
+                    <span className='flex flex-col gap-3 px-2 py-3 rounded-sm bg-[#f6bc75] text-white'>
+                        <span className=' text-white flex justify-between items-center opacity-90'>
+                            <span className='text-xl'>Orientation for new students</span>
+                            <span onClick={() => toggleShowMore('showMore6')}>{showMore.showMore6 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
+                        </span>
+                        {showMore.showMore6 && 
+                            <span className='flex flex-col px-6 space-y-2 pt-4 opacity-70'>
+                                <span className='flex gap-2 items-center'>
+                                    <span className='text-xl font-bold'><BsDot /></span>
+                                    <span className='text-lg font-normal'>On a designated day before resumption, which will be communicated to new Temple families, students and their parents will be formally introduced to Temple School life and given the school calendar for the school year. The Meet and Greet programme at the beginning of each new session will also enable the new students and their parents meet their teachers and members of management.</span>
+                                </span>
+                            </span>
+                        }
                     </span>
                 </span>
             </span>

@@ -6,8 +6,6 @@ const SectionContent = () => {
     <div className='flex flex-col w-screen'>
         <span className='flex flex-col justify-center items-center gap-4 py-24 bg-[#EEEEEE]'>
             <span className='text-4xl font-semibold'>Sections</span>
-            <span className='text-base font-normal w-96 text-center'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid sunt quam provident iusto quo quisquam</span>
-            <span className='px-5 py-2 rounded-lg text-white text-base font-normal bg-[#061c56]'>Contact Us</span>
         </span>
         <div className='flex flex-col py-16 px-32 gap-32'>
             <span className='flex flex-col'>

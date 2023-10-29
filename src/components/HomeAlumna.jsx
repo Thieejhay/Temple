@@ -9,10 +9,9 @@ import 'swiper/css/navigation'
 
 const HomeAlumna = () => {
   return (
-    <div className='flex flex-col pt-12 pb-8 gap-20 bg-gray-50'>
+    <div className='flex flex-col pt-12 pb-8 gap-12 bg-gray-50'>
         <span className='flex flex-col gap-2 justify-center items-center'>
             <span className='uppercase text-3xl font-semibold'>temple alumna feature</span>
-            <span className='text-base font-normal opacity-80 w-[38rem] leading-5 text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam asperiores voluptas</span>
         </span>
         <div className='flex'>
             <Swiper
