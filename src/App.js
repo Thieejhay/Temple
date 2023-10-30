@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route} from 'react-router-dom';
 import Home from "./Pages/Home";
 import About from "./Pages/About";
-// import ContactUs from "./Pages/ContactUs";
+import ContactUs from "./Pages/ContactUs";
 import News from "./Pages/News";
 import Section from "./Pages/Section";
 import Programs from "./Pages/Programs";
@@ -18,7 +18,7 @@ function App() {
     <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='about-us' element={<About />}></Route>
-        {/* <Route path='contact-us' element={<ContactUs />}></Route> */}
+        <Route path='contact-us' element={<ContactUs />}></Route>
         <Route path='news&events' element={<News />}></Route>
         <Route path='section' element={<Section />}></Route>
         <Route path='primary' element={<Section2 />}></Route>

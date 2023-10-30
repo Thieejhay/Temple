@@ -18,30 +18,30 @@ const HomeContent = () => {
         <div className='flex h-[31rem]'>
             <HomeBanner />
         </div>
-        <div className='flex px-40 pt-12 pb-20 w-screen'>
+        <div className='flex px-32 pt-16 pb-16 w-screen'>
             <div className='flex flex-col w-[50%] pb-6'>
-                <span className='text-sm font-medium text-[#061c56] mb-4'>Message From The Founding Director</span>
+                <span className='text-xl font-semibold text-[#061c56] mb-2 opacity-90'>Message From The Founding Director</span>
                 <span className='flex flex-col mb-4 gap-1'>
-                    <span className='text-4xl uppercase font-bold'>Charting a Legacy </span>
-                    <span className='text-4xl uppercase font-bold'>of Excellence.</span>
+                    <span className='text-4xl uppercase font-bold opacity-90'>Charting a Legacy </span>
+                    <span className='text-4xl uppercase font-bold opacity-90'>of Excellence.</span>
                 </span>
-                <span className='mt-1 text-xs leading-5 opacity-95 w-[96%]'>
+                <span className='mt-1 text-base leading-5 opacity-80 w-[96%]'>
                 Over the past 18 years, we have grown and flourished, guided by a vision of providing exceptional education that nurtures young minds and shapes future leaders.
                 </span>
-                <span className='mt-1 text-xs leading-5 opacity-95 w-[96%]'>
+                <span className='mt-1 text-base leading-5 opacity-80 w-[96%]'>
                 At Temple School, we are not just an educational institution; we are a close-knit community where every individual is cherished, respected, and encouraged to shine. Our unwavering commitment to academic excellence, coupled with a rich tapestry of co-curricular activities, helps students discover their passions and talents while fostering holistic development.
                 </span>
-                <span className='mt-1 text-xs leading-5 opacity-95 w-[96%]'>
+                <span className='mt-1 text-base leading-5 opacity-80 w-[96%]'>
                 As we embark on this journey together, let us continue to uphold the values that define us - integrity, empathy, and a thirst for knowledge. Our dedicated faculty and staff are here to support and inspire every student, fostering an environment where curiosity thrives and dreams are realized.
                 </span>
-                <span className='mt-1 text-xs leading-5 opacity-95 w-[96%]'>
+                <span className='mt-1 text-base leading-5 opacity-80 w-[96%]'>
                 I am excited to welcome you to Temple School, where every day is an opportunity to learn, grow, and make cherished memories. Here's to a future filled with success and boundless possibilities.
                 </span>
-                <span className='text-2xl font-semibold mt-2'>Mrs Shirley Okharedia</span>
+                <span className='text-2xl font-semibold mt-2 opacity-80'>Mrs Shirley Okharedia</span>
             </div>
             <div className='flex relative w-[50%]'>
-                <span className='w-72 h-96 bg-gray-200 rounded-md bottom-8 left-32 absolute'></span>
-                <span className='w-80 h-96 bg-gray-800 rounded-md bottom-16 left-40 absolute'>
+                <span className='w-80 h-[25rem] bg-gray-200 rounded-md bottom-12 left-24 absolute'></span>
+                <span className='w-[21rem] h-[25rem] bg-gray-800 rounded-md bottom-20 left-32 absolute'>
                     <img className='w-full h-full' alt='' src={Founder}></img>
                 </span>
             </div>

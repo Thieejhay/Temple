@@ -31,7 +31,7 @@ const NavBar = () => {
                 <span className='group relative'>
                     <Link to='/section'><span className='text-sm font-semibold uppercase'>sections</span></Link>
                     <span className=' flex flex-col absolute mt-2 w-40 -left-10 rounded-sm shadow-lg bg-[#061c56]/90
-                    opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
+                    opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-50'>
                         <Link to='/early-years' className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'><span>
                             Early Years and Foundation Stage
                         </span></Link>
@@ -52,7 +52,7 @@ const NavBar = () => {
                 <Link to='/programs'><span className='text-sm font-semibold uppercase'>programs</span></Link>
                 <Link to='/eld'><span className='text-sm font-semibold uppercase'>eld</span></Link>
                 <Link to='/news&events'><span className='text-sm font-semibold uppercase'>news & events</span></Link>
-                <Link to=''><span className='text-sm font-semibold uppercase'>Contact us</span></Link>
+                <Link to='/contact-us'><span className='text-sm font-semibold uppercase'>Contact us</span></Link>
             </span>
         </div>
     </div>

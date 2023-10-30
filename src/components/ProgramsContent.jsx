@@ -15,6 +15,7 @@ import Arts from '../assets/Arts.png';
 import Clubs from '../assets/Clubs.png';
 import { BsPlus } from 'react-icons/bs'
 import { BiMinus } from 'react-icons/bi'
+import Banner from '../assets/program.png';
 
 
 const ProgramsContent = () => {
@@ -35,6 +36,10 @@ const ProgramsContent = () => {
 
   return (
     <div className='flex flex-col w-screen'>
+        <span className='flex justify-center items-center relative h-[20rem] bg-black'>
+             <img src={Banner} alt='' className='w-full h-full opacity-50 flex z-10'></img>
+            <span className='text-6xl tracking-wider font-semibold absolute top-28 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75] flex'>Programs</span>
+        </span>
         <span className='flex pl-28 py-6 gap-16 bg-gray-100'>
             <span className='flex flex-col gap-5 justify-end'>
                 <span className='text-5xl font-medium text-[#061c56] w-80'>Co-curicular Activities</span>
@@ -277,7 +282,7 @@ const ProgramsContent = () => {
                 </span>
             </span>
         </span>
-        <span className='flex flex-col py-12 gap-10 bg-[#27ace8]/10 justify-center items-center '>
+        {/* <span className='flex flex-col py-12 gap-10 bg-[#27ace8]/10 justify-center items-center '>
             <span className='uppercase text-3xl font-medium'>choose programs</span>
             <span className='flex gap-4'>
                 <span className='flex flex-col rounded-lg p-4 gap-3 w-fit bg-white shadow-xl'>
@@ -309,7 +314,7 @@ const ProgramsContent = () => {
                     <span className='text-xs w-[16rem] text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ratione in repellat aliquid voluptatem. Veritatis odio quaerat </span>
                 </span>
             </span>
-        </span>
+        </span> */}
     
     </div>
   )

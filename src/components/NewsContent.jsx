@@ -6,14 +6,14 @@ import news5 from '../assets/news5.png';
 import news6 from '../assets/news6.png';
 import { Link } from 'react-router-dom';
 import NewCalendar from './NewCalendar';
+import Banner from '../assets/event.png';
 
 const NewsContent = () => {
   return (
     <div className='flex flex-col w-screen'>
-        <span className='flex pb-40 pt-20 justify-center text-white bg-blue-900'>
-            <span className='flex flex-col gap-2 text-center'>
-                <span className='text-5xl font-semibold'>News & Events</span>
-            </span>
+        <span className='flex justify-center items-center relative h-[20rem] bg-black'>
+             <img src={Banner} alt='' className='w-full h-full opacity-50 flex z-10'></img>
+            <span className='text-6xl tracking-wider font-semibold absolute top-28 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75] flex'>News & Events</span>
         </span>
         {/* <div className='flex gap-12 justify-center -mt-32 pb-20 w-screen'>
             <span className='flex flex-col w-[38rem] h-[17rem] rounded bg-gray-500 p-5 text-white gap-3 justify-end'>

@@ -5,9 +5,11 @@ import Bg3 from '../assets/gallery/bg3.png';
 
 
 
+
 const HomeBanner = () => {
 
     const [currentSlide, setCurrentSlide] = useState(0);
+
 
 
     const imageSlide = [
@@ -50,18 +52,19 @@ const HomeBanner = () => {
       const bgImageStyle = {
         backgroundImage: `url(${imageSlide[currentSlide].backgroundImage})`,
         backgroundSize: 'cover',
-        height: '30rem',
+        height: '33rem',
         width: '100vw',
         transition: 'background 0.3s ease-in',
+
       };
 
 
   return (
 
     <div className="flex w-screen flex-col">
-        <div style={bgImageStyle} className="flex"></div>
+        <div className='h-[33rem]'><div style={bgImageStyle} className="flex"></div></div>
         <span className="flex gap-4 -mt-96 pl-40 ">
-            <span className="flex flex-col mt-2 ">
+            <span className="flex flex-col mt-2">
             {imageSlide.map((slide, index) => (
               <span
                 key={index}
@@ -73,13 +76,13 @@ const HomeBanner = () => {
             ))}
             </span>
             <span className='flex flex-col'>
-              <span className="text-5xl font-semibold text-[#f6bc75]/80 shadow-2xl w-fit">
+              <span className="text-5xl font-semibold text-[#f6bc75] w-fit">
                   {imageSlide[currentSlide].text}
               </span>
-              <span className="text-5xl font-semibold text-[#f6bc75]/80 shadow-2xl w-fit">
+              <span className="text-5xl font-semibold text-[#f6bc75] w-fit">
                   {imageSlide[currentSlide].textxx}
               </span>
-              <span className="text-2xl font-medium text-[#f6bc75]/90 mt-5 shadow-3xl w-fit">
+              <span className="text-2xl font-medium text-[#f6bc75] mt-5 w-fit">
                   {imageSlide[currentSlide].textx}
               </span>
             </span>

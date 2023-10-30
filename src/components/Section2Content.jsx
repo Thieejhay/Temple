@@ -8,8 +8,13 @@ import Pic4 from '../assets/gallery/Primary4.png';
 import Pic5 from '../assets/gallery/Primary2.png';
 import Pic6 from '../assets/gallery/Primary5.png';
 import Pic7 from '../assets/gallery/pic2.png';
+import Pic8 from '../assets/gallery/p1.png';
+import Pic9 from '../assets/gallery/p2.png';
+import Pic10 from '../assets/gallery/p3.png';
+import Pic11 from '../assets/gallery/p4.png';
 import { BsPlus, BsDot } from 'react-icons/bs'
-import { BiMinus } from 'react-icons/bi'
+import { BiMinus } from 'react-icons/bi';
+import Banner from '../assets/Pry.png';
 
 const Section2Content = () => {
 
@@ -30,15 +35,16 @@ const Section2Content = () => {
 
   return (
     <div className='flex flex-col w-screen'>
-        <span className='flex flex-col justify-center items-center gap-4 py-28 bg-[#EEEEEE]'>
-            <span className='text-4xl font-semibold'>Primary School</span>
+        <span className='flex justify-center items-center relative h-[23rem] bg-black'>
+            <img src={Banner} alt='' className='w-full h-full opacity-50 flex z-10 object-cover'></img>
+            <span className='text-6xl tracking-wide font-semibold absolute top-36 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75] flex'>Primary Years</span>
         </span>
-        <div className='flex flex-col gap-10 mb-8'>
+        <div className='flex flex-col gap-10 mb-8 py-3'>
             <span className='flex pr-24 pl-12'>
                 <img className='w-[34rem]' src={pic1} alt=''></img>
-                <span className='flex flex-col -ml-36 gap-1 pl-12 pt-4 pb-4 bg-[#544E5D] w-full text-white'>
+                <span className='flex flex-col -ml-36 gap-3 pl-12 pt-4 pb-4 bg-[#544E5D] w-full text-white'>
                     <span className=' text-5xl font-bold w-[35rem]'>Welcome Address by Head of Primary School </span>
-                    <span className='text-sm w-[42rem] space-y-3'>
+                    <span className='text-sm w-[42rem] space-y-2'>
                         <p>We are thrilled to welcome you to our Temple School Primary Section, where we capture the essence of what makes our school an extraordinary place of learning and growth!</p>
                         <p>We are dedicated to nurturing young minds, fostering creativity, and inspiring a lifelong love for learning. Our web page is a window into the vibrant world of our primary school, where every day is filled with curiosity, discovery, and endless possibilities.</p>
                         <p>Our web page does not just showcase our school; it is a testament to the incredible journey of growth and discovery that each child undertakes at Temple Primary School because every child is worthy! We invite you to engage with us, celebrate our successes, and join our community in shaping the future leaders of tomorrow.</p>
@@ -51,14 +57,14 @@ const Section2Content = () => {
                 </span>
             </span>
             <span className='flex flex-col gap-6 pr-32 pl-40'>
-                    <span className='text-sm'>The children in Early Years and Foundation stage are between 1 and 4 years. This is an important stage in every child's life and development. We are aware of this and we have made learning as fun as possible.</span>
-                    <span className='text-sm'>Our overall aim is to provide each child with the appropriate work within a stimulating and nurturing environment so that each child has the opportunity and incentive to achieve his/her full potential. Children learn best when their efforts receive positive encouragement and this is an integral part of our classroom practice in our Early Years and Foundation Stage.</span>
-                    <span className='text-sm'>Early childhood is the foundation on which children build the rest of their lives. The Early Years and Foundation Stage makes a crucial contribution to children's early development and learning. Starting school is an important step! At Temple we have a carefully planned pre-school induction programme to make the transition from home to school sensitive and appropriate for each child. We provide children with a rich variety of teaching and learning experiences that are appropriate to their needs. Learning takes place in a secure and stimulating environment where first hand learning experiences encourage the development of imagination, creativity and the enjoyment of learning.</span>
-                    <span className='text-sm'>What children can do, rather than what they cannot do are the starting points in learning. Play helps young children to learn and develop through doing and talking, which research has shown to be the means by which young children learn to think. Structured play is important as listening, playing, speaking, concentrating, persistence and learning to work and co-operate with others are the main ways through which children learn about themselves and the world around them. During this stage, Early Learning Goals set out what most children are expected to achieve by the end of the Foundation Stage.</span>
+                    <span className='text-base opacity-80'>The children in Early Years and Foundation stage are between 1 and 4 years. This is an important stage in every child's life and development. We are aware of this and we have made learning as fun as possible.</span>
+                    <span className='text-base opacity-80'>Our overall aim is to provide each child with the appropriate work within a stimulating and nurturing environment so that each child has the opportunity and incentive to achieve his/her full potential. Children learn best when their efforts receive positive encouragement and this is an integral part of our classroom practice in our Early Years and Foundation Stage.</span>
+                    <span className='text-base opacity-80'>Early childhood is the foundation on which children build the rest of their lives. The Early Years and Foundation Stage makes a crucial contribution to children's early development and learning. Starting school is an important step! At Temple we have a carefully planned pre-school induction programme to make the transition from home to school sensitive and appropriate for each child. We provide children with a rich variety of teaching and learning experiences that are appropriate to their needs. Learning takes place in a secure and stimulating environment where first hand learning experiences encourage the development of imagination, creativity and the enjoyment of learning.</span>
+                    <span className='text-base opacity-80'>What children can do, rather than what they cannot do are the starting points in learning. Play helps young children to learn and develop through doing and talking, which research has shown to be the means by which young children learn to think. Structured play is important as listening, playing, speaking, concentrating, persistence and learning to work and co-operate with others are the main ways through which children learn about themselves and the world around them. During this stage, Early Learning Goals set out what most children are expected to achieve by the end of the Foundation Stage.</span>
             </span>
             <span className='flex flex-col gap-3 mt-5'>
-                <span className='text-3xl font-semibold text-center'>Campus-specific facilities and features</span>
-                <span className='px-32 text-sm'>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</span>
+                <span className='text-3xl font-semibold text-center opacity-90'>Campus-specific facilities and features</span>
+                <span className='px-32 text-sm'></span>
                 <span className='flex justify-center mt-3 gap-20'>
                     <span className='flex flex-col gap-1'>
                         <span className='flex gap-2 items-center'>
@@ -107,35 +113,49 @@ const Section2Content = () => {
                 </span>
             </span>
             <span className='flex flex-col mt-8'>
-                <span className='text-3xl font-semibold text-center mb-7'>Campus Photo Gallery</span>
+                <span className='text-3xl font-semibold text-center mb-7 opacity-90'>Campus Photo Gallery</span>
                 <span className='flex px-32 gap-3'>
                     <span className='w-[20rem] h-60 '>
-                        <img className='w-full h-full rounded-lg' src={Pic7} alt=''></img>
+                        <img className='w-full h-full rounded-lg object-cover' src={Pic7} alt=''></img>
                     </span>
                     <span className='w-[40rem] h-60  bg-gray-200'>
-                        <img className='w-full h-full rounded-lg' src={Pic} alt=''></img>
+                        <img className='w-full h-full rounded-lg object-cover' src={Pic} alt=''></img>
                     </span>
                     <span className='w-[20rem] h-60 '>
-                        <img className='w-full h-full rounded-lg' src={Pic4} alt=''></img>
+                        <img className='w-full h-full rounded-lg object-cover' src={Pic4} alt=''></img>
                     </span>
                 </span>
                 <span className='flex gap-3 mt-6 px-32'>
                     <span className='w-[21rem] h-48 ' >
-                        <img className='w-full h-full rounded-lg' src={Pic5} alt=''></img>
+                        <img className='w-full h-full rounded-lg object-cover' src={Pic5} alt=''></img>
                     </span>
                     <span className='w-52 h-48 ' >
-                        <img className='w-full h-full rounded-lg' src={Pic3} alt=''></img>
+                        <img className='w-full h-full rounded-lg object-cover' src={Pic3} alt=''></img>
                     </span>
                     <span className='w-[22rem] h-48 ' >
-                        <img className='w-full h-full rounded-lg' src={Pic6} alt=''></img>
+                        <img className='w-full h-full rounded-lg object-cover' src={Pic6} alt=''></img>
                     </span>
                     <span className='w-52 h-48 ' >
-                        <img className='w-full h-full rounded-lg' src={Pic2} alt=''></img>
+                        <img className='w-full h-full rounded-lg object-cover' src={Pic2} alt=''></img>
+                    </span>
+                </span>
+                <span className='flex gap-3 mt-6 px-32'>
+                    <span className='w-52 h-48 ' >
+                        <img className='w-full h-full object-cover rounded-lg' src={Pic8} alt=''></img>
+                    </span>
+                    <span className='w-[21rem] h-48 ' >
+                        <img className='w-full h-full rounded-lg object-cover' src={Pic11} alt=''></img>
+                    </span>
+                    <span className='w-[22rem] h-48 ' >
+                        <img className='w-full h-full rounded-lg object-cover' src={Pic9} alt=''></img>
+                    </span>
+                    <span className='w-52 h-48 ' >
+                        <img className='w-full h-full rounded-lg object-cover' src={Pic10} alt=''></img>
                     </span>
                 </span>
             </span>
             <span className='flex flex-col mt-8'>
-                <span className='text-3xl font-semibold text-center mb-5'>Admissions Procedure</span>
+                <span className='text-3xl font-semibold text-center mb-5 opacity-90'>Admissions Procedure</span>
                 <span className='flex flex-col px-24 gap-10'>
                     <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-white'>
                         <span className=' flex justify-between items-center opacity-80'>

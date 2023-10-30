@@ -1,6 +1,7 @@
 import { React, useEffect } from 'react';
 import NavBar from '../components/NavBar';
 import Section5Content from '../components/Section5Content';
+import Contact from '../components/Contact';
 
 const Section5 = () => {
   useEffect(() => {
@@ -10,6 +11,7 @@ const Section5 = () => {
     <div>
         <NavBar />
         <Section5Content />
+        <Contact />
     </div>
   )
 }
