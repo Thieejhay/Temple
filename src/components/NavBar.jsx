@@ -3,6 +3,7 @@ import {FaEnvelope} from 'react-icons/fa'
 import {BiPhoneCall} from 'react-icons/bi';
 import Logo from '../assets/Templelogo.png'
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const NavBar = () => {
   return (
@@ -26,8 +27,52 @@ const NavBar = () => {
         </div>
         <div className='flex bg-[#061c56]/80 py-2 px-12'>
             <span className='flex gap-10'>
-                <Link to='/'><span className='text-sm font-semibold uppercase'>Home</span></Link>
-                <Link to='/about-us'><span className='text-sm font-semibold uppercase'>About us</span></Link>
+                <span className='group relative'>
+                    <Link to='/'><span className='text-sm font-semibold uppercase'>Home</span></Link>
+                    <span className=' flex flex-col absolute mt-2 w-40 -left-10 rounded-sm shadow-lg bg-[#061c56]/90
+                    opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-50'>
+                        <HashLink to='#calendar' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'>
+                            <span >Calendar</span>
+                        </HashLink>
+                        <hr className='w-full h-1 text-white opacity-50'></hr>
+                        <HashLink to='#news' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white' >
+                            <span >News</span>
+                        </HashLink>
+                        <hr className='w-full h-1 text-white opacity-50'></hr>
+                        <HashLink to='#gallery' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'>
+                            <span >Gallery</span>
+                        </HashLink>
+                        <hr className='w-full h-1 text-white opacity-50'></hr>
+                        <HashLink to='#acc' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'>
+                            <span >Accreditation & Affiliates</span>
+                        </HashLink>
+                    </span>
+                </span>
+                <span className='group relative'>
+                    <Link to='/about-us'><span className='text-sm font-semibold uppercase'>About us</span></Link>
+                    <span className=' flex flex-col absolute mt-2 w-40 -left-10 rounded-sm shadow-lg bg-[#061c56]/90
+                    opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-50'>
+                        <HashLink to='#history' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'>
+                            <span>Our History</span>
+                        </HashLink>
+                        <hr className='w-full h-1 text-white opacity-50'></hr>
+                        <HashLink to='#vision' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white' >
+                            <span >Our Vision</span>
+                        </HashLink>
+                        <hr className='w-full h-1 text-white opacity-50'></hr>
+                        <HashLink to='#school' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'>
+                            <span >Our Schools</span>
+                        </HashLink>
+                        <hr className='w-full h-1 text-white opacity-50'></hr>
+                        <HashLink to='#team' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'>
+                            <span >Management team</span>
+                        </HashLink>
+                        <hr className='w-full h-1 text-white opacity-50'></hr>
+                        <HashLink to='#accc' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'>
+                            <span >Accreditation & Affiliates</span>
+                        </HashLink>
+                    </span>
+                </span>
                 <span className='group relative'>
                     <Link to='/section'><span className='text-sm font-semibold uppercase'>sections</span></Link>
                     <span className=' flex flex-col absolute mt-2 w-40 -left-10 rounded-sm shadow-lg bg-[#061c56]/90

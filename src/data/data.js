@@ -11,31 +11,36 @@ export const swiper = [
         id: 0,
         title: 'Open Day- All school section',
         mssg: "Join us for Temple School's Open Day!",
-        src: news1
+        src: news1,
+        link: '/news-1'
     },
     {
         id: 1,
         title: "Counting down...Temple School's 20th Anniversary",
         mssg: 'The Temple School Journey. Where Passion meets Education ',
-        src: news3
+        src: news3,
+        link: '/news-2'
     },
     {
         id: 2,
         title: 'Congratulations to our Temple Ambassador - Maria Norman-Salako ',
         mssg: 'Maria Norman-Salako wins second place in AISEN art competition. ',
-        src: news4
+        src: news4,
+        link: '/news-3'
     },
     {
         id: 3,
         title: 'Temple School receives Beacon of Safety Award from Safe Schools Lagos (SSLAG). ',
         mssg: 'Safety Award from Safe Schools Lagos (SSLAG). ',
-        src: news5
+        src: news5,
+        link: '/news-4'
     },
     {
         id: 3,
         title: 'Celebrating New Leaders - The Flame Bearers and The Aviators! ',
         mssg: 'Join us in congratulating the outstanding members of our Students Representative Council',
-        src: news6
+        src: news6,
+        link: '/news-5'
     },
 ];
 

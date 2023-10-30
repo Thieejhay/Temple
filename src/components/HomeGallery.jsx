@@ -42,7 +42,7 @@ const HomeGallery = () => {
                 <a href='https://youtube.com/@TempleSchools' rel="noreferrer" target='_blank'><span className='px-5 py-2 bg-[#d9bc6d] text-sm w-fit rounded-md'>Watch more on our youtube channel</span></a>
             </span>
             <span className='bg-gray-300'>
-                <iframe width="570" height="310" className='rounded-lg' src="https://www.youtube.com/embed/tEh0P9MNmls?si=dIba9KcA5DSJi1D3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="570" height="310" className='rounded-lg' src="https://www.youtube.com/embed/tEh0P9MNmls?si=dIba9KcA5DSJi1D3" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
             </span>
         </div>
     </div>

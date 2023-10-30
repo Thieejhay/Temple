@@ -43,7 +43,7 @@ const HomeNews = () => {
                                 <span className='text-xs pl-1 opacity-40'>{swiper.day}</span>
                             </span> */}
                             <span className='text-xs font-normal w-56'>{swiper.mssg}</span>
-                            <Link to='/news-1'><span className='text-sm font-normal text-[#061c56]'>Read More</span></Link>
+                            <Link to={swiper.link}><span className='text-sm font-normal text-[#061c56]'>Read More</span></Link>
                         </span>
                     </SwiperSlide>
                 ))}

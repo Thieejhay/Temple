@@ -94,7 +94,7 @@ const ContactContent = () => {
             {showInfo3 &&
                 <span className='flex flex-col items-center'>
                     <span className='w-[70rem] h-[25rem] rounded-lg'>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.247990495374!2d3.3464411734619426!3d6.616081622083723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93ce1da6ce97%3A0x7a3253802525319c!2sTemple%20Secondary%20School!5e0!3m2!1sen!2sng!4v1698609511841!5m2!1sen!2sng" width="1100" height="350" title='secondary' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.247990495374!2d3.3464411734619426!3d6.616081622083723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93ce1da6ce97%3A0x7a3253802525319c!2sTemple%20Secondary%20School!5e0!3m2!1sen!2sng!4v1698609511841!5m2!1sen!2sng" width="1100" height="350" title='secondary' allowfullscreen=""  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </span>
                     <span className='flex gap-6 py-8 bg-white rounded-lg w-[62rem] justify-center -mt-20'>
                         <span className='flex gap-3 items-center'>

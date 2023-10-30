@@ -15,25 +15,13 @@ const NewsContent = () => {
              <img src={Banner} alt='' className='w-full h-full opacity-50 flex z-10'></img>
             <span className='text-6xl tracking-wider font-semibold absolute top-28 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75] flex'>News & Events</span>
         </span>
-        {/* <div className='flex gap-12 justify-center -mt-32 pb-20 w-screen'>
-            <span className='flex flex-col w-[38rem] h-[17rem] rounded bg-gray-500 p-5 text-white gap-3 justify-end'>
-                <span className='px-4 rounded py-2 bg-[#061c56] text-sm w-fit'>Science</span>
-                <span className='text-sm font-medium '>Apply For Community Scholarship </span>
-                <span className='text-xs'>Admin.1 day ago.4 mins read</span>
-                <span className='text-xs'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique recusandae nihil qui, mollitia a fugiat fuga necessitatibus, earum, autem ea sed. At vel eos sint iure ab odio consequuntur</span>
-            </span>
-            <span className='flex flex-col w-[20rem] h-[17rem] rounded bg-gray-500 p-5 text-white gap-3 justify-end'>
-            <span className='px-4 rounded py-2 bg-[#061c56] text-sm w-fit'>Achievment</span>
-                <span className='text-sm font-medium '>Apply For Community Scholarship </span>
-                <span className='text-xs'>Admin.1 day ago.4 mins read</span>
-            </span>
-        </div> */}
+       
         <div className='flex flex-col py-12 gap-8'>
             <span className='flex gap-[30rem] items-center justify-center'>
                 <span className='flex flex-col gap-2'>
                     <span className='text-3xl font-semibold text-[#061c56]'>Latest News</span>
                 </span>
-                <span className='px-4 py-2 bg-[#061c56] text-[#d9bc6d] rounded text- w-fit h-fit'>Filter Date</span>
+                {/* <span className='px-4 py-2 bg-[#061c56] text-[#d9bc6d] rounded text- w-fit h-fit'>Filter Date</span> */}
             </span>
             <div className='flex gap-12 flex-col px-24 justify-center items-center'>
                <div className='flex gap-6'>
@@ -43,7 +31,7 @@ const NewsContent = () => {
                         </span>
                         <span className=' text-sm font-medium w-56 h-fit leading-5'>Open Day- All school section</span>
                         <span className='text-xs font-normal w-56'>Join us for Temple School's Open Day!</span>
-                        <Link to='/news&events'><span className='text-sm font-normal text-[#061c56]'>Read More</span></Link>
+                        <Link to='/news-1'><span className='text-sm font-normal text-[#061c56]'>Read More</span></Link>
                     </span> 
                     <span className='px-6 py-5 flex flex-col gap-2 hover:shadow-xl w-fit'>
                         <span className='w-60 h-28 rounded-lg bg-gray-200'>
@@ -51,7 +39,7 @@ const NewsContent = () => {
                         </span>
                         <span className=' text-sm font-medium w-56 h-fit leading-5'>Counting down...Temple School's 20th Anniversary</span>
                         <span className='text-xs font-normal w-56'>The Temple School Journey. Where Passion meets Education </span>
-                        <Link to='/news&events'><span className='text-sm font-normal text-[#061c56]'>Read More</span></Link>
+                        <Link to='/news-2'><span className='text-sm font-normal text-[#061c56]'>Read More</span></Link>
                     </span> 
                     <span className='px-6 py-5 flex flex-col gap-2 hover:shadow-xl w-fit'>
                         <span className='w-60 h-28 rounded-lg bg-gray-200'>
@@ -59,7 +47,7 @@ const NewsContent = () => {
                         </span>
                         <span className=' text-sm font-medium w-56 h-fit leading-5'>Congratulations to our Temple Ambassador - Maria Norman-Salako</span>
                         <span className='text-xs font-normal w-56'>Maria Norman-Salako wins second place in AISEN art competition. </span>
-                        <Link to='/news&events'><span className='text-sm font-normal text-[#061c56]'>Read More</span></Link>
+                        <Link to='/news-3'><span className='text-sm font-normal text-[#061c56]'>Read More</span></Link>
                     </span>
                 </div> 
                 <div className='flex gap-6'>
@@ -69,7 +57,7 @@ const NewsContent = () => {
                         </span>
                         <span className=' text-sm font-medium w-56 h-fit leading-5'>Temple School receives Beacon of Safety Award from Safe Schools Lagos (SSLAG). </span>
                         <span className='text-xs font-normal w-56'>Safety Award from Safe Schools Lagos (SSLAG).  </span>
-                        <Link to='/news&events'><span className='text-sm font-normal text-[#061c56]'>Read More</span></Link>
+                        <Link to='/news-4'><span className='text-sm font-normal text-[#061c56]'>Read More</span></Link>
                     </span> 
                     <span className='px-6 py-5 flex flex-col gap-2 hover:shadow-xl w-fit'>
                         <span className='w-60 h-28 rounded-lg bg-gray-200'>
@@ -77,7 +65,7 @@ const NewsContent = () => {
                         </span>
                         <span className=' text-sm font-medium w-56 h-fit leading-5'>Celebrating New Leaders - The Flame Bearers and The Aviators!</span>
                         <span className='text-xs font-normal w-56'>Join us in congratulating the outstanding members of our Students Representative Council</span>
-                        <Link to='/news&events'><span className='text-sm font-normal text-[#061c56]'>Read More</span></Link>
+                        <Link to='/news-5'><span className='text-sm font-normal text-[#061c56]'>Read More</span></Link>
                     </span> 
                     <span className='px-6 py-5 flex flex-col gap-2 hover:shadow-xl w-fit opacity-0'>
                         <span className='w-60 h-28 rounded-lg bg-gray-200'>
@@ -85,7 +73,6 @@ const NewsContent = () => {
                         </span>
                         <span className=' text-sm font-medium w-56 h-fit leading-5'>Celebrating New Leaders - The Flame Bearers and The Aviators!</span>
                         <span className='text-xs font-normal w-56'>Join us in congratulating the outstanding members of our Students Representative Council</span>
-                        <Link to='/news&events'><span className='text-sm font-normal text-[#061c56]'>Read More</span></Link>
                     </span> 
                 </div>
             </div>
@@ -95,7 +82,7 @@ const NewsContent = () => {
                 <span className='flex flex-col gap-2'>
                     <span className='text-3xl font-semibold text-[#061c56]'>Event List</span>
                 </span>
-                <span className='px-4 py-2 bg-[#061c56] text-[#d9bc6d] rounded text- w-fit h-fit'>Newer</span>
+                {/* <span className='px-4 py-2 bg-[#061c56] text-[#d9bc6d] rounded text- w-fit h-fit'>Newer</span> */}
             </span>
             <div className='flex flex-col px-32 gap-8'>
                 <span className='flex gap-6'>

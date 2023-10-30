@@ -12,6 +12,7 @@ import Graduation from '../assets/Graduation.png'
 import HomeBanner from './HomeBanner';
 import HomeCalendar from './HomeCalendar';
 
+
 const HomeContent = () => {
   return (
     <div className='flex flex-col w-screen overflow-hidden'>
@@ -90,14 +91,14 @@ const HomeContent = () => {
             </span>
             <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
         </div>
-        <div className='flex flex-col pt-6 w-screen gap-6'>
+        <div className='flex flex-col pt-6 w-screen gap-6' id='calendar'>
             <span className='flex flex-col gap-2 text-center'>
                 <span className='uppercase text-2xl font-semibold'>academic calendar</span>
                 <span className='text-base font-normal text-center px-60'>Our students are talented, hard working and full of good ideas. We encourage and empower them to their ideas to life. Hands-on opportunities are what we're all about.</span>
             </span>
             <HomeCalendar />
         </div>
-        <div className='flex flex-col bg-[#061c56] py-1 px-24 w-screen h-40 gap-2 my-6'>
+        <div className='flex flex-col bg-[#061c56] py-1 px-24 w-screen h-40 gap-2 my-6' >
             <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
             <span className='flex justify-center px-6 text-[#f6bc75] text-2xl uppercase tracking-wider font-medium'>Our teacher and students achievements</span>
             <span className='flex gap-80 my-3 justify-center'>
@@ -116,10 +117,12 @@ const HomeContent = () => {
             </span>
             <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75] mt-1'></hr>
         </div>
-        <HomeNews />
-        <HomeGallery />
+        <div id='news'>
+            <HomeNews />
+        </div>
+        <div id='gallery'><HomeGallery /></div>
         <HomeAlumna />
-        <div className='flex flex-col gap-4 justify-center items-center py-8 px-32 bg-[#cddfec]/80'>
+        <div className='flex flex-col gap-4 justify-center items-center py-8 px-32 bg-[#cddfec]/80' id='acc'>
             <span className='uppercase text-4xl font-medium'>accreditation & affiliates</span>
             <span className='text-2xl font-normal text-center text-[#061c56]'>As part of our efforts to give your child the best education possible, Temple School is affiliated with a number of local and international educational organizations, all with an aim to continuously improving the quality of our education delivery.</span>
         </div>

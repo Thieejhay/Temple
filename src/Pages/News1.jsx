@@ -16,25 +16,29 @@ const News1 = () => {
   return (
     <div>
         <NavBar />
-        <div className='flex flex-col py-8 px-36 gap-2'>
-            <span className='text-3xl font-semibold opacity-90'>Open Day - All School Section </span>
-            <span className='text-lg opacity-90 w-[60rem]'>Exciting News! Join us at Temple School’s Open Day! Explore our world-class facilities and discover why we are the perfect choice for you child’s education journey.</span>
-            <span className='flex flex-col gap-3'>
-                <span className='flex flex-col'><span className='text-xl font-semibold'>Early Years Foundation Stage (EYFS):</span><span className='text-base w-[48rem]'> Give your precious little ones the best start in life. Join us to witness how our EYFS programmes nurture and stimulate young minds. </span></span>
-                <img src={Open} alt='' className='w-[30rem] h-[30rem]'></img>
-            </span>
-            <span className='flex flex-col gap-3'>
-                <span className='flex flex-col'><span className='text-xl font-semibold'>Primary School:</span><span className='text-base w-[48rem]'>Ignite your child’s curiosity and love for learning. Discover our innovative approach to primary education and experience the vibrant atmosphere at Temple Primary School. </span></span>
+        <div className='flex flex-col'>
+            <span className='flex justify-center items-center'>
                 <img src={Open3} alt='' className='w-[30rem] h-[30rem]'></img>
-            </span>
-            <span className='flex flex-col gap-3'>
-                <span className='flex flex-col'><span className='text-xl font-semibold'>Secondary School:</span><span className='text-base w-[48rem]'>Unlock your child’s potential. Our experienced teachers and modern curriculum empower students to excel. Join us and witness the Temple Secondary School difference.   </span></span>
                 <img src={Open2} alt='' className='w-[30rem] h-[30rem]'></img>
             </span>
-            <span className='flex flex-col gap-3'>
-                <span className='flex flex-col'><span className='text-xl font-semibold'>College:</span><span className='text-base w-[48rem]'>Preparing students for a successful future. Explore out advanced facilities and cutting-edge programmes, and join us to discover the endless opportunities that Temple College offers. </span></span>
+            <span className='flex flex-col px-24 py-6 gap-5'>
+                <span className='flex flex-col'>
+                    <span className='text-3xl font-semibold opacity-90'>Open Day - All School Section </span>
+                    <span className='text-lg opacity-90'>Join Us For Temple's School Open Day!</span>
+                </span>
+                <span className='text-lg opacity-90'>Exciting News! Join us at Temple School's Open Day! Explore our world-class facilities and discover why we are the perfect choice for you child’s education journey.</span>
+                <span className='text-lg font-medium'>Early Years Foundation Stage (EYFS): Give your precious little ones the best start in life. Join us to witness how our EYFS programmes nurture and stimulate young minds.</span>
+                <span className='text-lg font-medium'>Primary School: Ignite your child’s curiosity and love for learning. Discover our innovative approach to primary education and experience the vibrant atmosphere at Temple Primary School. </span>
+                <span className='text-lg font-medium'>Secondary School: Unlock your child’s potential. Our experienced teachers and modern curriculum empower students to excel. Join us and witness the Temple Secondary School difference.</span>
+                <span className='text-lg font-medium'>College: Preparing students for a successful future. Explore out advanced facilities and cutting-edge programmes, and join us to discover the endless opportunities that Temple College offers.</span>
+            </span>
+            <span className='flex justify-center items-center'>
+                <img src={Open} alt='' className='w-[30rem] h-[30rem]'></img>
                 <img src={Open4} alt='' className='w-[30rem] h-[30rem]'></img>
             </span>
+            
+            
+            
         </div>
         <div className='flex py-12 justify-center'>
             <span className=' h-48 w-20 bg-[#061c56]'></span>

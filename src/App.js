@@ -12,6 +12,10 @@ import Section3 from "./Pages/Section3";
 import Section4 from "./Pages/Section4";
 import Section5 from "./Pages/Section5";
 import News1 from "./Pages/News1";
+import News2 from "./Pages/News2";
+import News3 from "./Pages/News3";
+import News4 from "./Pages/News4";
+import News5 from "./Pages/News5";
 
 function App() {
   return (
@@ -28,6 +32,10 @@ function App() {
         <Route path='eld' element={<Section5 />}></Route>
         <Route path='programs' element={<Programs />}></Route>
         <Route path='news-1' element={<News1 />}></Route>
+        <Route path='news-2' element={<News2 />}></Route>
+        <Route path='news-3' element={<News3 />}></Route>
+        <Route path='news-4' element={<News4 />}></Route>
+        <Route path='news-5' element={<News5 />}></Route>
     </Routes>
    
   );

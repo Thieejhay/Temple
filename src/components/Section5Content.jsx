@@ -25,7 +25,7 @@ const Section5Content = () => {
             <span className='flex 4'>
                 <img className='w-[34rem]' src={pic1} alt=''></img>
                 <span className='flex flex-col -ml-36 gap-8 pl-12 pt-8 pb-4 bg-[#544E5D] w-full text-white'>
-                    <span className=' text-5xl font-bold w-[32rem]'>Welcome Address </span>
+                    <span className=' text-5xl font-bold w-[32rem]'>Evidence-based </span>
                     <span className='text-base w-[42rem] space-y-3'>
                         <p>We welcome you to the Exceptional Learners Department and look forward to working with you to find the most effective ways to support your child's education. Our diverse team of skilled and licensed specialists help children with unique educational needs and impairments during their early development using appropriate teaching materials, evidenced-based approaches and therapy services in an understanding and supportive learning environment. I trust that this packet will answer all your questions about the ELD, if you have further questions, please do not hesitate to contact us. I anticipate a productive and engaging session.</p>
                     </span>
@@ -242,7 +242,7 @@ const Section5Content = () => {
             </span>
             <span className='flex flex-col items-center justify-center py-8'>
                 <span className='flex flex-col rounded-lg p-6 w-[48rem] bg-[#E5B87C]/20'>
-                    <span className='text-sm opacity-60 w-[20rem]'>The Daily Report Book details your child's school day and performance in lessons and therapy. Please sign and use the daily report book to communicate with the learning facilitator. The Wave 2 and 3learners will receive an ELD Progress Report(a summative report) at half term and the end of term.</span>
+                    <span className='text-sm opacity-60 w-[20rem]'>The Daily Report Book details your child's school day and performance in lessons and therapy. Please sign and use the daily report book to communicate with the learning facilitator. The Wave 2 and 3 learners will receive an ELD Progress Report (a summative report) at half-term and the end of term.</span>
                 </span>
                 <span className='flex  w-[45rem] justify-between'>
                     <span className='text-base font-semibold uppercase text-[#E5B87C] mt-2'>progress report</span>

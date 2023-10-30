@@ -107,7 +107,7 @@ const AboutContent = () => {
             </span>
         </div>
         <div className='flex flex-col items-center justify-center z-20'>
-            <div className='flex flex-col px-12 py-12 rounded-lg gap-2 shadow-2xl bg-white w-[59rem] -mt-36 mb-12 '>
+            <div className='flex flex-col px-12 py-12 rounded-lg gap-2 shadow-2xl bg-white w-[59rem] -mt-36 mb-12' id='history'>
                 <span className='text-2xl font-semibold uppercase text-center mb-3 opacity-80'>Our History</span>
                 <span className='text-sm font-normal text-center opacity-80'>Temple Preparatory School opened in September 2004 with 7 children. The school is located in the serene environment of Ilupeju on the Lagos mainland. Temple Preparatory School runs the British National Curriculum alongside the Cambridge Curriculum, with local Nigerian content also playing a key role in the unique curriculum provided at Temple.</span>
                 <span className='text-sm font-normal text-center opacity-80'>By the end of 2006, the number of children had grown and the existing structure could not accommodate them. The surge in population warranted the building of extra classroom blocks in the school compound. When the school re-opened in September 2008, the number on roll was more than 300 and extra classrooms had to be added to the building to take care of the new intakes.</span>
@@ -115,7 +115,7 @@ const AboutContent = () => {
                 <span className='text-sm font-normal text-center opacity-80'>By September 2015, Temple Secondary School moved to its permanent site at 4-6 Odegbami Street, Off Aba Johnston Crescent, Adeniyi Jones, Ikeja. Staff and students were thrilled to move to the new site, which has a basketball court, a volley ball court, a sports field and a 25m swimming pool, as well as two boarding blocks with two multi-purpose halls and a multi-sectional classroom/administrative block. The classroom resources are all brand new and therefore specifically designed to complement the curriculum. Temple aims to provide a safe, secure, welcoming and nurturing environment, where everyone is valued equally.</span>
             </div>
         </div>
-        <div className='flex flex-col py-8 gap-10 items-center bg-gray-200'>
+        <div className='flex flex-col py-8 gap-10 items-center bg-gray-200' id='vision'>
             <span className='flex rounded-lg shadow-xl w-fit h-fit bg-white'>
                 <span className={`${showInfo1 ? 'border-b-2 border-b-[#061c56]' : 'border-b-2 border-transparent'} uppercase font-semibold text-sm px-16 py-5 border-r border-black/10 cursor-pointer`} onClick={handleInfo1Click}>Our Vision</span>
                 <span className={`${showInfo2 ? 'border-b-2 border-b-[#061c56]' : 'border-b-2 border-transparent'} uppercase font-semibold text-sm px-16 py-5 border-r border-black/10 cursor-pointer`} onClick={handleInfo2Click}>Our Values</span>
@@ -138,11 +138,11 @@ const AboutContent = () => {
                             </span>
                             {showInfo3 &&
                                 <span className='flex flex-col gap-2 mt-8'>
-                                    <span className='text-xl font-normal opacity-70'>At Temple School we undertake:</span>
+                                    <span className='text-xl font-normal opacity-70'>At Temple School, we undertake:</span>
                                     <span className='flex flex-col space-y-3'>
-                                        <span className='text-base font-medium opacity-60'>To provide opportunities and motivation for personal achievement</span>
-                                        <span className='text-base font-medium opacity-60'>To engage children in independent learning</span>
-                                        <span className='text-base font-medium opacity-60'>To encourage the setting of challenging but attainable goals</span>
+                                        <span className='text-base font-medium opacity-60'>To provide opportunities and motivation for personal achievement.</span>
+                                        <span className='text-base font-medium opacity-60'>To engage children in independent learning.</span>
+                                        <span className='text-base font-medium opacity-60'>To encourage the setting of challenging but attainable goals.</span>
                                     </span>
                                
                                 </span>
@@ -208,7 +208,7 @@ const AboutContent = () => {
                 }
                 {showInfo7 && 
                     <div className='flex gap-5 items-center justify-center w-full'>
-                        <span className='text-4xl font-semibold w-[30rem] text-center flex justify-center text-[#061c56]'>To empower the pupils to pursue a passion for acquiring knowledge,lead lives of integrity and be self motivated and socially responsiblecitizens of the world.</span>
+                        <span className='text-4xl font-semibold w-[30rem] text-center flex justify-center text-[#061c56]'>To empower the pupils to pursue a passion for acquiring knowledge, lead lives of integrity, and be self-motivated and socially responsible citizens of the world.</span>
                     </div>
                 }
                 {showInfo8 && 
@@ -219,7 +219,7 @@ const AboutContent = () => {
                 
             </span>
         </div>
-        <div className='flex flex-col gap-5 py-8'>
+        <div className='flex flex-col gap-5 py-8' id='school'>
             <span className='text-3xl font-semibold text-center'>Our Schools</span>
             <div className='flex gap-10 justify-center'>
                 <span className='flex flex-col '>
@@ -228,7 +228,7 @@ const AboutContent = () => {
                     </span>
                     <span className='p-4 w-[17rem] flex flex-col gap-5'>
                         <span className='text-[#061c56] text-2xl font-semibold uppercase tracking-wider'>Early Years</span>
-                        <span className='text-xs font-normal opacity-80 mb-3'>The Children in Early Years and Foundation stage with 1 and 4 years.</span>
+                        <span className='text-xs font-normal opacity-80 mb-3'>The Children in Early Years and Foundation stage between 1 and 4 years.</span>
                         <span className='flex gap-2 items-center'>
                             <BsTelephone className='w-6 h-6 text-[#061c56]'/>
                             <span className='text-xs font-light opacity-80'>+234 708 556 1673</span>
@@ -267,7 +267,7 @@ const AboutContent = () => {
                     </span>
                     <span className='p-4 w-[17rem] flex flex-col gap-2'>
                         <span className='text-[#061c56] text-2xl font-semibold uppercase tracking-wider'>Secondary</span>
-                        <span className='text-xs font-normal opacity-80 mb-1'>Builds upon the attention to detial that underscore the provision in Temple Early Years & Foundation Stage and Temple Primary.</span>
+                        <span className='text-xs font-normal opacity-80 mb-1'>Builds upon the attention to detail that underscores the provision in Temple Early Years & Foundation Stage, and Temple Primary.</span>
                         <span className='flex gap-2 items-center mb-1'>
                             <BsTelephone className='w-6 h-6 text-[#061c56]'/>
                             <span className='flex flex-col gap-0'>
@@ -305,7 +305,7 @@ const AboutContent = () => {
                 </span>
             </div>
         </div>
-        <div className='flex flex-col py-8 gap-7 items-center'>
+        <div className='flex flex-col py-8 gap-7 items-center' id='team'>
             <span className='text-3xl font-semibold text-center uppercase'>Meet the management team</span>
             <span className='flex text-center w-[90%]'>
                 <span className='text-sm font-normal opacity-80'>This Team form the Senior Management Team(SMT). The SMT meets at least twice each term to ensure common values and practices run right through all sections of Temple School. This team also develops strategies, policies and programs to ensure that Temple maintains a culture of continuous improvement. It is a creative and committed team that drives the striving for excellence within the school.</span>
@@ -383,7 +383,7 @@ const AboutContent = () => {
                 </span>
             </div>
         </div>
-        <div className='flex flex-col px-16'>
+        <div className='flex flex-col px-16' id='accc'>
             <span className='uppercase text-3xl font-semibold text-center mb-3'>Accreditation and affilates</span>
             <span className='rounded-lg pt-12 pb-20 px-8 bg-[#061c56] text-center text-[#f6bc75] text-base'>As part of our efforts to give your child the best education possible, Temple School is affiliated with a number of local and international educational organizations, all with an aim to continuously improving the quality of our education delivery.</span>
             <span className='flex justify-center pb-6'>
