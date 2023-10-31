@@ -49,8 +49,8 @@ export const swiperalumna = [
     {
         id: 0,
         img: '',
-        mssg: 'I am glad to have been given this opportunity to share my experiences and my journey through Temple School. I have a bad habit of always only looking straight and forward, so it was personally refreshing to sit down and reminisce about past moments that helped define the person I am today. I would like to urge anyone reading this to explore different options (academically and extracurricular-wise) to find those things you truly enjoy and are willing to strive for excellence towards, as that is what Temple School, in my experience, promotes: many varieties of opportunities to shine brightly. This is the one thing that I have been made to take to heart, having left the secondary school environment and continuing to do so.',
-        name: 'Chukwunonso Nzenwa',
+        mssg: 'I came to Temple College in 2018/2019 academic session to prepare for my WAEC and SAT examinations. During the year I spent in Temple I learnt a lot of things from both my classmates and teachers. When I first stepped into the College, they told me that Rebecca and I were the only girls in the classroom out of twelve boys; it made me feel a bit intimidated at first but after a while; I became very fond of them. My first week in Temple was very stressful because of all the work Dr Denloye-Abiodun bombarded us with but I will be forever grateful to her for teaching me to be independent and how to stand my ground no matter the situation.',
+        name: 'Maria Paul',
         desc: 'Reaching for Greater Heights',
         rating: '4.8'
     },
@@ -59,15 +59,15 @@ export const swiperalumna = [
         img: '',
         mssg: 'I am glad to have been given this opportunity to share my experiences and my journey through Temple School. I have a bad habit of always only looking straight and forward, so it was personally refreshing to sit down and reminisce about past moments that helped define the person I am today.I would like to urge anyone reading this to explore different options (academically and extracurricular-wise) to find thosethings you truly enjoy and are willing to strive for excellence towards, as that is what Temple School, in my experience,promotes; many varities of opportunities to shine brightly. This is the one thing that I have been made to take to heart, havingleft the secondary school environment and continue to do so.',
         name: 'Nzenwa Chukwunonso',
-        desc: 'Reaching for Greater Heights',
+        desc: '',
         rating: '5.0'
     },
     {
         id: 2,
         img: '',
-        mssg: 'I am glad to have been given this opportunity to share my experiences and my journey through Temple School. I have a bad habit of always only looking straight and forward, so it was personally refreshing to sit down and reminisce about past moments that helped define the person I am today.I would like to urge anyone reading this to explore different options (academically and extracurricular-wise) to find thosethings you truly enjoy and are willing to strive for excellence towards, as that is what Temple School, in my experience,promotes; many varities of opportunities to shine brightly. This is the one thing that I have been made to take to heart, havingleft the secondary school environment and continue to do so.',
-        name: 'Nzenwa Chukwu',
-        desc: 'Reaching for Greater Heights',
+        mssg: 'I came to Temple College in 2018/2019 academic session to prepare for my WAEC and SAT examinations. During the year I spent in Temple I learnt a lot of things from both my classmates and teachers. When I first stepped into the College, they told me that Rebecca and I were the only girls in the classroom out of twelve boys; it made me feel a bit intimidated at first but after a while; I became very fond of them. My first week in Temple was very stressful because of all the work Dr Denloye-Abiodun bombarded us with but I will be forever grateful to her for teaching me to be independent and how to stand my ground no matter the situation.',
+        name: 'Sidharth Kichugari',
+        desc: '',
         rating: '4.5'
     },
 ]

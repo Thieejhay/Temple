@@ -31,37 +31,39 @@ const Section5Content = () => {
             <span className='flex pl-36 pr-20'>
                 <img className='w-[34rem] h-[28rem] object-right' src={pic1} alt=''></img>
                 <span className='flex flex-col -ml-36 gap-8 pl-12 pt-8 pb-4 bg-[#544E5D] w-full text-white'>
-                    <span className=' text-5xl font-bold w-[32rem]'>Evidence-based </span>
+                    <span className=' text-5xl font-bold w-[32rem]'>Welcome Address</span>
                     <span className='text-base w-[42rem] space-y-3'>
-                        <p>We welcome you to the Exceptional Learners Department and look forward to working with you to find the most effective ways to support your child's education. Our diverse team of skilled and licensed specialists help children with unique educational needs and impairments during their early development using appropriate teaching materials, evidenced-based approaches and therapy services in an understanding and supportive learning environment. I trust that this packet will answer all your questions about the ELD, if you have further questions, please do not hesitate to contact us. I anticipate a productive and engaging session.</p>
+                        <p>We welcome you to the Exceptional Learners Department and look forward to working with you to find the most effective ways to support your child's education. </p>
+                        <p> Our diverse team of skilled and licensed specialists help children with unique educational needs and impairments during their early development using appropriate teaching materials, evidenced-based approaches and therapy services in an understanding and supportive learning environment.</p>
+                        <p>I trust that this packet will answer all your questions about the ELD, if you have further questions, please do not hesitate to contact us. I anticipate a productive and engaging session.</p>
                     </span>
-                    {/* <span className='flex flex-col gap-1 w-[42rem] items-end italic'>
-                        <span className='text-lg '>Mr. David Ogunleye</span>
-                        <span className='text-lg '>Principal, Temple School Secondary Section</span>
-                    </span> */}
+                    <span className='flex flex-col gap-1 w-[42rem] items-end italic'>
+                        <span className='text-lg '>Mrs. Oseri Oweye</span>
+                        <span className='text-lg '>Head of ELD</span>
+                    </span>
                 </span>
             </span>
             <span className='flex flex-col justify-center items-center gap-5 py-6'>
                 <span className='text-3xl font-semibold opacity-80'>Meet the Supervisors</span>
                 <span className='flex gap-5'>
-                    <span className='flex flex-col gap-3 w-48'>
+                    <span className='flex flex-col gap-3 w-60 items-center'>
                         <span className='w-48 h-48 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg object-cover' src={pic15} alt=''></img></span>
-                        <span className='text-base font-medium text-center leading-5 h-8'>EYFS Team lead & speech Therapist</span>
+                        <span className='text-sm font-medium text-center'>EYFS Team lead & speech Therapist</span>
                         <span className='text-base font-normal text-center '>Ms. Cadmus</span>
                     </span>
-                    <span className='flex flex-col gap-3 w-48'>
+                    <span className='flex flex-col gap-3 w-60 items-center'>
                         <span className='w-48 h-48 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg object-cover' src={pic12} alt=''></img></span>
-                        <span className='text-base font-medium text-center h-8'>Primary Team lead</span>
+                        <span className='text-sm font-medium text-center'>Primary Team lead</span>
                         <span className='text-base font-normal text-center'>Mrs Adesiyan</span>
                     </span>
-                    <span className='flex flex-col gap-3 w-48'>
+                    <span className='flex flex-col gap-3 w-60 items-center '>
                         <span className='w-48 h-48 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg object-cover' src={pic13} alt=''></img></span>
-                        <span className='text-base font-medium text-center leading-5 h-8'>Secondary wave 1 & 3 lead </span>
+                        <span className='text-sm font-medium text-center'>Secondary wave 1 & 3 lead </span>
                         <span className='text-base font-normal text-center'>Mrs Shadeko</span>
                     </span>
-                    <span className='flex flex-col gap-3 w-48'>
+                    <span className='flex flex-col gap-3 w-60 items-center'>
                         <span className='w-48 h-48 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg object-cover' src={pic14} alt=''></img></span>
-                        <span className='text-base font-medium text-center h-8'>Secondary wave 2 lead </span>
+                        <span className='text-sm font-medium text-center'>Secondary wave 2 lead </span>
                         <span className='text-base font-normal text-center'>Ms Kolawole</span>
                     </span>
                 </span>
