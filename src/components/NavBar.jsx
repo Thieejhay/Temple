@@ -82,7 +82,7 @@ const NavBar = () => {
                         </span></Link>
                         <hr className='w-full h-1 text-white opacity-50'></hr>
                         <Link to='/primary' className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'><span >
-                            Primary school
+                            Primary School
                         </span></Link>
                         <hr className='w-full h-1 text-white opacity-50'></hr>
                         <Link to='/secondary' className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'><span >

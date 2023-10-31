@@ -9,29 +9,33 @@ import Pic6 from '../assets/gallery/pic6.png'
 import Pic8 from '../assets/gallery/pic8.png'
 import Pic9 from '../assets/gallery/pic9.png'
 import Pic10 from '../assets/gallery/pic10.png'
+import Pic11 from '../assets/gallery/Pic11.png'
+import Pic12 from '../assets/gallery/dd.png'
 
 const HomeGallery = () => {
 
   return (
     <div className='flex flex-col py-8 px-28'>
-        <div className='flex justify-between '>
-            <img className='w-52 h-48 rounded-lg' src={Pic2} alt=''></img>
             <span className='flex flex-col gap-2 text-center mt-6'>
-                <span className='uppercase text-5xl font-bold'>Gallery</span>
+                <span className='uppercase text-4xl font-semibold opacity-90'>Gallery</span>
             </span>
-            <img className='w-52 h-48 rounded-lg' src={Pic3} alt=''></img>
+        <div className='flex gap-3 mt-6 '>
+            <span className='overflow-hidden flex w-52 h-48 rounded-lg'><img className='w-52 h-48 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic2} alt=''></img></span>
+            <span className='overflow-hidden flex w-[21rem] h-48 rounded-lg'><img className='w-[21rem] h-48 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic9} alt=''></img></span>
+            <span className='overflow-hidden flex w-[22rem] h-48 rounded-lg'><img className='w-[22rem] h-48 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic12} alt=''></img></span>
+            <span className='overflow-hidden flex w-52 h-48 rounded-lg'><img className='w-52 h-48 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic3} alt=''></img></span>
         </div>
         <div className='flex gap-3 mt-6'>
-            <img className='w-[21rem] h-48 rounded-lg' src={Pic} alt=''></img>
-            <img className='w-52 h-48 rounded-lg' src={Pic5} alt=''></img>
-            <img className='w-[22rem] h-48 rounded-lg' src={Pic4} alt=''></img>
-            <img className='w-52 h-48 rounded-lg' src={Pic7} alt=''></img>
+           <span className='overflow-hidden flex w-[21rem] h-48 rounded-lg'> <img className='w-[21rem] h-48 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic} alt=''></img></span>
+           <span className='overflow-hidden flex w-52 h-48 rounded-lg'><img className='w-52 h-48 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic5} alt=''></img></span>
+           <span className='overflow-hidden flex w-[22rem] h-48 rounded-lg'><img className='w-[22rem] h-48 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic4} alt=''></img></span>
+           <span className='overflow-hidden flex w-52 h-48 rounded-lg'><img className='w-52 h-48 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic7} alt=''></img></span>
         </div>
         <div className='flex gap-3 mt-6'>
-            <img className='w-52 h-48 rounded-lg' src={Pic8} alt=''></img>
-            <img className='w-[21rem] h-48 rounded-lg' src={Pic6} alt=''></img>
-            <img className='w-52 h-48 rounded-lg' src={Pic10} alt=''></img>
-            <img className='w-[22rem] h-48 rounded-lg' src={Pic9} alt=''></img>
+            <span className='overflow-hidden flex w-52 h-48 rounded-lg'> <img className='w-52 h-48 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic8} alt=''></img></span>
+            <span className='overflow-hidden flex w-[21rem] h-48 rounded-lg'> <img className='w-[21rem] h-48 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic6} alt=''></img></span>
+            <span className='overflow-hidden flex w-52 h-48 rounded-lg'> <img className='w-52 h-48 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic10} alt=''></img></span>
+            <span className='overflow-hidden flex w-[22rem] h-48 rounded-lg'> <img className='w-[22rem] h-48 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic11} alt=''></img></span>
         </div>
         <div className='flex gap-12 items-center justify-center mt-20'>
             <span className='flex flex-col gap-4 justify-center'>

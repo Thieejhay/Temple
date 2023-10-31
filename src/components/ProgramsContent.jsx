@@ -38,12 +38,12 @@ const ProgramsContent = () => {
     <div className='flex flex-col w-screen'>
         <span className='flex justify-center items-center relative h-[20rem] bg-black'>
              <img src={Banner} alt='' className='w-full h-full opacity-50 flex z-10'></img>
-            <span className='text-6xl tracking-wider font-semibold absolute top-28 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75] flex'>Programs</span>
+            <span className='text-4xl opacity-90 font-semibold absolute top-28 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75] flex'>Programs</span>
         </span>
-        <span className='flex pl-28 py-6 gap-16 bg-gray-100'>
+        <span className='flex pl-28 py-6 gap-16 bg-gray-200'>
             <span className='flex flex-col gap-5 justify-end'>
-                <span className='text-5xl font-medium text-[#061c56] w-80'>Co-curicular Activities</span>
-                <span className='text-[0.7rem] w-[25rem]'>There is a wide range of extracurricular activities available for Temple children. We believe that by offering all these enrichment opportunities outside the classroom, we can help our pupils develop more fully as individuals. Every child is encouraged to participate, and meetings are held once a week.</span>
+                <span className='text-5xl font-medium text-[#061c56] w-80 opacity-90'>Co-curicular Activities</span>
+                <span className='text-xs w-[25rem] opacity-80'>There is a wide range of extracurricular activities available for Temple children. We believe that by offering all these enrichment opportunities outside the classroom, we can help our pupils develop more fully as individuals. Every child is encouraged to participate, and meetings are held once a week.</span>
             </span>
             <span className='flex gap-4'>
                 <span className='w-56 h-72 bg-gray-500 rounded-lg'><img src={Arts} className='w-full h-full' alt=''></img></span>
@@ -52,8 +52,7 @@ const ProgramsContent = () => {
             </span>
         </span>
         <span className='flex flex-col py-12 gap-10 px-24'>
-            <span className='rounded-xl  h-16 shadow-shadow1'></span>
-            <span className='flex flex-col px-3 gap-10'>
+            <span className='flex flex-col px-3'>
                 <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-white'>
                     <span className=' flex justify-between items-center opacity-80'>
                         <span className='text-xl'>Early Years and Foundation Stage</span>
@@ -181,36 +180,17 @@ const ProgramsContent = () => {
                         <span className='flex flex-col pl-6 space-y-2 pt-4 opacity-80'>
                             <span className='flex gap-2 items center'>
                                 <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>CHESS  - <span className='lowercase text-lg font-normal'>Teaches the rudiments and skills of playing the game of chess</span></span>
+                                <span className='uppercase text-xl font-semibold'>The Ontario Secondary School Diploma Programme (OSSD)-<span className='lowercase text-lg font-normal'>Temple College has forged a very strong partnership with Braemar College in Ontario, Canada, and together, we offer students the OSSD Pathway.Pathways options in the OSSD programme:Humanities,Art & Design,Math & Science,Business</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
                                 <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>SCHOOL BAND -<span className='lowercase text-lg font-normal'>A society of musicians who practice for performing in a varisty of school events</span></span>
+                                <span className='uppercase text-xl font-semibold'>Cambridge Advanced Levels-<span className='lowercase text-lg font-normal'>The Cambridge Advanced Level exam is an international school leaving qualification regulated by the British Council. We deliver the traditional 2- year programme.Students can choose from the following subjects below in accordance with the subject blocks:Art and Design ,Accounting,Biology,Business Studies,Economics,Chemistry,English Language,English Literature etc</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
                                 <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>FITNESS - <span className='lowercase text-lg font-normal'>Designed to promote healthy habits for the body</span></span>
+                                <span className='uppercase text-xl font-semibold'>West African Senior School Certificate Examination Programme-<span className='lowercase text-lg font-normal'>This is a standardised exam in West Africa administered by the West African Examination Council. This one-year programme offers an alternative to A-levels for students to take the national school leaving certificate examination in May/June.Students can choose from a list of courses.</span></span>
                             </span>
-                            <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>LIFE SAVING - <span className='lowercase text-lg font-normal'>Based on the Red Cross Society teaches life saving first aid and other practices.</span></span>
-                            </span>
-                            <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>BALLET - <span className='lowercase text-lg font-normal'>This exclusive club is for young boys and girls who are committed tVearning the beautiful dance that is ballet.</span></span>
-                            </span>
-                            <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>CULINARY ARTS CLUB - <span className='lowercase text-lg font-normal'>Where students leam the basics of food hygiene. food preparation and food presentation.</span></span>
-                            </span>
-                            <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>FILM CLUB - <span className='lowercase text-lg font-normal'>Learning the rudiments of documentary making</span></span>
-                            </span>
-                            <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>TEMPLEMUN - <span className='lowercase text-lg font-normal'>Our very own Temple Model United Nations, an educational simulation and academic dialogue in which students learn about world issues, diplomacy, international relations and the United Nations</span></span>
-                            </span>
+                            
                         </span>
                     }
                 </span>

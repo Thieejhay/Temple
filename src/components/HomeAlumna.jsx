@@ -11,7 +11,7 @@ const HomeAlumna = () => {
   return (
     <div className='flex flex-col pt-12 pb-8 gap-12 bg-gray-50'>
         <span className='flex flex-col gap-2 justify-center items-center'>
-            <span className='uppercase text-3xl font-semibold'>temple alumna feature</span>
+            <span className='uppercase text-3xl font-semibold opacity-90'>temple alumna feature</span>
         </span>
         <div className='flex'>
             <Swiper

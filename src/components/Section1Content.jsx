@@ -45,8 +45,7 @@ const Section1Content = () => {
     <div className='flex flex-col w-screen'>
         <span className='flex justify-center items-center relative h-[23rem] bg-black'>
             <img src={Banner} alt='' className='w-full h-full opacity-50 flex z-10 object-cover'></img>
-            <span className='text-4xl font-semibold absolute top-28 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75] flex'>Early Years and Foundation Stage</span>
-            <span className='text-xl tracking-wider font-semibold absolute top-40 z-20 left-[47%] -translate-x-[47%] text-[#f6bc75] flex'>Early Years and Foundation stage are between 6 months and 5 years</span>
+            <span className='text-4xl font-semibold opacity-90 absolute top-36 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75] flex'>Early Years and Foundation Stage</span>
         </span>
         <div className='flex flex-col gap-10 mb-8 py-3'>
             <span className='flex pr-24 pl-12' >

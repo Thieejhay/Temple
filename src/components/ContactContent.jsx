@@ -27,8 +27,7 @@ const ContactContent = () => {
     <div className='flex flex-col '>
        <div className='flex flex-col py-12 gap-8 justify-center items-center bg-[#EEEEEE]'>
             <span className='flex flex-col gap-3'>
-                <span className='text-5xl font-semibold text-center'>Contact Us</span>
-                <span className=''>For admission related queries, you can directly contact our schools</span>
+                <span className='text-4xl font-semibold opacity-90 text-center'>Contact Us</span>
             </span>
             <span className='flex rounded-lg shadow-xl w-fit h-fit bg-white'>
                 <span className={`${showInfo1 ? 'border-b-2 border-b-[#061c56]' : 'border-b-2 border-transparent'} uppercase font-semibold text-sm px-10 py-5 border-r border-black/10 cursor-pointer`} onClick={handleInfo1Click}>early rears</span>

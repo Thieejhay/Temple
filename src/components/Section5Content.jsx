@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from '../assets/dd.png';
-import pic1 from '../assets/Sec.png'
+import pic1 from '../assets/eldb.png'
 import Pic8 from '../assets/gallery/d1.png';
 import Pic9 from '../assets/gallery/d2.png';
 import Pic10 from '../assets/gallery/d3.png';
@@ -13,17 +13,23 @@ import icon from'../assets/gallery/i1.png'
 import icon2 from'../assets/gallery/i2.png'
 import icon3 from'../assets/gallery/i3.png'
 import icon4 from'../assets/gallery/i4.png'
+import pic12 from '../assets/eld4.png'
+import pic13 from '../assets/eld5.png'
+import pic14 from '../assets/eld6.png'
+import pic15 from '../assets/eld3.png'
+import pice from '../assets/Eld.png'
 
 const Section5Content = () => {
   return (
     <div className='flex flex-col w-screen'>
-        <span className='flex justify-center items-center relative h-[23rem] bg-black'>
+        <span className='flex flex-col justify-center items-center relative h-[23rem] bg-black'>
             <img src={Banner} alt='' className='w-full h-full opacity-50 flex z-10 object-cover'></img>
-            <span className='text-4xl tracking-wide font-semibold absolute top-36 z-20 left-[47%] -translate-x-[47%] text-[#f6bc75] flex'>Exceptional Learners Department (ELD)</span>
+            <span className='text-4xl opacity-90 font-semibold absolute top-36 z-20 left-[47%] -translate-x-[47%] text-[#f6bc75] flex'>Exceptional Learners Department</span>
+            <span className='text-4xl opacity-90 font-semibold absolute top-[11.5rem] z-20 left-[47%] -translate-x-[47%] text-[#f6bc75] flex'>(ELD)</span>
         </span>
         <div className='flex flex-col gap-10 py-3 mb-8'>
-            <span className='flex 4'>
-                <img className='w-[34rem]' src={pic1} alt=''></img>
+            <span className='flex pl-36 pr-20'>
+                <img className='w-[34rem] h-[28rem] object-right' src={pic1} alt=''></img>
                 <span className='flex flex-col -ml-36 gap-8 pl-12 pt-8 pb-4 bg-[#544E5D] w-full text-white'>
                     <span className=' text-5xl font-bold w-[32rem]'>Evidence-based </span>
                     <span className='text-base w-[42rem] space-y-3'>
@@ -39,22 +45,22 @@ const Section5Content = () => {
                 <span className='text-3xl font-semibold opacity-80'>Meet the Supervisors</span>
                 <span className='flex gap-5'>
                     <span className='flex flex-col gap-3 w-48'>
-                        <span className='w-48 h-48 rounded-lg bg-slate-50'></span>
+                        <span className='w-48 h-48 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg object-cover' src={pic15} alt=''></img></span>
                         <span className='text-base font-medium text-center leading-5 h-8'>EYFS Team lead & speech Therapist</span>
                         <span className='text-base font-normal text-center '>Ms. Cadmus</span>
                     </span>
                     <span className='flex flex-col gap-3 w-48'>
-                        <span className='w-48 h-48 rounded-lg bg-slate-50'></span>
+                        <span className='w-48 h-48 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg object-cover' src={pic12} alt=''></img></span>
                         <span className='text-base font-medium text-center h-8'>Primary Team lead</span>
                         <span className='text-base font-normal text-center'>Mrs Adesiyan</span>
                     </span>
                     <span className='flex flex-col gap-3 w-48'>
-                        <span className='w-48 h-48 rounded-lg bg-slate-50'></span>
+                        <span className='w-48 h-48 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg object-cover' src={pic13} alt=''></img></span>
                         <span className='text-base font-medium text-center leading-5 h-8'>Secondary wave 1 & 3 lead </span>
                         <span className='text-base font-normal text-center'>Mrs Shadeko</span>
                     </span>
                     <span className='flex flex-col gap-3 w-48'>
-                        <span className='w-48 h-48 rounded-lg bg-slate-50'></span>
+                        <span className='w-48 h-48 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg object-cover' src={pic14} alt=''></img></span>
                         <span className='text-base font-medium text-center h-8'>Secondary wave 2 lead </span>
                         <span className='text-base font-normal text-center'>Ms Kolawole</span>
                     </span>
@@ -96,7 +102,7 @@ const Section5Content = () => {
                 </span>
             </span>
             <span className='flex flex-col gap-2 py-4 px-20 justify-center items-center w-screen bg-[#E5B87C]/10'>
-                <span className='text-3xl font-semibold opacity-80'>Area of Need</span>
+                <span className='text-3xl font-semibold opacity-80'>Areas of Need</span>
                 <span className='flex flex-col gap-6'>
                     <span className='flex gap-5'>
                         <span className='flex gap-3 p-5 hover:shadow-xl rounded-lg bg-white'>
@@ -135,7 +141,7 @@ const Section5Content = () => {
                 </span>
             </span>
             <span className='w-screen h-60'>
-                <img className='w-full h-full' src='' alt=''></img>
+                <img className='w-full h-full' src={pice} alt=''></img>
             </span>
             <span className='flex flex-col gap-2 py-4 px-20 justify-center items-center w-screen bg-[#E5B87C]/10'>
                 <span className='text-3xl font-semibold opacity-80'>Our Process:The Graduated Approach</span>
@@ -178,7 +184,7 @@ const Section5Content = () => {
                     </span>
                 </span>
             </span>
-            <span className='flex flex-col py-2 px-20 gap-7'>
+            {/* <span className='flex flex-col py-2 px-20 gap-7'>
                 <span className='text-2xl font-semibold opacity-90 pl-5'>ASSIGNED LEARNING FACILITATORS</span>
                 <span className='flex gap-5'>
                     <span className='flex rounded-lg'>
@@ -196,7 +202,7 @@ const Section5Content = () => {
                         </span>
                     </span>
                 </span>
-            </span>
+            </span> */}
             <span className='flex flex-col py-10 px-24 gap-10 bg-[#061c56]/80 text-white'>
                 <span className='flex flex-col gap-2'>
                     <span className='uppercase font-medium text-3xl opacity-90'>INTERVENTION</span>
@@ -240,7 +246,7 @@ const Section5Content = () => {
                     </span>
                 </span>
             </span>
-            <span className='flex flex-col items-center justify-center py-8'>
+            {/* <span className='flex flex-col items-center justify-center py-8'>
                 <span className='flex flex-col rounded-lg p-6 w-[48rem] bg-[#E5B87C]/20'>
                     <span className='text-sm opacity-60 w-[20rem]'>The Daily Report Book details your child's school day and performance in lessons and therapy. Please sign and use the daily report book to communicate with the learning facilitator. The Wave 2 and 3 learners will receive an ELD Progress Report (a summative report) at half-term and the end of term.</span>
                 </span>
@@ -248,7 +254,7 @@ const Section5Content = () => {
                     <span className='text-base font-semibold uppercase text-[#E5B87C] mt-2'>progress report</span>
                     <span className='w-[22rem] h-[15rem] rounded-lg bg-gray-700 -mt-36'></span>
                 </span>
-            </span>
+            </span> */}
         </div>
     </div>
   )

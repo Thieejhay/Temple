@@ -48,9 +48,9 @@ const HomeContent = () => {
             </div>
         </div>
         <div className='flex flex-col pb-12 justify-center items-center'>
-            <span className='text-xl font-medium uppercase'>Educating The Whole Child Because Every Child Is Worthy</span>
-            <span className='flex flex-col mt-5 items-center gap-1'>
-                <span className='text-sm font-normal opacity-60 text-center px-40'>We believe in nurturing the potential within every young mind, guiding them towards a future brimming with possibilities. With faith in our students' potential and a dedication to holistic growth, we embark on a journey of learning that goes beyond textbooks, fostering character, compassion, and curiosity along the way.</span>
+            <span className='text-3xl font-semibold uppercase opacity-90'>Educating The Whole Child Because Every Child Is Worthy</span>
+            <span className='flex flex-col items-center gap-1'>
+                <span className='text-sm font-normal opacity-80 text-center px-40'>We believe in nurturing the potential within every young mind, guiding them towards a future brimming with possibilities. With faith in our students' potential and a dedication to holistic growth, we embark on a journey of learning that goes beyond textbooks, fostering character, compassion, and curiosity along the way.</span>
                 
             </span>
             <span className='flex gap-8 justify-center mt-12'>
@@ -92,9 +92,9 @@ const HomeContent = () => {
             <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
         </div>
         <div className='flex flex-col pt-6 w-screen gap-6' id='calendar'>
-            <span className='flex flex-col gap-2 text-center'>
-                <span className='uppercase text-2xl font-semibold'>academic calendar</span>
-                <span className='text-base font-normal text-center px-60'>Our students are talented, hard working and full of good ideas. We encourage and empower them to their ideas to life. Hands-on opportunities are what we're all about.</span>
+            <span className='flex flex-col gap text-center'>
+                <span className='uppercase text-3xl font-semibold opacity-90'>academic calendar</span>
+                <span className='text-base font-normal text-center px-60 opacity-80'>Our students are talented, hard working and full of good ideas. We encourage and empower them to bring their ideas to life. Hands-on opportunities are what we're all about.</span>
             </span>
             <HomeCalendar />
         </div>

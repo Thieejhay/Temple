@@ -1,5 +1,6 @@
 import { React, useEffect } from 'react'
 import NavBar from '../components/NavBar';
+import Contact from '../components/Contact';
 import NewsContent from '../components/NewsContent';
 
 const News = () => {
@@ -10,6 +11,7 @@ const News = () => {
     <div>
         <NavBar />
         <NewsContent />
+        <Contact />
     </div>
   )
 }

@@ -99,20 +99,20 @@ const AboutContent = () => {
 
   return (
     <div className='flex flex-col w-screen'>
-        <div className='bg-black relative flex h-[30rem]'>
+        <div className='bg-black relative flex h-[35rem]'>
             <img src={Banner} alt='' className='w-full h-full opacity-50 flex z-10 object-cover'></img>
-            <span className='flex flex-col gap-0 text-center absolute top-40 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75]'>
-                <span className='text-5xl font-semibold'>Learn More</span>
-                <span className='text-5xl font-semibold'>About Temple School</span>
+            <span className='flex flex-col gap-0 text-center absolute top-28 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75]'>
+                <span className='text-4xl font-semibold opacity-90'>Learn More</span>
+                <span className='text-4xl font-semibold opacity-90'>About Temple School</span>
             </span>
         </div>
         <div className='flex flex-col items-center justify-center z-20'>
-            <div className='flex flex-col px-12 py-12 rounded-lg gap-2 shadow-2xl bg-white w-[59rem] -mt-36 mb-12' id='history'>
-                <span className='text-2xl font-semibold uppercase text-center mb-3 opacity-80'>Our History</span>
-                <span className='text-sm font-normal text-center opacity-80'>Temple Preparatory School opened in September 2004 with 7 children. The school is located in the serene environment of Ilupeju on the Lagos mainland. Temple Preparatory School runs the British National Curriculum alongside the Cambridge Curriculum, with local Nigerian content also playing a key role in the unique curriculum provided at Temple.</span>
-                <span className='text-sm font-normal text-center opacity-80'>By the end of 2006, the number of children had grown and the existing structure could not accommodate them. The surge in population warranted the building of extra classroom blocks in the school compound. When the school re-opened in September 2008, the number on roll was more than 300 and extra classrooms had to be added to the building to take care of the new intakes.</span>
-                <span className='text-sm font-normal text-center opacity-80'>By September 2009, Temple Secondary School was established. It was located at 1 Temple Drive, Off Olusoji Idowu Street, Ilupeju, Lagos.The school's design incorporates the latest thinking in planning and layout, buildi@: standards and information technology.</span>
-                <span className='text-sm font-normal text-center opacity-80'>By September 2015, Temple Secondary School moved to its permanent site at 4-6 Odegbami Street, Off Aba Johnston Crescent, Adeniyi Jones, Ikeja. Staff and students were thrilled to move to the new site, which has a basketball court, a volley ball court, a sports field and a 25m swimming pool, as well as two boarding blocks with two multi-purpose halls and a multi-sectional classroom/administrative block. The classroom resources are all brand new and therefore specifically designed to complement the curriculum. Temple aims to provide a safe, secure, welcoming and nurturing environment, where everyone is valued equally.</span>
+            <div className='flex flex-col px-12 py-6 rounded-lg bg-[#061c56]/95 gap-2 shadow-2xl text-white w-[59rem] -mt-80' id='history'>
+                <span className='text-3xl font-semibold uppercase text-center opacity-80 '>Our History</span>
+                <span className='text-base font-normal text-center opacity-70'>Temple Preparatory School opened in September 2004 with 7 children. The school is located in the serene environment of Ilupeju on the Lagos mainland. Temple Preparatory School runs the British National Curriculum alongside the Cambridge Curriculum, with local Nigerian content also playing a key role in the unique curriculum provided at Temple.</span>
+                <span className='text-base font-normal text-center opacity-70'>By the end of 2006, the number of children had grown and the existing structure could not accommodate them. The surge in population warranted the building of extra classroom blocks in the school compound. When the school re-opened in September 2008, the number on roll was more than 300 and extra classrooms had to be added to the building to take care of the new intakes.</span>
+                <span className='text-base font-normal text-center opacity-70'>By September 2009, Temple Secondary School was established. It was located at 1 Temple Drive, Off Olusoji Idowu Street, Ilupeju, Lagos.The school's design incorporates the latest thinking in planning and layout, buildi@: standards and information technology.</span>
+                <span className='text-base font-normal text-center opacity-70'>By September 2015, Temple Secondary School moved to its permanent site at 4-6 Odegbami Street, Off Aba Johnston Crescent, Adeniyi Jones, Ikeja. Staff and students were thrilled to move to the new site, which has a basketball court, a volley ball court, a sports field and a 25m swimming pool, as well as two boarding blocks with two multi-purpose halls and a multi-sectional classroom/administrative block. The classroom resources are all brand new and therefore specifically designed to complement the curriculum. Temple aims to provide a safe, secure, welcoming and nurturing environment, where everyone is valued equally.</span>
             </div>
         </div>
         <div className='flex flex-col py-8 gap-10 items-center bg-gray-200' id='vision'>

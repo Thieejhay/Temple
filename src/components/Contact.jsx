@@ -42,8 +42,7 @@ const Contact = () => {
             <span className='text-base font-normal text-white'>Temple school website 2020 All Rights Reserved</span>
             <span className='flex gap-10'>
                 <span className='text-xs font-normal text-white'>About</span>
-                <span className='text-xs font-normal text-white'>FAQ</span>
-                <span className='text-xs font-normal text-white'>Privacy Policy</span>
+                <span className='text-xs font-normal text-white'>Blog</span>
             </span>
             <span className='flex w-28'></span>
         </div>

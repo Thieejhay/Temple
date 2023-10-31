@@ -12,9 +12,9 @@ import { IoIosArrowForward, IoIosArrowBack} from 'react-icons/io';
 const HomeNews = () => {
   return (
     <div className='flex flex-col w-screen py-8 gap-2'>
-        <div className='flex flex-col items-center gap-2'>
-            <span className='text-3xl font-semibold uppercase tracking-wider'>latest news</span>
-            <span className='text-base font-light opacity-70 w-[35rem] text-center'>You will be pleased to kown that we continue to keep you up to date with the daily life at our school, through a series of blogs written by staff and students</span>
+        <div className='flex flex-col items-center gap'>
+            <span className='uppercase text-3xl font-semibold opacity-90'>latest news</span>
+            <span className='text-base font-normal text-center px-60 opacity-80'>You will be pleased to know that we continue to keep you up to date with the daily life at our school, through a series of blogs written by staff and students.</span>
             <Swiper
             breakpoints={{
                 640: {slidesPerView: 3},

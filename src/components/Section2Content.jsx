@@ -37,7 +37,7 @@ const Section2Content = () => {
     <div className='flex flex-col w-screen'>
         <span className='flex justify-center items-center relative h-[23rem] bg-black'>
             <img src={Banner} alt='' className='w-full h-full opacity-50 flex z-10 object-cover'></img>
-            <span className='text-6xl tracking-wide font-semibold absolute top-36 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75] flex'>Primary Years</span>
+            <span className='text-4xl opacity-90 tracking-wide font-semibold absolute top-36 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75] flex'>Primary Years</span>
         </span>
         <div className='flex flex-col gap-10 mb-8 py-3'>
             <span className='flex pr-24 pl-12'>
