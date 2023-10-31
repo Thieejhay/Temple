@@ -13,7 +13,7 @@ const NewsContent = () => {
     <div className='flex flex-col w-screen'>
         <span className='flex justify-center items-center relative h-[20rem] bg-black'>
              <img src={Banner} alt='' className='w-full h-full opacity-50 flex z-10'></img>
-            <span className='text-6xl tracking-wider font-semibold absolute top-28 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75] flex'>News & Events</span>
+            <span className='text-4xl opacity-90 font-semibold absolute top-28 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75] flex'>News & Events</span>
         </span>
        
         <div className='flex flex-col py-12 gap-8'>
@@ -84,49 +84,53 @@ const NewsContent = () => {
                 </span>
                 {/* <span className='px-4 py-2 bg-[#061c56] text-[#d9bc6d] rounded text- w-fit h-fit'>Newer</span> */}
             </span>
-            <div className='flex flex-col px-32 gap-8'>
-                <span className='flex gap-6'>
-                    <span className='flex flex-col'>
-                        <span className='w-20 h-20 bg-orange-300/70 rounded-md flex justify-center items-center text-white text-3xl font-semibold'>Nov</span>
-                        <span className='w-20 h-20 bg-gray-700/70 rounded-b-md flex justify-center items-center text-white text-2xl font-semibold'>4th</span>
+            <div className='flex flex-col px-24 gap-8'>
+                <span className='flex gap-20'>
+                    <span className='flex gap-6 w-[30rem]'>
+                        <span className='flex flex-col'>
+                            <span className='w-20 h-20 bg-orange-300/70 rounded-md flex justify-center items-center text-white text-3xl font-semibold'>Nov</span>
+                            <span className='w-20 h-20 bg-gray-700/70 rounded-b-md flex justify-center items-center text-white text-2xl font-semibold'>4th</span>
+                        </span>
+                        {/* <span className='w-64 h-40 rounded-lg bg-gray-200'></span> */}
+                        <span className='flex flex-col gap-1 pt-4'>
+                            <span className=' text-2xl font-medium'>Open Day</span>
+                            <span className='text-lg font-normal'>All School Sections</span>
+                        </span>
                     </span>
-                    <span className='w-64 h-40 rounded-lg bg-gray-200'></span>
-                    <span className='flex flex-col gap-1 pt-4'>
-                        <span className=' text-2xl font-medium'>Open Day</span>
-                        <span className='text-lg font-normal w-[33rem]'>All School Sections</span>
+                    <span className='flex gap-6 w-[30rem]'>
+                        <span className='flex flex-col'>
+                            <span className='w-20 h-20 bg-pink rounded-md flex justify-center items-center text-white text-3xl font-semibold'>Nov</span>
+                            <span className='w-20 h-20 bg-gray-700/70 rounded-b-md flex justify-center items-center text-white text-2xl font-semibold'>4th</span>
+                        </span>
+                        {/* <span className='w-96 h-40 rounded-lg bg-gray-200'></span> */}
+                        <span className='flex flex-col gap-1 pt-4'>
+                            <span className=' text-2xl font-medium'>Early Years Foundation Stage and Primary School - Discussion Day</span>
+                            <span className='text-lg font-normal'>All School Sections</span>
+                        </span>
                     </span>
-                </span>
-                <span className='flex gap-6'>
-                    <span className='flex flex-col'>
-                        <span className='w-20 h-20 bg-pink rounded-md flex justify-center items-center text-white text-3xl font-semibold'>Nov</span>
-                        <span className='w-20 h-20 bg-gray-700/70 rounded-b-md flex justify-center items-center text-white text-2xl font-semibold'>4th</span>
+               </span>
+                <span className='flex gap-20'>
+                    <span className='flex gap-6 w-[30rem]'>
+                        <span className='flex flex-col'>
+                            <span className='w-20 h-20 bg-blue-300/70 rounded-md flex justify-center items-center text-white text-3xl font-semibold'>Nov</span>
+                            <span className='w-20 h-20 bg-gray-700/70 rounded-b-md flex justify-center items-center text-white text-2xl font-semibold'>8th</span>
+                        </span>
+                        {/* <span className='w-64 h-40 rounded-lg bg-gray-200'></span> */}
+                        <span className='flex flex-col gap-1 pt-4'>
+                            <span className=' text-2xl font-medium'>Mathlympics</span>
+                            <span className='text-lg font-normal'>Secondary School</span>
+                        </span>
                     </span>
-                    <span className='w-96 h-40 rounded-lg bg-gray-200'></span>
-                    <span className='flex flex-col gap-1 pt-4'>
-                        <span className=' text-2xl font-medium'>Early Years Foundation Stage and Primary School - Discussion Day</span>
-                        <span className='text-lg font-normal w-[33rem]'>All School Sections</span>
-                    </span>
-                </span>
-                <span className='flex gap-6'>
-                    <span className='flex flex-col'>
-                        <span className='w-20 h-20 bg-blue-300/70 rounded-md flex justify-center items-center text-white text-3xl font-semibold'>Nov</span>
-                        <span className='w-20 h-20 bg-gray-700/70 rounded-b-md flex justify-center items-center text-white text-2xl font-semibold'>8th</span>
-                    </span>
-                    <span className='w-64 h-40 rounded-lg bg-gray-200'></span>
-                    <span className='flex flex-col gap-1 pt-4'>
-                        <span className=' text-2xl font-medium'>Mathlympics</span>
-                        <span className='text-lg font-normal w-[33rem]'>Secondary School</span>
-                    </span>
-                </span>
-                <span className='flex gap-6'>
-                    <span className='flex flex-col'>
-                        <span className='w-20 h-20 bg-blue-300/70 rounded-md flex justify-center items-center text-white text-3xl font-semibold'>Nov</span>
-                        <span className='w-20 h-20 bg-gray-700/70 rounded-b-md flex justify-center items-center text-white text-2xl font-semibold'>11th</span>
-                    </span>
-                    <span className='w-64 h-40 rounded-lg bg-gray-200'></span>
-                    <span className='flex flex-col gap-1 pt-4'>
-                        <span className=' text-2xl font-medium'>Discussion Day</span>
-                        <span className='text-lg font-normal w-[33rem]'>Discussion Day</span>
+                    <span className='flex gap-6 w-[30rem]'>
+                        <span className='flex flex-col'>
+                            <span className='w-20 h-20 bg-blue-300/70 rounded-md flex justify-center items-center text-white text-3xl font-semibold'>Nov</span>
+                            <span className='w-20 h-20 bg-gray-700/70 rounded-b-md flex justify-center items-center text-white text-2xl font-semibold'>11th</span>
+                        </span>
+                        {/* <span className='w-64 h-40 rounded-lg bg-gray-200'></span> */}
+                        <span className='flex flex-col gap-1 pt-4'>
+                            <span className=' text-2xl font-medium'>Discussion Day</span>
+                            <span className='text-lg font-normal'>Discussion Day</span>
+                        </span>
                     </span>
                 </span>
                 
