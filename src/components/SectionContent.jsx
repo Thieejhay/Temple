@@ -14,32 +14,32 @@ const SectionContent = () => {
              <img src={Banner} alt='' className='w-full h-full opacity-50 flex z-10'></img>
             <span className='text-4xl opacity-90 font-semibold absolute top-28 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75] flex'>Sections</span>
         </span>
-        <div className='flex flex-col py-12 px-32 gap-32'>
+        <div className='flex flex-col py-12 px-36 gap-24'>
             <span className='flex flex-col'>
                 <span className='uppercase text-lg font-normal text-[#061c56]'>our academics</span>
                 <span className='flex justify-between'>
-                    <span className='flex flex-col gap-5'>
-                        <span className='text-3xl font-semibold opacity-90 text-[#061c56]'>Early Years</span>
+                    <span className='flex flex-col gap-2'>
+                        <span className='text-3xl font-semibold opacity-90 text-[#061c56]'>Early Years And Foundation Stage</span>
                         <span className='text-sm font-normal w-[32rem] opacity-80'>The children in Early Years and Foundation stage are between 1 and 4 years. This is an important stage in every child's life and development. We are aware of this and we have made learning as fun as possible. Our overall aim is to provide each child with the appropriate work within a stimulating and nurturing environment so that each child has the opportunity and incentive to achieve his/her full potential. Children learn best when their efforts receive positive encouragement and this is an integral part of our classroom practice in our Early Years and Foundation Stage.</span>
-                        <span className='flex flex-col gap-2 mt-3'>
+                        <span className='flex flex-col gap-1'>
                             <span className='flex gap-8 items-center'>
                                 <HiOutlineCheckCircle className='w-6 h-6 text-[#061c56]'/>
-                                <span className='text-xl font-medium'>Creche</span>
+                                <span className='text-xl font-normal'>Creche</span>
                             </span>
                             <hr className='h-3 w-80 ml-12'></hr>
                             <span className='flex gap-8 items-center'>
                                 <HiOutlineCheckCircle className='w-6 h-6 text-[#061c56]'/>
-                                <span className='text-xl font-medium'>Prepschool 1</span>
+                                <span className='text-xl font-normal'>Prepschool 1</span>
                             </span>
                             <hr className='h-3 w-80 ml-12'></hr>
                             <span className='flex gap-8 items-center'>
                                 <HiOutlineCheckCircle className='w-6 h-6 text-[#061c56]'/>
-                                <span className='text-xl font-medium'>Prepschool 2</span>
+                                <span className='text-xl font-normal'>Prepschool 2</span>
                             </span>
                             <hr className='h-3 w-80 ml-12'></hr>
                             <span className='flex gap-8 items-center'>
                                 <HiOutlineCheckCircle className='w-6 h-6 text-[#061c56]'/>
-                                <span className='text-xl font-medium'>Reception</span>
+                                <span className='text-xl font-normal'>Reception</span>
                             </span>
                             <hr className='h-3 w-80 ml-12'></hr>
                         </span>
@@ -56,37 +56,27 @@ const SectionContent = () => {
                         <img className='w-full h-full object-cover rounded-lg' alt='' src={pic2}></img>
                     </span>
                     <span className='flex flex-col gap-2'>
-                        <span className='text-3xl font-semibold opacity-90 mb-2 text-[#061c56]'>Primary</span>
+                        <span className='text-3xl font-semibold opacity-90 text-[#061c56]'>Primary</span>
                         <span className='text-sm font-normal w-[32rem] opacity-80 mb-2'>The children in Early Years and Foundation stage are between 1 and 4 years. This is an important stage in every child's life and development. We are aware of this and we have made learning as fun as possible. Our overall aim is to provide each child with the appropriate work within a stimulating and nurturing environment so that each child has the opportunity and incentive to achieve his/her full potential. Children learn best when their efforts receive positive encouragement and this is an integral part of our classroom practice in our Early Years and Foundation Stage.</span>
-                        <span className='flex flex-col gap-2 mt-3'>
+                        <span className='flex flex-col gap-1'>
                             <span className='flex gap-8 items-center'>
                                 <HiOutlineCheckCircle className='w-6 h-6 text-[#061c56]'/>
-                                <span className='text-xl font-medium'>Year 1</span>
+                                <span className='text-xl font-normal'>Year 1</span>
                             </span>
                             <hr className='h-3 w-80 ml-12'></hr>
                             <span className='flex gap-8 items-center'>
                                 <HiOutlineCheckCircle className='w-6 h-6 text-[#061c56]'/>
-                                <span className='text-xl font-medium'>Year 2</span>
+                                <span className='text-xl font-normal'>Year 2</span>
                             </span>
                             <hr className='h-3 w-80 ml-12'></hr>
                             <span className='flex gap-8 items-center'>
                                 <HiOutlineCheckCircle className='w-6 h-6 text-[#061c56]'/>
-                                <span className='text-xl font-medium'>Year 3</span>
+                                <span className='text-xl font-normal'>Year 3</span>
                             </span>
                             <hr className='h-3 w-80 ml-12'></hr>
                             <span className='flex gap-8 items-center'>
                                 <HiOutlineCheckCircle className='w-6 h-6 text-[#061c56]'/>
-                                <span className='text-xl font-medium'>Year 4</span>
-                            </span>
-                            <hr className='h-3 w-80 ml-12'></hr>
-                            <span className='flex gap-8 items-center'>
-                                <HiOutlineCheckCircle className='w-6 h-6 text-[#061c56]'/>
-                                <span className='text-xl font-medium'>Year 5</span>
-                            </span>
-                            <hr className='h-3 w-80 ml-12'></hr>
-                            <span className='flex gap-8 items-center'>
-                                <HiOutlineCheckCircle className='w-6 h-6 text-[#061c56]'/>
-                                <span className='text-xl font-medium'>Year 6</span>
+                                <span className='text-xl font-normal'>Year 4</span>
                             </span>
                             <hr className='h-3 w-80 ml-12'></hr>
                         </span>
@@ -97,33 +87,28 @@ const SectionContent = () => {
             </span>
             <span className='flex flex-col'>
                 <span className='flex justify-between'>
-                    <span className='flex flex-col gap-5'>
+                    <span className='flex flex-col gap-2'>
                         <span className='text-3xl font-semibold opacity-90 text-[#061c56]'>Secondary</span>
                         <span className='text-sm font-normal w-[32rem] opacity-80 pl-'>The children in Early Years and Foundation stage are between 1 and 4 years. This is an important stage in every child's life and development. We are aware of this and we have made learning as fun as possible. Our overall aim is to provide each child with the appropriate work within a stimulating and nurturing environment so that each child has the opportunity and incentive to achieve his/her full potential. Children learn best when their efforts receive positive encouragement and this is an integral part of our classroom practice in our Early Years and Foundation Stage.</span>
-                        <span className='flex flex-col gap-2 mt-3'>
+                        <span className='flex flex-col gap-1'>
                             <span className='flex gap-8 items-center'>
                                 <HiOutlineCheckCircle className='w-6 h-6 text-[#061c56]'/>
-                                <span className='text-xl font-medium'>Year 7</span>
+                                <span className='text-xl font-normal'>Year 7</span>
                             </span>
                             <hr className='h-3 w-80 ml-12'></hr>
                             <span className='flex gap-8 items-center'>
                                 <HiOutlineCheckCircle className='w-6 h-6 text-[#061c56]'/>
-                                <span className='text-xl font-medium'>Year 8</span>
+                                <span className='text-xl font-normal'>Year 8</span>
                             </span>
                             <hr className='h-3 w-80 ml-12'></hr>
                             <span className='flex gap-8 items-center'>
                                 <HiOutlineCheckCircle className='w-6 h-6 text-[#061c56]'/>
-                                <span className='text-xl font-medium'>Year 9</span>
+                                <span className='text-xl font-normal'>Year 9</span>
                             </span>
                             <hr className='h-3 w-80 ml-12'></hr>
                             <span className='flex gap-8 items-center'>
                                 <HiOutlineCheckCircle className='w-6 h-6 text-[#061c56]'/>
-                                <span className='text-xl font-medium'>Year 10</span>
-                            </span>
-                            <hr className='h-3 w-80 ml-12'></hr>
-                            <span className='flex gap-8 items-center'>
-                                <HiOutlineCheckCircle className='w-6 h-6 text-[#061c56]'/>
-                                <span className='text-xl font-medium'>Year 11</span>
+                                <span className='text-xl font-normal'>Year 10</span>
                             </span>
                             <hr className='h-3 w-80 ml-12'></hr>
                         </span>
@@ -139,28 +124,28 @@ const SectionContent = () => {
                 <span className='w-[33rem] h-[25rem] bg-gray-200'>
                         <img className='w-full h-full object-cover rounded-lg' alt='' src={pic4}></img>
                     </span>
-                    <span className='flex flex-col gap-2'>
+                    <span className='flex flex-col gap-1'>
                         <span className='text-3xl font-semibold opacity-90 mb-2 text-[#061c56]'>College</span>
                         <span className='text-sm font-normal w-[32rem] opacity-80 mb-2'>The children in Early Years and Foundation stage are between 1 and 4 years. This is an important stage in every child's life and development. We are aware of this and we have made learning as fun as possible. Our overall aim is to provide each child with the appropriate work within a stimulating and nurturing environment so that each child has the opportunity and incentive to achieve his/her full potential. Children learn best when their efforts receive positive encouragement and this is an integral part of our classroom practice in our Early Years and Foundation Stage.</span>
                         <span className='flex flex-col gap-2 mt-3'>
                             <span className='flex gap-8 items-center'>
                                 <HiOutlineCheckCircle className='w-6 h-6 text-[#061c56]'/>
-                                <span className='text-xl font-medium'>Creche</span>
+                                <span className='text-xl font-normal'>Creche</span>
                             </span>
                             <hr className='h-3 w-80 ml-12'></hr>
                             <span className='flex gap-8 items-center'>
                                 <HiOutlineCheckCircle className='w-6 h-6 text-[#061c56]'/>
-                                <span className='text-xl font-medium'>Prepschool1</span>
+                                <span className='text-xl font-normal'>Prepschool1</span>
                             </span>
                             <hr className='h-3 w-80 ml-12'></hr>
                             <span className='flex gap-8 items-center'>
                                 <HiOutlineCheckCircle className='w-6 h-6 text-[#061c56]'/>
-                                <span className='text-xl font-medium'>Prepschool2</span>
+                                <span className='text-xl font-normal'>Prepschool2</span>
                             </span>
                             <hr className='h-3 w-80 ml-12'></hr>
                             <span className='flex gap-8 items-center'>
                                 <HiOutlineCheckCircle className='w-6 h-6 text-[#061c56]'/>
-                                <span className='text-xl font-medium'>Reception</span>
+                                <span className='text-xl font-normal'>Reception</span>
                             </span>
                             <hr className='h-3 w-80 ml-12'></hr>
                         </span>

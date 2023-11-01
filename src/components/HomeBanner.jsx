@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Bg1 from '../assets/gallery/bg.png';
-import Bg2 from '../assets/gallery/bg2.png';
-import Bg3 from '../assets/gallery/bg3.png';
+import Bg1 from '../assets/234.png';
+import Bg2 from '../assets/345.png';
+import Bg3 from '../assets/321.png';
 
 
 
@@ -52,7 +52,6 @@ const HomeBanner = () => {
       const bgImageStyle = {
         backgroundImage: `url(${imageSlide[currentSlide].backgroundImage})`,
         backgroundSize: 'cover',
-        height: '33rem',
         width: '100vw',
         transition: 'background 0.3s ease-in',
 
@@ -62,8 +61,8 @@ const HomeBanner = () => {
   return (
 
     <div className="flex w-screen flex-col">
-        <div className='h-[33rem]'><div style={bgImageStyle} className="flex"></div></div>
-        <span className="flex gap-4 -mt-96 pl-40 ">
+        <div className='lg:h-[30rem] h-[17rem]'><div style={bgImageStyle} className="flex h-full"></div></div>
+        <span className="flex lg:gap-4 gap-2 lg:-mt-96 -mt-56  lg:pl-24 px-4 ">
             <span className="flex flex-col mt-2">
             {imageSlide.map((slide, index) => (
               <span
@@ -75,14 +74,14 @@ const HomeBanner = () => {
               ></span>
             ))}
             </span>
-            <span className='flex flex-col'>
-              <span className="text-5xl font-semibold text-[#f6bc75] w-fit">
+            <span className='flex flex-col gap-3'>
+              <span className="lg:text-5xl text-xl font-semibold text-[#f6bc75] w-fit">
                   {imageSlide[currentSlide].text}
               </span>
-              <span className="text-5xl font-semibold text-[#f6bc75] w-fit">
+              <span className="lg:text-5xl text-2xl font-semibold text-[#f6bc75] w-fit">
                   {imageSlide[currentSlide].textxx}
               </span>
-              <span className="text-2xl font-medium text-[#f6bc75] mt-5 w-fit">
+              <span className="lg:text-2xl text-lg font-medium text-[#f6bc75] lg:mt-5 mt-3 w-fit">
                   {imageSlide[currentSlide].textx}
               </span>
             </span>

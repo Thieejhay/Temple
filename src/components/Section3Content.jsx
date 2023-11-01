@@ -111,7 +111,7 @@ const Section3Content = () => {
                 </span>
             </span>
             <span className='flex flex-col mt-8'>
-                <span className='text-3xl font-semibold text-center mb-7 opacity-90'>Campus Photo Gallery</span>
+                <span className='text-3xl font-semibold text-center mb-7 opacity-90'>Photo Gallery</span>
                 <span className='flex px-32 gap-3'>
                     <span className='w-[20rem] h-60 '>
                         <img className='w-full h-full rounded-lg object-cover' src={Pic7} alt=''></img>
@@ -154,7 +154,7 @@ const Section3Content = () => {
             </span>
             <span className='flex flex-col mt-8'>
                 <span className='text-3xl font-semibold text-center mb-5 opacity-90'>Admissions Procedure</span>
-                <span className='flex flex-col px-24 gap-10'>
+                <span className='flex flex-col px-24'>
                     <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-white'>
                         <span className=' flex justify-between items-center opacity-80'>
                             <span className='text-xl'>Obtaining the Registration Form</span>

@@ -108,9 +108,9 @@ const HomeCalendar = () => {
   };
 
   return (
-    <div className='flex w-screen justify-center gap-8'>
+    <div className='flex lg:flex-row flex-col w-screen justify-center lg:gap-8'>
         <style>{calendarStyles}</style>
-        <div className="w-[30rem] p-4">
+        <div className="lg:w-[30rem] w-[23.5rem] px-4">
             <Calendar
             localizer={localizer}
             events={events}
@@ -126,9 +126,9 @@ const HomeCalendar = () => {
             // formats={{ dayFormat: customDayFormat }}
             />
         </div>
-        <div className="w-1/4 p-4 mt-3">
-            <h2 className='text-lg font-semibold mb-4'>Events for {moment(activeMonth).format('MMMM YYYY')}</h2>
-            <span className='flex flex-col gap-5 w-[30rem]'>
+        <div className="lg:w-1/4 p-6 lg:mt-3">
+            <h2 className='text-lg font-semibold lg:mb-4 mb-2'>Events for {moment(activeMonth).format('MMMM YYYY')}</h2>
+            <span className='flex flex-col lg:gap-5 gap-2 w-[30rem]'>
                 {activeEvents.map((event) => (
                     <span key={event.id} className='flex gap-4'>
                         <span className='text-base font-semibold'>{formatDateRange(event.start, event.end)}</span>

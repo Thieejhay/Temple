@@ -9,9 +9,9 @@ import 'swiper/css/navigation'
 
 const HomeAlumna = () => {
   return (
-    <div className='flex flex-col pt-12 pb-8 gap-12 bg-gray-50'>
+    <div className='flex flex-col lg:pt-12 pt-4 lg:pb-8 pb-3 lg:gap-12 gap-5 bg-gray-50'>
         <span className='flex flex-col gap-2 justify-center items-center'>
-            <span className='uppercase text-3xl font-semibold opacity-90'>temple alumna feature</span>
+            <span className='uppercase lg:text-3xl text-xl font-semibold opacity-90'>temple alumna feature</span>
         </span>
         <div className='flex'>
             <Swiper
@@ -29,26 +29,24 @@ const HomeAlumna = () => {
                     dynamicBullets: true,
                     
                 }}
-                slidesPerView={3}
-                spaceBetween={2}
+                slidesPerView={1}
+                spaceBetween={3}
                 slidesPerGroup={1}
                 loop={true} className='h-80 mySwiper flex'>
                     { swiperalumna.map((swiperalumna, i) => (
-                        <SwiperSlide className='flex pl-64' key={i}>
-                            <div className='flex gap-10 w-fit'>
-                                <span className='w-64 h-72 rounded-md bg-gray-200'>
+                        <SwiperSlide className='flex lg:pl-64 px-3 lg:px-0' key={i}>
+                            <div className='flex lg:gap-10 gap-2 w-fit'>
+                                <span className='lg:w-64 w-32 h-40 lg:h-72 rounded-md bg-gray-200'>
                                     <img src={Alumi} alt='' className='w-full h-full'></img>
                                 </span>
-                                <div className='flex flex-col pt-9 gap-7'>
-                                    <span className='text-xs w-[35rem]'>
+                                <div className='flex flex-col lg:pt-9 lg:gap-7 gap-3'>
+                                    <span className='text-xs lg:w-[35rem] w-[14rem]'>
                                     {swiperalumna.mssg}  
                                     </span>
                                     <span className='flex justify-between'>
                                         <span className='flex flex-col'>
                                             <span className='text-lg font-medium'>{swiperalumna.name}</span>
-                                            <span className='text-sm opacity-90'>{swiperalumna.desc}</span>
                                         </span>
-                                        <span className='text-base font-medium'>{swiperalumna.rating}</span>
                                     </span>
                                 </div>
                             </div>

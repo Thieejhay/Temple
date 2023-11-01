@@ -80,7 +80,7 @@ const NewsContent = () => {
         <div className='flex flex-col py-12 gap-8 px-24'>
             <span className='flex gap-[30rem] items-center justify-center'>
                 <span className='flex flex-col gap-2'>
-                    <span className='text-3xl font-semibold text-[#061c56]'>Event List</span>
+                    <span className='text-3xl font-semibold text-[#061c56]'>Upcoming Events</span>
                 </span>
                 {/* <span className='px-4 py-2 bg-[#061c56] text-[#d9bc6d] rounded text- w-fit h-fit'>Newer</span> */}
             </span>

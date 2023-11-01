@@ -12,7 +12,7 @@ import Kelechi from '../assets/Kelechi.png';
 import Jos from '../assets/Jos.png';
 import Jimoh from '../assets/Jimoh.png';
 import Gloria from '../assets/Gloria.png';
-import Davis from '../assets/Davis.png';
+import Davis from '../assets/Secx.png';
 import Ben from '../assets/Ben.png';
 import Chinwe from '../assets/Chinwe.png';
 import Adu from '../assets/Aduragbemi.png';
@@ -30,6 +30,7 @@ import Logo9 from '../assets/logo9.png';
 import Logo3 from '../assets/logo3.png';
 import Logo7 from '../assets/logo7.png';
 import Logo44 from '../assets/logo44.png';
+import Flame from '../assets/flame.png'
 import { Link } from 'react-router-dom';
 
 
@@ -117,15 +118,15 @@ const AboutContent = () => {
         </div>
         <div className='flex flex-col py-8 gap-10 items-center bg-gray-200' id='vision'>
             <span className='flex rounded-lg shadow-xl w-fit h-fit bg-white'>
-                <span className={`${showInfo1 ? 'border-b-2 border-b-[#061c56]' : 'border-b-2 border-transparent'} uppercase font-semibold text-sm px-16 py-5 border-r border-black/10 cursor-pointer`} onClick={handleInfo1Click}>Our Vision</span>
-                <span className={`${showInfo2 ? 'border-b-2 border-b-[#061c56]' : 'border-b-2 border-transparent'} uppercase font-semibold text-sm px-16 py-5 border-r border-black/10 cursor-pointer`} onClick={handleInfo2Click}>Our Values</span>
-                <span className={`${showInfo7 ? 'border-b-2 border-b-[#061c56]' : 'border-b-2 border-transparent'} uppercase font-semibold text-sm px-16 py-5 border-r border-black/10 cursor-pointer`} onClick={handleInfo7Click}>Our Mission</span>
-                <span className={`${showInfo8 ? 'border-b-2 border-b-[#061c56]' : 'border-b-2 border-transparent'} uppercase font-semibold text-sm px-16 py-5 border-r border-black/10 cursor-pointer`} onClick={handleInfo8Click}>Temple Flame</span>
+                <span className={`${showInfo1 ? 'border-b-2 border-b-[#061c56]' : 'border-b-2 border-transparent border-r-2 border-r-black/10'} uppercase font-semibold text-sm px-16 py-5 border-r-2 border-black/10 cursor-pointer`} onClick={handleInfo1Click}>Our Vision</span>
+                <span className={`${showInfo2 ? 'border-b-2 border-b-[#061c56]' : 'border-b-2 border-transparent border-r-2 border-r-black/10'} uppercase font-semibold text-sm px-16 py-5 border-r-2 border-black/10 cursor-pointer`} onClick={handleInfo2Click}>Our Values</span>
+                <span className={`${showInfo7 ? 'border-b-2 border-b-[#061c56]' : 'border-b-2 border-transparent border-r-2 border-r-black/10'} uppercase font-semibold text-sm px-16 py-5 border-r-2 border-black/10 cursor-pointer`} onClick={handleInfo7Click}>Our Mission</span>
+                <span className={`${showInfo8 ? 'border-b-2 border-b-[#061c56]' : 'border-b-2 border-transparent border-r-2 border-r-black/10'} uppercase font-semibold text-sm px-16 py-5 border-r-2 border-black/10 cursor-pointer`} onClick={handleInfo8Click}>Temple Flame</span>
             </span>
             <span className='flex rounded-lg bg-white p-6 w-[53rem] h-[26rem]'>
                 {showInfo1 && 
                     <div className='flex flex-col gap-3 '>
-                        <span className='text-xl font-medium w-[50rem] opacity-80'>At Temple, we believe that every child can excel at something and it is our responsibility to identify that 'something' and develop it.</span>
+                        <span className='text-xl font-normal w-[50rem] opacity-70'>At Temple, we believe that every child can excel at something and it is our responsibility to identify that 'something' and develop it.</span>
                         <span className='text-xl font-normal opacity-70'>Our major aims are to prepare the children towards becoming:</span>
                         <span className='flex gap-6 p-2 bg-gray-100 rounded-lg'>
                             <span className='flex flex-col gap-2'>
@@ -207,13 +208,17 @@ const AboutContent = () => {
 
                 }
                 {showInfo7 && 
-                    <div className='flex gap-5 items-center justify-center w-full'>
-                        <span className='text-4xl font-semibold w-[30rem] text-center flex justify-center text-[#061c56]'>To empower the pupils to pursue a passion for acquiring knowledge, lead lives of integrity, and be self-motivated and socially responsible citizens of the world.</span>
+                    <div className='flex items-center justify-center'>
+                        <span className='bg-gray-100 w-[27rem] h-[15rem] z-20 flex items-center px-4 text-xl font-medium'>To empower the pupils to pursue a passion for acquiring knowledge, lead lives of integrity, and be self-motivated and socially responsible citizens of the world.</span>
+                        <span className='bg-gray-300 w-[30rem] h-[20rem] -ml-24 z-10'></span>
                     </div>
                 }
                 {showInfo8 && 
-                    <div className='flex gap-5 items-center justify-center w-full'>
-                        <span className='text-4xl font-semibold w-[30rem] text-center flex justify-center text-[#f6bc75]'>The blue flame is the hottest of all flames. As hot as the blue flame burns, so does our zeal at Temple burn in pursuance of knowledge, truth and good character.</span>
+                    <div className='flex items-center justify-center'>
+                        <span className='w-[30rem] h-[24rem] flex items-center justify-center -ml-24 z-10'>
+                            <img className='h-[22rem] w-[12rem]' src={Flame} alt=''></img>
+                        </span>
+                         <span className='bg-[#061c56] text-[#f6bc75] rounded-lg w-[27rem] h-[15rem] z-20 flex items-center px-4 text-xl font-medium -ml-24'>The blue flame is the hottest of all flames. As hot as the blue flame burns, so does our zeal at Temple burn in pursuance of knowledge, truth and good character.</span>
                     </div>
                 }
                 
