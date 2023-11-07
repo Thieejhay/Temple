@@ -9,6 +9,7 @@ import Pic4 from '../assets/gallery/c4.png';
 import Pic5 from '../assets/gallery/c5.png';
 import Pic6 from '../assets/gallery/c6.png';
 import Pic7 from '../assets/gallery/c7.png';
+import Medal from '../assets/Medal.png';
 
 
 const Section4Content = () => {
@@ -37,7 +38,7 @@ const Section4Content = () => {
         <div className='flex flex-col gap-10 mb-8 py-3'>
             <span className='flex pr-24 pl-24'>
                 <span className='w-[34rem] bg-gray-100'></span>
-                <span className='flex flex-col -ml-36 gap-8 pl-12 pt-12 pb-20 bg-[#544E5D] w-full text-white'>
+                <span className='flex flex-col -ml-36 gap-8 pl-12 pt-12 pb-20 bg-[#f6bc75] w-full text-[#061c56]'>
                     <span className=' text-5xl font-bold w-[32rem]'>Welcome Address</span>
                     <span className='text-base w-[42rem] space-y-3'>
                         <p>Temple College is a private co-educational day and boarding sixth form that intensively and cohesively prepares post 16-year olds for entry into universities that are best suited for each student.</p>
@@ -55,55 +56,56 @@ const Section4Content = () => {
                     <span className='text-base'>We believe in the success of every student, and our ethos is to Discover the strength of each student, Develop a strong academic foundation, and ultimately Deploy independent, driven visionaries.</span>
                     <span className='text-base'>To empower the pupils to pursue a passion for acquiring knowledge, lead lives of integrity and be self-motivated and socially responsible citizens of the world.</span>
             </span>
-            <span className='flex flex-col gap-3 mt-5'>
-                <span className='text-3xl font-semibold text-center'>Campus-specific facilities and features</span>
-                <span className='px-32 text-sm'></span>
+            <span className='flex flex-col bg-[#061c56] py-2 text-white'>
+                <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
+                <span className='text-3xl font-semibold text-center opacity-90 mb-2 my-1'>Campus-specific facilities and features</span>
                 <span className='flex justify-center mt-3 gap-20'>
                     <span className='flex flex-col gap-1'>
                         <span className='flex gap-2 items-center'>
-                            <HiOutlineCheckCircle className='w-5 h-5 text-[#061c56]'/>
+                            <HiOutlineCheckCircle className='w-5 h-5 text-[#f6bc75]'/>
                             <span className='text-lg font-normal'>Quis nostrud exercitation ullamco</span>
                         </span>
                         <hr className='h-3 w-72 ml-5'></hr>
                         <span className='flex gap-2 items-center'>
-                            <HiOutlineCheckCircle className='w-5 h-5 text-[#061c56]'/>
+                            <HiOutlineCheckCircle className='w-5 h-5 text-[#f6bc75]'/>
                             <span className='text-lg font-normal'>Quis nostrud exercitation ullamco</span>
                         </span>
                         <hr className='h-3 w-72 ml-5'></hr>
                         <span className='flex gap-2 items-center'>
-                            <HiOutlineCheckCircle className='w-5 h-5 text-[#061c56]'/>
+                            <HiOutlineCheckCircle className='w-5 h-5 text-[#f6bc75]'/>
                             <span className='text-lg font-normal'>Quis nostrud exercitation ullamco</span>
                         </span>
                         <hr className='h-3 w-72 ml-5'></hr>
                         <span className='flex gap-2 items-center'>
-                            <HiOutlineCheckCircle className='w-5 h-5 text-[#061c56]'/>
+                            <HiOutlineCheckCircle className='w-5 h-5 text-[#f6bc75]'/>
                             <span className='text-lg font-normal'>Quis nostrud exercitation ullamco</span>
                         </span>
                         <hr className='h-3 w-72 ml-5'></hr>
                     </span>
                     <span className='flex flex-col gap-1'>
                         <span className='flex gap-2 items-center'>
-                            <HiOutlineCheckCircle className='w-5 h-5 text-[#061c56]'/>
+                            <HiOutlineCheckCircle className='w-5 h-5 text-[#f6bc75]'/>
                             <span className='text-lg font-normal'>Quis nostrud exercitation ullamco</span>
                         </span>
                         <hr className='h-3 w-72 ml-5'></hr>
                         <span className='flex gap-2 items-center'>
-                            <HiOutlineCheckCircle className='w-5 h-5 text-[#061c56]'/>
+                            <HiOutlineCheckCircle className='w-5 h-5 text-[#f6bc75]'/>
                             <span className='text-lg font-normal'>Quis nostrud exercitation ullamco</span>
                         </span>
                         <hr className='h-3 w-72 ml-5'></hr>
                         <span className='flex gap-2 items-center'>
-                            <HiOutlineCheckCircle className='w-5 h-5 text-[#061c56]'/>
+                            <HiOutlineCheckCircle className='w-5 h-5 text-[#f6bc75]'/>
                             <span className='text-lg font-normal'>Quis nostrud exercitation ullamco</span>
                         </span>
                         <hr className='h-3 w-72 ml-5'></hr>
                         <span className='flex gap-2 items-center'>
-                            <HiOutlineCheckCircle className='w-5 h-5 text-[#061c56]'/>
+                            <HiOutlineCheckCircle className='w-5 h-5 text-[#f6bc75]'/>
                             <span className='text-lg font-normal'>Quis nostrud exercitation ullamco</span>
                         </span>
                         <hr className='h-3 w-72 ml-5'></hr>
                     </span>
                 </span>
+                <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr> 
             </span>
             <span className='flex flex-col mt-8'>
                 <span className='text-3xl font-semibold text-center mb-7'>Photo Gallery</span>
@@ -242,7 +244,24 @@ const Section4Content = () => {
                     </span>
                 </span>
             </span>
+            <div className='flex flex-col bg-[#061c56] py-1 lg:px-24 w-screen lg:h-40 gap-2'>
+                <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
+                <span className='flex lg:justify-between gap-2 items-center lg:px-6 px-4'>
+                    <span className='flex lg:gap-6 gap-2 items-center'>
+                        <span className='lg:w-32 w-16 h-16 lg:h-32 rounded-full '>
+                            <img src={Medal} alt='' className='w-full h-full'></img>
+                        </span>
+                        <span className='flex flex-col text-[#f6bc75] lg:w-fit w-[12rem]'>
+                            <span className='lg:text-3xl text-sm font-medium lg:tracking-wider'>Our Students Are Talented,</span>
+                            <span className='lg:text-2xl text-sm font-normal lg:tracking-wider'>passionate, hard-working and full of ideas.</span>
+                        </span>
+                    </span>
+                    <a href='https://basic.edves.net/#tab2' rel="noreferrer" target='_blank'><span className='lg:px-8 lg:py-5 px-1 py-1 text-xl w-fit h-fit font-semibold text-white bg-[#f6bc75] rounded-md drop-shadow-md'>Apply Now</span></a>
+                </span>
+                <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
+            </div>
         </div>
+        
     </div>  
   )
 }

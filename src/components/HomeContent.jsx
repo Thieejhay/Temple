@@ -57,7 +57,7 @@ const HomeContent = () => {
             <span className='flex lg:gap-8 gap-6 justify-center lg:mt-12 mt-4'>
                 <span className='flex flex-col gap-3 text-center items-center lg:w-60'>
                     <img className='lg:w-[5.5rem] w-16 h-16 lg:h-24' src={Empower} alt=''></img>
-                    <span className='lg:text-xl text-sm font-medium opacity-70 lg:tracking-wider'>Empower</span>
+                    <span className='lg:text-xl text-sm font-medium opacity-70 lg:tracking-wider '>Empower</span>
                 </span>
                 <span className='flex flex-col gap-3 text-center items-center lg:w-60'>
                     <img className='lg:w-[5.5rem] w-16 h-16 lg:h-24' src={Engage} alt=''></img>
@@ -86,18 +86,18 @@ const HomeContent = () => {
                         <span className='lg:text-2xl text-sm font-normal lg:tracking-wider'>passionate, hard-working and full of ideas.</span>
                     </span>
                 </span>
-                <a href='https://basic.edves.net/#tab2' rel="noreferrer" target='_blank'><span className='lg:px-6 lg:py-3 px-1 py-1 text-xs w-fit h-fit  font-medium text-white bg-[#f6bc75] rounded-md drop-shadow-md'>Apply Now</span></a>
+                <a href='https://basic.edves.net/#tab2' rel="noreferrer" target='_blank'><span className='lg:px-8 lg:py-5 px-1 py-1 text-xl w-fit h-fit font-semibold text-white bg-[#f6bc75] rounded-md drop-shadow-md'>Apply Now</span></a>
             </span>
             <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
         </div>
-        <div className='flex flex-col lg:pt-6 pt-2 w-screen lg:gap-6 gap-2' id='calendar'>
+        <div className='flex flex-col lg:pt-6 pb-3 pt-2 w-screen lg:gap-6 gap-2 bg-[#cddfec]/30' id='calendar'>
             <span className='flex flex-col gap text-center'>
                 <span className='uppercase lg:text-3xl text-xl font-semibold opacity-90'>academic calendar</span>
                 <span className='text-base font-normal text-center px-4 lg:px-60 opacity-80'>Our students are talented, hard working and full of good ideas. We encourage and empower them to bring their ideas to life. Hands-on opportunities are what we're all about.</span>
             </span>
             <HomeCalendar />
         </div>
-        <div className='flex flex-col bg-[#061c56] py-1 lg:px-24 px-4 w-screen lg:h-40 lg:gap-2 my-3 lg:my-6' >
+        <div className='flex flex-col bg-[#061c56] py-1 lg:px-24 px-4 w-screen lg:h-40 lg:gap-2' >
             <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
             <span className='flex justify-center lg:px-6 text-[#f6bc75] text-center lg:text-2xl text-lg uppercase lg:tracking-wider font-medium'>Our teacher and students achievements</span>
             <span className='flex lg:gap-80 gap-10 my-3 justify-center items-center'>

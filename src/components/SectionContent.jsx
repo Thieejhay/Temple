@@ -19,7 +19,7 @@ const SectionContent = () => {
                 <span className='uppercase text-lg font-normal text-[#061c56]'>our academics</span>
                 <span className='flex justify-between'>
                     <span className='flex flex-col gap-2'>
-                        <span className='text-3xl font-semibold opacity-90 text-[#061c56]'>Early Years And Foundation Stage</span>
+                        <Link to='/early-years' ><span className='text-3xl font-semibold opacity-90 text-[#061c56]'>Early Years And Foundation Stage</span></Link>
                         <span className='text-sm font-normal w-[32rem] opacity-80'>The children in Early Years and Foundation stage are between 1 and 4 years. This is an important stage in every child's life and development. We are aware of this and we have made learning as fun as possible. Our overall aim is to provide each child with the appropriate work within a stimulating and nurturing environment so that each child has the opportunity and incentive to achieve his/her full potential. Children learn best when their efforts receive positive encouragement and this is an integral part of our classroom practice in our Early Years and Foundation Stage.</span>
                         <span className='flex flex-col gap-1'>
                             <span className='flex gap-8 items-center'>
@@ -56,7 +56,7 @@ const SectionContent = () => {
                         <img className='w-full h-full object-cover rounded-lg' alt='' src={pic2}></img>
                     </span>
                     <span className='flex flex-col gap-2'>
-                        <span className='text-3xl font-semibold opacity-90 text-[#061c56]'>Primary</span>
+                        <Link to='/primary' ><span className='text-3xl font-semibold opacity-90 text-[#061c56]'>Primary School</span></Link>
                         <span className='text-sm font-normal w-[32rem] opacity-80 mb-2'>The children in Early Years and Foundation stage are between 1 and 4 years. This is an important stage in every child's life and development. We are aware of this and we have made learning as fun as possible. Our overall aim is to provide each child with the appropriate work within a stimulating and nurturing environment so that each child has the opportunity and incentive to achieve his/her full potential. Children learn best when their efforts receive positive encouragement and this is an integral part of our classroom practice in our Early Years and Foundation Stage.</span>
                         <span className='flex flex-col gap-1'>
                             <span className='flex gap-8 items-center'>
@@ -88,7 +88,7 @@ const SectionContent = () => {
             <span className='flex flex-col'>
                 <span className='flex justify-between'>
                     <span className='flex flex-col gap-2'>
-                        <span className='text-3xl font-semibold opacity-90 text-[#061c56]'>Secondary</span>
+                        <Link to='/secondary' ><span className='text-3xl font-semibold opacity-90 text-[#061c56]'>Secondary</span></Link>
                         <span className='text-sm font-normal w-[32rem] opacity-80 pl-'>The children in Early Years and Foundation stage are between 1 and 4 years. This is an important stage in every child's life and development. We are aware of this and we have made learning as fun as possible. Our overall aim is to provide each child with the appropriate work within a stimulating and nurturing environment so that each child has the opportunity and incentive to achieve his/her full potential. Children learn best when their efforts receive positive encouragement and this is an integral part of our classroom practice in our Early Years and Foundation Stage.</span>
                         <span className='flex flex-col gap-1'>
                             <span className='flex gap-8 items-center'>
@@ -125,7 +125,7 @@ const SectionContent = () => {
                         <img className='w-full h-full object-cover rounded-lg' alt='' src={pic4}></img>
                     </span>
                     <span className='flex flex-col gap-1'>
-                        <span className='text-3xl font-semibold opacity-90 mb-2 text-[#061c56]'>College</span>
+                        <Link to='/college' ><span className='text-3xl font-semibold opacity-90 mb-2 text-[#061c56]'>College</span></Link>
                         <span className='text-sm font-normal w-[32rem] opacity-80 mb-2'>The children in Early Years and Foundation stage are between 1 and 4 years. This is an important stage in every child's life and development. We are aware of this and we have made learning as fun as possible. Our overall aim is to provide each child with the appropriate work within a stimulating and nurturing environment so that each child has the opportunity and incentive to achieve his/her full potential. Children learn best when their efforts receive positive encouragement and this is an integral part of our classroom practice in our Early Years and Foundation Stage.</span>
                         <span className='flex flex-col gap-2 mt-3'>
                             <span className='flex gap-8 items-center'>

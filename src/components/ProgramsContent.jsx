@@ -36,30 +36,30 @@ const ProgramsContent = () => {
 
   return (
     <div className='flex flex-col w-screen'>
-        <span className='flex justify-center items-center relative h-[20rem] bg-black'>
+        <span className='flex justify-center items-center relative lg:h-[20rem] h-[10rem] bg-black'>
              <img src={Banner} alt='' className='w-full h-full opacity-50 flex z-10'></img>
-            <span className='text-4xl opacity-90 font-semibold absolute top-28 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75] flex'>Programs</span>
+            <span className='lg:text-4xl text-2xl opacity-90 font-semibold absolute lg:top-28 top-12 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75] flex'>Programs</span>
         </span>
-        <span className='flex pl-28 py-6 gap-16 bg-gray-200'>
-            <span className='flex flex-col gap-5 justify-end'>
-                <span className='text-5xl font-medium text-[#061c56] w-80 opacity-90'>Co-curicular Activities</span>
-                <span className='text-xs w-[25rem] opacity-80'>There is a wide range of extracurricular activities available for Temple children. We believe that by offering all these enrichment opportunities outside the classroom, we can help our pupils develop more fully as individuals. Every child is encouraged to participate, and meetings are held once a week.</span>
+        <span className='flex lg:flex-row flex-col lg:pl-28 px-4 lg:px-0 lg:py-6 py-3 gap-4 lg:gap-16 bg-gray-200'>
+            <span className='flex flex-col gap-3 lg:gap-5 justify-end'>
+                <span className='lg:text-5xl text-2xl font-medium text-[#061c56] lg:w-80 opacity-90'>Co-curicular Activities</span>
+                <span className='text-xs lg:w-[25rem] opacity-80'>There is a wide range of extracurricular activities available for Temple children. We believe that by offering all these enrichment opportunities outside the classroom, we can help our pupils develop more fully as individuals. Every child is encouraged to participate, and meetings are held once a week.</span>
             </span>
-            <span className='flex gap-4'>
-                <span className='w-56 h-72 bg-gray-500 rounded-lg'><img src={Arts} className='w-full h-full' alt=''></img></span>
-                <span className='w-56 h-72 bg-gray-500 rounded-lg'><img src={Sports} className='w-full h-full' alt=''></img></span>
-                <span className='w-56 h-72 bg-gray-500 rounded-lg'><img src={Clubs} className='w-full h-full' alt=''></img></span>
+            <span className='flex lg:gap-4 gap-2'>
+                <span className='w-56 h-32 lg:h-72 bg-gray-500 rounded-lg'><img src={Arts} className='w-full h-full' alt=''></img></span>
+                <span className='w-56 h-32 lg:h-72 bg-gray-500 rounded-lg'><img src={Sports} className='w-full h-full' alt=''></img></span>
+                <span className='w-56 h-32 lg:h-72 bg-gray-500 rounded-lg'><img src={Clubs} className='w-full h-full' alt=''></img></span>
             </span>
         </span>
-        <span className='flex flex-col py-12 gap-10 px-24'>
-            <span className='flex flex-col px-3'>
-                <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-white'>
+        <span className='flex flex-col lg:py-12 py-5 gap-5 px-4 lg:gap-10 lg:px-24'>
+            <span className='flex flex-col lg:px-3'>
+                <span className='flex flex-col lg:gap-3 gap-1 lg:px-4 px-2 py-4 rounded-sm bg-[#061c56] text-white'>
                     <span className=' flex justify-between items-center opacity-80'>
-                        <span className='text-xl'>Early Years and Foundation Stage</span>
+                        <span className='lg:text-xl text-lg'>Early Years and Foundation Stage</span>
                         <span onClick={() => toggleShowMore('showMore1')}>{showMore.showMore1 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                     </span>
                     {showMore.showMore1 && 
-                        <span className='flex flex-col pl-6 space-y-2 pt-4 opacity-70'>
+                        <span className='flex flex-col lg:pl-6 pl-2 space-y-2 pt-4 opacity-70'>
                             <span className='flex gap-2 items center'>
                                 <span className='text-xl font-bold'>.</span>
                                 <span className='uppercase text-xl font-semibold'>Debating/Public Speaking - <span className='lowercase text-lg font-normal'>Builds confidence for public speaking</span></span>
@@ -91,20 +91,20 @@ const ProgramsContent = () => {
                         </span>
                     }
                 </span>
-                <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#f6bc75] text-white'>
+                <span className='flex flex-col lg:gap-3 gap-1 lg:px-4 px-2 py-4 rounded-sm bg-[#f6bc75] text-white'>
                     <span className=' text-white flex justify-between items-center opacity-90'>
-                        <span className='text-xl'>Primary School Clubs</span>
+                        <span className='lg:text-xl text-lg'>Primary School Clubs</span>
                         <span onClick={() => toggleShowMore('showMore2')}>{showMore.showMore2 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                     </span>
                     {showMore.showMore2 && 
-                        <span className='flex flex-col pl-6 space-y-2 pt-4 opacity-80'>
+                        <span className='flex flex-col lg:pl-6 pl-2  space-y-2 pt-4 opacity-80'>
                             <span className='flex gap-2 items center'>
                                 <span className='text-xl font-bold'>.</span>
                                 <span className='uppercase text-xl font-semibold'>Debating/Public Speaking - <span className='lowercase text-lg font-normal'>Builds confidence for public speaking</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
                                 <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>Languages -<span className='lowercase text-lg font-normal'>Developing our children's interests in our local languages</span></span>
+                                <span className='uppercase text-xl font-semibold'>Languages - <span className='lowercase text-lg font-normal'>Developing our children's interests in our local languages</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
                                 <span className='text-xl font-bold'>.</span>
@@ -129,13 +129,13 @@ const ProgramsContent = () => {
                         </span>
                     }
                 </span>
-                <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-white'>
+                <span className='flex flex-col lg:gap-3 gap-1 lg:px-4 px-2 py-4 rounded-sm bg-[#061c56] text-white'>
                     <span className=' text-white flex justify-between items-center opacity-80'>
-                        <span className='text-xl'>Secondary School Clubs</span>
+                        <span className='lg:text-xl text-lg'>Secondary School Clubs</span>
                         <span onClick={() => toggleShowMore('showMore3')}>{showMore.showMore3 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                     </span>
                     {showMore.showMore3 && 
-                        <span className='flex flex-col pl-6 space-y-2 pt-4 opacity-70'>
+                        <span className='flex flex-col lg:pl-6 pl-2  space-y-2 pt-4 opacity-70'>
                             <span className='flex gap-2 items center'>
                                 <span className='text-xl font-bold'>.</span>
                                 <span className='uppercase text-xl font-semibold'>CHESS  - <span className='lowercase text-lg font-normal'>Teaches the rudiments and skills of playing the game of chess</span></span>
@@ -173,11 +173,11 @@ const ProgramsContent = () => {
                 </span>
                 <span className='flex flex-col gap-3 px-2 py-3 rounded-sm bg-[#f6bc75] text-white'>
                     <span className=' text-white flex justify-between items-center opacity-90'>
-                        <span className='text-xl'>College</span>
+                        <span className='lg:text-xl text-lg'>College</span>
                         <span onClick={() => toggleShowMore('showMore4')}>{showMore.showMore4 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                     </span>
                     {showMore.showMore4 && 
-                        <span className='flex flex-col pl-6 space-y-2 pt-4 opacity-80'>
+                        <span className='flex flex-col lg:pl-6 pl-2  space-y-2 pt-4 opacity-80'>
                             <span className='flex gap-2 items center'>
                                 <span className='text-xl font-bold'>.</span>
                                 <span className='uppercase text-xl font-semibold'>The Ontario Secondary School Diploma Programme (OSSD)-<span className='lowercase text-lg font-normal'>Temple College has forged a very strong partnership with Braemar College in Ontario, Canada, and together, we offer students the OSSD Pathway.Pathways options in the OSSD programme:Humanities,Art & Design,Math & Science,Business</span></span>
@@ -196,15 +196,15 @@ const ProgramsContent = () => {
                 </span>
             </span>
             <span className='flex flex-col gap-4'>
-                <span className='flex flex-col gap-3'>
+                <span className='flex flex-col lg:gap-3 gap-1'>
                     <hr className='w-10 h-1 rounded-lg bg-[#f6bc75]'></hr>
-                    <span className='text-2xl font-semibold'>Field Trip</span>
-                    <span className='text-base'>The school also arranges a number of foreign visits that support the curriculum and give students the chance to expand their horizons as well as to help them understand different cultures. We enjoy exciting activities during our residential trips abroad, such as abseiling, archery, kayaking, zip-wire, and grass sledging. We also get the chance to do things like explore coastal walks, hunt for fossils, look for red squirrels in woodlands on the Isle of Wight, and go to other fun and safe camps.</span>
+                    <span className='text-2xl font-semibold opacity-90'>Field Trip</span>
+                    <span className='lg:text-base text-sm opacity-80'>The school also arranges a number of foreign visits that support the curriculum and give students the chance to expand their horizons as well as to help them understand different cultures. We enjoy exciting activities during our residential trips abroad, such as abseiling, archery, kayaking, zip-wire, and grass sledging. We also get the chance to do things like explore coastal walks, hunt for fossils, look for red squirrels in woodlands on the Isle of Wight, and go to other fun and safe camps.</span>
                 </span>
-                <span className='flex flex-col gap-3'>
+                <span className='flex flex-col lg:gap-3 gap-1'>
                     <hr className='w-10 h-1 rounded-lg bg-[#f6bc75]'></hr>
-                    <span className='text-2xl font-semibold'>Community Work</span>
-                    <span className='text-base'>The school also arranges a number of foreign visits that support the curriculum and give students the chance to expand their horizons as well as to help them to understand different cultures. We enjoy exciting activities during our residential trips abroad such as abseiling, archery, kayaking, zip wire and grass sledging. We also get the chance to do things like exploring coastal walks, hunting for fossils and looking for red squirrels in woodlands on the Isle of Wight and other fun and safe camps.</span>
+                    <span className='text-2xl font-semibold opacity-90'>Community Work</span>
+                    <span className='lg:text-base text-sm opacity-80'>The school also arranges a number of foreign visits that support the curriculum and give students the chance to expand their horizons as well as to help them to understand different cultures. We enjoy exciting activities during our residential trips abroad such as abseiling, archery, kayaking, zip wire and grass sledging. We also get the chance to do things like exploring coastal walks, hunting for fossils and looking for red squirrels in woodlands on the Isle of Wight and other fun and safe camps.</span>
                 </span>
             </span>
             <span className='flex flex-col gap-8'>

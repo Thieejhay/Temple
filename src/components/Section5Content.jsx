@@ -21,7 +21,8 @@ import pic12 from '../assets/eld4.png'
 import pic13 from '../assets/eld5.png'
 import pic14 from '../assets/eld6.png'
 import pic15 from '../assets/eld3.png'
-import pice from '../assets/Eld.png'
+
+// import pice from '../assets/Eld.png'
 
 const Section5Content = () => {
   return (
@@ -34,7 +35,7 @@ const Section5Content = () => {
         <div className='flex flex-col gap-10 py-3 mb-8'>
             <span className='flex pl-36 pr-20'>
                 <img className='w-[23rem] h-[29rem] object-right' src={pic1} alt=''></img>
-                <span className='flex flex-col gap-8 pl-12 pt-8 pb-4 bg-[#544E5D] w-full text-white'>
+                <span className='flex flex-col gap-8 pl-12 pt-8 pb-4 bg-[#f6bc75] w-full text-[#061c56]'>
                     <span className=' text-5xl font-bold w-[32rem]'>Welcome Address</span>
                     <span className='text-base w-[42rem] space-y-3'>
                         <p>We welcome you to the Exceptional Learners Department and look forward to working with you to find the most effective ways to support your child's education. </p>
@@ -51,22 +52,22 @@ const Section5Content = () => {
                 <span className='text-3xl font-semibold opacity-80'>Meet the Supervisors</span>
                 <span className='flex gap-5'>
                     <span className='flex flex-col w-60 items-center'>
-                        <span className='w-48 h-48 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg object-cover' src={pic15} alt=''></img></span>
+                        <span className='w-48 h-52 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg' src={pic15} alt=''></img></span>
                         <span className='text-sm font-medium text-center mt-2'>EYFS Team lead & speech Therapist</span>
                         <span className='text-base font-normal text-center '>Ms. Cadmus</span>
                     </span>
                     <span className='flex flex-col w-60 items-center'>
-                        <span className='w-48 h-48 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg object-cover' src={pic12} alt=''></img></span>
+                        <span className='w-48 h-52 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg' src={pic12} alt=''></img></span>
                         <span className='text-sm font-medium text-center mt-2'>Primary Team lead</span>
                         <span className='text-base font-normal text-center'>Mrs Adesiyan</span>
                     </span>
                     <span className='flex flex-col w-60 items-center '>
-                        <span className='w-48 h-48 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg object-cover' src={pic13} alt=''></img></span>
+                        <span className='w-48 h-52 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg' src={pic13} alt=''></img></span>
                         <span className='text-sm font-medium text-center mt-2'>Secondary wave 1 & 3 lead </span>
                         <span className='text-base font-normal text-center'>Mrs Shadeko</span>
                     </span>
                     <span className='flex flex-col w-60 items-center'>
-                        <span className='w-48 h-48 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg object-cover' src={pic14} alt=''></img></span>
+                        <span className='w-48 h-52 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg' src={pic14} alt=''></img></span>
                         <span className='text-sm font-medium text-center mt-2'>Secondary wave 2 lead </span>
                         <span className='text-base font-normal text-center'>Ms Kolawole</span>
                     </span>
@@ -160,8 +161,7 @@ const Section5Content = () => {
                     </span>
                 </span>
             </span>
-            <span className='w-screen h-60'>
-                <img className='w-full h-full' src={pice} alt=''></img>
+            <span className='w-screen h-60 bg-[#061c56]'>
             </span>
             <span className='flex flex-col gap-2 py-4 px-20 justify-center items-center w-screen bg-[#E5B87C]/10'>
                 <span className='text-3xl font-semibold opacity-80'>Our Process:The Graduated Approach</span>
@@ -235,46 +235,50 @@ const Section5Content = () => {
                     </span>
                 </span>
             </span> */}
-            <span className='flex flex-col py-10 px-24 gap-10 bg-[#061c56]/80 text-white'>
-                <span className='flex flex-col gap-2'>
-                    <span className='uppercase font-medium text-3xl opacity-90'>INTERVENTION</span>
-                    <span className='text-lg opacity-80'>The intervention programme involves a teaching assistant available to your child three times a week during specific subjects that require extra attention. This involves review of lessons during one-on-one or small group study periods, differentiation of activities, instruction and assessments, access arrangements for international examinations, behaviour monitoring, setting academic targets, handwriting improvement and weekly monitoring reports.</span>
-                </span>
-                <span className='flex flex-col gap-2'>
-                    <span className='uppercase font-medium text-3xl opacity-90'>FULL SUPPORT</span>
-                    <span className='text-lg opacity-80'>Temple School's entire philosophy is deeply rooted in an unwavering commitment to the safety and wellbeing of every child, young person and adult in Temple, through consistent and effective safeguarding procedures. We expect all staff and volunteers to share this commitment, and we provide equitable opportunities for all our children, regardless of background or ability.</span>
-                </span>
-                <span className='flex flex-col gap-2'>
-                    <span className='uppercase font-medium text-3xl opacity-90'>ASDAN</span>
-                    <span className='text-lg opacity-80'>ASDAN is a UK-based education charity and awarding body that provides programmes to more than 30 countries and territories across the world. Their courses equip learners to thrive in 21st Century education, work and life. Temple School SEN Department now offers all courses available of the ASDAN international platform.</span>
-                    <span className='text-lg opacity-80'>These courses are geared for children and adults with a wide range of abilities and cater for multiple types of support requirements. The focus is on showing what the student CAN do and highlighting their strengths. Challenges and tasks tend to be more practical, but cover a range of topics, including maths, science, language, social science, vocational training, and life skills acquisition.</span>
-                </span>
-                <span className='flex gap-8 mt-6 px-32'>
-                    <span className='w-52 h-48 ' >
-                        <img className='w-full h-full object-cover rounded-lg' src={Pic11} alt=''></img>
+            <span className='flex py-10 px-12 gap-10 bg-[#061c56]/80 text-white'>
+                <span className='flex flex-col w-[50%] gap-4'>
+                    <span className='flex flex-col gap-2'>
+                        <span className='uppercase font-medium text-3xl opacity-90'>INTERVENTION</span>
+                        <span className='text-base opacity-80'>The intervention programme involves a teaching assistant available to your child three times a week during specific subjects that require extra attention. This involves review of lessons during one-on-one or small group study periods, differentiation of activities, instruction and assessments, access arrangements for international examinations, behaviour monitoring, setting academic targets, handwriting improvement and weekly monitoring reports.</span>
                     </span>
-                    <span className='w-[21rem] h-48 ' >
-                        <img className='w-full h-full rounded-lg object-cover' src={Pic8} alt=''></img>
+                    <span className='flex flex-col gap-2'>
+                        <span className='uppercase font-medium text-3xl opacity-90'>FULL SUPPORT</span>
+                        <span className='text-base opacity-80'>Temple School's entire philosophy is deeply rooted in an unwavering commitment to the safety and wellbeing of every child, young person and adult in Temple, through consistent and effective safeguarding procedures. We expect all staff and volunteers to share this commitment, and we provide equitable opportunities for all our children, regardless of background or ability.</span>
                     </span>
-                    <span className='w-52 h-48 ' >
-                        <img className='w-full h-full rounded-lg object-cover' src={Pic9} alt=''></img>
-                    </span>
-                    <span className='w-52 h-48 ' >
-                        <img className='w-full h-full rounded-lg object-cover' src={Pic10} alt=''></img>
+                    <span className='flex flex-col gap-2'>
+                        <span className='uppercase font-medium text-3xl opacity-90'>ASDAN</span>
+                        <span className='text-lg opacity-80'>ASDAN is a UK-based education charity and awarding body that provides programmes to more than 30 countries and territories across the world. Their courses equip learners to thrive in 21st Century education, work and life. Temple School SEN Department now offers all courses available of the ASDAN international platform.</span>
+                        <span className='text-base opacity-80'>These courses are geared for children and adults with a wide range of abilities and cater for multiple types of support requirements. The focus is on showing what the student CAN do and highlighting their strengths. Challenges and tasks tend to be more practical, but cover a range of topics, including maths, science, language, social science, vocational training, and life skills acquisition.</span>
                     </span>
                 </span>
-                <span className='flex gap-8 -mt-3 px-32'>
-                    <span className='w-52 h-48 ' >
-                        <img className='w-full h-full object-cover rounded-lg' src={Pic5} alt=''></img>
+                <span className='flex flex-col w-[50%]'>
+                    <span className='flex gap-8 mt-6 px-32'>
+                        <span className='w-52 h-48 ' >
+                            <img className='w-full h-full object-cover rounded-lg' src={Pic11} alt=''></img>
+                        </span>
+                        <span className='w-[21rem] h-48 ' >
+                            <img className='w-full h-full rounded-lg object-cover' src={Pic8} alt=''></img>
+                        </span>
+                        <span className='w-52 h-48 ' >
+                            <img className='w-full h-full rounded-lg object-cover' src={Pic9} alt=''></img>
+                        </span>
+                        <span className='w-52 h-48 ' >
+                            <img className='w-full h-full rounded-lg object-cover' src={Pic10} alt=''></img>
+                        </span>
                     </span>
-                    <span className='w-[21rem] h-48 ' >
-                        <img className='w-full h-full rounded-lg object-cover' src={Pic6} alt=''></img>
-                    </span>
-                    <span className='w-52 h-48 ' >
-                        <img className='w-full h-full rounded-lg object-cover' src={Pic7} alt=''></img>
-                    </span>
-                    <span className='w-52 h-48 ' >
-                        <img className='w-full h-full rounded-lg object-cover' src={Pic4} alt=''></img>
+                    <span className='flex gap-8 -mt-3 px-32'>
+                        <span className='w-52 h-48 ' >
+                            <img className='w-full h-full object-cover rounded-lg' src={Pic5} alt=''></img>
+                        </span>
+                        <span className='w-[21rem] h-48 ' >
+                            <img className='w-full h-full rounded-lg object-cover' src={Pic6} alt=''></img>
+                        </span>
+                        <span className='w-52 h-48 ' >
+                            <img className='w-full h-full rounded-lg object-cover' src={Pic7} alt=''></img>
+                        </span>
+                        <span className='w-52 h-48 ' >
+                            <img className='w-full h-full rounded-lg object-cover' src={Pic4} alt=''></img>
+                        </span>
                     </span>
                 </span>
             </span>
