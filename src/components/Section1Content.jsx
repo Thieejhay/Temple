@@ -71,11 +71,27 @@ const Section1Content = () => {
                     <span className='text-base opacity-80'>Early childhood is the foundation on which children build the rest of their lives. The Early Years and Foundation Stage makes a crucial contribution to children's early development and learning. Starting school is an important step! At Temple we have a carefully planned pre-school induction programme to make the transition from home to school sensitive and appropriate for each child. We provide children with a rich variety of teaching and learning experiences that are appropriate to their needs. Learning takes place in a secure and stimulating environment where first hand learning experiences encourage the development of imagination, creativity and the enjoyment of learning.</span>
                     <span className='text-base opacity-80'>What children can do, rather than what they cannot do are the starting points in learning. Play helps young children to learn and develop through doing and talking, which research has shown to be the means by which young children learn to think. Structured play is important as listening, playing, speaking, concentrating, persistence and learning to work and co-operate with others are the main ways through which children learn about themselves and the world around them. During this stage, Early Learning Goals set out what most children are expected to achieve by the end of the Foundation Stage.</span>
             </span>
+            <div className='flex flex-col bg-[#061c56] py-1 lg:px-24 w-screen lg:h-40 gap-2'>
+                <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
+                <span className='flex lg:justify-between gap-2 items-center lg:px-6 px-4'>
+                    <span className='flex lg:gap-6 gap-2 items-center'>
+                        <span className='lg:w-32 w-16 h-16 lg:h-32 rounded-full '>
+                            <img src={Medal} alt='' className='w-full h-full'></img>
+                        </span>
+                        <span className='flex flex-col text-[#f6bc75] lg:w-fit w-[12rem]'>
+                            <span className='lg:text-3xl text-sm font-medium lg:tracking-wider'>Our Students Are Talented,</span>
+                            <span className='lg:text-2xl text-sm font-normal lg:tracking-wider'>passionate, hard-working and full of ideas.</span>
+                        </span>
+                    </span>
+                    <a href='https://basic.edves.net/#tab2' rel="noreferrer" target='_blank'><span className='lg:px-8 lg:py-5 px-1 py-1 text-xl w-fit h-fit font-semibold text-white bg-[#f6bc75] rounded-md drop-shadow-md'>Apply Now</span></a>
+                </span>
+                <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
+            </div>
             <span className='flex flex-col gap-5'>
                 <span className='px-32 text-2xl font-semibold'>The seven areas of learning and development that make up the Early Years and Foundation Stage curriculum are:</span>
                 <span className='flex flex-col px-32'>
-                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#f6bc75] text-white'>
-                        <span className=' text-white flex justify-between items-center opacity-90'>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#f6bc75] text-[#061c56]'>
+                        <span className=' flex justify-between items-center opacity-90'>
                             <span className='text-xl'>Personal, Social and Emotional Development</span>
                             <span onClick={() => toggleShowMore('showMore7')}>{showMore.showMore7 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
@@ -109,8 +125,8 @@ const Section1Content = () => {
                             </span>
                         }
                     </span>
-                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-white'>
-                        <span className=' text-white flex justify-between items-center opacity-90'>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
+                        <span className=' flex justify-between items-center opacity-90'>
                             <span className='text-xl'>Physical Development</span>
                             <span onClick={() => toggleShowMore('showMore8')}>{showMore.showMore8 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
@@ -140,8 +156,8 @@ const Section1Content = () => {
                             </span>
                         }
                     </span>
-                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#f6bc75] text-white'>
-                        <span className=' text-white flex justify-between items-center opacity-90'>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#f6bc75] text-#061c56]'>
+                        <span className='flex justify-between items-center opacity-90'>
                             <span className='text-xl'>Communication and Language</span>
                             <span onClick={() => toggleShowMore('showMore9')}>{showMore.showMore9 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
@@ -175,8 +191,8 @@ const Section1Content = () => {
                             </span>
                         }
                     </span>
-                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-white'>
-                        <span className=' text-white flex justify-between items-center opacity-90'>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
+                        <span className=' flex justify-between items-center opacity-90'>
                             <span className='text-xl'>Literacy</span>
                             <span onClick={() => toggleShowMore('showMore10')}>{showMore.showMore10 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
@@ -210,8 +226,8 @@ const Section1Content = () => {
                             </span>
                         }
                     </span>
-                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#f6bc75] text-white'>
-                        <span className=' text-white flex justify-between items-center opacity-90'>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#f6bc75] text-#061c56]'>
+                        <span className=' flex justify-between items-center opacity-90'>
                             <span className='text-xl'>Mathematics</span>
                             <span onClick={() => toggleShowMore('showMore11')}>{showMore.showMore11 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
@@ -237,8 +253,8 @@ const Section1Content = () => {
                             </span>
                         }
                     </span>
-                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-white'>
-                        <span className=' text-white flex justify-between items-center opacity-90'>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
+                        <span className=' flex justify-between items-center opacity-90'>
                             <span className='text-xl'>Understanding of the World</span>
                             <span onClick={() => toggleShowMore('showMore12')}>{showMore.showMore12 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
@@ -272,8 +288,8 @@ const Section1Content = () => {
                             </span>
                         }
                     </span>
-                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#f6bc75] text-white'>
-                        <span className=' text-white flex justify-between items-center opacity-90'>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#f6bc75] text-#061c56]'>
+                        <span className=' flex justify-between items-center opacity-90'>
                             <span className='text-xl'>Expressive arts & Design</span>
                             <span onClick={() => toggleShowMore('showMore13')}>{showMore.showMore13 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
@@ -401,7 +417,7 @@ const Section1Content = () => {
             <span className='flex flex-col mt-8 px-24'>
                 <span className='text-3xl font-semibold text-center mb-5 opacity-90'>Admissions Procedure</span>
                 <span className='flex flex-col px-3'>
-                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-white'>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
                         <span className=' flex justify-between items-center opacity-80'>
                             <span className='text-xl'>Obtaining the Registration Form</span>
                             <span onClick={() => toggleShowMore('showMore1')}>{showMore.showMore1 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
@@ -423,8 +439,8 @@ const Section1Content = () => {
                             </span>
                         }
                     </span>
-                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#f6bc75] text-white'>
-                        <span className=' text-white flex justify-between items-center opacity-90'>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#f6bc75] text-[#061c56]'>
+                        <span className=' flex justify-between items-center opacity-90'>
                             <span className='text-xl'>The following must be submitted with the registration form</span>
                             <span onClick={() => toggleShowMore('showMore2')}>{showMore.showMore2 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
@@ -449,8 +465,8 @@ const Section1Content = () => {
                             </span>
                         }
                     </span>
-                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-white'>
-                        <span className=' text-white flex justify-between items-center opacity-80'>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
+                        <span className=' flex justify-between items-center opacity-80'>
                             <span className='text-xl'>Individual visits to the school</span>
                             <span onClick={() => toggleShowMore('showMore3')}>{showMore.showMore3 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
@@ -463,8 +479,8 @@ const Section1Content = () => {
                             </span>
                         }
                     </span>
-                    <span className='flex flex-col gap-3 px-2 py-3 rounded-sm bg-[#f6bc75] text-white'>
-                        <span className=' text-white flex justify-between items-center opacity-90'>
+                    <span className='flex flex-col gap-3 px-4 py-3 rounded-sm bg-[#f6bc75] text-[#061c56]'>
+                        <span className='flex justify-between items-center opacity-90'>
                             <span className='text-xl'>Entrance examinations</span>
                             <span onClick={() => toggleShowMore('showMore4')}>{showMore.showMore4 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
@@ -477,8 +493,8 @@ const Section1Content = () => {
                             </span>
                         }
                     </span>
-                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-white'>
-                        <span className=' text-white flex justify-between items-center opacity-80'>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
+                        <span className='flex justify-between items-center opacity-80'>
                             <span className='text-xl'>Acceptance</span>
                             <span onClick={() => toggleShowMore('showMore5')}>{showMore.showMore5 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
@@ -491,8 +507,8 @@ const Section1Content = () => {
                             </span>
                         }
                     </span>
-                    <span className='flex flex-col gap-3 px-2 py-3 rounded-sm bg-[#f6bc75] text-white'>
-                        <span className=' text-white flex justify-between items-center opacity-90'>
+                    <span className='flex flex-col gap-3 px-4 py-3 rounded-sm bg-[#f6bc75] text-[#061c56]'>
+                        <span className='  flex justify-between items-center opacity-90'>
                             <span className='text-xl'>Orientation for new students</span>
                             <span onClick={() => toggleShowMore('showMore6')}>{showMore.showMore6 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
@@ -507,22 +523,7 @@ const Section1Content = () => {
                     </span>
                 </span>
             </span>
-            <div className='flex flex-col bg-[#061c56] py-1 lg:px-24 w-screen lg:h-40 gap-2'>
-                <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
-                <span className='flex lg:justify-between gap-2 items-center lg:px-6 px-4'>
-                    <span className='flex lg:gap-6 gap-2 items-center'>
-                        <span className='lg:w-32 w-16 h-16 lg:h-32 rounded-full '>
-                            <img src={Medal} alt='' className='w-full h-full'></img>
-                        </span>
-                        <span className='flex flex-col text-[#f6bc75] lg:w-fit w-[12rem]'>
-                            <span className='lg:text-3xl text-sm font-medium lg:tracking-wider'>Our Students Are Talented,</span>
-                            <span className='lg:text-2xl text-sm font-normal lg:tracking-wider'>passionate, hard-working and full of ideas.</span>
-                        </span>
-                    </span>
-                    <a href='https://basic.edves.net/#tab2' rel="noreferrer" target='_blank'><span className='lg:px-8 lg:py-5 px-1 py-1 text-xl w-fit h-fit font-semibold text-white bg-[#f6bc75] rounded-md drop-shadow-md'>Apply Now</span></a>
-                </span>
-                <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
-            </div>
+            
         </div>
     </div>
   )

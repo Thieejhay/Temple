@@ -53,7 +53,7 @@ const ProgramsContent = () => {
         </span>
         <span className='flex flex-col lg:py-12 py-5 gap-5 px-4 lg:gap-10 lg:px-24'>
             <span className='flex flex-col lg:px-3'>
-                <span className='flex flex-col lg:gap-3 gap-1 lg:px-4 px-2 py-4 rounded-sm bg-[#061c56] text-white'>
+                <span className='flex flex-col lg:gap-3 gap-1 lg:px-4 px-2 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
                     <span className=' flex justify-between items-center opacity-80'>
                         <span className='lg:text-xl text-lg'>Early Years and Foundation Stage</span>
                         <span onClick={() => toggleShowMore('showMore1')}>{showMore.showMore1 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
@@ -91,8 +91,8 @@ const ProgramsContent = () => {
                         </span>
                     }
                 </span>
-                <span className='flex flex-col lg:gap-3 gap-1 lg:px-4 px-2 py-4 rounded-sm bg-[#f6bc75] text-white'>
-                    <span className=' text-white flex justify-between items-center opacity-90'>
+                <span className='flex flex-col lg:gap-3 gap-1 lg:px-4 px-2 py-4 rounded-sm bg-[#f6bc75] text-[#061c56]'>
+                    <span className='  flex justify-between items-center opacity-90'>
                         <span className='lg:text-xl text-lg'>Primary School Clubs</span>
                         <span onClick={() => toggleShowMore('showMore2')}>{showMore.showMore2 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                     </span>
@@ -129,8 +129,8 @@ const ProgramsContent = () => {
                         </span>
                     }
                 </span>
-                <span className='flex flex-col lg:gap-3 gap-1 lg:px-4 px-2 py-4 rounded-sm bg-[#061c56] text-white'>
-                    <span className=' text-white flex justify-between items-center opacity-80'>
+                <span className='flex flex-col lg:gap-3 gap-1 lg:px-4 px-2 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
+                    <span className=' flex justify-between items-center opacity-80'>
                         <span className='lg:text-xl text-lg'>Secondary School Clubs</span>
                         <span onClick={() => toggleShowMore('showMore3')}>{showMore.showMore3 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                     </span>
@@ -171,8 +171,8 @@ const ProgramsContent = () => {
                         </span>
                     }
                 </span>
-                <span className='flex flex-col gap-3 px-2 py-3 rounded-sm bg-[#f6bc75] text-white'>
-                    <span className=' text-white flex justify-between items-center opacity-90'>
+                <span className='flex flex-col gap-3 px-2 py-3 rounded-sm bg-[#f6bc75] text-[#061c56]'>
+                    <span className=' flex justify-between items-center opacity-90'>
                         <span className='lg:text-xl text-lg'>College</span>
                         <span onClick={() => toggleShowMore('showMore4')}>{showMore.showMore4 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                     </span>
@@ -198,21 +198,21 @@ const ProgramsContent = () => {
             <span className='flex flex-col gap-4'>
                 <span className='flex flex-col lg:gap-3 gap-1'>
                     <hr className='w-10 h-1 rounded-lg bg-[#f6bc75]'></hr>
-                    <span className='text-2xl font-semibold opacity-90'>Field Trip</span>
+                    <span className='text-2xl font-semibold opacity-90 text-[#061c56]'>Field Trip</span>
                     <span className='lg:text-base text-sm opacity-80'>The school also arranges a number of foreign visits that support the curriculum and give students the chance to expand their horizons as well as to help them understand different cultures. We enjoy exciting activities during our residential trips abroad, such as abseiling, archery, kayaking, zip-wire, and grass sledging. We also get the chance to do things like explore coastal walks, hunt for fossils, look for red squirrels in woodlands on the Isle of Wight, and go to other fun and safe camps.</span>
                 </span>
                 <span className='flex flex-col lg:gap-3 gap-1'>
                     <hr className='w-10 h-1 rounded-lg bg-[#f6bc75]'></hr>
-                    <span className='text-2xl font-semibold opacity-90'>Community Work</span>
+                    <span className='text-2xl font-semibold opacity-90 text-[#061c56]'>Community Work</span>
                     <span className='lg:text-base text-sm opacity-80'>The school also arranges a number of foreign visits that support the curriculum and give students the chance to expand their horizons as well as to help them to understand different cultures. We enjoy exciting activities during our residential trips abroad such as abseiling, archery, kayaking, zip wire and grass sledging. We also get the chance to do things like exploring coastal walks, hunting for fossils and looking for red squirrels in woodlands on the Isle of Wight and other fun and safe camps.</span>
                 </span>
             </span>
             <span className='flex flex-col gap-8'>
-                <span className='flex flex-col gap-3'>
+                <span className='flex flex-col lg:gap-3 gap-1'>
                     <hr className='w-10 h-1 rounded-lg bg-[#f6bc75]'></hr>
-                    <span className='text-2xl font-semibold text-[#061c56]'>SPORTS</span>
+                    <span className='text-2xl font-semibold text-[#061c56] opacity-90'>SPORTS</span>
                 </span>
-                <span className='flex gap-6 justify-center'>
+                <span className='flex lg:gap-6 gap-2 justify-center'>
                     <span className='flex flex-col gap-5'>
                         <span className='w-44 py-4 text-xl font-bold uppercase rounded-xl text-[#f6bc75] flex items-center justify-center bg-[#061c56]'>Football</span>
                         <span className='w-44 h-44 rounded-xl bg-gray-100'><img className='w-full h-full' alt='' src={Football}></img></span>

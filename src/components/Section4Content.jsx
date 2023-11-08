@@ -56,6 +56,22 @@ const Section4Content = () => {
                     <span className='text-base'>We believe in the success of every student, and our ethos is to Discover the strength of each student, Develop a strong academic foundation, and ultimately Deploy independent, driven visionaries.</span>
                     <span className='text-base'>To empower the pupils to pursue a passion for acquiring knowledge, lead lives of integrity and be self-motivated and socially responsible citizens of the world.</span>
             </span>
+            <div className='flex flex-col bg-[#061c56] py-1 lg:px-24 w-screen lg:h-40 gap-2'>
+                <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
+                <span className='flex lg:justify-between gap-2 items-center lg:px-6 px-4'>
+                    <span className='flex lg:gap-6 gap-2 items-center'>
+                        <span className='lg:w-32 w-16 h-16 lg:h-32 rounded-full '>
+                            <img src={Medal} alt='' className='w-full h-full'></img>
+                        </span>
+                        <span className='flex flex-col text-[#f6bc75] lg:w-fit w-[12rem]'>
+                            <span className='lg:text-3xl text-sm font-medium lg:tracking-wider'>Our Students Are Talented,</span>
+                            <span className='lg:text-2xl text-sm font-normal lg:tracking-wider'>passionate, hard-working and full of ideas.</span>
+                        </span>
+                    </span>
+                    <a href='https://basic.edves.net/#tab2' rel="noreferrer" target='_blank'><span className='lg:px-8 lg:py-5 px-1 py-1 text-xl w-fit h-fit font-semibold text-white bg-[#f6bc75] rounded-md drop-shadow-md'>Apply Now</span></a>
+                </span>
+                <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
+            </div>
             <span className='flex flex-col bg-[#061c56] py-2 text-white'>
                 <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
                 <span className='text-3xl font-semibold text-center opacity-90 mb-2 my-1'>Campus-specific facilities and features</span>
@@ -136,9 +152,9 @@ const Section4Content = () => {
                 </span>
             </span>
             <span className='flex flex-col mt-8'>
-                <span className='text-3xl font-semibold text-center mb-5'>Admissions Procedure</span>
+                <span className='text-3xl font-semibold text-center mb-5 opacity-90'>Admissions Procedure</span>
                 <span className='flex flex-col px-24'>
-                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-white'>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
                         <span className=' flex justify-between items-center opacity-80'>
                             <span className='text-xl'>Obtaining the Registration Form</span>
                             <span onClick={() => toggleShowMore('showMore1')}>{showMore.showMore1 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
@@ -160,8 +176,8 @@ const Section4Content = () => {
                             </span>
                         }
                     </span>
-                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#f6bc75] text-white'>
-                        <span className=' text-white flex justify-between items-center opacity-90'>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#f6bc75] text-[#061c56]'>
+                        <span className=' flex justify-between items-center opacity-90'>
                             <span className='text-xl'>The following must be submitted with the registration form</span>
                             <span onClick={() => toggleShowMore('showMore2')}>{showMore.showMore2 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
@@ -186,8 +202,8 @@ const Section4Content = () => {
                             </span>
                         }
                     </span>
-                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-white'>
-                        <span className=' text-white flex justify-between items-center opacity-80'>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
+                        <span className=' flex justify-between items-center opacity-80'>
                             <span className='text-xl'>Individual visits to the school</span>
                             <span onClick={() => toggleShowMore('showMore3')}>{showMore.showMore3 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
@@ -200,8 +216,8 @@ const Section4Content = () => {
                             </span>
                         }
                     </span>
-                    <span className='flex flex-col gap-3 px-2 py-3 rounded-sm bg-[#f6bc75] text-white'>
-                        <span className=' text-white flex justify-between items-center opacity-90'>
+                    <span className='flex flex-col gap-3 px-4 py-3 rounded-sm bg-[#f6bc75] text-[#061c56]'>
+                        <span className=' flex justify-between items-center opacity-90'>
                             <span className='text-xl'>Entrance examinations</span>
                             <span onClick={() => toggleShowMore('showMore4')}>{showMore.showMore4 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
@@ -214,8 +230,8 @@ const Section4Content = () => {
                             </span>
                         }
                     </span>
-                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-white'>
-                        <span className=' text-white flex justify-between items-center opacity-80'>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
+                        <span className=' flex justify-between items-center opacity-80'>
                             <span className='text-xl'>Acceptance</span>
                             <span onClick={() => toggleShowMore('showMore5')}>{showMore.showMore5 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
@@ -228,8 +244,8 @@ const Section4Content = () => {
                             </span>
                         }
                     </span>
-                    <span className='flex flex-col gap-3 px-2 py-3 rounded-sm bg-[#f6bc75] text-white'>
-                        <span className=' text-white flex justify-between items-center opacity-90'>
+                    <span className='flex flex-col gap-3 px-4 py-3 rounded-sm bg-[#f6bc75] text-[#061c56]'>
+                        <span className=' flex justify-between items-center opacity-90'>
                             <span className='text-xl'>Orientation for new students</span>
                             <span onClick={() => toggleShowMore('showMore6')}>{showMore.showMore6 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
@@ -244,22 +260,7 @@ const Section4Content = () => {
                     </span>
                 </span>
             </span>
-            <div className='flex flex-col bg-[#061c56] py-1 lg:px-24 w-screen lg:h-40 gap-2'>
-                <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
-                <span className='flex lg:justify-between gap-2 items-center lg:px-6 px-4'>
-                    <span className='flex lg:gap-6 gap-2 items-center'>
-                        <span className='lg:w-32 w-16 h-16 lg:h-32 rounded-full '>
-                            <img src={Medal} alt='' className='w-full h-full'></img>
-                        </span>
-                        <span className='flex flex-col text-[#f6bc75] lg:w-fit w-[12rem]'>
-                            <span className='lg:text-3xl text-sm font-medium lg:tracking-wider'>Our Students Are Talented,</span>
-                            <span className='lg:text-2xl text-sm font-normal lg:tracking-wider'>passionate, hard-working and full of ideas.</span>
-                        </span>
-                    </span>
-                    <a href='https://basic.edves.net/#tab2' rel="noreferrer" target='_blank'><span className='lg:px-8 lg:py-5 px-1 py-1 text-xl w-fit h-fit font-semibold text-white bg-[#f6bc75] rounded-md drop-shadow-md'>Apply Now</span></a>
-                </span>
-                <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
-            </div>
+            
         </div>
         
     </div>  

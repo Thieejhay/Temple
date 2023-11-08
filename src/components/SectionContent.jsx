@@ -43,7 +43,7 @@ const SectionContent = () => {
                             </span>
                             <hr className='h-3 w-80 ml-12'></hr>
                         </span>
-                        <Link to='/early-years' ><span className='text-sm -mt-3 underline text-[#061c56] font-normal'>Learn more</span></Link>
+                        <Link to='/early-years' ><span className='text-[#061c56] w-fit px-4 flex justify-center py-2 text-sm font-normal border-2 rounded-lg border-[#061c56]'>Learn More</span></Link>
                     </span>
                     <span className='w-[30rem] h-[25rem] bg-gray-200'>
                         <img className='w-full h-full object-cover rounded-lg' alt='' src={pic}></img>
@@ -80,7 +80,7 @@ const SectionContent = () => {
                             </span>
                             <hr className='h-3 w-80 ml-12'></hr>
                         </span>
-                        <Link to='/primary' ><span className='text-sm -mt-3 underline text-[#061c56] font-normal'>Learn more</span></Link>
+                        <Link to='/primary' ><span className='text-[#061c56] w-fit px-4 flex justify-center py-2 text-sm font-normal border-2 rounded-lg border-[#061c56]'>Learn More</span></Link>
                     </span>
                    
                 </span>
@@ -112,7 +112,7 @@ const SectionContent = () => {
                             </span>
                             <hr className='h-3 w-80 ml-12'></hr>
                         </span>
-                        <Link to='/secondary' ><span className='text-sm -mt-3 underline text-[#061c56] font-normal'>Learn more</span></Link>
+                        <Link to='/secondary' ><span className='text-[#061c56] w-fit px-4 flex justify-center py-2 text-sm font-normal border-2 rounded-lg border-[#061c56]'>Learn More</span></Link>
                     </span>
                     <span className='w-[33rem] h-[25rem] bg-gray-200'>
                         <img className='w-full h-full object-cover rounded-lg' alt='' src={pic3}></img>
@@ -149,7 +149,7 @@ const SectionContent = () => {
                             </span>
                             <hr className='h-3 w-80 ml-12'></hr>
                         </span>
-                        <Link to='/college' ><span className='text-sm -mt-3 underline text-[#061c56] font-normal'>Learn more</span></Link>
+                        <Link to='/college' ><span className='text-[#061c56] w-fit px-4 flex justify-center py-2 text-sm font-normal border-2 rounded-lg border-[#061c56]'>Learn More</span></Link>
                     </span>
                    
                 </span>

@@ -43,7 +43,7 @@ const Section2Content = () => {
         <div className='flex flex-col gap-10 mb-8 py-3'>
             <span className='flex pr-24 pl-12'>
                 <img className='w-[34rem]' src={pic1} alt=''></img>
-                <span className='flex flex-col -ml-36 gap-3 pl-12 pt-4 pb-4 bg-[#f6bc75] w-full text-white'>
+                <span className='flex flex-col -ml-36 gap-3 pl-12 pt-4 pb-4 bg-[#f6bc75] w-full '>
                     <span className=' text-5xl font-bold w-[35rem] text-[#061c56]'>Welcome Address by Head of Primary School </span>
                     <span className='text-sm w-[42rem] space-y-2 text-[#061c56]'>
                         <p>We are thrilled to welcome you to our Temple School Primary Section, where we capture the essence of what makes our school an extraordinary place of learning and growth!</p>
@@ -63,6 +63,22 @@ const Section2Content = () => {
                     <span className='text-base opacity-80'>Early childhood is the foundation on which children build the rest of their lives. The Early Years and Foundation Stage makes a crucial contribution to children's early development and learning. Starting school is an important step! At Temple we have a carefully planned pre-school induction programme to make the transition from home to school sensitive and appropriate for each child. We provide children with a rich variety of teaching and learning experiences that are appropriate to their needs. Learning takes place in a secure and stimulating environment where first hand learning experiences encourage the development of imagination, creativity and the enjoyment of learning.</span>
                     <span className='text-base opacity-80'>What children can do, rather than what they cannot do are the starting points in learning. Play helps young children to learn and develop through doing and talking, which research has shown to be the means by which young children learn to think. Structured play is important as listening, playing, speaking, concentrating, persistence and learning to work and co-operate with others are the main ways through which children learn about themselves and the world around them. During this stage, Early Learning Goals set out what most children are expected to achieve by the end of the Foundation Stage.</span>
             </span>
+            <div className='flex flex-col bg-[#061c56] py-1 lg:px-24 w-screen lg:h-40 gap-2'>
+                <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
+                <span className='flex lg:justify-between gap-2 items-center lg:px-6 px-4'>
+                    <span className='flex lg:gap-6 gap-2 items-center'>
+                        <span className='lg:w-32 w-16 h-16 lg:h-32 rounded-full '>
+                            <img src={Medal} alt='' className='w-full h-full'></img>
+                        </span>
+                        <span className='flex flex-col text-[#f6bc75] lg:w-fit w-[12rem]'>
+                            <span className='lg:text-3xl text-sm font-medium lg:tracking-wider'>Our Students Are Talented,</span>
+                            <span className='lg:text-2xl text-sm font-normal lg:tracking-wider'>passionate, hard-working and full of ideas.</span>
+                        </span>
+                    </span>
+                    <a href='https://basic.edves.net/#tab2' rel="noreferrer" target='_blank'><span className='lg:px-8 lg:py-5 px-1 py-1 text-xl w-fit h-fit font-semibold text-white bg-[#f6bc75] rounded-md drop-shadow-md'>Apply Now</span></a>
+                </span>
+                <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
+            </div>
             <span className='flex flex-col bg-[#061c56] py-2 text-white'>
                 <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
                 <span className='text-3xl font-semibold text-center opacity-90 mb-2 my-1'>Campus-specific facilities and features</span>
@@ -159,7 +175,7 @@ const Section2Content = () => {
             <span className='flex flex-col mt-8'>
                 <span className='text-3xl font-semibold text-center mb-5 opacity-90'>Admissions Procedure</span>
                 <span className='flex flex-col px-24'>
-                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-white'>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
                         <span className=' flex justify-between items-center opacity-80'>
                             <span className='text-xl'>Obtaining the Registration Form</span>
                             <span onClick={() => toggleShowMore('showMore1')}>{showMore.showMore1 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
@@ -181,8 +197,8 @@ const Section2Content = () => {
                             </span>
                         }
                     </span>
-                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#f6bc75] text-white'>
-                        <span className=' text-white flex justify-between items-center opacity-90'>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#f6bc75] text-[#061c56]'>
+                        <span className='flex justify-between items-center opacity-90'>
                             <span className='text-xl'>The following must be submitted with the registration form</span>
                             <span onClick={() => toggleShowMore('showMore2')}>{showMore.showMore2 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
@@ -207,8 +223,8 @@ const Section2Content = () => {
                             </span>
                         }
                     </span>
-                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-white'>
-                        <span className=' text-white flex justify-between items-center opacity-80'>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
+                        <span className=' flex justify-between items-center opacity-80'>
                             <span className='text-xl'>Individual visits to the school</span>
                             <span onClick={() => toggleShowMore('showMore3')}>{showMore.showMore3 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
@@ -221,8 +237,8 @@ const Section2Content = () => {
                             </span>
                         }
                     </span>
-                    <span className='flex flex-col gap-3 px-2 py-3 rounded-sm bg-[#f6bc75] text-white'>
-                        <span className=' text-white flex justify-between items-center opacity-90'>
+                    <span className='flex flex-col gap-3 px-4 py-3 rounded-sm bg-[#f6bc75] text-[#061c56]'>
+                        <span className=' flex justify-between items-center opacity-90'>
                             <span className='text-xl'>Entrance examinations</span>
                             <span onClick={() => toggleShowMore('showMore4')}>{showMore.showMore4 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
@@ -235,8 +251,8 @@ const Section2Content = () => {
                             </span>
                         }
                     </span>
-                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-white'>
-                        <span className=' text-white flex justify-between items-center opacity-80'>
+                    <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
+                        <span className='flex justify-between items-center opacity-80'>
                             <span className='text-xl'>Acceptance</span>
                             <span onClick={() => toggleShowMore('showMore5')}>{showMore.showMore5 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
@@ -249,8 +265,8 @@ const Section2Content = () => {
                             </span>
                         }
                     </span>
-                    <span className='flex flex-col gap-3 px-2 py-3 rounded-sm bg-[#f6bc75] text-white'>
-                        <span className=' text-white flex justify-between items-center opacity-90'>
+                    <span className='flex flex-col gap-3 px-4 py-3 rounded-sm bg-[#f6bc75] text-[#061c56]'>
+                        <span className='flex justify-between items-center opacity-90'>
                             <span className='text-xl'>Orientation for new students</span>
                             <span onClick={() => toggleShowMore('showMore6')}>{showMore.showMore6 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
@@ -265,22 +281,7 @@ const Section2Content = () => {
                     </span>
                 </span>
             </span>
-            <div className='flex flex-col bg-[#061c56] py-1 lg:px-24 w-screen lg:h-40 gap-2'>
-                <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
-                <span className='flex lg:justify-between gap-2 items-center lg:px-6 px-4'>
-                    <span className='flex lg:gap-6 gap-2 items-center'>
-                        <span className='lg:w-32 w-16 h-16 lg:h-32 rounded-full '>
-                            <img src={Medal} alt='' className='w-full h-full'></img>
-                        </span>
-                        <span className='flex flex-col text-[#f6bc75] lg:w-fit w-[12rem]'>
-                            <span className='lg:text-3xl text-sm font-medium lg:tracking-wider'>Our Students Are Talented,</span>
-                            <span className='lg:text-2xl text-sm font-normal lg:tracking-wider'>passionate, hard-working and full of ideas.</span>
-                        </span>
-                    </span>
-                    <a href='https://basic.edves.net/#tab2' rel="noreferrer" target='_blank'><span className='lg:px-8 lg:py-5 px-1 py-1 text-xl w-fit h-fit font-semibold text-white bg-[#f6bc75] rounded-md drop-shadow-md'>Apply Now</span></a>
-                </span>
-                <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
-            </div>
+            
         </div>
     </div>
   )

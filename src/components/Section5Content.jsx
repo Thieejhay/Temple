@@ -52,22 +52,22 @@ const Section5Content = () => {
                 <span className='text-3xl font-semibold opacity-80'>Meet the Supervisors</span>
                 <span className='flex gap-5'>
                     <span className='flex flex-col w-60 items-center'>
-                        <span className='w-48 h-52 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg' src={pic15} alt=''></img></span>
+                        <span className='w-48 h-56 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg' src={pic15} alt=''></img></span>
                         <span className='text-sm font-medium text-center mt-2'>EYFS Team lead & speech Therapist</span>
                         <span className='text-base font-normal text-center '>Ms. Cadmus</span>
                     </span>
                     <span className='flex flex-col w-60 items-center'>
-                        <span className='w-48 h-52 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg' src={pic12} alt=''></img></span>
+                        <span className='w-48 h-56 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg' src={pic12} alt=''></img></span>
                         <span className='text-sm font-medium text-center mt-2'>Primary Team lead</span>
                         <span className='text-base font-normal text-center'>Mrs Adesiyan</span>
                     </span>
                     <span className='flex flex-col w-60 items-center '>
-                        <span className='w-48 h-52 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg' src={pic13} alt=''></img></span>
+                        <span className='w-48 h-56 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg' src={pic13} alt=''></img></span>
                         <span className='text-sm font-medium text-center mt-2'>Secondary wave 1 & 3 lead </span>
                         <span className='text-base font-normal text-center'>Mrs Shadeko</span>
                     </span>
                     <span className='flex flex-col w-60 items-center'>
-                        <span className='w-48 h-52 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg' src={pic14} alt=''></img></span>
+                        <span className='w-48 h-56 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg' src={pic14} alt=''></img></span>
                         <span className='text-sm font-medium text-center mt-2'>Secondary wave 2 lead </span>
                         <span className='text-base font-normal text-center'>Ms Kolawole</span>
                     </span>
@@ -251,32 +251,36 @@ const Section5Content = () => {
                         <span className='text-base opacity-80'>These courses are geared for children and adults with a wide range of abilities and cater for multiple types of support requirements. The focus is on showing what the student CAN do and highlighting their strengths. Challenges and tasks tend to be more practical, but cover a range of topics, including maths, science, language, social science, vocational training, and life skills acquisition.</span>
                     </span>
                 </span>
-                <span className='flex flex-col w-[50%]'>
-                    <span className='flex gap-8 mt-6 px-32'>
-                        <span className='w-52 h-48 ' >
+                <span className='flex flex-col w-[50%] gap-8 mt-12'>
+                    <span className='flex gap-8 px-8'>
+                        <span className='w-52 h-32 ' >
                             <img className='w-full h-full object-cover rounded-lg' src={Pic11} alt=''></img>
                         </span>
-                        <span className='w-[21rem] h-48 ' >
+                        <span className='w-[18rem] h-32 ' >
                             <img className='w-full h-full rounded-lg object-cover' src={Pic8} alt=''></img>
                         </span>
-                        <span className='w-52 h-48 ' >
+                    </span>
+                    <span className='flex gap-8 px-8'>
+                        <span className='w-72 h-32 ' >
                             <img className='w-full h-full rounded-lg object-cover' src={Pic9} alt=''></img>
                         </span>
-                        <span className='w-52 h-48 ' >
+                        <span className='w-52 h-32 ' >
                             <img className='w-full h-full rounded-lg object-cover' src={Pic10} alt=''></img>
                         </span>
                     </span>
-                    <span className='flex gap-8 -mt-3 px-32'>
-                        <span className='w-52 h-48 ' >
+                    <span className='flex gap-8 px-8'>
+                        <span className='w-52 h-32 ' >
                             <img className='w-full h-full object-cover rounded-lg' src={Pic5} alt=''></img>
                         </span>
-                        <span className='w-[21rem] h-48 ' >
+                        <span className='w-[18rem] h-32 ' >
                             <img className='w-full h-full rounded-lg object-cover' src={Pic6} alt=''></img>
                         </span>
-                        <span className='w-52 h-48 ' >
+                    </span>
+                    <span className='flex gap-8 px-8'>
+                        <span className='w-72 h-32 ' >
                             <img className='w-full h-full rounded-lg object-cover' src={Pic7} alt=''></img>
                         </span>
-                        <span className='w-52 h-48 ' >
+                        <span className='w-52 h-32 ' >
                             <img className='w-full h-full rounded-lg object-cover' src={Pic4} alt=''></img>
                         </span>
                     </span>

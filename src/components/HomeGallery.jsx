@@ -15,7 +15,7 @@ import Pic12 from '../assets/gallery/dd.png'
 const HomeGallery = () => {
 
   return (
-    <div className='flex flex-col py-8 lg:px-28 px-4 bg-[#21bdf3]/90 text-white'>
+    <div className='flex flex-col py-8 lg:px-28 px-4 bg-[#21bdf3]/30 text-white'>
             <span className='flex flex-col gap-2 text-center lg:mt-6 mt-3'>
                 <span className='uppercase lg:text-4xl text-xl font-semibold opacity-90'>Gallery</span>
             </span>

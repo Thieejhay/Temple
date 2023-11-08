@@ -229,11 +229,11 @@ const AboutContent = () => {
         <div className='flex flex-col lg:gap-5 gap-3 lg:py-8 py-5' id='school'>
             <span className='lg:text-3xl text-xl font-semibold text-center'>Our Schools</span>
             <div className='flex lg:flex-row flex-col lg:gap-10 gap-8 justify-center items-center'>
-                <span className='flex flex-col '>
-                    <span className='w-[17rem] h-60 '>
-                        <img src={School1} alt='' className='w-full h-full rounded-t-lg'></img>
+                <span className='flex flex-col h-[34rem]'>
+                    <span className=' '>
+                        <img src={School1} alt='' className='w-[17rem] h-60 rounded-t-lg'></img>
                     </span>
-                    <span className='lg:p-4 p-3 w-[17rem] flex flex-col gap-2 lg:gap-5'>
+                    <span className='lg:p-4 p-3 w-[17rem] flex flex-col h-[19rem] justify-between '>
                         <span className='text-[#061c56] text-2xl font-semibold uppercase tracking-wider'>Early Years</span>
                         <span className='lg:text-xs text-sm font-normal opacity-80 mb-3'>The Children in Early Years and Foundation stage between 1 and 4 years.</span>
                         <span className='flex gap-2 items-center'>
@@ -247,11 +247,11 @@ const AboutContent = () => {
                         <Link to='/early-years'><span className='text-[#061c56] flex justify-center py-4 text-sm font-normal border-2 rounded-lg border-[#061c56]'>Learn More</span></Link>
                     </span>
                 </span>
-                <span className='flex flex-col '>
-                    <span className='w-[17rem] h-60'>
-                        <img src={School2} alt='' className='w-full h-full rounded-t-lg'></img>
+                <span className='flex flex-col h-[34rem]'>
+                    <span className=''>
+                        <img src={School2} alt='' className='w-[17rem] h-60 rounded-t-lg'></img>
                     </span>
-                    <span className='lg:p-4 p-3 w-[17rem] flex flex-col gap-2 lg:gap-5'>
+                    <span className='lg:p-4 p-3 w-[17rem] h-[19rem] justify-between flex flex-col'>
                         <span className='text-[#061c56] text-2xl font-semibold uppercase tracking-wider '>Primary</span>
                         <span className='lg:text-xs text-sm font-normal opacity-80 mb-1'>In our primary section, the curriculum is presented to them in an integrated manner, through cross-curricular themes</span>
                         <span className='flex gap-2 items-center'>
@@ -268,21 +268,20 @@ const AboutContent = () => {
                         <Link to='/primary '><span className='text-[#061c56] flex justify-center py-4 text-sm font-normal border-2 rounded-lg border-[#061c56]'>Learn More</span></Link>
                     </span>
                 </span>
-                <span className='flex flex-col '>
-                    <span className='w-[17rem] h-60 '>
-                        <img src={School3} alt='' className='w-full h-full rounded-t-lg'></img>
+                <span className='flex flex-col h-[34rem]'>
+                    <span className=''>
+                        <img src={School3} alt='' className='w-[17rem] h-60 rounded-t-lg'></img>
                     </span>
-                    <span className='lg:p-4 p-3 w-[17rem] flex flex-col gap-2 lg:gap-5'>
+                    <span className='lg:p-4 p-3 w-[17rem] h-[19rem] justify-between flex flex-col'>
                         <span className='text-[#061c56] text-2xl font-semibold uppercase tracking-wider'>Secondary</span>
-                        <span className='lg:text-xs text-sm font-normal opacity-80 mb-1'>Builds upon the attention to detail that underscores the provision in Temple Early Years & Foundation Stage, and Temple Primary.</span>
-                        <span className='flex gap-2 items-center mb-1'>
+                        <span className='lg:text-xs text-sm font-normal opacity-80'>Builds upon the attention to detail that underscores the provision in Temple Early Years & Foundation Stage, and Temple Primary.</span>
+                        <span className='flex gap-2 items-center'>
                             <BsTelephone className='w-6 h-6 text-[#061c56]'/>
                             <span className='flex flex-col gap-0'>
                                 <span className='text-xs font-light opacity-80'>+234 708 556 1673</span>
-                                <span className='text-xs font-light opacity-80'>+234 708 556 1673</span>
                             </span>
                         </span>
-                        <span className='flex gap-2 items-center mb-1'>
+                        <span className='flex gap-2 items-center'>
                             <CiLocationOn className='w-6 h-6 text-[#061c56]'/>
                             <span className='flex flex-col gap-0'>
                                 <span className='text-xs font-light opacity-80'>4-6 Odegbami st, Off Aba Johnson </span>
@@ -292,11 +291,11 @@ const AboutContent = () => {
                         <Link to='/secondary'><span className='text-[#061c56] flex justify-center py-4 text-sm font-normal border-2 rounded-lg border-[#061c56]'>Learn More</span></Link>
                     </span>
                 </span>
-                <span className='flex flex-col '>
-                    <span className='w-[17rem] h-60 '>
-                        <img src={School4} alt='' className='w-full h-full rounded-t-lg'></img>
+                <span className='flex flex-col h-[34rem]'>
+                    <span className=''>
+                        <img src={School4} alt='' className='w-[17rem] h-60 rounded-t-lg'></img>
                     </span>
-                    <span className='lg:p-4 p-3 w-[17rem] flex flex-col gap-2 lg:gap-5'>
+                    <span className='lg:p-4 p-3 w-[17rem] flex flex-col h-[19rem] justify-between'>
                         <span className='text-[#061c56] text-2xl font-semibold uppercase tracking-wider'>College</span>
                         <span className='lg:text-xs text-sm font-normal opacity-80 mb-1'>A private co-educational day and boarding sixth form that intensively and cohesively prepare post 16 year olds for entry into universities</span>
                         <span className='flex gap-2 items-center mb-1'>
