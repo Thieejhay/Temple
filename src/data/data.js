@@ -9,36 +9,36 @@ import news6 from '../assets/news6.png';
 export const swiper = [
     {
         id: 0,
-        title: 'Open Day- All school section',
-        mssg: "Join us for Temple School's Open Day!",
+        title: 'The Flame: November Temple School Newsletter',
+        mssg: "We are excited to bring you another issue packed with news, updates, and exciting events.",
         src: news1,
         link: '/news-1'
     },
     {
         id: 1,
-        title: "Counting down...Temple School's 20th Anniversary",
-        mssg: 'The Temple School Journey. Where Passion meets Education ',
+        title: "The Flame: September Temple School Newsletter",
+        mssg: 'Welcome to the new academic session. The 2023/2024 academic session promises to be full of exciting...',
         src: news3,
         link: '/news-2'
     },
     {
         id: 2,
-        title: 'Congratulations to our Temple Ambassador - Maria Norman-Salako ',
-        mssg: 'Maria Norman-Salako wins second place in AISEN art competition. ',
+        title: 'The Flame: August Temple School Newsletter',
+        mssg: 'Welcome to the August edition of our monthly newsletter. We hope you are all having a wonderful ...',
         src: news4,
         link: '/news-3'
     },
     {
         id: 3,
-        title: 'Temple School receives Beacon of Safety Award from Safe Schools Lagos (SSLAG). ',
-        mssg: 'Safety Award from Safe Schools Lagos (SSLAG). ',
+        title: 'The Flame: July Temple School Newsletter',
+        mssg: "As we enter the final weeks of the school year, we are excited to present to you the second edition of our...",
         src: news5,
         link: '/news-4'
     },
     {
         id: 3,
-        title: 'Celebrating New Leaders - The Flame Bearers and The Aviators! ',
-        mssg: 'Join us in congratulating the outstanding members of our Students Representative Council',
+        title: 'The Flame: June Temple School Newsletter',
+        mssg: "With great pleasure, we welcome you to the June edition of Temble School's monthly newsletter.",
         src: news6,
         link: '/news-5'
     },

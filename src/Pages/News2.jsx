@@ -11,29 +11,25 @@ const News2 = () => {
   return (
     <div>
         <NavBar />
-        <div className='flex flex-col'>
-            <span className='flex justify-center items-center w-screen'>
-                <img src={Open} alt='' className='w-full h-[20rem] object-cover'></img>
-            </span>
-            <span className='flex flex-col px-24 py-6 gap-5'>
-                <span className='flex flex-col'>
-                    <span className='text-3xl font-semibold opacity-90'>Counting down...Temple School’s 20th Anniversary</span>
-                    <span className='text-lg opacity-90'>The Temple School Journey. Where Passion meets Education</span>
-                </span>
-                <span className='text-lg font-medium'>In the bustling city of Lagos, a remarkable educational institution emerged, igniting a spark of curiosity and passion in young minds. Welcome to Temple Preparatory School, a haven of learning and growth nestled at 213 Ikorodu Road, Ilupeju, currently the EYFS section location. Let us take a step back and delve into how it all began.</span>
-                <span className='text-lg font-medium'>Join us on a journey back to July 12, 2004, when Temple School opened its doors to eager pupils aged between 2 and 11 years old. Founded by the visionary Mrs. Shirley Okharedia, a distinguished educator who was previously the Head of Grange School G.R.A. Ikeja. Temple School is an independent co-educational institution revered for its commitment to nurturing young minds.</span>
-                <span className='text-lg font-medium'>Imagine the excitement that filled the air as summer rolled in that same year. From July 12 to August 27, the school organised a remarkable Summer Holiday programme that captivated a remarkable number of a 100 pupils. This immersive experience offered a perfect blend of academic excellence, thrilling educational field trips, exhilarating sports activities, and enlightening computer training. It was an unforgettable season of exploration and growth.</span>
-                <span className='text-lg font-medium'>Embracing the spirit of gratitude and compassion, Temple School took its pupils on an eye-opening journey to Grace Springs Medical Centre and the Little Saints Orphanage on October 29, 2004, as part of the Harvest Thanksgiving Day celebrations. This compassionate act of kindness left an indelible mark on the hearts of all involved.</span>
-            </span>
+        <div className='flex flex-col py-6'>
             <span className='flex justify-center items-center'>
-                <img src={Open2} alt='' className='w-[18rem] h-[28rem]'></img>
+                <img src={Open} alt='' className='w-[30rem] h-37rem]'></img>
+                <img src={Open2} alt='' className='w-[30rem] h-37rem]'></img>
             </span>
-            <span className='flex flex-col px-24 py-6 gap-5'>
-                <span className='text-lg font-medium'>The quest for knowledge extended beyond the school's walls. On October 27, 2004, Temple School embarked on a captivating field trip to its local surroundings in Ilupeju. The young learners eagerly observed the diverse architectural wonders that dotted their neighbourhood, an integral part of their Geography lesson. This hands-on experience ignited their curiosity and broadened their understanding of the world around them.</span>
-                <span className='text-lg font-medium'>On November 9, 2004, some staff embarked on an extraordinary journey to Nairobi, Kenya, to partake in a week-long course specifically designed for international school teachers. This investment in professional development ensured that Temple School's teachers remained at the forefront of educational excellence. Other staff members attended a transformative 3-day workshop at the esteemed Golden Gate Restaurant in Ikoyi. Here, teachers honed their skills in identifying and assisting children with dyslexia and autism, ensuring that no child was left behind.</span>
-                <span className='text-lg font-medium'>The Temple School journey has been nothing short of extraordinary, marked by moments of growth, compassion, and relentless pursuit of excellence. As this remarkable institution continues to shape the minds of tomorrow's leaders, it stands as a testament to the power of education to inspire, transform, and ignite the flame of curiosity within every child.</span>
-            </span>
-            
+            <span className='flex flex-col px-28 py-6 gap-5'>
+                <span className='flex flex-col'>
+                    <span className='text-2xl font-semibold opacity-90'>We are thrilled to bring to you the September edition of Temple School's monthly newsletter - The Flame.</span>
+                    {/* <span className='text-lg opacity-90'>Join Us For Temple's School Open Day!</span> */}
+                </span>
+                <span className='text-lg opacity-90 font-medium'>Welcome to the new academic session! The 2023/2024 academic session promises to be full of exciting opportunities for growth and success.</span>
+                <span className='text-lg font-medium opacity-90'>To our returning students and families, we are thrilled to have you back and look forward to seeing your continued dedication and hard work. To our new students and families, you are welcomed with open arms and we will ensure your transition is smooth and enjoyable.</span>
+                <span className='text-lg font-medium opacity-90'>We value the involvement of parents and guardians as partners in their child's education. Our dedicated staff and teachers are committed to guiding students towards their full potential.</span>
+                <span className='text-lg font-medium opacity-90'>As a school community, we remain committed to fostering a nuturing and an environment where every student feels valued and supported. Please stay informed about upcoming events in our monthly newsletter and attend school events to stay connected.</span>
+                <span className='text-lg font-medium opacity-90'>Let us make this a memorable year together, achieving great things through support and collaboration.</span>
+                <a href={process.env.PUBLIC_URL + '/files/Sep.pdf'} download>
+                    <span className='h-fit py-2 px-3 text-center text-[#335672] bg-[#f6bc75] uppercase text-lg w-fit flex'>Download the pack</span>
+                </a>
+            </span>    
         </div>
         <div className='flex py-12 justify-center'>
             <span className=' h-48 w-20 bg-[#061c56]'></span>

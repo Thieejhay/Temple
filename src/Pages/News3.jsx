@@ -3,8 +3,7 @@ import NavBar from '../components/NavBar';
 import Contact from '../components/Contact';
 import Open3 from '../assets/n3.png';
 import Open2 from '../assets/n4.png';
-import Open from '../assets/n5.png';
-import Open4 from '../assets/n6.png';
+
 
 const News3 = () => {
     useEffect(() => {
@@ -13,25 +12,25 @@ const News3 = () => {
   return (
     <div>
         <NavBar />
-        <div className='flex flex-col'>
-            <span className='flex justify-center items-center gap-3 pt-4'>
-                <img src={Open3} alt='' className='w-[15rem] h-[15rem] rounded-lg'></img>
-                <img src={Open2} alt='' className='w-[15rem] h-[20rem] rounded-lg'></img>
+        <div className='flex flex-col py-6'>
+            <span className='flex justify-center items-center'>
+                <img src={Open3} alt='' className='w-[30rem] h-37rem]'></img>
+                <img src={Open2} alt='' className='w-[30rem] h-37rem]'></img>
             </span>
-            <span className='flex flex-col px-24 py-6 gap-5'>
-                <span className='flex flex-col gap-2'>
-                    <span className='text-3xl font-semibold opacity-90'>Congratulations to our Temple Ambassador – Maria Norman-Salako</span>
-                    <span className='text-xl font-medium opacity-90'>Temple Ambassador – Maria Norman-Salako wins second place in AISEN art competition.  </span>
+            <span className='flex flex-col px-28 py-6 gap-5'>
+                <span className='flex flex-col'>
+                    <span className='text-2xl font-semibold opacity-90'>Welcome to the August edition ofour monthly newsletter - The Flame.</span>
+                    {/* <span className='text-lg opacity-90'>Join Us For Temple's School Open Day!</span> */}
                 </span>
-                <span className='text-lg font-medium'>Maria Norman-Salako represented Temple Primary School at AISEN Art competition, held in June 2023 with the theme- The Art of Nature. Maria won the second position in the Keystage 2 (KS2) category. It took her nine hours to complete the lovely art piece. Well done MAria, Temple School is proud of you! </span>
-            </span>
-            <span className='flex justify-center items-center gap-3'>
-                <img src={Open} alt='' className='w-[15rem] h-[20rem] rounded-lg'></img>
-                <img src={Open4} alt='' className='w-[15rem] h-[15rem] rounded-lg'></img>
-            </span>
-            
-            
-            
+                <span className='text-lg opacity-90 font-medium'>We hope you are all having a wonderful summer break so far and enjoying some quality time with your loved ones. The staff at Temple School is eagerly walting for the new academic session to begin, and we cannot wait to welcome all our students back. As we get ready for the n&w academic session, we would like to update you all on some important information and events scheduled for the upcoming months.</span>
+                <span className='text-lg font-medium opacity-90'>Firstly, we would like to extend a warm welcome to all our new families joining the Temple School community this year. Our staff is already working hard to ensure a smooth transition for all new students and wip cannot wait to meet you all in person.</span>
+                <span className='text-lg font-medium opacity-90'>We are proud of our school's academic excellence, as well as the vibrant creative and athletic programs that we offer. Our dedicated and passionate teachers and staff are eager to work with your children, and we are confident that they will thrive in our welcoming and supportive environment.</span>
+                <span className='text-lg font-medium opacity-90'>Furthermore, we would like to remind students and parents that the first day of school is on September 4th, 2023. Students are expected to arrive at school on time and in complete uniform. Our staff will be organising several orientation sessions for students on the first day of school to help them get started on the right foot.</span>
+                <span className='text-lg font-medium opacity-90'>Lastly, we would like to thank you for choosing Temple School.</span>
+                <a href={process.env.PUBLIC_URL + '/files/Aug.pdf'} download>
+                    <span className='h-fit py-2 px-3 text-center text-[#335672] bg-[#f6bc75] uppercase text-lg w-fit flex'>Download the pack</span>
+                </a>
+            </span>    
         </div>
         <div className='flex py-12 justify-center'>
             <span className=' h-48 w-20 bg-[#061c56]'></span>

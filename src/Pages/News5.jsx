@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import NavBar from '../components/NavBar';
 import Open2 from '../assets/n9.png';
+import Open3 from '../assets/n10.png';
 import Contact from '../components/Contact';
 
 
@@ -13,26 +14,24 @@ const News5 = () => {
   return (
     <div>
         <NavBar />
-        <div className='flex flex-col'>
-            <span className='flex flex-col px-24 py-6 gap-5'>
-                <span className='flex flex-col'>
-                    <span className='text-3xl font-semibold opacity-90'>Celebrating New Leaders - The Flame Bearers and The Aviators! </span>
-                </span>
-                <span className='text-lg font-medium'>Join us in congratulating the outstanding members of our Students Representative Council for the primary section - The Flame Bearers - and the secondary section - The Aviators. </span>
-                <span className='text-lg font-medium'>Ready to kickstart the 2023/2024 academic session, they embody integrity, diligence, and an unwavering passion to elevate our students to greater heights.      
-                </span>
-            <span className='text-lg font-medium'>Leadership sets individuals apart, enabling them to conquer challenges, ignite inspiration, and ignite positive change. The Flame Bearers and The Aviators have eagerly embraced this responsibility, poised to shape our Temple School community for the better, infusing it with fresh perspectives and unwavering commitment.</span>
-            <span className='text-lg font-medium'>As The Flame Bearers and The Aviators soar into their new roles, we urge them to prioritise the dreams, well-being, and aspirations of their fellow students. By nurturing a culture of inclusion, support, and respect, they will cultivate an environment where growth and excellence thrive. </span>
-            <span className='text-lg font-medium'>Let us also applaud the previous student leaders for their incredible dedication to shaping Temple School and leaving behind a legacy of unity and progress. To you, outgoing Students Representative Council, we extend our heartfelt gratitude for your extraordinary contributions. </span>
-            <span className='text-lg font-medium'>Congratulations, The Flame Bearers and The Aviators! May your leadership journey be filled with boundless learning, personal growth, and impactful change. We eagerly await the remarkable contributions </span>
-            </span>
-            
+        <div className='flex flex-col py-6'>
             <span className='flex justify-center items-center'>
-                <img src={Open2} alt='' className='w-[25rem] h-[55rem] rounded-lg'></img>
+                <img src={Open2} alt='' className='w-[30rem] h-37rem]'></img>
+                <img src={Open3} alt='' className='w-[30rem] h-37rem]'></img>
             </span>
-            
-            
-            
+            <span className='flex flex-col px-28 py-6 gap-5'>
+                <span className='flex flex-col'>
+                    <span className='text-2xl font-semibold opacity-90'>We are thrilled to bring to you the June edition of Temple School's monthly newsletter - The Flame.</span>
+                    {/* <span className='text-lg opacity-90'>Join Us For Temple's School Open Day!</span> */}
+                </span>
+                <span className='text-lg opacity-90 font-medium'>With great pleasure, we welcome you to the June edition of Temple School's monthly newsletter. This newsletter is an opportunity for us to share important information about school events, academic achievements, and community updates.</span>
+                <span className='text-lg font-medium opacity-90'>As we move into the final stretch of the school year, there is a lot to celebrate. Our students have been working hard and achieving great things both in and out of the classroom. From academic success to athletic victories, our school community has a lot to be proud of.</span>
+                <span className='text-lg font-medium opacity-90'>Many exciting events are coming up in the next few weeks, including our end-of-year celebrations and graduation ceremonies. We look forward to celebrating our students' accomplishments and saying goodbye to our graduating College seniors as they embark on the next chapter of their lives.</span>
+                <span className='text-lg font-medium opacity-90'>Thank you for your continued support of our school and our students. We hope you enjoy reading this month's newsletter and staying up to date on all the latest news and events.</span>
+                <a href={process.env.PUBLIC_URL + '/files/Jun.pdf'} download>
+                    <span className='h-fit py-2 px-3 text-center text-[#335672] bg-[#f6bc75] uppercase text-lg w-fit flex'>Download the pack</span>
+                </a>
+            </span>    
         </div>
         <div className='flex py-12 justify-center'>
             <span className=' h-48 w-20 bg-[#061c56]'></span>

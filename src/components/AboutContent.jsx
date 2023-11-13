@@ -318,85 +318,130 @@ const AboutContent = () => {
             </span>
             <div className='hidden flex-col gap-6 lg:flex'>
                 <span className='flex gap-6'>
-                    <span className='flex flex-col w-56 shadow-xl rounded-b-md'>
-                        <span className='w-56 h-56 rounded-md bg-gray-200'><img src={Robert} alt='' className='w-full h-full rounded-md'></img></span>
-                        <span className='text-xl font-medium justify-center flex py-5 hover:bg-[#061c56] hover:text-white'>Robert Okharedia</span>
+                    <span className='flex flex-col w-56 shadow-xl'>
+                        <span className='w-56 h-56 bg-gray-200'><img src={Robert} alt='' className='w-full h-full rounded-b-none rounded-t-md'></img></span>
+                        <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                            <span className='text-xl font-medium '>Robert Okharedia</span>
+                            <span className='text-base font-medium'>Chairman</span>
+                        </span>
                     </span>
-                    <span className='flex flex-col w-56 shadow-xl rounded-b-md'>
-                        <span className='w-56 h-56 rounded-md bg-gray-200'><img src={Shirley} alt='' className='w-full h-full rounded-md'></img></span>
-                        <span className='text-xl font-medium justify-center flex py-5 hover:bg-[#061c56] hover:text-white'>Shirley Okharedia</span>
+                    <span className='flex flex-col w-56 shadow-xl'>
+                        <span className='w-56 h-56 bg-gray-200'><img src={Shirley} alt='' className='w-full h-full '></img></span>
+                        <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                            <span className='text-xl font-medium'>Shirley Okharedia</span>
+                            <span className='text-base font-medium'>Founding Director</span>
+                        </span>
                     </span>
-                    <span className='flex flex-col w-56 shadow-xl rounded-b-md'>
-                        <span className='w-56 h-56 rounded-md bg-gray-200'><img src={Adeola} alt='' className='w-full h-full rounded-md'></img></span>
-                        <span className='text-xl font-medium justify-center flex py-5 hover:bg-[#061c56] hover:text-white'>Adeola Arofin</span>
+                    <span className='flex flex-col w-56 shadow-xl'>
+                        <span className='w-56 h-56 bg-gray-200'><img src={Adeola} alt='' className='w-full h-full rounded-t-md'></img></span>
+                        <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                            <span className='text-xl font-medium '>Adeola Arofin</span>
+                            <span className='text-base font-medium'>Director of Education</span>
+                        </span>
                     </span>
-                    <span className='flex flex-col w-56 shadow-xl rounded-b-md'>
-                        <span className='w-56 h-56 rounded-md bg-gray-200'><img src={Ben} alt='' className='w-full h-full rounded-md'></img></span>
-                        <span className='text-xl font-medium justify-center flex py-5 hover:bg-[#061c56] hover:text-white'>Benjamin Ankamah</span>
+                    <span className='flex flex-col w-56 shadow-xl'>
+                        <span className='w-56 h-56 bg-gray-200'><img src={Ben} alt='' className='w-full h-full rounded-md-t'></img></span>
+                        <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                            <span className='text-xl font-medium '>Benjamin Ankamah</span>
+                            <span className='text-base font-medium'>Business Manager</span>
+                        </span>
                     </span>
-                    <span className='flex flex-col w-56 shadow-xl rounded-b-md'>
-                        <span className='w-56 h-56 rounded-md bg-gray-200'><img src={Davis} alt='' className='w-full h-full rounded-md'></img></span>
-                        <span className='text-xl font-medium justify-center flex py-5 hover:bg-[#061c56] hover:text-white'>Davis Ogunleye</span>
+                    <span className='flex flex-col w-56 shadow-xl '>
+                        <span className='w-56 h-56'><img src={Davis} alt='' className='w-full h-full rounded-t-md'></img></span>
+                        <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                            <span className='text-xl font-medium '>Davis Ogunleye</span>
+                            <span className='text-base font-medium'>Principal, Secondary School</span>
+                        </span>
                     </span>
                 </span>
                 <span className='flex gap-6'>
-                    <span className='flex flex-col w-56 shadow-xl rounded-b-md'>
-                        <span className='w-56 h-56 rounded-md bg-gray-200'><img src={Amina} alt='' className='w-full h-full rounded-md'></img></span>
-                        <span className='text-xl font-medium justify-center flex py-5 hover:bg-[#061c56] hover:text-white'>Amina Tswanya</span>
-                    </span>
-                    <span className='flex flex-col w-56 shadow-xl rounded-b-md'>
-                        <span className='w-56 h-56 rounded-md bg-gray-200'><img src={Rita} alt='' className='w-full h-full rounded-md'></img></span>
-                        <span className='text-xl font-medium justify-center flex py-5 hover:bg-[#061c56] hover:text-white'>Rita Johnson-Nadar</span>
-                    </span>
-                    <span className='flex flex-col w-56 shadow-xl rounded-b-md'>
-                        <span className='w-56 h-56 rounded-md bg-gray-200'><img src={Oseri} alt='' className='w-full h-full rounded-md'></img></span>
-                        <span className='text-xl font-medium justify-center flex py-5 hover:bg-[#061c56] hover:text-white'>Oseri Owoeye</span>
-                    </span>
-                    <span className='flex flex-col w-56 shadow-xl rounded-b-md'>
-                        <span className='w-56 h-56 rounded-md bg-gray-200'><img src={Gloria} alt='' className='w-full h-full rounded-md'></img></span>
-                        <span className='text-xl font-medium justify-center flex py-5 hover:bg-[#061c56] hover:text-white'>
-                            Gloria Rhodes-Nash
+                    <span className='flex flex-col w-56 shadow-xl'>
+                        <span className='w-56 h-56 bg-gray-200'><img src={Amina} alt='' className='w-full h-full rounded-t-md'></img></span>
+                        <span className='text-center rounded-b-md flex py-6 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                            <span className='text-xl font-medium '>Amina Tswanya</span>
+                            <span className='text-base font-medium'>Head, Primary School</span>
                         </span>
                     </span>
-                    <span className='flex flex-col w-56 shadow-xl rounded-b-md'>
-                        <span className='w-56 h-56 rounded-md bg-gray-200'><img src={Jos} alt='' className='w-full h-full rounded-md'></img></span>
-                        <span className='text-xl font-medium justify-center flex py-5 hover:bg-[#061c56] hover:text-white'>Jos Dawodu</span>
+                    <span className='flex flex-col w-56 shadow-xl'>
+                        <span className='w-56 h-56 bg-gray-200'><img src={Rita} alt='' className='w-full h-full rounded-t-md'></img></span>
+                        <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                            <span className='text-xl font-medium '>Rita Johnson-Nadar</span>
+                            <span className='text-base font-medium'>Head, Early Years and Foundation Stage</span>
+                        </span>
+                    </span>
+                    <span className='flex flex-col w-56 shadow-xl'>
+                        <span className='w-56 h-56 bg-gray-200'><img src={Oseri} alt='' className='w-full h-full rounded-t-md'></img></span>
+                        <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                            <span className='text-xl font-medium '>Oseri Owoeye</span>
+                            <span className='text-base font-medium'>Head, Exceptional Learners Department</span>
+                        </span>
+                    </span>
+                    <span className='flex flex-col w-56 shadow-xl'>
+                        <span className='w-56 h-56 bg-gray-200'><img src={Gloria} alt='' className='w-full h-full rounded-t-md'></img></span>
+                        <span className='text-center rounded-b-md flex py-6 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                            <span className='text-xl font-medium '>Gloria Rhodes-Nash</span>
+                            <span className='text-base font-medium'>Head of Accounts</span>
+                        </span>
+                    </span>
+                    <span className='flex flex-col w-56 shadow-xl'>
+                        <span className='w-56 h-56 bg-gray-200'><img src={Jos} alt='' className='w-full h-full rounded-t-md'></img></span>
+                        <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                            <span className='text-xl font-medium '>Jos Dawodu</span>
+                            <span className='text-base font-medium'>Vice Principal, Secondary School </span>
+                        </span>
                     </span>
                 </span>
                 <span className='flex gap-6'>
-                    <span className='flex flex-col w-56 shadow-xl rounded-b-md'>
-                        <span className='w-56 h-56 rounded-md bg-gray-200'><img src={Stella} alt='' className='w-full h-full rounded-md'></img></span>
-                        <span className='text-xl font-medium justify-center flex py-5 hover:bg-[#061c56] hover:text-white'>
-                            Stella Somorin
+                    <span className='flex flex-col w-56 shadow-xl'>
+                        <span className='w-56 h-56 bg-gray-200'><img src={Stella} alt='' className='w-full h-full rounded-t-md'></img></span>
+                        <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                            <span className='text-xl font-medium '>Stella Somorin</span>
+                            <span className='text-base font-medium'>Head, Events and Public Relations</span>
                         </span>
                     </span>
-                    <span className='flex flex-col w-56 shadow-xl rounded-b-md'>
-                        <span className='w-56 h-56 rounded-md bg-gray-200'><img src={Jimoh} alt='' className='w-full h-full rounded-md'></img></span>
-                        <span className='text-xl font-medium justify-center flex py-5 hover:bg-[#061c56] hover:text-white'>Jimoh Wasiu</span>
+                    <span className='flex flex-col w-56 shadow-xl'>
+                        <span className='w-56 h-56 bg-gray-200'><img src={Jimoh} alt='' className='w-full h-full rounded-t-md'></img></span>
+                        <span className='text-center rounded-b-md flex py-6 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                            <span className='text-xl font-medium '>Jimoh Wasiu</span>
+                            <span className='text-base font-medium'>Vice Principal, College</span>
+                        </span>
                     </span>
-                    <span className='flex flex-col w-56 shadow-xl rounded-b-md'>
-                        <span className='w-56 h-56 rounded-md bg-gray-200'><img src={Chinwe} alt='' className='w-full h-full rounded-md'></img></span>
-                        <span className='text-xl font-medium justify-center flex py-5 hover:bg-[#061c56] hover:text-white'>Chinwe Awogbade</span>
+                    <span className='flex flex-col w-56 shadow-xl'>
+                        <span className='w-56 h-56 bg-gray-200'><img src={Chinwe} alt='' className='w-full h-full rounded-t-md'></img></span>
+                        <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                            <span className='text-xl font-medium '>Chinwe Awogbade</span>
+                            <span className='text-base font-medium'>Head, Boarding House Services</span>
+                        </span>
                     </span>
-                    <span className='flex flex-col w-56 shadow-xl rounded-b-md'>
-                        <span className='w-56 h-56 rounded-md bg-gray-200'><img src={Adu} alt='' className='w-full h-full rounded-md'></img></span>
-                        <span className='text-xl font-medium justify-center flex py-5 hover:bg-[#061c56] hover:text-white'>Aduragbemi Ipinolu</span>
+                    <span className='flex flex-col w-56 shadow-xl'>
+                        <span className='w-56 h-56 bg-gray-200'><img src={Adu} alt='' className='w-full h-full rounded-t-md'></img></span>
+                        <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                            <span className='text-xl font-medium '>Aduragbemi Ipinolu</span>
+                            <span className='text-base font-medium'>Deputy Head, Early Years and Foundation Stage</span>
+                        </span>
                     </span>
-                    <span className='flex flex-col w-56 shadow-xl rounded-b-md'>
-                        <span className='w-56 h-56 rounded-md bg-gray-200'><img src={Kelechi} alt='' className='w-full h-full rounded-md'></img></span>
-                        <span className='text-xl font-medium justify-center flex py-5 hover:bg-[#061c56] hover:text-white'>Kelechi Oti</span>
+                    <span className='flex flex-col w-56 shadow-xl'>
+                        <span className='w-56 h-56 bg-gray-200'><img src={Kelechi} alt='' className='w-full h-full rounded-t-md'></img></span>
+                        <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                            <span className='text-xl font-medium '>Kelechi Oti</span>
+                            <span className='text-base font-medium'>Vice Principal, Secondary School </span>
+                        </span>
                     </span>
                 </span>
                 <span className='flex gap-6'>
-                    <span className='flex flex-col w-56 shadow-xl rounded-b-md'>
-                        <span className='w-56 h-56 rounded-md bg-gray-200'><img src={Benita} alt='' className='w-full h-full rounded-md'></img></span>
-                        <span className='text-xl font-medium justify-center flex py-5 hover:bg-[#061c56] hover:text-white'>
-                            Benita Asinobi
+                    <span className='flex flex-col w-56 shadow-xl'>
+                        <span className='w-56 h-56 bg-gray-200'><img src={Benita} alt='' className='w-full h-full rounded-t-md'></img></span>
+                        <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                            <span className='text-xl font-medium '>Benita Asinobi</span>
+                            <span className='text-base font-medium px-1'>Deputy Head, Primary School </span>
                         </span>
                     </span>
-                    <span className='flex flex-col w-56 shadow-xl rounded-b-md'>
-                        <span className='w-56 h-56 rounded-md bg-gray-200'><img src={Judith} alt='' className='w-full h-full rounded-md'></img></span>
-                        <span className='text-xl font-medium justify-center flex py-5 hover:bg-[#061c56] hover:text-white'>Judith Onowighose</span>
+                    <span className='flex flex-col w-56 shadow-xl'>
+                        <span className='w-56 h-56 bg-gray-200'><img src={Judith} alt='' className='w-full h-full rounded-t-md'></img></span>
+                        <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                            <span className='text-xl font-medium '>Judith Onowighose</span>
+                            <span className='text-base font-medium px-1'>Deputy Head, Primary School</span>
+                        </span>
                     </span>
                 </span>
             </div>
@@ -468,7 +513,7 @@ const AboutContent = () => {
 
             </div>
         </div>
-        <div className='flex flex-col lg:px-16 px-4' id='accc'>
+        <div className='flex flex-col lg:px-16 px-4 mt-4' id='accc'>
             <span className='uppercase lg:text-3xl text-xl font-semibold text-center mb-3'>Accreditation and affilates</span>
             <span className='rounded-lg lg:pt-12 lg:pb-20 lg:px-8 pt-5 pb-10 px-4 bg-[#061c56] text-center text-[#f6bc75] lg:text-base text-sm'>As part of our efforts to give your child the best education possible, Temple School is affiliated with a number of local and international educational organizations, all with an aim to continuously improving the quality of our education delivery.</span>
             <span className='flex justify-center pb-6'>

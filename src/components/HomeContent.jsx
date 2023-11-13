@@ -11,6 +11,9 @@ import Engage from '../assets/Engage.png';
 import Graduation from '../assets/Graduation.png'
 import HomeBanner from './HomeBanner';
 import HomeCalendar from './HomeCalendar';
+import wave2 from '../assets/Waveleft.png';
+import wave from '../assets/Waveright.png';
+import wave3 from '../assets/Circle.png';
 
 
 const HomeContent = () => {
@@ -19,8 +22,11 @@ const HomeContent = () => {
         <div className='flex lg:h-[30rem] h-[17rem]'>
             <HomeBanner />
         </div>
-        <div className='flex lg:flex-row flex-col px-4 lg:px-32 lg:pt-16 pt-12 lg:pb-16 pb-10 w-screen'>
-            <div className='flex flex-col lg:w-[50%] lg:pb-6'>
+        <div className='flex lg:flex-row flex-col px-4 lg:px-32 lg:pt-16 pt-12 lg:pb-16 pb-10 w-screen relative'>
+            <span className='flex absolute right-4 top-0'><img src={wave} alt='' className='w-[75rem] h-[35rem] z-10'></img></span>
+            <span className='flex absolute left-0 top-0'><img src={wave2} alt='' className='w-[70rem] h-[35rem] z-10'></img></span>
+            <span className='flex absolute right-40 top-44'><img src={wave3} alt='' className='w-[5rem] h-[4rem] z-30'></img></span>
+            <div className='flex flex-col lg:w-[50%] lg:pb-6 z-20'>
                 <span className='lg:text-xl text-base font-semibold text-[#061c56] lg:mb-2 opacity-90'>Message From The Founding Director</span>
                 <span className='flex flex-col lg:mb-4 lg:gap-1 text-[#061c56]'>
                     <span className='lg:text-4xl text-2xl uppercase font-bold opacity-80'>Charting a Legacy </span>
@@ -40,7 +46,7 @@ const HomeContent = () => {
                 </span>
                 <span className='lg:text-2xl text-xl font-semibold mt-2 opacity-80 hidden lg:flex'>Mrs Shirley Okharedia</span>
             </div>
-            <div className='flex relative lg:w-[50%] mt-6 lg:mt-0'>
+            <div className='flex relative lg:w-[50%] mt-6 lg:mt-0 z-20'>
                 <span className='w-80 h-[25rem] bg-[#061c56] rounded-md lg:bottom-12 left-1 lg:left-24 absolute'></span>
                 <span className='lg:w-[21rem] w-[19rem] h-[24rem] lg:h-[25rem] bg-gray-800 rounded-md lg:bottom-20 left-7 -bottom-[23.5rem] lg:left-32 absolute'>
                     <img className='w-full h-full' alt='' src={Founder}></img>

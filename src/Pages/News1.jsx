@@ -1,9 +1,9 @@
 import React, {useEffect} from 'react';
 import NavBar from '../components/NavBar';
-import Open from '../assets/open2.png';
+
 import Open2 from '../assets/open4.png';
 import Open3 from '../assets/open3.png';
-import Open4 from '../assets/open.png';
+
 import Contact from '../components/Contact';
 
 
@@ -16,29 +16,23 @@ const News1 = () => {
   return (
     <div>
         <NavBar />
-        <div className='flex flex-col'>
+        <div className='flex flex-col py-6'>
             <span className='flex justify-center items-center'>
-                <img src={Open3} alt='' className='w-[30rem] h-[30rem]'></img>
-                <img src={Open2} alt='' className='w-[30rem] h-[30rem]'></img>
+                <img src={Open3} alt='' className='w-[30rem] h-37rem]'></img>
+                <img src={Open2} alt='' className='w-[30rem] h-37rem]'></img>
             </span>
-            <span className='flex flex-col px-24 py-6 gap-5'>
+            <span className='flex flex-col px-28 py-6 gap-5'>
                 <span className='flex flex-col'>
-                    <span className='text-3xl font-semibold opacity-90'>Open Day - All School Section </span>
-                    <span className='text-lg opacity-90'>Join Us For Temple's School Open Day!</span>
+                    <span className='text-2xl font-semibold opacity-90'>We are thrilled to bring to you the November edition of Temple School's monthly newsletter - The Flame.</span>
+                    {/* <span className='text-lg opacity-90'>Join Us For Temple's School Open Day!</span> */}
                 </span>
-                <span className='text-lg opacity-90'>Exciting News! Join us at Temple School's Open Day! Explore our world-class facilities and discover why we are the perfect choice for you child’s education journey.</span>
-                <span className='text-lg font-medium'>Early Years Foundation Stage (EYFS): Give your precious little ones the best start in life. Join us to witness how our EYFS programmes nurture and stimulate young minds.</span>
-                <span className='text-lg font-medium'>Primary School: Ignite your child’s curiosity and love for learning. Discover our innovative approach to primary education and experience the vibrant atmosphere at Temple Primary School. </span>
-                <span className='text-lg font-medium'>Secondary School: Unlock your child’s potential. Our experienced teachers and modern curriculum empower students to excel. Join us and witness the Temple Secondary School difference.</span>
-                <span className='text-lg font-medium'>College: Preparing students for a successful future. Explore out advanced facilities and cutting-edge programmes, and join us to discover the endless opportunities that Temple College offers.</span>
-            </span>
-            <span className='flex justify-center items-center'>
-                <img src={Open} alt='' className='w-[30rem] h-[30rem]'></img>
-                <img src={Open4} alt='' className='w-[30rem] h-[30rem]'></img>
-            </span>
-            
-            
-            
+                <span className='text-lg opacity-90 font-medium'>We are excited to bring you another issue packed with news, updates, and exciting events. As the year comes to a close, we reflect on our accomplishments as a community and look forward to the exciting events and programmes that await us.</span>
+                <span className='text-lg font-medium opacity-90'>In this edition, we highlight the activities and achievements of our talented students, celebrate the dedication of our teachers and staff, and share important updates and announcements about upcoming events and initiatives.</span>
+                <span className='text-lg font-medium opacity-90'>As always, we welcome your feedback and suggestions for future editions of The Flame. Thank you for your continued support and commitment to making Temple School a thriving community of learners and leaders.</span>
+                <a href={process.env.PUBLIC_URL + '/files/Nov.pdf'} download>
+                    <span className='h-fit py-2 px-3 text-center text-[#335672] bg-[#f6bc75] uppercase text-lg w-fit flex'>Download the pack</span>
+                </a>
+            </span>    
         </div>
         <div className='flex py-12 justify-center'>
             <span className=' h-48 w-20 bg-[#061c56]'></span>
