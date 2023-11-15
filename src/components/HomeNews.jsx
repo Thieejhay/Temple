@@ -57,7 +57,7 @@ const HomeNews = () => {
                     <IoIosArrowForward size={20} className='text-[#061c56]'/>
                 </span>
             </span>
-            <Link to='/news&events'><span className='px-6 py-2 border border-[#f6bc75] text-base font-normal text-[#f6bc75]'>
+            <Link to='/news&events'><span className='px-6 py-2 border bg-[#f6bc75] text-base font-normal text-[#061c56] hover:text-white rounded-md'>
                 Read more
             </span></Link>
             

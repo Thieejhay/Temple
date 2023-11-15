@@ -34,7 +34,7 @@ const Contact = () => {
                 <input className=" w-56 h-7 mb-2 border-b-2 border-black/10 px-3 bg-transparent text-[#061c56] outline-none" placeholder="Enter Name"></input>
                 <input className=" w-56 h-7 mb-2 border-b-2 border-black/10 px-3 bg-transparent text-[#061c56] outline-none" placeholder="Enter email address..."></input>
                 <input className=" w-56 h-7 mb-4 border-b-2 border-black/10 px-3 bg-transparent text-[#061c56] outline-none" placeholder="Message"></input>
-                <span className='flex justify-center'><input className= 'px-6 py-2 w-fit rounded  bg-[#061c56]/40 uppercase text-sm font-medium text-white' type='submit' value='send message'></input></span>
+                <span className='flex justify-center'><input className= 'px-6 py-2 w-fit rounded  bg-[#061c56] text-[#f6bc75] uppercase text-sm font-medium hover:text-white' type='submit' value='send message'></input></span>
             </span>
         </div>
         <div className='flex justify-between bg-[#061c56]/60 lg:px-24 px-4 py-1 lg:py-2 items-center'>

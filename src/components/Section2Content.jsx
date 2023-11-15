@@ -40,8 +40,8 @@ const Section2Content = () => {
             <img src={Banner} alt='' className='w-full h-full opacity-50 flex z-10 object-cover'></img>
             <span className='text-4xl opacity-90 tracking-wide font-semibold absolute top-36 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75] flex'>Primary School</span>
         </span>
-        <div className='flex flex-col gap-10 mb-8 py-3'>
-            <span className='flex pr-24 pl-12'>
+        <div className='flex flex-col  mb-8 py-3'>
+            <span className='flex pr-24 pl-12 mb-10'>
                 <img className='w-[34rem]' src={pic1} alt=''></img>
                 <span className='flex flex-col -ml-36 gap-3 pl-12 pt-4 pb-4 bg-[#f6bc75] w-full '>
                     <span className=' text-5xl font-bold w-[35rem] text-[#061c56]'>Welcome Address by Head of Primary School </span>
@@ -57,11 +57,11 @@ const Section2Content = () => {
                     </span>
                 </span>
             </span>
-            <span className='flex flex-col gap-6 pr-32 pl-40'>
-                    <span className='text-base opacity-80'>The children in Early Years and Foundation stage are between 1 and 4 years. This is an important stage in every child's life and development. We are aware of this and we have made learning as fun as possible.</span>
-                    <span className='text-base opacity-80'>Our overall aim is to provide each child with the appropriate work within a stimulating and nurturing environment so that each child has the opportunity and incentive to achieve his/her full potential. Children learn best when their efforts receive positive encouragement and this is an integral part of our classroom practice in our Early Years and Foundation Stage.</span>
-                    <span className='text-base opacity-80'>Early childhood is the foundation on which children build the rest of their lives. The Early Years and Foundation Stage makes a crucial contribution to children's early development and learning. Starting school is an important step! At Temple we have a carefully planned pre-school induction programme to make the transition from home to school sensitive and appropriate for each child. We provide children with a rich variety of teaching and learning experiences that are appropriate to their needs. Learning takes place in a secure and stimulating environment where first hand learning experiences encourage the development of imagination, creativity and the enjoyment of learning.</span>
-                    <span className='text-base opacity-80'>What children can do, rather than what they cannot do are the starting points in learning. Play helps young children to learn and develop through doing and talking, which research has shown to be the means by which young children learn to think. Structured play is important as listening, playing, speaking, concentrating, persistence and learning to work and co-operate with others are the main ways through which children learn about themselves and the world around them. During this stage, Early Learning Goals set out what most children are expected to achieve by the end of the Foundation Stage.</span>
+            <span className='flex flex-col gap-4 pr-32 pl-40 mb-10'>
+                    <span className='text-base opacity-80'>Welcome to Temple Primary School, where our commitment to providing a distinctive hybrid curriculum stands as the cornerstone of our educational approach. In our primary section, we prioritize a broad and balanced education that fosters the holistic development of our students, encompassing spiritual, moral, cultural, mental, and physical dimensions. Our educators set high expectations, acknowledging and addressing the unique needs of each learner. Lessons are thoughtfully crafted based on a nuanced understanding of the diversities among our pupils, including those with exceptional abilities. </span>
+                    <span className='text-base opacity-80'>The primary curriculum at Temple is a harmonious fusion of the Cambridge Curriculum, National Curriculum, and Nigerian Curriculum. This integrative approach is realized through cross-curricular themes, creating a dynamic and comprehensive learning experience. Core subjects such as English, Mathematics, Science, and Information Communication Technology (I.C.T.) form the foundation, while our elective curriculum offers a diverse range of studies including History, Geography, French, Religious Education, Citizenship, Global Perspectives, Art, Music, and Physical Education (P.E). </span>
+                    <span className='text-base opacity-80'>In addition to the academic curriculum, our learners actively participate in co-curricular activities like swimming, coding, and robotics, while engaging in extra-curricular events such as taekwondo, ballet, drama, debate, and contemporary dance. As a testament to their academic prowess, our pupils sit for the Cambridge Checkpoint in Year 6. </span>
+                    <span className='text-base opacity-80'>Join us at Temple Primary School, where we take pride in cultivating well-rounded individuals and celebrating our champions who excel in the Temple Primary School Cambridge Checkpoint. </span>
             </span>
             <div className='flex flex-col bg-[#061c56] py-1 lg:px-24 w-screen lg:h-40 gap-2'>
                 <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
@@ -79,59 +79,59 @@ const Section2Content = () => {
                 </span>
                 <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
             </div>
-            <span className='flex flex-col bg-[#061c56] py-2 text-white'>
-                <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
-                <span className='text-3xl font-semibold text-center opacity-90 mb-2 my-1'>Campus-specific facilities and features</span>
-                <span className='flex justify-center mt-3 gap-20'>
-                    <span className='flex flex-col gap-1'>
+            <span className='flex flex-col bg-[#f6bc75] py-2 px-24'>
+                <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr>
+                <span className='text-3xl font-semibold text-center opacity-90 mb-2 my-1 text-[#061c56]'>Campus-specific facilities and features</span>
+                <span className='flex justify-center mt-3 gap-20 text-[#061c56]'>
+                    <span className='flex flex-col gap-1 pb-3'>
                         <span className='flex gap-2 items-center'>
-                            <HiOutlineCheckCircle className='w-5 h-5 text-[#f6bc75]'/>
+                            <HiOutlineCheckCircle className='w-5 h-5 text-[#061c56]'/>
                             <span className='text-lg font-normal'>Quis nostrud exercitation ullamco</span>
                         </span>
-                        <hr className='h-3 w-72 ml-5'></hr>
+                        <hr className='h-1 w-72 ml-5 rounded-xl bg-[#061c56]'></hr>
                         <span className='flex gap-2 items-center'>
-                            <HiOutlineCheckCircle className='w-5 h-5 text-[#f6bc75]'/>
+                            <HiOutlineCheckCircle className='w-5 h-5 text-[#061c56]'/>
                             <span className='text-lg font-normal'>Quis nostrud exercitation ullamco</span>
                         </span>
-                        <hr className='h-3 w-72 ml-5'></hr>
+                        <hr className='h-1 w-72 ml-5 rounded-xl bg-[#061c56]'></hr>
                         <span className='flex gap-2 items-center'>
-                            <HiOutlineCheckCircle className='w-5 h-5 text-[#f6bc75]'/>
+                            <HiOutlineCheckCircle className='w-5 h-5 text-[#061c56]'/>
                             <span className='text-lg font-normal'>Quis nostrud exercitation ullamco</span>
                         </span>
-                        <hr className='h-3 w-72 ml-5'></hr>
+                        <hr className='h-1 w-72 ml-5 rounded-xl bg-[#061c56]'></hr>
                         <span className='flex gap-2 items-center'>
-                            <HiOutlineCheckCircle className='w-5 h-5 text-[#f6bc75]'/>
+                            <HiOutlineCheckCircle className='w-5 h-5 text-[#061c56]'/>
                             <span className='text-lg font-normal'>Quis nostrud exercitation ullamco</span>
                         </span>
-                        <hr className='h-3 w-72 ml-5'></hr>
+                        <hr className='h-1 w-72 ml-5 rounded-xl bg-[#061c56]'></hr>
                     </span>
                     <span className='flex flex-col gap-1'>
                         <span className='flex gap-2 items-center'>
-                            <HiOutlineCheckCircle className='w-5 h-5 text-[#f6bc75]'/>
+                            <HiOutlineCheckCircle className='w-5 h-5 text-[#061c56]'/>
                             <span className='text-lg font-normal'>Quis nostrud exercitation ullamco</span>
                         </span>
-                        <hr className='h-3 w-72 ml-5'></hr>
+                        <hr className='h-1 w-72 ml-5 rounded-xl bg-[#061c56]'></hr>
                         <span className='flex gap-2 items-center'>
-                            <HiOutlineCheckCircle className='w-5 h-5 text-[#f6bc75]'/>
+                            <HiOutlineCheckCircle className='w-5 h-5 text-[#061c56]'/>
                             <span className='text-lg font-normal'>Quis nostrud exercitation ullamco</span>
                         </span>
-                        <hr className='h-3 w-72 ml-5'></hr>
+                        <hr className='h-1 w-72 ml-5 rounded-xl bg-[#061c56]'></hr>
                         <span className='flex gap-2 items-center'>
-                            <HiOutlineCheckCircle className='w-5 h-5 text-[#f6bc75]'/>
+                            <HiOutlineCheckCircle className='w-5 h-5 text-[#061c56]'/>
                             <span className='text-lg font-normal'>Quis nostrud exercitation ullamco</span>
                         </span>
-                        <hr className='h-3 w-72 ml-5'></hr>
+                        <hr className='h-1 w-72 ml-5 rounded-xl bg-[#061c56]'></hr>
                         <span className='flex gap-2 items-center'>
-                            <HiOutlineCheckCircle className='w-5 h-5 text-[#f6bc75]'/>
+                            <HiOutlineCheckCircle className='w-5 h-5 text-[#061c56]'/>
                             <span className='text-lg font-normal'>Quis nostrud exercitation ullamco</span>
                         </span>
-                        <hr className='h-3 w-72 ml-5'></hr>
+                        <hr className='h-1 w-72 ml-5 rounded-xl bg-[#061c56]'></hr>
                     </span>
                 </span>
-                <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr> 
+                <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr> 
             </span>
-            <span className='flex flex-col mt-8'>
-                <span className='text-3xl font-semibold text-center mb-7 opacity-90'>Photo Gallery</span>
+            <span className='flex flex-col pt-6 pb-10 bg-[#21bdf3] mb-10'>
+                <span className='text-3xl font-semibold text-center mb-7 opacity-90 text-white'>Photo Gallery</span>
                 <span className='flex px-32 gap-3'>
                     <span className='w-[20rem] h-60 '>
                         <img className='w-full h-full rounded-lg object-cover' src={Pic7} alt=''></img>

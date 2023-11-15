@@ -61,8 +61,8 @@ const HomeBanner = () => {
   return (
 
     <div className="flex w-screen flex-col">
-        <div className='lg:h-[30rem] h-[17rem]'><div style={bgImageStyle} className="flex h-full"></div></div>
-        <span className="flex lg:gap-4 gap-2 lg:-mt-96 -mt-56  lg:pl-24 px-4 ">
+        <div className='lg:h-[30rem] h-[15rem]'><div style={bgImageStyle} className="flex h-full"></div></div>
+        <span className="flex lg:gap-4 gap-2 lg:-mt-[25rem] -mt-56  lg:pl-12 px-4 ">
             <span className="flex flex-col mt-2">
             {imageSlide.map((slide, index) => (
               <span
@@ -75,13 +75,13 @@ const HomeBanner = () => {
             ))}
             </span>
             <span className='flex flex-col gap-3'>
+              <span className="lg:text-6xl text-2xl font-semibold text-[#f6bc75] w-fit">
+                  {imageSlide[currentSlide].textxx}
+              </span>
               <span className="lg:text-5xl text-xl font-semibold text-[#f6bc75] w-fit">
                   {imageSlide[currentSlide].text}
               </span>
-              <span className="lg:text-5xl text-2xl font-semibold text-[#f6bc75] w-fit">
-                  {imageSlide[currentSlide].textxx}
-              </span>
-              <span className="lg:text-2xl text-lg font-medium text-[#f6bc75] lg:mt-5 mt-3 w-fit">
+              <span className="lg:text-3xl text-lg font-medium text-[#f6bc75] mt-3 w-fit">
                   {imageSlide[currentSlide].textx}
               </span>
             </span>

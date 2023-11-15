@@ -1,4 +1,4 @@
-import React, {useState}  from 'react';
+import React, {useState, useEffect, useRef}  from 'react';
 import {FaEnvelope} from 'react-icons/fa'
 import {BiPhoneCall} from 'react-icons/bi';
 import Logo from '../assets/Templelogo.png'
@@ -6,9 +6,65 @@ import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 const NavBar = () => {
+    const [showHomeDropdown, setShowHomeDropdown] = useState(false);
     const [showSectionsDropdown, setShowSectionsDropdown] = useState(false);
-    const [showSectionsDropdown1, setShowSectionsDropdown1] = useState(false);
-    const [showSectionsDropdown2, setShowSectionsDropdown2] = useState(false);
+    const [showAboutUsDropdown, setShowAboutUsDropdown] = useState(false);
+    const dropdownRef = useRef(null);
+    let hideTimeout;
+
+    const handleMouseEnter = (dropdown) => {
+        clearTimeout(hideTimeout);
+        switch (dropdown) {
+          case 'sections':
+            setShowSectionsDropdown(true);
+            setShowHomeDropdown(false);
+            setShowAboutUsDropdown(false);
+            break;
+          case 'home':
+            setShowHomeDropdown(true);
+            setShowSectionsDropdown(false);
+            setShowAboutUsDropdown(false);
+            break;
+          case 'aboutUs':
+            setShowAboutUsDropdown(true);
+            setShowSectionsDropdown(false);
+            setShowHomeDropdown(false);
+            break;
+          default:
+            break;
+        }
+      };
+    
+      const handleMouseLeave = () => {
+        hideTimeout = setTimeout(() => {
+          setShowSectionsDropdown(false);
+          setShowHomeDropdown(false);
+          setShowAboutUsDropdown(false);
+        }, 300);
+      };
+    
+      const handleDropdownMouseEnter = () => {
+        clearTimeout(hideTimeout);
+      };
+    
+      const handleDropdownMouseLeave = () => {
+        hideTimeout = setTimeout(() => {
+          setShowSectionsDropdown(false);
+          setShowHomeDropdown(false);
+          setShowAboutUsDropdown(false);
+        }, 300);
+      };
+    
+    
+      
+      useEffect(() => {
+        return () => {
+          clearTimeout(hideTimeout);
+        };
+      }, [hideTimeout]);
+
+
+
 
   return (
     <div className='flex flex-col text-white w-screen'>
@@ -17,7 +73,7 @@ const NavBar = () => {
                 <img className='w-24 h-24' src={Logo} alt=''></img>
                 <span className='lg:text-4xl text-xl font-semibold lg:tracking-wider'>Temple School</span>
             </span>
-            <a href='https://templesch.edves.net/login/' rel="noreferrer" target='_blank' ><span className='h-fit py-1 w-24 text-center text-[#335672] bg-[#f6bc75] uppercase text-[0.5rem] flex lg:hidden'>parents/students portal</span></a>
+            <a href='https://templesch.edves.net/login/' rel="noreferrer" target='_blank' ><span className='h-fit py-1 w-24 text-center text-[#335672] bg-[#f6bc75] hover:text-white uppercase text-[0.5rem] flex lg:hidden'>parents/students portal</span></a>
             <span className='lg:flex hidden lg:gap-3 items-center'>
                 <span className='flex items-center gap-1'>
                     <BiPhoneCall className='w-3 h-3'/>
@@ -27,7 +83,7 @@ const NavBar = () => {
                     <FaEnvelope />
                     <span className='text-xs font-medium'>info@templeschoolng.com</span>
                 </span>
-                <a href='https://templesch.edves.net/login/' rel="noreferrer" target='_blank' ><span className='px-3 py-2 text-[#335672] bg-[#f6bc75] uppercase text-xs'>parents/students portal</span></a>
+                <a href='https://templesch.edves.net/login/' rel="noreferrer" target='_blank' ><span className='px-3 py-2 text-[#335672] bg-[#f6bc75] hover:text-white uppercase text-xs'>parents/students portal</span></a>
             </span>
         </div>
         <span className='flex lg:hidden gap-3 items-center px-2 py-2 bg-[#061c56]/80'>
@@ -42,11 +98,16 @@ const NavBar = () => {
             </span>
         <div className='lg:flex hidden bg-[#061c56]/80 py-2 px-12'>
             <span className='flex gap-10'>
-                <span className='relative'onMouseEnter={() => setShowSectionsDropdown2(true)} onMouseLeave={() => setShowSectionsDropdown2(false)}>
-                    <Link to='/'><span className='text-sm font-semibold uppercase'>Home</span></Link>
-                    {showSectionsDropdown2 && (
+                <span className='relative' onMouseEnter={() => handleMouseEnter('home')} onMouseLeave={handleMouseLeave}>
+                    <Link to='/'><span className='text-sm font-semibold uppercase hover:text-[#f6bc75]'>Home</span></Link>
+                    {showHomeDropdown && (
                         <span className=' flex flex-col absolute mt-2 w-40 -left-10 rounded-sm shadow-lg bg-[#061c56]/90
-                         z-50'>
+                         z-50' ref={dropdownRef} onMouseEnter={handleDropdownMouseEnter}
+                         onMouseLeave={handleDropdownMouseLeave}>
+                            <HashLink to='#director' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'>
+                                <span >Founding Director</span>
+                            </HashLink>
+                            <hr className='w-full h-1 text-white opacity-50'></hr>
                             <HashLink to='#calendar' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'>
                                 <span >Calendar</span>
                             </HashLink>
@@ -65,11 +126,12 @@ const NavBar = () => {
                         </span>
                     )}
                 </span>
-                <span className='relative'onMouseEnter={() => setShowSectionsDropdown1(true)} onMouseLeave={() => setShowSectionsDropdown1(false)}>
-                    <Link to='/about-us'><span className='text-sm font-semibold uppercase'>About us</span></Link>
-                    {showSectionsDropdown1 && (
+                <span className='relative' onMouseEnter={() => handleMouseEnter('aboutUs')} onMouseLeave={handleMouseLeave}>
+                    <Link to='/about-us'><span className='text-sm font-semibold uppercase hover:text-[#f6bc75]'>About us</span></Link>
+                    {showAboutUsDropdown && (
                         <span className=' flex flex-col absolute mt-2 w-40 -left-10 rounded-sm shadow-lg bg-[#061c56]/90
-                        z-50'>
+                        z-50' ref={dropdownRef} onMouseEnter={handleDropdownMouseEnter}
+                        onMouseLeave={handleDropdownMouseLeave}>
                             <HashLink to='#history' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'>
                                 <span>Our History</span>
                             </HashLink>
@@ -92,12 +154,12 @@ const NavBar = () => {
                         </span>
                     )}
                 </span>
-                <span className='relative'onMouseEnter={() => setShowSectionsDropdown(true)}
-                onMouseLeave={() => setShowSectionsDropdown(false)}>
-                    <Link to='/section'><span className='text-sm font-semibold uppercase'>sections</span></Link>
+                <span className='relative' onMouseEnter={() => handleMouseEnter('sections')} onMouseLeave={handleMouseLeave}>
+                    <Link to='/section'><span className='text-sm font-semibold uppercase hover:text-[#f6bc75] '>sections</span></Link>
                     {showSectionsDropdown && (
                         <span className=' flex flex-col absolute mt-2 w-40 -left-10 rounded-sm shadow-lg bg-[#061c56]/90
-                     z-50'>
+                     z-50' ref={dropdownRef} onMouseEnter={handleDropdownMouseEnter}
+                     onMouseLeave={handleDropdownMouseLeave}>
                         <Link to='/early-years' className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'><span>
                             Early Years and Foundation Stage
                         </span></Link>
@@ -116,10 +178,10 @@ const NavBar = () => {
                         </span>
                     )}
                 </span>
-                <Link to='/programs'><span className='text-sm font-semibold uppercase'>programs</span></Link>
-                <Link to='/eld'><span className='text-sm font-semibold uppercase'>eld</span></Link>
-                <Link to='/news&events'><span className='text-sm font-semibold uppercase'>news & events</span></Link>
-                <Link to='/contact-us'><span className='text-sm font-semibold uppercase'>Contact us</span></Link>
+                <Link to='/programs'><span className='text-sm font-semibold uppercase hover:text-[#f6bc75]'>programs</span></Link>
+                <Link to='/eld'><span className='text-sm font-semibold uppercase hover:text-[#f6bc75]'>eld</span></Link>
+                <Link to='/news&events'><span className='text-sm font-semibold uppercase hover:text-[#f6bc75]'>news & events</span></Link>
+                <Link to='/contact-us'><span className='text-sm font-semibold uppercase hover:text-[#f6bc75]'>Contact us</span></Link>
             </span>
         </div>
     </div>

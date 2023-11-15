@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from '../components/NavBar'
+import Contact from '../components/Contact'
 import BoardingContent from '../components/BoardingContent';
 
 const Boarding = () => {
@@ -7,6 +8,7 @@ const Boarding = () => {
     <div>
         <NavBar />
         <BoardingContent />
+        <Contact />
     </div>
   )
 }

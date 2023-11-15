@@ -171,7 +171,7 @@ const ProgramsContent = () => {
                         </span>
                     }
                 </span>
-                <span className='flex flex-col gap-3 px-2 py-3 rounded-sm bg-[#f6bc75] text-[#061c56]'>
+                <span className='flex flex-col lg:gap-3 gap-1 lg:px-4 px-2 py-4 rounded-sm bg-[#f6bc75] text-[#061c56]'>
                     <span className=' flex justify-between items-center opacity-90'>
                         <span className='lg:text-xl text-lg'>College</span>
                         <span onClick={() => toggleShowMore('showMore4')}>{showMore.showMore4 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>

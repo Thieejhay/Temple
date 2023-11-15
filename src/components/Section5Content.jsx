@@ -32,7 +32,7 @@ const Section5Content = () => {
             <span className='text-4xl opacity-90 font-semibold absolute top-36 z-20 left-[47%] -translate-x-[47%] text-[#f6bc75] flex'>Exceptional Learners Department</span>
             <span className='text-4xl opacity-90 font-semibold absolute top-[11.5rem] z-20 left-[47%] -translate-x-[47%] text-[#f6bc75] flex'>(ELD)</span>
         </span>
-        <div className='flex flex-col gap-10 py-3 mb-8'>
+        <div className='flex flex-col gap-10 py-3'>
             <span className='flex pl-36 pr-20'>
                 <img className='w-[23rem] h-[29rem] object-right' src={pic1} alt=''></img>
                 <span className='flex flex-col gap-8 pl-12 pt-8 pb-4 bg-[#f6bc75] w-full text-[#061c56]'>
@@ -51,25 +51,33 @@ const Section5Content = () => {
             <span className='flex flex-col justify-center items-center gap-5 py-6'>
                 <span className='text-3xl font-semibold opacity-80'>Meet the Supervisors</span>
                 <span className='flex gap-5'>
-                    <span className='flex flex-col w-60 items-center'>
-                        <span className='w-48 h-56 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg' src={pic15} alt=''></img></span>
-                        <span className='text-sm font-medium text-center mt-2'>EYFS Team lead & speech Therapist</span>
-                        <span className='text-base font-normal text-center '>Ms. Cadmus</span>
+                    <span className='flex flex-col w-56 items-center shadow-xl'>
+                        <span className='w-56 h-56 bg-gray-200'><img src={pic15} alt='' className='w-full h-full rounded-b-none rounded-t-md'></img></span>
+                        <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                            <span className='text-xl font-medium '>Ms. Cadmus</span>
+                            <span className='text-base font-medium'>EYFS Team lead & speech Therapist </span>
+                        </span>
                     </span>
-                    <span className='flex flex-col w-60 items-center'>
-                        <span className='w-48 h-56 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg' src={pic12} alt=''></img></span>
-                        <span className='text-sm font-medium text-center mt-2'>Primary Team lead</span>
-                        <span className='text-base font-normal text-center'>Mrs Adesiyan</span>
+                    <span className='flex flex-col w-56 items-center shadow-xl'>
+                        <span className='w-56 h-56 bg-gray-200'><img src={pic12} alt='' className='w-full h-full rounded-b-none rounded-t-md'></img></span>
+                        <span className='text-center w-full h-full justify-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                            <span className='text-xl font-medium '>Mrs Adesiyan</span>
+                            <span className='text-base font-medium'>Primary Team lead </span>
+                        </span>
                     </span>
-                    <span className='flex flex-col w-60 items-center '>
-                        <span className='w-48 h-56 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg' src={pic13} alt=''></img></span>
-                        <span className='text-sm font-medium text-center mt-2'>Secondary wave 1 & 3 lead </span>
-                        <span className='text-base font-normal text-center'>Mrs Shadeko</span>
+                    <span className='flex flex-col w-56 items-center shadow-xl'>
+                        <span className='w-56 h-56 bg-gray-200'><img src={pic13} alt='' className='w-full h-full rounded-b-none rounded-t-md'></img></span>
+                        <span className='text-center w-full h-full justify-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                            <span className='text-xl font-medium '>Mrs Shadeko</span>
+                            <span className='text-base font-medium'>Secondary wave 1 & 3 lead </span>
+                        </span>
                     </span>
-                    <span className='flex flex-col w-60 items-center'>
-                        <span className='w-48 h-56 rounded-lg bg-slate-50'><img className='w-full h-full rounded-lg' src={pic14} alt=''></img></span>
-                        <span className='text-sm font-medium text-center mt-2'>Secondary wave 2 lead </span>
-                        <span className='text-base font-normal text-center'>Ms Kolawole</span>
+                    <span className='flex flex-col w-56 items-center shadow-xl'>
+                        <span className='w-56 h-56 bg-gray-200'><img src={pic14} alt='' className='w-full h-full rounded-b-none rounded-t-md'></img></span>
+                        <span className='text-center w-full h-full justify-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                            <span className='text-xl font-medium '>Ms Kolawole</span>
+                            <span className='text-base font-medium'>Secondary wave 2 lead </span>
+                        </span>
                     </span>
                 </span>
             </span>
@@ -108,8 +116,8 @@ const Section5Content = () => {
                     </span>
                 </span>
             </span>
-            <span className='flex flex-col gap-2 py-4 px-20 justify-center items-center w-screen bg-[#E5B87C]/10'>
-                <span className='text-3xl font-semibold opacity-80'>Areas of Need</span>
+            <span className='flex flex-col gap-2 py-4 px-20 justify-center items-center w-screen bg-[#061c56]'>
+                <span className='text-3xl font-semibold opacity-80 text-white'>Areas of Need</span>
                 <span className='flex flex-col gap-6'>
                     <span className='flex gap-5'>
                         <span className='flex hover:shadow-xl rounded-lg bg-white relative group'>
@@ -118,21 +126,21 @@ const Section5Content = () => {
                                     <img className='w-full h-full rounded-md' alt='' src={icon}></img>
                                 </span>
                                 <span className='flex flex-col gap-1'>
-                                    <span className='text-xl font-medium'>Cognition & learning</span>
-                                    <span className='text-sm opacity-80 font-normal w-[30rem]'>This focuses on your child's academic level, particularly in literacy and numeracy as well as their executive function skills.</span>
+                                    <span className='text-xl font-medium opacity-90'>Cognition & learning</span>
+                                    <span className='text-sm opacity-80 font-normal w-[30rem] '>This focuses on your child's academic level, particularly in literacy and numeracy as well as their executive function skills.</span>
                                 </span>
                            </span>
-                           <span className='uppercase absolute top-[50%] -translate-y-[50%] left-[50%] text-2xl -translate-x-[50%] group-hover:opacity-0 font-semibold text-[#061c56] '>Cognition & learning</span>
+                           <span className='uppercase absolute top-[50%] -translate-y-[50%] left-[50%] text-2xl -translate-x-[50%] group-hover:opacity-0 font-semibold text-[#21bdf3]'>Cognition & learning</span>
                         </span>
                         <span className='flex hover:shadow-xl rounded-lg bg-white relative group'>
                             <span className='opacity-0 flex gap-3 p-2 group-hover:opacity-100 transition-transform duration-1000'>
                                 <span className='w-12 h-12 rounded-md mt-1 bg-slate-100'><img className='w-full h-full rounded-md' alt='' src={icon2}></img></span>
                                 <span className='flex flex-col gap-1'>
-                                    <span className='text-xl font-medium'>Social Emotional Mental Health</span>
+                                    <span className='text-xl font-medium opacity-90'>Social Emotional Mental Health</span>
                                     <span className='text-sm opacity-80 font-normal w-[30rem]'>This looks at your child's social skills, managing their emotions, and understanding their environment (including but not limited to health and safety and independent living skills).</span>
                                 </span>
                             </span>
-                            <span className='uppercase absolute top-[50%] -translate-y-[50%] left-[50%] text-2xl -translate-x-[50%] group-hover:opacity-0 font-semibold text-[#061c56] text-center flex'>Social Emotional Mental Health</span>
+                            <span className='uppercase absolute top-[50%] -translate-y-[50%] left-[50%] text-2xl -translate-x-[50%] group-hover:opacity-0 font-semibold text-[#21bdf3] text-center flex'>Social Emotional Mental Health</span>
                         </span>
                     </span>
                     <span className='flex gap-5'>
@@ -142,29 +150,29 @@ const Section5Content = () => {
                                     <img className='w-full h-full rounded-md' alt='' src={icon3}></img>
                                 </span>
                                 <span className='flex flex-col gap-1'>
-                                    <span className='text-xl font-medium'>Social Emotional Mental Health</span>
+                                    <span className='text-xl font-medium opacity-90'>Social Emotional Mental Health</span>
                                     <span className='text-sm opacity-80 font-normal w-[30rem]'>This focuses on the learner's communication skills and vocabulary. We offer speech therapy services to develop this area.</span>
                                 </span>
                            </span>
-                           <span className='uppercase absolute top-[50%] -translate-y-[50%] left-[50%] text-2xl -translate-x-[50%] group-hover:opacity-0 font-semibold text-[#061c56] text-center'>Social Emotional Mental Health</span>
+                           <span className='uppercase absolute top-[50%] -translate-y-[50%] left-[50%] text-2xl -translate-x-[50%] group-hover:opacity-0 font-semibold text-[#21bdf3] text-center'>Social Emotional Mental Health</span>
                         </span>
                         <span className='flex hover:shadow-xl rounded-lg bg-white relative group'>
                             <span className='opacity-0 flex gap-3 p-2 group-hover:opacity-100 transition-transform duration-1000'>
                                 <span className='w-12 h-12 rounded-md mt-1 bg-slate-100'><img className='w-full h-full rounded-md' alt='' src={icon4}></img></span>
                                 <span className='flex flex-col gap-1'>
-                                    <span className='text-xl font-medium'>Sensory/Physical Needs</span>
+                                    <span className='text-xl font-medium opacity-90'>Sensory/Physical Needs</span>
                                     <span className='text-sm opacity-80 font-normal w-[30rem]'>This area focuses on your child's sensory needs and their fine and gross motor skills. We provide occupational therapy and provide support for your child's sensory needs.</span>
                                 </span>
                             </span>
-                            <span className='uppercase absolute top-[50%] -translate-y-[50%] left-[50%] text-2xl -translate-x-[50%] group-hover:opacity-0 font-semibold text-[#061c56] text-center flex'>Sensory/Physical Needs</span>
+                            <span className='uppercase absolute top-[50%] -translate-y-[50%] left-[50%] text-2xl -translate-x-[50%] group-hover:opacity-0 font-semibold text-[#21bdf3] text-center flex'>Sensory/Physical Needs</span>
                         </span>
                     </span>
                 </span>
             </span>
-            <span className='w-screen h-60 bg-[#061c56]'>
+            <span className='w-screen h-60 bg-[#f6bc75] -mt-10'>
             </span>
-            <span className='flex flex-col gap-2 py-4 px-20 justify-center items-center w-screen bg-[#E5B87C]/10'>
-                <span className='text-3xl font-semibold opacity-80'>Our Process:The Graduated Approach</span>
+            <span className='flex flex-col gap-2 py-4 px-20 justify-center items-center w-screen bg-[#061c56] -mt-10'>
+                <span className='text-3xl font-semibold opacity-80 text-white'>Our Process:The Graduated Approach</span>
                 <span className='flex flex-col gap-6'>
                     <span className='flex gap-5'>
                         <span className='flex hover:shadow-xl rounded-lg bg-white relative group'>
@@ -177,7 +185,7 @@ const Section5Content = () => {
                                     <span className='text-sm opacity-80 font-normal w-[30rem]'>The team will create an Individualised Education Plan with agreed outcomes by the end of the session, then hold an IEP meeting to review and agree on the targets. Every IEP must be signed by parents.</span>
                                 </span>
                            </span>
-                           <span className='uppercase absolute top-[50%] -translate-y-[50%] left-[50%] text-2xl -translate-x-[50%] group-hover:opacity-0 font-semibold text-[#061c56] text-center'>Plan</span>
+                           <span className='uppercase absolute top-[50%] -translate-y-[50%] left-[50%] text-2xl -translate-x-[50%] group-hover:opacity-0 font-semibold text-[#21bdf3] text-center'>Plan</span>
                         </span>
                         <span className='flex hover:shadow-xl rounded-lg bg-white relative group'>
                             <span className='opacity-0 flex gap-3 p-2 group-hover:opacity-100 transition-transform duration-1000'>
@@ -187,7 +195,7 @@ const Section5Content = () => {
                                     <span className='text-sm opacity-80 font-normal w-[30rem]'>When your child resumes we observe their behaviour and assess their academic abilities over a 4 week period. A record of concern may also be raised by the class teacher.</span>
                                 </span>
                             </span>
-                            <span className='uppercase absolute top-[50%] -translate-y-[50%] left-[50%] text-2xl -translate-x-[50%] group-hover:opacity-0 font-semibold text-[#061c56] text-center flex'>Asses</span>
+                            <span className='uppercase absolute top-[50%] -translate-y-[50%] left-[50%] text-2xl -translate-x-[50%] group-hover:opacity-0 font-semibold text-[#21bdf3] text-center flex'>Asses</span>
                         </span>
                     </span>
                     <span className='flex gap-5'>
@@ -201,7 +209,7 @@ const Section5Content = () => {
                                     <span className='text-sm opacity-80 font-normal w-[30rem]'>At the end of the session, an Annual Review meeting will be set up to go through your child's overall progress and achievements throughout the session.</span>
                                 </span>
                            </span>
-                           <span className='uppercase absolute top-[50%] -translate-y-[50%] left-[50%] text-2xl -translate-x-[50%] group-hover:opacity-0 font-semibold text-[#061c56] text-center'>Social Emotional Mental Health</span>
+                           <span className='uppercase absolute top-[50%] -translate-y-[50%] left-[50%] text-2xl -translate-x-[50%] group-hover:opacity-0 font-semibold text-[#21bdf3] text-center'>Social Emotional Mental Health</span>
                         </span>
                         <span className='flex hover:shadow-xl rounded-lg bg-white relative group'>
                             <span className='opacity-0 flex gap-3 p-2 group-hover:opacity-100 transition-transform duration-1000'>
@@ -211,7 +219,7 @@ const Section5Content = () => {
                                     <span className='text-sm opacity-80 font-normal w-[30rem]'>The learning facilitator and therapists work with your child and monitor and record their progress daily.</span>
                                 </span>
                             </span>
-                            <span className='uppercase absolute top-[50%] -translate-y-[50%] left-[50%] text-2xl -translate-x-[50%] group-hover:opacity-0 font-semibold text-[#061c56] text-center flex'>Do</span>
+                            <span className='uppercase absolute top-[50%] -translate-y-[50%] left-[50%] text-2xl -translate-x-[50%] group-hover:opacity-0 font-semibold text-[#21bdf3] text-center flex'>Do</span>
                         </span>
                     </span>
                 </span>
@@ -235,7 +243,7 @@ const Section5Content = () => {
                     </span>
                 </span>
             </span> */}
-            <span className='flex py-10 px-12 gap-10 bg-[#061c56]/80 text-white'>
+            <span className='flex py-10 px-12 gap-10 -mt-10 bg-[#21bdf3] text-white'>
                 <span className='flex flex-col w-[50%] gap-4'>
                     <span className='flex flex-col gap-2'>
                         <span className='uppercase font-medium text-3xl opacity-90'>INTERVENTION</span>

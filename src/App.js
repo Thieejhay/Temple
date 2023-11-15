@@ -17,6 +17,7 @@ import News3 from "./Pages/News3";
 import News4 from "./Pages/News4";
 import News5 from "./Pages/News5";
 import Boarding from "./Pages/Boarding";
+import News6 from "./Pages/News6";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path='news-3' element={<News3 />}></Route>
         <Route path='news-4' element={<News4 />}></Route>
         <Route path='news-5' element={<News5 />}></Route>
+        <Route path='news-6' element={<News6 />}></Route>
         <Route path='boarding' element={<Boarding />}></Route>
     </Routes>
    

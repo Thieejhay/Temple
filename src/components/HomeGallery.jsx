@@ -15,9 +15,9 @@ import Pic12 from '../assets/gallery/dd.png'
 const HomeGallery = () => {
 
   return (
-    <div className='flex flex-col py-8 lg:px-28 px-4 bg-[#21bdf3]/30 text-white'>
+    <div className='flex flex-col py-8 lg:px-28 px-4 bg-[#21bdf3] text-white'>
             <span className='flex flex-col gap-2 text-center lg:mt-6 mt-3'>
-                <span className='uppercase lg:text-4xl text-xl font-semibold opacity-90'>Gallery</span>
+                <span className='uppercase lg:text-4xl text-xl font-semibold opacity-90 text-[#061c56]'>Gallery</span>
             </span>
         <div className='lg:flex hidden gap-3 mt-6 '>
             <span className='overflow-hidden flex w-52 h-48 rounded-lg'><img className='w-52 h-48 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic2} alt=''></img></span>
@@ -67,7 +67,7 @@ const HomeGallery = () => {
                     Watch Our Videos
                 </span>
                 <span className='text-base font-normal opacity-80 lg:w-80 w-60'>A leading British International school offering quality education in Nigeria</span>
-                <a href='https://youtube.com/@TempleSchools' rel="noreferrer" target='_blank'><span className='px-5 py-2 bg-[#d9bc6d] text-sm w-fit rounded-md'>Watch more on our youtube channel</span></a>
+                <a href='https://youtube.com/@TempleSchools' rel="noreferrer" target='_blank'><span className='px-5 py-2 bg-[#f6bc75] text-[#061c56] hover:text-white text-sm w-fit rounded-md'>Watch more on our youtube channel</span></a>
             </span>
             <span className='bg-gray-300'>
                 <iframe width="570" height="310" className='rounded-lg' src="https://www.youtube.com/embed/tEh0P9MNmls?si=dIba9KcA5DSJi1D3" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>

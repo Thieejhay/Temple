@@ -19,14 +19,14 @@ import wave3 from '../assets/Circle.png';
 const HomeContent = () => {
   return (
     <div className='flex flex-col w-screen overflow-hidden'>
-        <div className='flex lg:h-[30rem] h-[17rem]'>
+        <div className='flex lg:h-[30rem] h-[15rem]'>
             <HomeBanner />
         </div>
-        <div className='flex lg:flex-row flex-col px-4 lg:px-32 lg:pt-16 pt-12 lg:pb-16 pb-10 w-screen relative'>
+        <div className='flex lg:flex-row flex-col px-4 lg:px-32 lg:pt-16 pt-12 lg:pb-16 pb-10 w-screen relative' id='director'>
             <span className='flex absolute right-4 top-0'><img src={wave} alt='' className='w-[75rem] h-[35rem] z-10'></img></span>
             <span className='flex absolute left-0 top-0'><img src={wave2} alt='' className='w-[70rem] h-[35rem] z-10'></img></span>
             <span className='flex absolute right-40 top-44'><img src={wave3} alt='' className='w-[5rem] h-[4rem] z-30'></img></span>
-            <div className='flex flex-col lg:w-[50%] lg:pb-6 z-20'>
+            <span className='flex flex-col lg:w-[50%] lg:pb-6 z-20'>
                 <span className='lg:text-xl text-base font-semibold text-[#061c56] lg:mb-2 opacity-90'>Message From The Founding Director</span>
                 <span className='flex flex-col lg:mb-4 lg:gap-1 text-[#061c56]'>
                     <span className='lg:text-4xl text-2xl uppercase font-bold opacity-80'>Charting a Legacy </span>
@@ -45,13 +45,13 @@ const HomeContent = () => {
                 I am excited to welcome you to Temple School, where every day is an opportunity to learn, grow, and make cherished memories. Here's to a future filled with success and boundless possibilities.
                 </span>
                 <span className='lg:text-2xl text-xl font-semibold mt-2 opacity-80 hidden lg:flex'>Mrs Shirley Okharedia</span>
-            </div>
-            <div className='flex relative lg:w-[50%] mt-6 lg:mt-0 z-20'>
+            </span>
+            <span className='flex relative lg:w-[50%] mt-6 lg:mt-0 z-20'>
                 <span className='w-80 h-[25rem] bg-[#061c56] rounded-md lg:bottom-12 left-1 lg:left-24 absolute'></span>
                 <span className='lg:w-[21rem] w-[19rem] h-[24rem] lg:h-[25rem] bg-gray-800 rounded-md lg:bottom-20 left-7 -bottom-[23.5rem] lg:left-32 absolute'>
                     <img className='w-full h-full' alt='' src={Founder}></img>
                 </span>
-            </div>
+            </span>
             <span className='lg:text-2xl text-xl font-semibold mt-[25.5rem] opacity-80 lg:hidden  flex'>Mrs Shirley Okharedia</span>
         </div>
         <div className='flex flex-col lg:pb-12 pb-3 justify-center items-center '>
@@ -92,7 +92,7 @@ const HomeContent = () => {
                         <span className='lg:text-2xl text-sm font-normal lg:tracking-wider'>passionate, hard-working and full of ideas.</span>
                     </span>
                 </span>
-                <a href='https://basic.edves.net/#tab2' rel="noreferrer" target='_blank'><span className='lg:px-8 lg:py-5 px-1 py-1 text-xl w-fit h-fit font-semibold text-white bg-[#f6bc75] rounded-md drop-shadow-md'>Apply Now</span></a>
+                <a href='https://basic.edves.net/#tab2' rel="noreferrer" target='_blank'><span className='lg:px-8 lg:py-5 px-1 py-1 text-xl w-fit h-fit font-semibold hover:text-white bg-[#f6bc75] rounded-md drop-shadow-md text-[#061c56] '>Apply Now</span></a>
             </span>
             <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
         </div>
@@ -127,8 +127,8 @@ const HomeContent = () => {
         </div>
         <div id='gallery'><HomeGallery /></div>
         <HomeAlumna />
-        <div className='flex flex-col lg:gap-4 justify-center items-center lg:py-8 py-4 lg:px-32 px-4 bg-[#cddfec]/80' id='acc'>
-            <span className='uppercase lg:text-4xl text-xl font-medium'>accreditation & affiliates</span>
+        <div className='flex flex-col lg:gap-4 justify-center items-center lg:py-8 py-4 lg:px-32 px-4 bg-[#f6bc75]' id='acc'>
+            <span className='uppercase lg:text-4xl text-xl font-medium text-[#061c56]/90'>accreditation & affiliates</span>
             <span className='lg:text-2xl text-xl font-normal text-center text-[#061c56]'>As part of our efforts to give your child the best education possible, Temple School is affiliated with a number of local and international educational organizations, all with an aim to continuously improving the quality of our education delivery.</span>
         </div>
         <Logos />
@@ -138,7 +138,7 @@ const HomeContent = () => {
                 <span className='text-white lg:text-base text-sm font-normal lg:w-[31rem]'>Temple School is one of the best schools in Lagos, Nigeria. Our newsletters are full of interesting information about what's going on in school and includes useful dates for your diary.</span>
                 <span className='flex'>
                     <input className=" lg:w-72 w-60 h-10 border-2 border-white rounded px-3 bg-transparent text-white outline-none" placeholder="Enter email address..."></input>
-                    <input className= 'px-3 lg:px-6 flex items-center rounded text-[#061c56] uppercase text-xs lg:text-sm font-medium bg-[#f6bc75]' type='submit' value='subscribe'></input>
+                    <input className= 'px-3 lg:px-6 flex items-center rounded text-[#061c56] uppercase text-xs lg:text-sm font-medium bg-[#f6bc75] hover:text-white' type='submit' value='subscribe'></input>
                 </span>
             </span>
         </div>

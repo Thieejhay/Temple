@@ -16,7 +16,7 @@ const NewCalendar = () => {
         setShowMore(!showMore);
       };
   return (
-    <div className='flex flex-col justify-center items-center gap-6 w-screen bg-[#fab14d]/40 py-8'>
+    <div className='flex flex-col justify-center items-center gap-6 w-screen bg-[#f6bc75] py-8'>
         <span className='flex flex-col gap mb-5 text-center'>
             <span className='uppercase text-3xl font-semibold text-[#061c56]'>academic calendar</span>
             <span className='text-2xl font-medium text-[#061c56]'>2023/2024</span>

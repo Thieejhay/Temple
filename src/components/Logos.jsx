@@ -12,7 +12,7 @@ import Logo9 from '../assets/logo9.png';
 
 const Logos = () => {
   return (
-    <div className='flex lg:px-28 lg:pt-8'>
+    <div className='flex lg:px-28 lg:pt-8 '>
         <Marquee speed={40}>
             <div className='flex gap-10 items-center h-32'>
                 <img className='w-24 h-20' src={Logo1} alt=''></img>
