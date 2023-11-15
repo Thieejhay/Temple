@@ -29,11 +29,11 @@ const HomeNews = () => {
             slidesPerView={3}
             spaceBetween={20}
             slidesPerGroup={1}
-            loop={true} className='w-[70%] lg:pl-4 lg:h-[21rem] h-[15rem] mySwiper mt-3 lg:mt-8'>
+            loop={true} className='w-[70%] lg:pl-4 lg:h-[24rem] h-[15rem] mySwiper mt-3 lg:mt-8'>
                 { swiper.map((swiper, i) => (
                     <SwiperSlide className='flex' key={i}>
                         <span className='px-6 lg:py-5 py-2 flex flex-col lg:gap-2 hover:shadow-xl w-fit'>
-                            <span className='w-60 h-28 rounded-lg bg-gray-200'>
+                            <span className='w-60 h-44 rounded-lg bg-gray-200'>
                                 <img className='w-full h-full rounded-lg' src={swiper.src} alt=''></img>
                             </span>
                             <span className=' text-sm font-medium w-56 h-fit lg:leading-5'>{swiper.title}</span>

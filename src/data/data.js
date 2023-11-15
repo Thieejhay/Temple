@@ -1,4 +1,5 @@
 import news1 from '../assets/news.png';
+import news2 from '../assets/news2.png';
 import news3 from '../assets/news3.png';
 import news4 from '../assets/news4.png';
 import news5 from '../assets/news5.png';
@@ -15,28 +16,35 @@ export const swiper = [
         link: '/news-1'
     },
     {
-        id: 1,
+      id: 1,
+      title: "The Flame: October Temple School Newsletter",
+      mssg: "It is with great excitement that we bring you the October edition of Temple School's monthly newsletter!",
+      src: news2,
+      link: '/news-6'
+  },
+    {
+        id: 2,
         title: "The Flame: September Temple School Newsletter",
         mssg: 'Welcome to the new academic session. The 2023/2024 academic session promises to be full of exciting...',
         src: news3,
         link: '/news-2'
     },
     {
-        id: 2,
+        id: 3,
         title: 'The Flame: August Temple School Newsletter',
         mssg: 'Welcome to the August edition of our monthly newsletter. We hope you are all having a wonderful ...',
         src: news4,
         link: '/news-3'
     },
     {
-        id: 3,
+        id: 4,
         title: 'The Flame: July Temple School Newsletter',
         mssg: "As we enter the final weeks of the school year, we are excited to present to you the second edition of our...",
         src: news5,
         link: '/news-4'
     },
     {
-        id: 3,
+        id: 5,
         title: 'The Flame: June Temple School Newsletter',
         mssg: "With great pleasure, we welcome you to the June edition of Temble School's monthly newsletter.",
         src: news6,
