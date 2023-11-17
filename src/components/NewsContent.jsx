@@ -17,7 +17,7 @@ const NewsContent = () => {
             <span className='text-4xl opacity-90 font-semibold absolute top-28 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75] flex'>News & Events</span>
         </span>
        
-        <div className='flex flex-col py-12 gap-8 bg-[#21bdf3]'>
+        <div className='flex flex-col py-12 gap-8 bg-white'>
             <span className='flex gap-[30rem] items-center justify-center'>
                 <span className='flex flex-col gap-2'>
                     <span className='text-3xl font-semibold text-[#061c56]'>Monthly New Letters</span>
@@ -25,7 +25,7 @@ const NewsContent = () => {
             </span>
             <div className='flex gap-12 flex-col px-24'>
                <div className='flex gap-3 flex-col'>
-                    <span className='p-6 flex gap-3 border hover:bg-[#f6bc75] border-[#061c56] bg-white  rounded-md'>
+                    <span className='p-6 flex gap-3 border bg-[#f6bc75] border-[#061c56]  rounded-md'>
                         <span className='w-20 h-20 bg-[#061c56] rounded-md flex justify-center items-center text-white text-2xl font-semibold'>Nov</span>
                         <span className='w-[20rem] h-56 rounded-lg bg-gray-200'>
                             <img className='w-full h-full rounded-lg' src={news1} alt=''></img>
@@ -37,19 +37,19 @@ const NewsContent = () => {
                         </span>
                         
                     </span> 
-                    <span className='p-6 flex gap-3 border hover:bg-[#f6bc75] border-[#061c56] bg-white  rounded-md'>
-                        <span className='w-20 h-20 bg-[#061c56] rounded-md flex justify-center items-center text-white text-2xl font-semibold'>Oct</span>
+                    <span className='p-6 flex gap-3 border bg-[#061c56] border-[#f6bc75] rounded-md'>
+                        <span className='w-20 h-20 bg-[#f6bc75] rounded-md flex justify-center items-center text-white text-2xl font-semibold'>Oct</span>
                         <span className='w-[20rem] h-56 rounded-lg bg-gray-200'>
                             <img className='w-full h-full rounded-lg' src={news2} alt=''></img>
                         </span>
                         <span className=' flex flex-col gap-3'>
-                            <span className=' text-2xl font-medium leading-5 text-[#061c56]'>The Flame: October Temple School Newsletter</span>
-                            <span className='text-base font-normal w-[40rem] opacity-70'>It is with great excitement that we bring you the October edition of Temple School's monthly newsletter!</span>
-                            <Link to='/news-6'><span className='text-sm font-normal text-[#061c56]'>Read More</span></Link>
+                            <span className=' text-2xl font-medium leading-5 text-[#f6bc75]'>The Flame: October Temple School Newsletter</span>
+                            <span className='text-base font-normal w-[40rem] opacity-70 text-white'>It is with great excitement that we bring you the October edition of Temple School's monthly newsletter!</span>
+                            <Link to='/news-6'><span className='text-sm font-normal text-[#f6bc75]'>Read More</span></Link>
                         </span>
                         
                     </span> 
-                    <span className='p-6 flex gap-3 border hover:bg-[#f6bc75] border-[#061c56] bg-white  rounded-md'>
+                    <span className='p-6 flex gap-3 border border-[#061c56] bg-white  rounded-md'>
                         <span className='w-20 h-20 bg-[#061c56] rounded-md flex justify-center items-center text-white text-2xl font-semibold'>Sep</span>
                         <span className='w-[20rem] h-56 rounded-lg bg-gray-200'>
                             <img className='w-full h-full rounded-lg' src={news4} alt=''></img>
@@ -61,7 +61,7 @@ const NewsContent = () => {
                         </span>
                         
                     </span> 
-                    <span className='p-6 flex gap-3 border hover:bg-[#f6bc75] border-[#061c56] bg-white  rounded-md'>
+                    <span className='p-6 flex gap-3 border border-[#061c56] bg-white  rounded-md'>
                         <span className='w-20 h-20 bg-[#061c56] rounded-md flex justify-center items-center text-white text-2xl font-semibold'>Aug</span>
                         <span className='w-[20rem] h-56 rounded-lg bg-gray-200'>
                             <img className='w-full h-full rounded-lg' src={news5} alt=''></img>
@@ -73,7 +73,7 @@ const NewsContent = () => {
                         </span>
                         
                     </span> 
-                    <span className='p-6 flex gap-3 border hover:bg-[#f6bc75] border-[#061c56] bg-white  rounded-md'>
+                    <span className='p-6 flex gap-3 border border-[#061c56] bg-white  rounded-md'>
                         <span className='w-20 h-20 bg-[#061c56] rounded-md flex justify-center items-center text-white text-2xl font-semibold'>Jul</span>
                         <span className='w-[20rem] h-56 rounded-lg bg-gray-200'>
                             <img className='w-full h-full rounded-lg' src={news6} alt=''></img>
@@ -85,7 +85,7 @@ const NewsContent = () => {
                         </span>
                         
                     </span> 
-                    <span className='p-6 flex gap-3 border hover:bg-[#f6bc75] border-[#061c56] bg-white  rounded-md'>
+                    <span className='p-6 flex gap-3 border border-[#061c56] bg-white  rounded-md'>
                         <span className='w-20 h-20 bg-[#061c56] rounded-md flex justify-center items-center text-white text-2xl font-semibold'>Jun</span>
                         <span className='w-[20rem] h-56 rounded-lg bg-gray-200'>
                             <img className='w-full h-full rounded-lg' src={news3} alt=''></img>

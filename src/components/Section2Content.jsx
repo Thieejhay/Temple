@@ -8,7 +8,7 @@ import Pic4 from '../assets/gallery/Primary4.png';
 import Pic5 from '../assets/gallery/Primary2.png';
 import Pic6 from '../assets/gallery/Primary5.png';
 import Pic7 from '../assets/gallery/pic2.png';
-import Pic8 from '../assets/gallery/p1.png';
+import Pic8 from '../assets/gallery/ps1.png';
 import Pic9 from '../assets/gallery/p2.png';
 import Pic10 from '../assets/gallery/p3.png';
 import Pic11 from '../assets/gallery/p4.png';
@@ -79,10 +79,10 @@ const Section2Content = () => {
                 </span>
                 <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
             </div>
-            <span className='flex flex-col bg-[#f6bc75] py-2 px-24'>
+            <span className='flex flex-col bg-white py-6 px-24'>
                 <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr>
-                <span className='text-3xl font-semibold text-center opacity-90 mb-2 my-1 text-[#061c56]'>Campus-specific facilities and features</span>
-                <span className='flex justify-center mt-3 gap-20 text-[#061c56]'>
+                <span className='text-3xl font-semibold text-center opacity-90 mb-2 my-1 text-[#061c56] mt-4'>Campus-specific facilities and features</span>
+                <span className='flex justify-center mt-3 gap-20 text-[#061c56] mb-4'>
                     <span className='flex flex-col gap-1 pb-3'>
                         <span className='flex gap-2 items-center'>
                             <HiOutlineCheckCircle className='w-5 h-5 text-[#061c56]'/>
@@ -131,7 +131,7 @@ const Section2Content = () => {
                 <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr> 
             </span>
             <span className='flex flex-col pt-6 pb-10 bg-[#21bdf3] mb-10'>
-                <span className='text-3xl font-semibold text-center mb-7 opacity-90 text-white'>Photo Gallery</span>
+                <span className='text-3xl font-semibold text-center mb-7 opacity-90 text-[#061c56]'>Photo Gallery</span>
                 <span className='flex px-32 gap-3'>
                     <span className='w-[20rem] h-60 '>
                         <img className='w-full h-full rounded-lg object-cover' src={Pic7} alt=''></img>
@@ -159,7 +159,7 @@ const Section2Content = () => {
                 </span>
                 <span className='flex gap-3 mt-6 px-32'>
                     <span className='w-52 h-48 ' >
-                        <img className='w-full h-full object-cover rounded-lg' src={Pic8} alt=''></img>
+                        <img className='w-full h-full rounded-lg' src={Pic8} alt=''></img>
                     </span>
                     <span className='w-[21rem] h-48 ' >
                         <img className='w-full h-full rounded-lg object-cover' src={Pic11} alt=''></img>

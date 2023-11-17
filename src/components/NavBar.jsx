@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 const NavBar = () => {
-    const [showHomeDropdown, setShowHomeDropdown] = useState(false);
+    // const [showHomeDropdown, setShowHomeDropdown] = useState(false);
     const [showSectionsDropdown, setShowSectionsDropdown] = useState(false);
     const [showAboutUsDropdown, setShowAboutUsDropdown] = useState(false);
     const dropdownRef = useRef(null);
@@ -17,18 +17,18 @@ const NavBar = () => {
         switch (dropdown) {
           case 'sections':
             setShowSectionsDropdown(true);
-            setShowHomeDropdown(false);
+            // setShowHomeDropdown(false);
             setShowAboutUsDropdown(false);
             break;
-          case 'home':
-            setShowHomeDropdown(true);
-            setShowSectionsDropdown(false);
-            setShowAboutUsDropdown(false);
-            break;
+        //   case 'home':
+        //     setShowHomeDropdown(true);
+        //     setShowSectionsDropdown(false);
+        //     setShowAboutUsDropdown(false);
+        //     break;
           case 'aboutUs':
             setShowAboutUsDropdown(true);
             setShowSectionsDropdown(false);
-            setShowHomeDropdown(false);
+            // setShowHomeDropdown(false);
             break;
           default:
             break;
@@ -38,7 +38,7 @@ const NavBar = () => {
       const handleMouseLeave = () => {
         hideTimeout = setTimeout(() => {
           setShowSectionsDropdown(false);
-          setShowHomeDropdown(false);
+        //   setShowHomeDropdown(false);
           setShowAboutUsDropdown(false);
         }, 300);
       };
@@ -50,7 +50,7 @@ const NavBar = () => {
       const handleDropdownMouseLeave = () => {
         hideTimeout = setTimeout(() => {
           setShowSectionsDropdown(false);
-          setShowHomeDropdown(false);
+        //   setShowHomeDropdown(false);
           setShowAboutUsDropdown(false);
         }, 300);
       };
@@ -69,10 +69,12 @@ const NavBar = () => {
   return (
     <div className='flex flex-col text-white w-screen'>
         <div className='flex items-center justify-between bg-[#061c56] py-4 px-4 lg:px-12'>
-            <span className='flex gap-3 items-center'>
-                <img className='w-24 h-24' src={Logo} alt=''></img>
-                <span className='lg:text-4xl text-xl font-semibold lg:tracking-wider'>Temple School</span>
-            </span>
+            <Link to='/'>
+                <span className='flex gap-3 items-center'>
+                    <img className='w-24 h-24' src={Logo} alt=''></img>
+                    <span className='lg:text-4xl text-xl font-semibold lg:tracking-wider'>Temple School</span>
+                </span>
+            </Link>
             <a href='https://templesch.edves.net/login/' rel="noreferrer" target='_blank' ><span className='h-fit py-1 w-24 text-center text-[#335672] bg-[#f6bc75] hover:text-white uppercase text-[0.5rem] flex lg:hidden'>parents/students portal</span></a>
             <span className='lg:flex hidden lg:gap-3 items-center'>
                 <span className='flex items-center gap-1'>
@@ -98,9 +100,9 @@ const NavBar = () => {
             </span>
         <div className='lg:flex hidden bg-[#061c56]/80 py-2 px-12'>
             <span className='flex gap-10'>
-                <span className='relative' onMouseEnter={() => handleMouseEnter('home')} onMouseLeave={handleMouseLeave}>
+                <span className='relative'>
                     <Link to='/'><span className='text-sm font-semibold uppercase hover:text-[#f6bc75]'>Home</span></Link>
-                    {showHomeDropdown && (
+                    {/* {showHomeDropdown && (
                         <span className=' flex flex-col absolute mt-2 w-40 -left-10 rounded-sm shadow-lg bg-[#061c56]/90
                          z-50' ref={dropdownRef} onMouseEnter={handleDropdownMouseEnter}
                          onMouseLeave={handleDropdownMouseLeave}>
@@ -124,7 +126,7 @@ const NavBar = () => {
                                 <span >Accreditation & Affiliates</span>
                             </HashLink>
                         </span>
-                    )}
+                    )} */}
                 </span>
                 <span className='relative' onMouseEnter={() => handleMouseEnter('aboutUs')} onMouseLeave={handleMouseLeave}>
                     <Link to='/about-us'><span className='text-sm font-semibold uppercase hover:text-[#f6bc75]'>About us</span></Link>
@@ -138,10 +140,6 @@ const NavBar = () => {
                             <hr className='w-full h-1 text-white opacity-50'></hr>
                             <HashLink to='#vision' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white' >
                                 <span >Our Vision</span>
-                            </HashLink>
-                            <hr className='w-full h-1 text-white opacity-50'></hr>
-                            <HashLink to='#school' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'>
-                                <span >Our Schools</span>
                             </HashLink>
                             <hr className='w-full h-1 text-white opacity-50'></hr>
                             <HashLink to='#team' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'>

@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import { HiOutlineCheckCircle } from 'react-icons/hi';
 import pic1 from '../assets/Sec.png'
 import Pic from '../assets/gallery/Sec.png';
-import Pic2 from '../assets/gallery/Sec2.png';
+import Pic2 from '../assets/gallery/sc3.png';
 import Pic3 from '../assets/gallery/Pic12.png';
 import Pic4 from '../assets/gallery/s4.png';
 import Pic5 from '../assets/gallery/Sec3.png';
-import Pic6 from '../assets/gallery/pic9.png';
+import Pic6 from '../assets/gallery/sc2.png';
 import Pic7 from '../assets/gallery/pic7.png';
 import Pic8 from '../assets/gallery/s1.png';
-import Pic9 from '../assets/gallery/s2.png';
-import Pic10 from '../assets/gallery/s3.png';
-import Pic11 from '../assets/gallery/s5.png';
+import Pic9 from '../assets/gallery/sc6.png';
+import Pic10 from '../assets/gallery/sc5.png';
+import Pic11 from '../assets/gallery/sc1.png';
 import { BsPlus, BsDot } from 'react-icons/bs'
 import { BiMinus } from 'react-icons/bi';
 import Banner from '../assets/pic4.png';
@@ -78,10 +78,10 @@ const Section3Content = () => {
                 </span>
                 <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
             </div>
-            <span className='flex flex-col bg-[#f6bc75] py-2 px-24'>
+            <span className='flex flex-col py-6 px-24'>
                 <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr>
-                <span className='text-3xl font-semibold text-center opacity-90 mb-2 my-1 text-[#061c56]'>Campus-specific facilities and features</span>
-                <span className='flex justify-center mt-3 gap-20 text-[#061c56]'>
+                <span className='text-3xl font-semibold text-center opacity-90 mb-2 my-1 text-[#061c56] mt-4'>Campus-specific facilities and features</span>
+                <span className='flex justify-center mt-3 gap-20 text-[#061c56] mb-4'>
                     <span className='flex flex-col gap-1 pb-3'>
                         <span className='flex gap-2 items-center'>
                             <HiOutlineCheckCircle className='w-5 h-5 text-[#061c56]'/>
@@ -130,7 +130,7 @@ const Section3Content = () => {
                 <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr> 
             </span>
             <span className='flex flex-col pt-6 pb-10 bg-[#21bdf3] mb-10'>
-                <span className='text-3xl font-semibold text-center mb-7 opacity-90 text-white'>Photo Gallery</span>
+                <span className='text-3xl font-semibold text-center mb-7 opacity-90 text-[#061c56]'>Photo Gallery</span>
                 <span className='flex px-32 gap-3'>
                     <span className='w-[20rem] h-60 '>
                         <img className='w-full h-full rounded-lg object-cover' src={Pic7} alt=''></img>

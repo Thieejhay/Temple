@@ -8,7 +8,7 @@ import Pic4 from '../assets/gallery/Creche2.png';
 import Pic5 from '../assets/gallery/Creche3.png';
 import Pic6 from '../assets/gallery/Creche4.png';
 import Pic7 from '../assets/gallery/Creche5.png';
-import Pic8 from '../assets/gallery/e10.png';
+import Pic8 from '../assets/gallery/ey1.png';
 import Pic9 from '../assets/gallery/e8.png';
 import Pic10 from '../assets/gallery/e9.png';
 import Pic11 from '../assets/gallery/e4.png';
@@ -321,10 +321,10 @@ const Section1Content = () => {
                     </span>
                 </span>
             </span>
-            <span className='flex flex-col bg-[#f6bc75] py-2 px-24'>
+            <span className='flex flex-col py-2 px-24 mb-10'>
                 <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr>
-                <span className='text-3xl font-semibold text-center opacity-90 mb-2 my-1 text-[#061c56]'>Campus-specific facilities and features</span>
-                <span className='flex justify-center mt-3 gap-20 text-[#061c56]'>
+                <span className='text-3xl font-semibold text-center opacity-90 mb-2 my-1 text-[#061c56] mt-4'>Campus-specific facilities and features</span>
+                <span className='flex justify-center mt-3 gap-20 text-[#061c56] mb-4'>
                     <span className='flex flex-col gap-1 pb-3'>
                         <span className='flex gap-2 items-center'>
                             <HiOutlineCheckCircle className='w-5 h-5 text-[#061c56]'/>
@@ -373,7 +373,7 @@ const Section1Content = () => {
                 <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr> 
             </span>
             <span className='flex flex-col bg-[#21bdf3] pt-6 pb-10 mb-10'>
-                <span className='text-3xl font-semibold text-center mb-7 opacity-90 text-white'>Photo Gallery</span>
+                <span className='text-3xl font-semibold text-center mb-7 opacity-90 text-[#061c56]'>Photo Gallery</span>
                 <span className='flex px-32 gap-3'>
                     <span className='w-[20rem] h-60 '>
                         <img className='w-full h-full rounded-lg' src={Pic7} alt=''></img>

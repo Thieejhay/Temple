@@ -14,6 +14,13 @@ import HomeCalendar from './HomeCalendar';
 import wave2 from '../assets/Waveleft.png';
 import wave from '../assets/Waveright.png';
 import wave3 from '../assets/Circle.png';
+import School1 from '../assets/school1.png';
+import School2 from '../assets/school2.png';
+import School3 from '../assets/school3.png';
+import School4 from '../assets/school4.png';
+import { BsTelephone } from 'react-icons/bs'
+import { CiLocationOn } from 'react-icons/ci';
+import { Link } from 'react-router-dom';
 
 
 const HomeContent = () => {
@@ -79,6 +86,91 @@ const HomeContent = () => {
                 </span>
                 
             </span>
+        </div>
+        <div className='flex flex-col lg:gap-5 gap-3 lg:pt-8 py-5' id='school'>
+            <span className='lg:text-3xl text-xl font-semibold text-center'>Our Schools</span>
+            <div className='flex lg:flex-row flex-col lg:gap-10 gap-8 justify-center items-center'>
+                <span className='flex flex-col h-[34rem]'>
+                    <span className=' '>
+                        <img src={School1} alt='' className='w-[17rem] h-60 rounded-t-lg'></img>
+                    </span>
+                    <span className='lg:p-4 p-3 w-[17rem] flex flex-col h-[19rem] justify-between '>
+                        <span className='text-[#061c56] text-2xl font-semibold uppercase tracking-wider'>Early Years</span>
+                        <span className='lg:text-xs text-sm font-normal opacity-80 mb-3'>The Children in Early Years and Foundation stage between 1 and 4 years.</span>
+                        <span className='flex gap-2 items-center'>
+                            <BsTelephone className='w-6 h-6 text-[#061c56]'/>
+                            <span className='text-xs font-light opacity-80'>+234 708 556 1673</span>
+                        </span>
+                        <span className='flex gap-2 items-center'>
+                            <CiLocationOn className='w-6 h-6 text-[#061c56]'/>
+                            <span className='text-xs font-light opacity-80'>213, Ikorodu Road, Illupeju, Lagos</span>
+                        </span>
+                        <Link to='/early-years'><span className='bg-[#f6bc75] hover:text-white flex justify-center py-4 text-sm font-normal border-2 rounded-lg text-[#061c56]'>Learn More</span></Link>
+                    </span>
+                </span>
+                <span className='flex flex-col h-[34rem]'>
+                    <span className=''>
+                        <img src={School2} alt='' className='w-[17rem] h-60 rounded-t-lg'></img>
+                    </span>
+                    <span className='lg:p-4 p-3 w-[17rem] h-[19rem] justify-between flex flex-col'>
+                        <span className='text-[#061c56] text-2xl font-semibold uppercase tracking-wider '>Primary</span>
+                        <span className='lg:text-xs text-sm font-normal opacity-80 mb-1'>In our primary section, the curriculum is presented to them in an integrated manner, through cross-curricular themes</span>
+                        <span className='flex gap-2 items-center'>
+                            <BsTelephone className='w-6 h-6 text-[#061c56]'/>
+                            <span className='text-xs font-light opacity-80'>+234 708 556 1673</span>
+                        </span>
+                        <span className='flex gap-2 items-center'>
+                            <CiLocationOn className='w-6 h-6 text-[#061c56]'/>
+                            <span className='flex flex-col gap-0'>
+                                <span className='text-xs font-light opacity-80'>1, Temple Drive,off Olusoji Iduwu st,</span>
+                                <span className='text-xs font-light opacity-80'>Illupeju, Lagos</span>
+                            </span>
+                        </span>
+                        <Link to='/primary '><span className='bg-[#f6bc75] hover:text-white flex justify-center py-4 text-sm font-normal border-2 rounded-lg text-[#061c56]'>Learn More</span></Link>
+                    </span>
+                </span>
+                <span className='flex flex-col h-[34rem]'>
+                    <span className=''>
+                        <img src={School3} alt='' className='w-[17rem] h-60 rounded-t-lg'></img>
+                    </span>
+                    <span className='lg:p-4 p-3 w-[17rem] h-[19rem] justify-between flex flex-col'>
+                        <span className='text-[#061c56] text-2xl font-semibold uppercase tracking-wider'>Secondary</span>
+                        <span className='lg:text-xs text-sm font-normal opacity-80'>Builds upon the attention to detail that underscores the provision in Temple Early Years & Foundation Stage, and Temple Primary.</span>
+                        <span className='flex gap-2 items-center'>
+                            <BsTelephone className='w-6 h-6 text-[#061c56]'/>
+                            <span className='flex flex-col gap-0'>
+                                <span className='text-xs font-light opacity-80'>+234 708 556 1673</span>
+                            </span>
+                        </span>
+                        <span className='flex gap-2 items-center'>
+                            <CiLocationOn className='w-6 h-6 text-[#061c56]'/>
+                            <span className='flex flex-col gap-0'>
+                                <span className='text-xs font-light opacity-80'>4-6 Odegbami st, Off Aba Johnson </span>
+                                <span className='text-xs font-light opacity-80'>st,Adeniyi Jones,Ikeja,Lagos.</span>
+                            </span>
+                        </span>
+                        <Link to='/secondary'><span className='bg-[#f6bc75] hover:text-white flex justify-center py-4 text-sm font-normal border-2 rounded-lg text-[#061c56]'>Learn More</span></Link>
+                    </span>
+                </span>
+                <span className='flex flex-col h-[34rem]'>
+                    <span className=''>
+                        <img src={School4} alt='' className='w-[17rem] h-60 rounded-t-lg'></img>
+                    </span>
+                    <span className='lg:p-4 p-3 w-[17rem] flex flex-col h-[19rem] justify-between'>
+                        <span className='text-[#061c56] text-2xl font-semibold uppercase tracking-wider'>College</span>
+                        <span className='lg:text-xs text-sm font-normal opacity-80 mb-1'>A private co-educational day and boarding sixth form that intensively and cohesively prepare post 16 year olds for entry into universities</span>
+                        <span className='flex gap-2 items-center mb-1'>
+                            <BsTelephone className='w-6 h-6 text-[#061c56]'/>
+                            <span className='text-xs font-light opacity-80'>+234 708 556 1673</span>
+                        </span>
+                        <span className='flex gap-2 items-center mb-1'>
+                            <CiLocationOn className='w-6 h-6 text-[#061c56]'/>
+                            <span className='text-xs font-light opacity-80'>8 Oyediran close, Opebi, Ikeja, Lagos</span>
+                        </span>
+                        <Link to='/college'><span className='bg-[#f6bc75] hover:text-white flex justify-center py-4 text-sm font-normal border-2 rounded-lg text-[#061c56]'>Learn More</span></Link>
+                    </span>
+                </span>
+            </div>
         </div>
         <div className='flex flex-col bg-[#061c56] py-1 lg:px-24 w-screen lg:h-40 gap-2'>
             <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>

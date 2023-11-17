@@ -1,5 +1,5 @@
 import React from 'react';
-import Banner from '../assets/dd.png';
+import Banner from '../assets/ELD55.png';
 import pic1 from '../assets/eldb.png'
 import Pic8 from '../assets/gallery/d1.png';
 import Pic9 from '../assets/gallery/d2.png';
@@ -116,7 +116,7 @@ const Section5Content = () => {
                     </span>
                 </span>
             </span>
-            <span className='flex flex-col gap-2 py-4 px-20 justify-center items-center w-screen bg-[#061c56]'>
+            <span className='flex flex-col gap-2 py-4 px-20 justify-center items-center w-screen bg-[#061c56] mb-4'>
                 <span className='text-3xl font-semibold opacity-80 text-white'>Areas of Need</span>
                 <span className='flex flex-col gap-6'>
                     <span className='flex gap-5'>
@@ -169,9 +169,7 @@ const Section5Content = () => {
                     </span>
                 </span>
             </span>
-            <span className='w-screen h-60 bg-[#f6bc75] -mt-10'>
-            </span>
-            <span className='flex flex-col gap-2 py-4 px-20 justify-center items-center w-screen bg-[#061c56] -mt-10'>
+            <span className='flex flex-col gap-2 py-4 px-20 justify-center items-center w-screen bg-[#f6bc75] -mt-10'>
                 <span className='text-3xl font-semibold opacity-80 text-white'>Our Process:The Graduated Approach</span>
                 <span className='flex flex-col gap-6'>
                     <span className='flex gap-5'>
