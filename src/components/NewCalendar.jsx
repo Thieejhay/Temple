@@ -16,12 +16,12 @@ const NewCalendar = () => {
         setShowMore(!showMore);
       };
   return (
-    <div className='flex flex-col justify-center items-center gap-6 w-screen bg-[#f6bc75] py-8'>
-        <span className='flex flex-col gap mb-5 text-center'>
-            <span className='uppercase text-3xl font-semibold text-[#061c56]'>academic calendar</span>
-            <span className='text-2xl font-medium text-[#061c56]'>2023/2024</span>
+    <div className='flex flex-col justify-center items-center lg:gap-6 gap-3 w-screen bg-[#f6bc75] lg:py-8 py-4'>
+        <span className='flex flex-col gap lg:mb-5 text-center'>
+            <span className='uppercase lg:text-3xl text-xl font-semibold text-[#061c56]'>academic calendar</span>
+            <span className='lg:text-2xl text-lg font-medium text-[#061c56]'>2023/2024</span>
         </span>
-        <div className='flex gap-6'>
+        <div className='flex lg:flex-row flex-col lg:gap-6 gap-3'>
             <span className='flex flex-col gap-2'>
                 <span className='text-xl font-semibold text-[#061c56]'>October</span>
                 <OctCalendar />
@@ -33,7 +33,7 @@ const NewCalendar = () => {
         </div>
         {showMore &&
             <div className='flex flex-col gap-6'>
-                <div className='flex gap-6'>
+                <div className='flex lg:flex-row flex-col lg:gap-6 gap-3'>
                     <span className='flex flex-col gap-2'>
                         <span className='text-xl font-semibold text-[#061c56]'>December</span>
                         <DecCalendar />
@@ -43,7 +43,7 @@ const NewCalendar = () => {
                         <JanCalendar />
                     </span>
                 </div>
-                <div className='flex gap-6'>
+                <div className='flex lg:flex-row flex-col lg:gap-6 gap-3'>
                     <span className='flex flex-col gap-2'>
                         <span className='text-xl font-semibold text-[#061c56]'>Febuary</span>
                         <FebCalendar />
@@ -53,7 +53,7 @@ const NewCalendar = () => {
                         <MarCalendar />
                     </span>
                 </div>
-                <div className='flex gap-6'>
+                <div className='flex lg:flex-row flex-col lg:gap-6 gap-3'>
                     <span className='flex flex-col gap-2'>
                         <span className='text-xl font-semibold text-[#061c56]'>April</span>
                         <AprCalendar />
@@ -63,7 +63,7 @@ const NewCalendar = () => {
                         <MayCalendar />
                     </span>
                 </div>
-                <div className='flex gap-6'>
+                <div className='flex lg:flex-row flex-col lg:gap-6 gap-3'>
                     <span className='flex flex-col gap-2'>
                         <span className='text-xl font-semibold text-[#061c56]'>June</span>
                         <JunCalendar />

@@ -68,14 +68,14 @@ const NavBar = () => {
 
   return (
     <div className='flex flex-col text-white w-screen'>
-        <div className='flex items-center justify-between bg-[#061c56] py-4 px-4 lg:px-12'>
+        <div className='flex items-center justify-between bg-[#061c56] py-2 px-2 lg:px-12'>
             <Link to='/'>
-                <span className='flex gap-3 items-center'>
-                    <img className='w-24 h-24' src={Logo} alt=''></img>
-                    <span className='lg:text-4xl text-xl font-semibold lg:tracking-wider'>Temple School</span>
+                <span className='flex lg:gap-3 gap-1 items-center'>
+                    <img className='lg:w-24 lg:h-24 w-16 h-16' src={Logo} alt=''></img>
+                    <span className='lg:text-4xl text-2xl font-semibold lg:tracking-wider'>Temple School</span>
                 </span>
             </Link>
-            <a href='https://templesch.edves.net/login/' rel="noreferrer" target='_blank' ><span className='h-fit py-1 w-24 text-center text-[#335672] bg-[#f6bc75] hover:text-white uppercase text-[0.5rem] flex lg:hidden'>parents/students portal</span></a>
+            <a href='https://templesch.edves.net/login/' rel="noreferrer" target='_blank' ><span className='h-fit py-1 w-24 text-center text-[#335672] bg-[#f6bc75] rounded hover:text-white uppercase text-[0.5rem] flex lg:hidden'>parents/students portal</span></a>
             <span className='lg:flex hidden lg:gap-3 items-center'>
                 <span className='flex items-center gap-1'>
                     <BiPhoneCall className='w-3 h-3'/>
@@ -85,7 +85,7 @@ const NavBar = () => {
                     <FaEnvelope />
                     <span className='text-xs font-medium'>info@templeschoolng.com</span>
                 </span>
-                <a href='https://templesch.edves.net/login/' rel="noreferrer" target='_blank' ><span className='px-3 py-2 text-[#335672] bg-[#f6bc75] hover:text-white uppercase text-xs'>parents/students portal</span></a>
+                <a href='https://templesch.edves.net/login/' rel="noreferrer" target='_blank' ><span className='px-3 py-2 text-[#335672] bg-[#f6bc75] rounded hover:text-white uppercase text-xs'>parents/students portal</span></a>
             </span>
         </div>
         <span className='flex lg:hidden gap-3 items-center px-2 py-2 bg-[#061c56]/80'>
@@ -99,7 +99,7 @@ const NavBar = () => {
                 </span>
             </span>
         <div className='lg:flex hidden bg-[#061c56]/80 py-2 px-12'>
-            <span className='flex gap-10'>
+            <span className='flex gap-7'>
                 <span className='relative'>
                     <Link to='/'><span className='text-sm font-semibold uppercase hover:text-[#f6bc75]'>Home</span></Link>
                     {/* {showHomeDropdown && (
@@ -134,19 +134,19 @@ const NavBar = () => {
                         <span className=' flex flex-col absolute mt-2 w-40 -left-10 rounded-sm shadow-lg bg-[#061c56]/90
                         z-50' ref={dropdownRef} onMouseEnter={handleDropdownMouseEnter}
                         onMouseLeave={handleDropdownMouseLeave}>
-                            <HashLink to='#history' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'>
+                            <HashLink to='/about-us#history' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'>
                                 <span>Our History</span>
                             </HashLink>
                             <hr className='w-full h-1 text-white opacity-50'></hr>
-                            <HashLink to='#vision' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white' >
+                            <HashLink to='/about-us#vision' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white' >
                                 <span >Our Vision</span>
                             </HashLink>
                             <hr className='w-full h-1 text-white opacity-50'></hr>
-                            <HashLink to='#team' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'>
+                            <HashLink to='/about-us#team' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'>
                                 <span >Management team</span>
                             </HashLink>
                             <hr className='w-full h-1 text-white opacity-50'></hr>
-                            <HashLink to='#accc' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'>
+                            <HashLink to='/about-us#accc' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'>
                                 <span >Accreditation & Affiliates</span>
                             </HashLink>
                         </span>
@@ -178,6 +178,7 @@ const NavBar = () => {
                 </span>
                 <Link to='/programs'><span className='text-sm font-semibold uppercase hover:text-[#f6bc75]'>programs</span></Link>
                 <Link to='/eld'><span className='text-sm font-semibold uppercase hover:text-[#f6bc75]'>eld</span></Link>
+                <Link to='/boarding'><span className='text-sm font-semibold uppercase hover:text-[#f6bc75]'>Boarding</span></Link>
                 <Link to='/news&events'><span className='text-sm font-semibold uppercase hover:text-[#f6bc75]'>news & events</span></Link>
                 <Link to='/contact-us'><span className='text-sm font-semibold uppercase hover:text-[#f6bc75]'>Contact us</span></Link>
             </span>

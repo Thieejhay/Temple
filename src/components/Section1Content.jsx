@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { HiOutlineCheckCircle } from 'react-icons/hi';
-import pic1 from '../assets/Eyfs.png'
+import pic1 from '../assets/Eyfs.png';
+import pic12 from '../assets/RITA.png'
 import Pic from '../assets/gallery/pic.png';
 import Pic2 from '../assets/gallery/e2.png';
 import Pic3 from '../assets/gallery/e1.png';
@@ -44,59 +45,61 @@ const Section1Content = () => {
 
   return (
     <div className='flex flex-col w-screen'>
-        <span className='flex justify-center items-center relative h-[23rem] bg-black'>
+        <span className='flex justify-center items-center relative h-[10rem] lg:h-[20rem] bg-black'>
             <img src={Banner} alt='' className='w-full h-full opacity-50 flex z-10 object-cover'></img>
-            <span className='text-4xl font-semibold opacity-90 absolute top-36 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75] flex'>Early Years and Foundation Stage</span>
+            <span className='lg:text-4xl text-2xl font-semibold opacity-90 absolute lg:top-36 top-16 z-20 lg:left-[50%] lg:-translate-x-[50%] left-[48%] -translate-x-[48%] text-center text-[#f6bc75] flex'>Early Years and Foundation Stage</span>
+
         </span>
         <div className='flex flex-col mb-8 py-3'>
-            <span className='flex pr-24 pl-12 mb-10' >
-                <img className='w-[34rem]' src={pic1} alt=''></img>
-                <span className='flex flex-col -ml-36 gap-3 pl-12 pt-8 pb-4 bg-[#f6bc75] w-full text-[#061c56]'>
-                    <span className=' text-5xl font-bold w-[30rem]'>Welcome Address by Head Teacher </span>
-                    <span className='text-sm w-[42rem] space-y-3'>
+            <span className='flex lg:flex-row flex-col-reverse lg:px-32 lg:mb-10 mb-5' >
+                <img className='w-[20rem] h-[27rem] lg:flex hidden' src={pic1} alt=''></img>
+                <span className='flex flex-col gap-3 lg:pl-12 px-4 pt-8 bg-[#f6bc75] w-full text-[#061c56]'>
+                    <span className=' lg:text-5xl text-2xl font-bold lg:w-[30rem]'>Welcome Address by Head Teacher </span>
+                    <span className='text-sm lg:w-[42rem] space-y-3'>
                         <p>It is with great pleasure that we welcome you and our little ones to the 2023/2024 session.</p>
                         <p>We realise that this will be a new experience for your child having been at home for some weeks and for others, a change of school.</p>
                         <p>We would like for this to be as pleasant a transition as possible and so we are sending you this information pack.</p>
                         <p>We hope it will answer any questions you might have and if it does not, please do not hesitate to get in touch.</p>
                     </span>
-                    <span className='flex flex-col gap-1 w-[42rem] items-end italic'>
-                        <span className='text-lg '>Mrs. Johnson-Nadar</span>
-                        <span className='text-lg '>Head Section</span>
+                    <span className='flex flex-col gap-1 lg:w-[42rem] items-end italic'>
+                        <img className='w-[11rem] h-[11rem] flex items-start lg:hidden rounded-lg' src={pic12} alt=''></img>
+                        <span className='lg:text-lg text-base '>Mrs. Johnson-Nadar</span>
+                        <span className='lg:text-lg text-base  lg:mt-0 -mt-2'>Head Section</span>
                     </span>
                 </span>
             </span>
-            <span className='flex flex-col gap-6 pr-32 pl-40 mb-10'>
-                    <span className='text-base opacity-80'>The children in Early Years and Foundation stage are between 1 and 4 years. This is an important stage in every child's life and development. We are aware of this and we have made learning as fun as possible.</span>
-                    <span className='text-base opacity-80'>Our overall aim is to provide each child with the appropriate work within a stimulating and nurturing environment so that each child has the opportunity and incentive to achieve his/her full potential. Children learn best when their efforts receive positive encouragement and this is an integral part of our classroom practice in our Early Years and Foundation Stage.</span>
-                    <span className='text-base opacity-80'>Early childhood is the foundation on which children build the rest of their lives. The Early Years and Foundation Stage makes a crucial contribution to children's early development and learning. Starting school is an important step! At Temple we have a carefully planned pre-school induction programme to make the transition from home to school sensitive and appropriate for each child. We provide children with a rich variety of teaching and learning experiences that are appropriate to their needs. Learning takes place in a secure and stimulating environment where first hand learning experiences encourage the development of imagination, creativity and the enjoyment of learning.</span>
-                    <span className='text-base opacity-80'>What children can do, rather than what they cannot do are the starting points in learning. Play helps young children to learn and develop through doing and talking, which research has shown to be the means by which young children learn to think. Structured play is important as listening, playing, speaking, concentrating, persistence and learning to work and co-operate with others are the main ways through which children learn about themselves and the world around them. During this stage, Early Learning Goals set out what most children are expected to achieve by the end of the Foundation Stage.</span>
+            <span className='flex flex-col px-4 lg:px-0 lg:gap-6 gap-2 lg:pr-32 lg:pl-40 lg:mb-10 mb-5'>
+                    <span className='lg:text-base text-sm opacity-80'>The children in Early Years and Foundation stage are between 1 and 4 years. This is an important stage in every child's life and development. We are aware of this and we have made learning as fun as possible.</span>
+                    <span className='lg:text-base text-sm opacity-80'>Our overall aim is to provide each child with the appropriate work within a stimulating and nurturing environment so that each child has the opportunity and incentive to achieve his/her full potential. Children learn best when their efforts receive positive encouragement and this is an integral part of our classroom practice in our Early Years and Foundation Stage.</span>
+                    <span className='lg:text-base text-sm opacity-80'>Early childhood is the foundation on which children build the rest of their lives. The Early Years and Foundation Stage makes a crucial contribution to children's early development and learning. Starting school is an important step! At Temple we have a carefully planned pre-school induction programme to make the transition from home to school sensitive and appropriate for each child. We provide children with a rich variety of teaching and learning experiences that are appropriate to their needs. Learning takes place in a secure and stimulating environment where first hand learning experiences encourage the development of imagination, creativity and the enjoyment of learning.</span>
+                    <span className='lg:text-base text-sm opacity-80'>What children can do, rather than what they cannot do are the starting points in learning. Play helps young children to learn and develop through doing and talking, which research has shown to be the means by which young children learn to think. Structured play is important as listening, playing, speaking, concentrating, persistence and learning to work and co-operate with others are the main ways through which children learn about themselves and the world around them. During this stage, Early Learning Goals set out what most children are expected to achieve by the end of the Foundation Stage.</span>
             </span>
-            <div className='flex flex-col bg-[#061c56] py-1 lg:px-24 w-screen lg:h-40 gap-2 mb-10'>
+            <div className='flex flex-col bg-[#061c56] py-1 lg:px-24 w-screen lg:h-40 gap-2 mb-5'>
                 <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
-                <span className='flex lg:justify-between gap-2 items-center lg:px-6 px-4'>
+                <span className='flex lg:justify-between gap-2 items-center lg:px-6 px-1'>
                     <span className='flex lg:gap-6 gap-2 items-center'>
                         <span className='lg:w-32 w-16 h-16 lg:h-32 rounded-full '>
                             <img src={Medal} alt='' className='w-full h-full'></img>
                         </span>
-                        <span className='flex flex-col text-[#f6bc75] lg:w-fit w-[12rem]'>
-                            <span className='lg:text-3xl text-sm font-medium lg:tracking-wider'>Our Students Are Talented,</span>
-                            <span className='lg:text-2xl text-sm font-normal lg:tracking-wider'>passionate, hard-working and full of ideas.</span>
+                        <span className='flex flex-col text-[#f6bc75] w-fit'>
+                            <span className='lg:text-3xl text-sm font-medium lg:tracking-wider'>Our Students Are Talented</span>
+                            <span className='lg:text-2xl text-xs lg:w-fit w-[10rem] font-normal lg:tracking-wider'>passionate, hard-working and full of ideas.</span>
                         </span>
                     </span>
-                    <a href='https://basic.edves.net/#tab2' rel="noreferrer" target='_blank'><span className='lg:px-8 lg:py-5 px-1 py-1 text-xl w-fit h-fit font-semibold text-white bg-[#f6bc75] rounded-md drop-shadow-md'>Apply Now</span></a>
+                    <a href='https://basic.edves.net/#tab2' rel="noreferrer" target='_blank'><span className='lg:px-8 lg:py-5 px-2 py-2 lg:text-xl text-lg w-fit h-fit font-medium lg:font-semibold text-white bg-[#f6bc75] rounded-md drop-shadow-md'>Apply Now</span></a>
                 </span>
                 <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
             </div>
-            <span className='flex flex-col gap-5 mb-10 '>
-                <span className='px-32 text-2xl font-semibold opacity-90'>The seven areas of learning and development that make up the Early Years and Foundation Stage curriculum are:</span>
-                <span className='flex flex-col px-32'>
+            <span className='flex flex-col lg:gap-5 gap-3 mb-5 '>
+                <span className='lg:px-32 px-4 lg:text-2xl text-lg font-semibold opacity-90'>The seven areas of learning and development that make up the Early Years and Foundation Stage curriculum are:</span>
+                <span className='flex flex-col lg:px-32 px-4'>
                     <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#f6bc75] text-[#061c56]'>
                         <span className=' flex justify-between items-center opacity-90'>
-                            <span className='text-xl'>Personal, Social and Emotional Development</span>
+                            <span className='lg:text-xl text-lg'>Personal, Social and Emotional Development</span>
                             <span onClick={() => toggleShowMore('showMore7')}>{showMore.showMore7 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
                         {showMore.showMore7 && 
-                            <span className='flex flex-col pl-6 space-y-2 pt-4 opacity-70'>
+                            <span className='flex flex-col lg:pl-6 space-y-2 lg:pt-4 opacity-70'>
                                 <span className='text-base'>Our programme supports children to develop:</span>
                                 <span className='flex gap-2 items-center'>
                                     <span className='text-xl font-bold'><BsDot /></span>
@@ -127,11 +130,11 @@ const Section1Content = () => {
                     </span>
                     <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
                         <span className=' flex justify-between items-center opacity-90'>
-                            <span className='text-xl'>Physical Development</span>
+                            <span className='lg:text-xl text-lg'>Physical Development</span>
                             <span onClick={() => toggleShowMore('showMore8')}>{showMore.showMore8 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
                         {showMore.showMore8 && 
-                            <span className='flex flex-col pl-6 space-y-2 pt-4 opacity-70'>
+                            <span className='flex flex-col lg:pl-6 space-y-2 lg:pt-4 opacity-70'>
                                 <span className='text-base'>Our programme supports children to develop:</span>
                                 <span className='flex gap-2 items-center'>
                                     <span className='text-xl font-bold'><BsDot /></span>
@@ -158,11 +161,11 @@ const Section1Content = () => {
                     </span>
                     <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#f6bc75] text-[#061c56]'>
                         <span className='flex justify-between items-center opacity-90'>
-                            <span className='text-xl'>Communication and Language</span>
+                            <span className='lg:text-xl text-lg'>Communication and Language</span>
                             <span onClick={() => toggleShowMore('showMore9')}>{showMore.showMore9 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
                         {showMore.showMore9 && 
-                            <span className='flex flex-col pl-6 space-y-2 pt-4 opacity-70'>
+                            <span className='flex flex-col lg:pl-6 space-y-2 lg:pt-4 opacity-70'>
                                 <span className='text-base'>Our programme supports children to develop:</span>
                                 <span className='flex gap-2 items-center'>
                                     <span className='text-xl font-bold'><BsDot /></span>
@@ -193,11 +196,11 @@ const Section1Content = () => {
                     </span>
                     <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
                         <span className=' flex justify-between items-center opacity-90'>
-                            <span className='text-xl'>Literacy</span>
+                            <span className='lg:text-xl text-lg'>Literacy</span>
                             <span onClick={() => toggleShowMore('showMore10')}>{showMore.showMore10 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
                         {showMore.showMore10 && 
-                            <span className='flex flex-col pl-6 space-y-2 pt-4 opacity-70'>
+                            <span className='flex flex-col lg:pl-6 space-y-2 lg:pt-4 opacity-70'>
                                 <span className='text-base'>Our programme supports children to develop:</span>
                                 <span className='flex gap-2 items-center'>
                                     <span className='text-xl font-bold'><BsDot /></span>
@@ -228,11 +231,11 @@ const Section1Content = () => {
                     </span>
                     <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#f6bc75] text-[#061c56]'>
                         <span className=' flex justify-between items-center opacity-90'>
-                            <span className='text-xl'>Mathematics</span>
+                            <span className='lg:text-xl text-lg'>Mathematics</span>
                             <span onClick={() => toggleShowMore('showMore11')}>{showMore.showMore11 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
                         {showMore.showMore11 && 
-                            <span className='flex flex-col pl-6 space-y-2 pt-4 opacity-70'>
+                            <span className='flex flex-col lg:pl-6 space-y-2 lg:pt-4 opacity-70'>
                                 <span className='text-base'>Our programme supports children to develop:</span>
                                 <span className='flex gap-2 items-center'>
                                     <span className='text-xl font-bold'><BsDot /></span>
@@ -255,11 +258,11 @@ const Section1Content = () => {
                     </span>
                     <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
                         <span className=' flex justify-between items-center opacity-90'>
-                            <span className='text-xl'>Understanding of the World</span>
+                            <span className='lg:text-xl text-lg'>Understanding of the World</span>
                             <span onClick={() => toggleShowMore('showMore12')}>{showMore.showMore12 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
                         {showMore.showMore12 && 
-                            <span className='flex flex-col pl-6 space-y-2 pt-4 opacity-70'>
+                            <span className='flex flex-col lg:pl-6 space-y-2 lg:pt-4 opacity-70'>
                                 <span className='text-base'>Our programme supports children to develop:</span>
                                 <span className='flex gap-2 items-center'>
                                     <span className='text-xl font-bold'><BsDot /></span>
@@ -290,11 +293,11 @@ const Section1Content = () => {
                     </span>
                     <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#f6bc75] text-[#061c56]'>
                         <span className=' flex justify-between items-center opacity-90'>
-                            <span className='text-xl'>Expressive arts & Design</span>
+                            <span className='lg:text-xl text-lg'>Expressive arts & Design</span>
                             <span onClick={() => toggleShowMore('showMore13')}>{showMore.showMore13 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
                         {showMore.showMore13 && 
-                            <span className='flex flex-col pl-6 space-y-2 pt-4 opacity-70'>
+                            <span className='flex flex-col lg:pl-6 space-y-2 lg:pt-4 opacity-70'>
                                 <span className='text-base'>Our programme supports children to develop:</span>
                                 <span className='flex gap-2 items-center'>
                                     <span className='text-xl font-bold'><BsDot /></span>
@@ -321,11 +324,11 @@ const Section1Content = () => {
                     </span>
                 </span>
             </span>
-            <span className='flex flex-col py-2 px-24 mb-10'>
+            <span className='flex flex-col py-2 lg:px-24 lg:mb-10 mb-5'>
                 <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr>
-                <span className='text-3xl font-semibold text-center opacity-90 mb-2 my-1 text-[#061c56] mt-4'>Campus-specific facilities and features</span>
-                <span className='flex justify-center mt-3 gap-20 text-[#061c56] mb-4'>
-                    <span className='flex flex-col gap-1 pb-3'>
+                <span className='lg:text-3xl text-xl font-semibold text-center opacity-90 mb-2 my-1 text-[#061c56] mt-4'>Campus-specific facilities and features</span>
+                <span className='flex lg:flex-row flex-col justify-center mt-3 lg:gap-20 text-[#061c56] mb-4'>
+                    <span className='flex flex-col gap-1 lg:pb-3 px-4 lg:px-0'>
                         <span className='flex gap-2 items-center'>
                             <HiOutlineCheckCircle className='w-5 h-5 text-[#061c56]'/>
                             <span className='text-lg font-normal'>Quis nostrud exercitation ullamco</span>
@@ -347,7 +350,7 @@ const Section1Content = () => {
                         </span>
                         <hr className='h-1 w-72 ml-5 rounded-xl bg-[#061c56]'></hr>
                     </span>
-                    <span className='flex flex-col gap-1'>
+                    <span className='flex flex-col gap-1 px-4 lg:px-0'>
                         <span className='flex gap-2 items-center'>
                             <HiOutlineCheckCircle className='w-5 h-5 text-[#061c56]'/>
                             <span className='text-lg font-normal'>Quis nostrud exercitation ullamco</span>
@@ -372,58 +375,78 @@ const Section1Content = () => {
                 </span>
                 <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr> 
             </span>
-            <span className='flex flex-col bg-[#21bdf3] pt-6 pb-10 mb-10'>
-                <span className='text-3xl font-semibold text-center mb-7 opacity-90 text-[#061c56]'>Photo Gallery</span>
-                <span className='flex px-32 gap-3'>
-                    <span className='w-[20rem] h-60 '>
-                        <img className='w-full h-full rounded-lg' src={Pic7} alt=''></img>
+            <span className='flex flex-col py-8 lg:px-0 px-4 bg-[#21bdf3] text-white mb-5 lg:mb-10'>
+                <span className='lg:text-3xl text-xl font-semibold text-center lg:mb-7 mb-3 opacity-90 text-[#061c56]'>Photo Gallery</span>
+                <span className='lg:flex hidden px-32 gap-3'>
+                    <span className='w-[20rem] h-60 overflow-hidden flex'>
+                        <img className='w-full h-full rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic7} alt=''></img>
                     </span>
-                    <span className='w-[40rem] h-60  bg-gray-200'>
-                        <img className='w-full h-full rounded-lg object-cover' src={Pic} alt=''></img>
+                    <span className='w-[40rem] h-60 overflow-hidden flex'>
+                        <img className='w-full h-full rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic} alt=''></img>
                     </span>
-                    <span className='w-[20rem] h-60 '>
-                        <img className='w-full h-full rounded-lg object-cover' src={Pic4} alt=''></img>
-                    </span>
-                </span>
-                <span className='flex gap-3 mt-6 px-32'>
-                    <span className='w-[21rem] h-48 ' >
-                        <img className='w-full h-full rounded-lg object-cover' src={Pic5} alt=''></img>
-                    </span>
-                    <span className='w-52 h-48 ' >
-                        <img className='w-full h-full object-cover rounded-lg' src={Pic3} alt=''></img>
-                    </span>
-                    <span className='w-[22rem] h-48 ' >
-                        <img className='w-full h-full rounded-lg' src={Pic6} alt=''></img>
-                    </span>
-                    <span className='w-52 h-48 ' >
-                        <img className='w-full h-full rounded-lg object-cover' src={Pic2} alt=''></img>
+                    <span className='w-[20rem] h-60 overflow-hidden flex'>
+                        <img className='w-full h-full rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic4} alt=''></img>
                     </span>
                 </span>
-                <span className='flex gap-3 mt-6 px-32'>
-                    <span className='w-52 h-48 ' >
+                <div className='flex lg:hidden gap-3'>
+                    <span className='overflow-hidden flex w-44 h-24 rounded-lg'><img className='w-44 h-24 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic7} alt=''></img></span>
+                    <span className='overflow-hidden flex w-[19rem] h-24 rounded-lg'><img className='w-[19rem] h-24 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic} alt=''></img></span>
+                </div>
+                <div className='flex lg:hidden gap-3 mt-3'>
+                    <span className='overflow-hidden flex w-[19rem] h-24 rounded-lg'><img className='w-[19rem] h-24 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic5} alt=''></img></span>
+                    <span className='overflow-hidden flex w-44 h-24 rounded-lg'><img className='w-44 h-24 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic4} alt=''></img></span>
+                </div>
+                <div className='flex lg:hidden gap-3 mt-3'>
+                    <span className='overflow-hidden flex w-44 h-24 rounded-lg'><img className='w-44 h-24 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic3} alt=''></img></span>
+                    <span className='overflow-hidden flex w-[19rem] h-24 rounded-lg'><img className='w-[19rem] h-24 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic6} alt=''></img></span>
+                </div>
+                <div className='flex lg:hidden gap-3 mt-3'>
+                    <span className='overflow-hidden flex w-[19rem] h-24 rounded-lg'><img className='w-[19rem] h-24 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic8} alt=''></img></span>
+                    <span className='overflow-hidden flex w-44 h-24 rounded-lg'><img className='w-44 h-24 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic2} alt=''></img></span>
+                </div>
+                <div className='flex lg:hidden gap-3 mt-3'>
+                    <span className='overflow-hidden flex w-44 h-24 rounded-lg'><img className='w-44 h-24 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic11} alt=''></img></span>
+                    <span className='overflow-hidden flex w-[19rem] h-24 rounded-lg'><img className='w-[19rem] h-24 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic9} alt=''></img></span>
+                </div>
+                <span className='lg:flex hidden gap-3 mt-6 px-32'>
+                    <span className='w-[21rem] h-48 overflow-hidden flex' >
+                        <img className='w-full h-full rounded-lg object-covertransition-transform duration-1000 transform hover:scale-125' src={Pic5} alt=''></img>
+                    </span>
+                    <span className='w-52 h-48 overflow-hidden flex' >
+                        <img className='w-full h-full object-cover rounded-lgtransition-transform duration-1000 transform hover:scale-125' src={Pic3} alt=''></img>
+                    </span>
+                    <span className='w-[22rem] h-48 overflow-hidden flex' >
+                        <img className='w-full h-full rounded-lgtransition-transform duration-1000 transform hover:scale-125' src={Pic6} alt=''></img>
+                    </span>
+                    <span className='w-52 h-48 overflow-hidden flex' >
+                        <img className='w-full h-full rounded-lg object-covertransition-transform duration-1000 transform hover:scale-125' src={Pic2} alt=''></img>
+                    </span>
+                </span>
+                <span className='lg:flex hidden gap-3 mt-6 px-32'>
+                    <span className='w-52 h-48 overflow-hidden flex' >
                         <img className='w-full h-full object-cover rounded-lg' src={Pic11} alt=''></img>
                     </span>
-                    <span className='w-[21rem] h-48 ' >
-                        <img className='w-full h-full rounded-lg object-cover' src={Pic8} alt=''></img>
+                    <span className='w-[21rem] h-48 overflow-hidden flex' >
+                        <img className='w-full h-full rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic8} alt=''></img>
+                    </span> transition-transform duration-1000 transform hover:scale-125
+                    <span className='w-[22rem] h-48 overflow-hidden flex' >
+                        <img className='w-full h-full rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic9} alt=''></img>
                     </span>
-                    <span className='w-[22rem] h-48 ' >
-                        <img className='w-full h-full rounded-lg object-cover' src={Pic9} alt=''></img>
-                    </span>
-                    <span className='w-52 h-48 ' >
-                        <img className='w-full h-full rounded-lg object-cover' src={Pic10} alt=''></img>
+                    <span className='w-52 h-48 overflow-hidden flex' >
+                        <img className='w-full h-full rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic10} alt=''></img>
                     </span>
                 </span>
             </span>
-            <span className='flex flex-col mt-8 px-24'>
-                <span className='text-3xl font-semibold text-center mb-5 opacity-90'>Admissions Procedure</span>
+            <span className='flex flex-col lg:mt-8 mt-3 lg:px-24'>
+                <span className='lg:text-3xl text-xl font-semibold text-center mb-5 opacity-90'>Admissions Procedure</span>
                 <span className='flex flex-col px-3'>
                     <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
                         <span className=' flex justify-between items-center opacity-80'>
-                            <span className='text-xl'>Obtaining the Registration Form</span>
+                            <span className='lg:text-xl text-lg'>Obtaining the Registration Form</span>
                             <span onClick={() => toggleShowMore('showMore1')}>{showMore.showMore1 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
                         {showMore.showMore1 && 
-                            <span className='flex flex-col pl-6 space-y-2 pt-4 opacity-70'>
+                            <span className='flex flex-col lg:pl-6 space-y-2 lg:pt-4 opacity-70'>
                                 <span className='flex gap-2 items-center'>
                                     <span className='text-xl font-bold'><BsDot /></span>
                                     <span className='text-lg font-normal'>Pick up registration from any section of the school (Early Years/Primary/Secondary). See respective addresses below.</span>
@@ -441,11 +464,11 @@ const Section1Content = () => {
                     </span>
                     <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#f6bc75] text-[#061c56]'>
                         <span className=' flex justify-between items-center opacity-90'>
-                            <span className='text-xl'>The following must be submitted with the registration form</span>
+                            <span className='lg:text-xl text-lg'>The following must be submitted with the registration form</span>
                             <span onClick={() => toggleShowMore('showMore2')}>{showMore.showMore2 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
                         {showMore.showMore2 && 
-                            <span className='flex flex-col pl-6 space-y-2 pt-4 opacity-70'>
+                            <span className='flex flex-col lg:pl-6 space-y-2 lg:pt-4 opacity-70'>
                                 <span className='flex gap-2 items-center'>
                                     <span className='text-xl font-bold'><BsDot /></span>
                                     <span className='text-lg font-normal'>A current passport photograph</span>
@@ -467,11 +490,11 @@ const Section1Content = () => {
                     </span>
                     <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
                         <span className=' flex justify-between items-center opacity-80'>
-                            <span className='text-xl'>Individual visits to the school</span>
+                            <span className='lg:text-xl text-lg'>Individual visits to the school</span>
                             <span onClick={() => toggleShowMore('showMore3')}>{showMore.showMore3 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
                         {showMore.showMore3 && 
-                            <span className='flex flex-col px-6 space-y-2 pt-4 opacity-70'>
+                            <span className='flex flex-col lg:px-6 space-y-2 lg:pt-4 opacity-70'>
                                 <span className='flex gap-2 items-center'>
                                     <span className='text-xl font-bold'><BsDot /></span>
                                     <span className='text-lg font-normal'>A visit to the school can be arranged for the prospective student and their parents. During this visit the student will be taken on a tour of the school and the parents will have the opportunity to speak with the Head of School and/or the sectional heads. Arrangements can also be made for the student to spend the day in the school.</span>
@@ -481,11 +504,11 @@ const Section1Content = () => {
                     </span>
                     <span className='flex flex-col gap-3 px-4 py-3 rounded-sm bg-[#f6bc75] text-[#061c56]'>
                         <span className='flex justify-between items-center opacity-90'>
-                            <span className='text-xl'>Entrance examinations</span>
+                            <span className='lg:text-xl text-lg'>Entrance examinations</span>
                             <span onClick={() => toggleShowMore('showMore4')}>{showMore.showMore4 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
                         {showMore.showMore4 && 
-                            <span className='flex flex-col px-6 space-y-2 pt-4 opacity-70'>
+                            <span className='flex flex-col lg:px-6 space-y-2 lg:pt-4 opacity-70'>
                                 <span className='flex gap-2 items-center'>
                                     <span className='text-xl font-bold'><BsDot /></span>
                                     <span className='text-lg font-normal'>The entrance exams take place in December and in April. As stated earlier, students who pass the entrance examinations may be invited in for an interview</span>
@@ -495,7 +518,7 @@ const Section1Content = () => {
                     </span>
                     <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
                         <span className='flex justify-between items-center opacity-80'>
-                            <span className='text-xl'>Acceptance</span>
+                            <span className='lg:text-xl text-lg'>Acceptance</span>
                             <span onClick={() => toggleShowMore('showMore5')}>{showMore.showMore5 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
                         {showMore.showMore5 && 
@@ -509,11 +532,11 @@ const Section1Content = () => {
                     </span>
                     <span className='flex flex-col gap-3 px-4 py-3 rounded-sm bg-[#f6bc75] text-[#061c56]'>
                         <span className='  flex justify-between items-center opacity-90'>
-                            <span className='text-xl'>Orientation for new students</span>
+                            <span className='lg:text-xl text-lg'>Orientation for new students</span>
                             <span onClick={() => toggleShowMore('showMore6')}>{showMore.showMore6 ? <BiMinus className='w-8 h-8'/> : <BsPlus className='w-8 h-8'/>}</span>
                         </span>
                         {showMore.showMore6 && 
-                            <span className='flex flex-col px-6 space-y-2 pt-4 opacity-70'>
+                            <span className='flex flex-col lg:px-6 space-y-2 lg:pt-4 opacity-70'>
                                 <span className='flex gap-2 items-center'>
                                     <span className='text-xl font-bold'><BsDot /></span>
                                     <span className='text-lg font-normal'>On a designated day before resumption, which will be communicated to new Temple families, students and their parents will be formally introduced to Temple School life and given the school calendar for the school year. The Meet and Greet programme at the beginning of each new session will also enable the new students and their parents meet their teachers and members of management.</span>

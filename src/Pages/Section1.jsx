@@ -1,7 +1,8 @@
 import { React, useEffect } from 'react';
 import NavBar from '../components/NavBar';
 import Section1Content from '../components/Section1Content';
-import Contact from '../components/Contact'
+import Contact from '../components/Contact';
+import ScrollToTop from '../components/ScrollToTop';
 
 const Section1 = () => {
   useEffect(() => {
@@ -9,6 +10,7 @@ const Section1 = () => {
   }, []);
   return (
     <div>
+        <ScrollToTop />
         <NavBar />
         <Section1Content />
         <Contact />

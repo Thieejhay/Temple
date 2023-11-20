@@ -13,7 +13,7 @@ import Atletics from '../assets/Atletics.png';
 import Sports from '../assets/Sports.png';
 import Arts from '../assets/Arts.png';
 import Clubs from '../assets/Clubs.png';
-import { BsPlus } from 'react-icons/bs'
+import { BsPlus, BsDot } from 'react-icons/bs'
 import { BiMinus } from 'react-icons/bi'
 import Banner from '../assets/program.png';
 
@@ -61,32 +61,32 @@ const ProgramsContent = () => {
                     {showMore.showMore1 && 
                         <span className='flex flex-col lg:pl-6 pl-2 space-y-2 pt-4 opacity-70'>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>Debating/Public Speaking - <span className='lowercase text-lg font-normal'>Builds confidence for public speaking</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl text-lg font-semibold'>Debating/Public Speaking - <span className='lowercase lg:text-lg text-base font-normal'>Builds confidence for public speaking</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>Languages -<span className='lowercase text-lg font-normal'>Developing our children's interests in our local languages</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl text-lg font-semibold'>Languages -<span className='lowercase lg:text-lg text-base text-lgfont-normal'>Developing our children's interests in our local languages</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>Earth - <span className='lowercase text-lg font-normal'>A conservation society that seeks to engage in activities that will promote habits that are beneficial to our planet</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl text-lg font-semibold'>Earth - <span className='lowercase lg:text-lg text-base font-normal'>A conservation society that seeks to engage in activities that will promote habits that are beneficial to our planet</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>Photography - <span className='lowercase text-lg font-normal'>Explores light, angles, colour and shapes in photography</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl text-lg font-semibold'>Photography - <span className='lowercase lg:text-lg text-base font-normal'>Explores light, angles, colour and shapes in photography</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>BALLET - <span className='lowercase text-lg font-normal'>This exclusive club is for young boys and girls who are committed tVearning the beautiful dance that is ballet.</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl text-lg font-semibold'>BALLET - <span className='lowercase lg:text-lg text-base font-normal'>This exclusive club is for young boys and girls who are committed tVearning the beautiful dance that is ballet.</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>tAEKWONDO - <span className='lowercase text-lg font-normal'>For developing the discipline and mastery of this martial art.</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl text-lg font-semibold'>tAEKWONDO - <span className='lowercase text-base lg:text-lg font-normal'>For developing the discipline and mastery of this martial art.</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>Maths - <span className='lowercase text-lg font-normal'>Helps children develop empathy, promotes academic growth and empowerment through self-expression</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl text-lg font-semibold'>Maths - <span className='lowercase lg:text-lg text-base font-normal'>Helps children develop empathy, promotes academic growth and empowerment through self-expression</span></span>
                             </span>
                         </span>
                     }
@@ -99,32 +99,32 @@ const ProgramsContent = () => {
                     {showMore.showMore2 && 
                         <span className='flex flex-col lg:pl-6 pl-2  space-y-2 pt-4 opacity-80'>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>Debating/Public Speaking - <span className='lowercase text-lg font-normal'>Builds confidence for public speaking</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl text-lg font-semibold'>Debating/Public Speaking - <span className='lowercase lg:text-lg text-base font-normal'>Builds confidence for public speaking</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>Languages - <span className='lowercase text-lg font-normal'>Developing our children's interests in our local languages</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl text-lg font-semibold'>Languages - <span className='lowercase lg:text-lg text-base font-normal'>Developing our children's interests in our local languages</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>Earth - <span className='lowercase text-lg font-normal'>A conservation society that seeks to engage in activities that will promote habits that are beneficial to our planet</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl text-lg font-semibold'>Earth - <span className='lowercase lg:text-lg text-base font-normal'>A conservation society that seeks to engage in activities that will promote habits that are beneficial to our planet</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>Photography - <span className='lowercase text-lg font-normal'>Explores light, angles, colour and shapes in photography</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl text-lg font-semibold'>Photography - <span className='lowercase lg:text-lg text-base font-normal'>Explores light, angles, colour and shapes in photography</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>BALLET - <span className='lowercase text-lg font-normal'>This exclusive club is for young boys and girls who are committed tVearning the beautiful dance that is ballet.</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl text-lg font-semibold'>BALLET - <span className='lowercase lg:text-lg text-base font-normal'>This exclusive club is for young boys and girls who are committed tVearning the beautiful dance that is ballet.</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>tAEKWONDO - <span className='lowercase text-lg font-normal'>For developing the discipline and mastery of this martial art.</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl text-lg font-semibold'>tAEKWONDO - <span className='lowercase lg:text-lg text-base font-normal'>For developing the discipline and mastery of this martial art.</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>Maths - <span className='lowercase text-lg font-normal'>Helps children develop empathy, promotes academic growth and empowerment through self-expression</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl text-lg font-semibold'>Maths - <span className='lowercase lg:text-lg text-base font-normal'>Helps children develop empathy, promotes academic growth and empowerment through self-expression</span></span>
                             </span>
                         </span>
                     }
@@ -137,36 +137,36 @@ const ProgramsContent = () => {
                     {showMore.showMore3 && 
                         <span className='flex flex-col lg:pl-6 pl-2  space-y-2 pt-4 opacity-70'>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>CHESS  - <span className='lowercase text-lg font-normal'>Teaches the rudiments and skills of playing the game of chess</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl text-lg font-semibold'>CHESS  - <span className='lowercase lg:text-lg text-base font-normal'>Teaches the rudiments and skills of playing the game of chess</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>SCHOOL BAND -<span className='lowercase text-lg font-normal'>A society of musicians who practice for performing in a varisty of school events</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl text-lg font-semibold'>SCHOOL BAND -<span className='lowercase lg:text-lg text-base font-normal'>A society of musicians who practice for performing in a varisty of school events</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>FITNESS - <span className='lowercase text-lg font-normal'>Designed to promote healthy habits for the body</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl text-lg font-semibold'>FITNESS - <span className='lowercase lg:text-lg text-base font-normal'>Designed to promote healthy habits for the body</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>LIFE SAVING - <span className='lowercase text-lg font-normal'>Based on the Red Cross Society teaches life saving first aid and other practices.</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl text-lg font-semibold'>LIFE SAVING - <span className='lowercase lg:text-lg text-base font-normal'>Based on the Red Cross Society teaches life saving first aid and other practices.</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>BALLET - <span className='lowercase text-lg font-normal'>This exclusive club is for young boys and girls who are committed tVearning the beautiful dance that is ballet.</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl text-lg font-semibold'>BALLET - <span className='lowercase lg:text-lg text-base font-normal'>This exclusive club is for young boys and girls who are committed tVearning the beautiful dance that is ballet.</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>CULINARY ARTS CLUB - <span className='lowercase text-lg font-normal'>Where students leam the basics of food hygiene. food preparation and food presentation.</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl text-lg font-semibold'>CULINARY ARTS CLUB - <span className='lowercase lg:text-lg text-base font-normal'>Where students leam the basics of food hygiene. food preparation and food presentation.</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>FILM CLUB - <span className='lowercase text-lg font-normal'>Learning the rudiments of documentary making</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl text-lg font-semibold'>FILM CLUB - <span className='lowercase lg:text-lg text-base font-normal'>Learning the rudiments of documentary making</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>TEMPLEMUN - <span className='lowercase text-lg font-normal'>Our very own Temple Model United Nations, an educational simulation and academic dialogue in which students learn about world issues, diplomacy, international relations and the United Nations</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl text-lg font-semibold'>TEMPLEMUN - <span className='lowercase lg:text-lg text-base font-normal'>Our very own Temple Model United Nations, an educational simulation and academic dialogue in which students learn about world issues, diplomacy, international relations and the United Nations</span></span>
                             </span>
                         </span>
                     }
@@ -179,16 +179,16 @@ const ProgramsContent = () => {
                     {showMore.showMore4 && 
                         <span className='flex flex-col lg:pl-6 pl-2  space-y-2 pt-4 opacity-80'>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>The Ontario Secondary School Diploma Programme (OSSD)-<span className='lowercase text-lg font-normal'>Temple College has forged a very strong partnership with Braemar College in Ontario, Canada, and together, we offer students the OSSD Pathway.Pathways options in the OSSD programme:Humanities,Art & Design,Math & Science,Business</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl font-semibold'>The Ontario Secondary School Diploma Programme (OSSD)-<span className='lowercase lg:text-lg text-base font-normal'>Temple College has forged a very strong partnership with Braemar College in Ontario, Canada, and together, we offer students the OSSD Pathway.Pathways options in the OSSD programme:Humanities,Art & Design,Math & Science,Business</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>Cambridge Advanced Levels-<span className='lowercase text-lg font-normal'>The Cambridge Advanced Level exam is an international school leaving qualification regulated by the British Council. We deliver the traditional 2- year programme.Students can choose from the following subjects below in accordance with the subject blocks:Art and Design ,Accounting,Biology,Business Studies,Economics,Chemistry,English Language,English Literature etc</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl font-semibold'>Cambridge Advanced Levels-<span className='lowercase lg:text-lg text-base font-normal'>The Cambridge Advanced Level exam is an international school leaving qualification regulated by the British Council. We deliver the traditional 2- year programme.Students can choose from the following subjects below in accordance with the subject blocks:Art and Design ,Accounting,Biology,Business Studies,Economics,Chemistry,English Language,English Literature etc</span></span>
                             </span>
                             <span className='flex gap-2 items center'>
-                                <span className='text-xl font-bold'>.</span>
-                                <span className='uppercase text-xl font-semibold'>West African Senior School Certificate Examination Programme-<span className='lowercase text-lg font-normal'>This is a standardised exam in West Africa administered by the West African Examination Council. This one-year programme offers an alternative to A-levels for students to take the national school leaving certificate examination in May/June.Students can choose from a list of courses.</span></span>
+                                <span className='text-xl font-bold'><BsDot /></span>
+                                <span className='uppercase lg:text-xl font-semibold'>West African Senior School Certificate Examination Programme-<span className='lowercase lg:text-lg text-base font-normal'>This is a standardised exam in West Africa administered by the West African Examination Council. This one-year programme offers an alternative to A-levels for students to take the national school leaving certificate examination in May/June.Students can choose from a list of courses.</span></span>
                             </span>
                             
                         </span>
@@ -207,12 +207,42 @@ const ProgramsContent = () => {
                     <span className='lg:text-base text-sm opacity-80'>The school also arranges a number of foreign visits that support the curriculum and give students the chance to expand their horizons as well as to help them to understand different cultures. We enjoy exciting activities during our residential trips abroad such as abseiling, archery, kayaking, zip wire and grass sledging. We also get the chance to do things like exploring coastal walks, hunting for fossils and looking for red squirrels in woodlands on the Isle of Wight and other fun and safe camps.</span>
                 </span>
             </span>
-            <span className='flex flex-col gap-8'>
+            <span className='flex flex-col lg:gap-8 gap-3'>
                 <span className='flex flex-col lg:gap-3 gap-1'>
                     <hr className='w-10 h-1 rounded-lg bg-[#f6bc75]'></hr>
                     <span className='text-2xl font-semibold text-[#061c56] opacity-90'>SPORTS</span>
                 </span>
-                <span className='flex lg:gap-6 gap-2 justify-center'>
+                <div className='flex gap-2 justify-center'>
+                    <span className='flex flex-col gap-5'>
+                        <span className='w-44 py-4 text-xl font-bold uppercase rounded-xl text-[#f6bc75] flex items-center justify-center bg-[#061c56]'>Football</span>
+                        <span className='w-44 h-44 rounded-xl bg-gray-100'><img className='w-full h-full' alt='' src={Football}></img></span>
+                    </span>
+                    <span className='flex flex-col gap-5'>
+                        <span className='w-44 h-36 rounded-xl bg-gray-100'><img className='w-full h-full' alt='' src={Basketball}></img></span>
+                        <span className='w-44 py-4 text-xl font-bold uppercase rounded-xl text-[#f6bc75] flex items-center justify-center bg-[#061c56] flex-col'><span>basket</span><span>ball</span></span>
+                    </span>
+                </div>
+                <div className='flex gap-2 justify-center'>
+                    <span className='flex flex-col gap-5'>
+                        <span className='w-44 py-4 text-xl font-bold uppercase rounded-xl text-[#f6bc75] flex items-center justify-center bg-[#061c56]'>volleyball</span>
+                        <span className='w-44 h-44 rounded-xl bg-gray-100'><img className='w-full h-full' alt='' src={Volleyball}></img></span>
+                    </span>
+                    <span className='flex flex-col gap-5'>
+                        <span className='w-44 h-36 rounded-xl bg-gray-100'><img className='w-full h-full' alt='' src={Tabletennis}></img></span>
+                        <span className='w-44 py-4 text-xl font-bold uppercase rounded-xl text-[#f6bc75] flex items-center justify-center bg-[#061c56] flex-col'><span>table</span><span>tenis</span></span>
+                    </span>
+                </div>
+                <div className='flex gap-2 justify-center'>
+                    <span className='flex flex-col gap-5'>
+                        <span className='w-44 py-4 text-xl font-bold uppercase rounded-xl text-[#f6bc75] flex items-center justify-center bg-[#061c56]'>high jump</span>
+                        <span className='w-44 h-44 rounded-xl bg-gray-100'><img className='w-full h-full' alt='' src={Highjump}></img></span>
+                    </span>
+                    <span className='flex flex-col gap-5'>
+                        <span className='w-44 h-36 rounded-xl bg-gray-100'><img className='w-full h-full' alt='' src={Rugby}></img></span>
+                        <span className='w-44 py-4 text-xl font-bold uppercase rounded-xl text-[#f6bc75] flex items-center justify-center bg-[#061c56] flex-col'><span>tag</span><span>rugby</span></span>
+                    </span>
+                </div>
+                <span className='lg:flex hidden lg:gap-6 gap-2 justify-center'>
                     <span className='flex flex-col gap-5'>
                         <span className='w-44 py-4 text-xl font-bold uppercase rounded-xl text-[#f6bc75] flex items-center justify-center bg-[#061c56]'>Football</span>
                         <span className='w-44 h-44 rounded-xl bg-gray-100'><img className='w-full h-full' alt='' src={Football}></img></span>
@@ -238,7 +268,7 @@ const ProgramsContent = () => {
                         <span className='w-44 py-4 text-xl font-bold uppercase rounded-xl text-[#f6bc75] flex items-center justify-center bg-[#061c56] flex-col'><span>tag</span><span>rugby</span></span>
                     </span>
                 </span>
-                <span className='flex gap-6 justify-center'>
+                <span className='lg:flex hidden gap-6 justify-center'>
                     <span className='flex flex-col gap-5'>
                         <span className='w-44 py-4 text-xl font-bold uppercase rounded-xl text-[#f6bc75] flex items-center justify-center bg-[#061c56]'>Long jump</span>
                         <span className='w-44 h-44 rounded-xl bg-gray-100'><img className='w-full h-full' alt='' src={Longjump}></img></span>
@@ -260,6 +290,26 @@ const ProgramsContent = () => {
                         <span className='w-44 h-44 rounded-xl bg-gray-100'><img className='w-full h-full' alt='' src={Atletics}></img></span>
                     </span>
                 </span>
+                <div className='flex gap-2 justify-center'>
+                    <span className='flex flex-col gap-5'>
+                        <span className='w-44 py-4 text-xl font-bold uppercase rounded-xl text-[#f6bc75] flex items-center justify-center bg-[#061c56]'>Long jump</span>
+                        <span className='w-44 h-44 rounded-xl bg-gray-100'><img className='w-full h-full' alt='' src={Longjump}></img></span>
+                    </span>
+                    <span className='flex flex-col gap-5'>
+                        <span className='w-44 h-36 rounded-xl bg-gray-100'><img className='w-full h-full' alt='' src={Shortput}></img></span>
+                        <span className='w-44 py-4 text-xl font-bold uppercase rounded-xl text-[#f6bc75] flex items-center justify-center bg-[#061c56] flex-col'><span>short</span><span>put</span></span>
+                    </span>
+                </div>
+                <div className='flex gap-2 justify-center'>
+                    <span className='flex flex-col gap-5'>
+                        <span className='w-44 py-4 text-xl font-bold uppercase rounded-xl text-[#f6bc75] flex items-center justify-center bg-[#061c56]'>swimming</span>
+                        <span className='w-44 h-44 rounded-xl bg-gray-100'><img className='w-full h-full' alt='' src={Swimming}></img></span>
+                    </span>
+                    <span className='flex flex-col gap-5'>
+                        <span className='w-44 h-44 rounded-xl bg-gray-100'><img className='w-full h-full' alt='' src={Javelin}></img></span>
+                        <span className='w-44 py-4 text-xl font-bold uppercase rounded-xl text-[#f6bc75] flex items-center justify-center bg-[#061c56] flex-col'>javelin</span>
+                    </span>
+                </div>
             </span>
         </span>
         {/* <span className='flex flex-col py-12 gap-10 bg-[#27ace8]/10 justify-center items-center '>

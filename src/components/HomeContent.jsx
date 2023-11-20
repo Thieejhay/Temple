@@ -179,7 +179,7 @@ const HomeContent = () => {
                     <span className='lg:w-32 w-16 h-16 lg:h-32 rounded-full '>
                         <img src={Medal} alt='' className='w-full h-full'></img>
                     </span>
-                    <span className='flex flex-col text-[#f6bc75] lg:w-fit w-[12rem]'>
+                    <span className='flex flex-col text-[#f6bc75] lg:w-fit w-[10rem]'>
                         <span className='lg:text-3xl text-sm font-medium lg:tracking-wider'>Our Students Are Talented,</span>
                         <span className='lg:text-2xl text-sm font-normal lg:tracking-wider'>passionate, hard-working and full of ideas.</span>
                     </span>

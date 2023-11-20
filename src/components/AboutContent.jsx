@@ -29,6 +29,7 @@ import Logo44 from '../assets/logo44.png';
 import Flame from '../assets/flame.png'
 import wave2 from '../assets/Waveleft.png';
 import wave from '../assets/Waveright.png';
+import Mission from '../assets/cl6.png';
 // import wave3 from '../assets/Circle.png';
 
 
@@ -105,7 +106,7 @@ const AboutContent = () => {
                 <span className='lg:text-4xl text-xl font-semibold opacity-90'>About Temple School</span>
             </span>
         </div>
-        <div className='flex flex-col items-center justify-center z-20'>
+        <div className='flex flex-col items-center justify-center z-20' id='history'>
             <div className='flex flex-col lg:px-12 px-4 py-6 rounded-lg bg-[#061c56]/95 gap-2 shadow-2xl text-white lg:w-[59rem] -mt-[18rem] lg:-mt-80' id='history'>
                 <span className='lg:text-3xl text-xl font-semibold uppercase text-center opacity-80 '>Our History</span>
                 <span className='lg:text-base text-sm font-normal text-center opacity-70'>Temple Preparatory School opened in September 2004 with 7 children. The school is located in the serene environment of Ilupeju on the Lagos mainland. Temple Preparatory School runs the British National Curriculum alongside the Cambridge Curriculum, with local Nigerian content also playing a key role in the unique curriculum provided at Temple.</span>
@@ -207,8 +208,10 @@ const AboutContent = () => {
                 }
                 {showInfo7 && 
                     <div className='flex items-center justify-center'>
-                        <span className='bg-[#061c56] text-[#f6bc75] lg:w-[27rem] w-[15rem] h-[15rem] z-20 flex items-center px-4 text-xl font-medium'>To empower the pupils to pursue a passion for acquiring knowledge, lead lives of integrity, and be self-motivated and socially responsible citizens of the world.</span>
-                        <span className='bg-gray-300 lg:w-[30rem] w-[16rem] h-[20rem] lg:-ml-24 -ml-40 z-10'></span>
+                        <span className='bg-[#061c56] text-[#f6bc75] lg:w-[27rem] w-[15rem] h-[16rem] mt-10 z-20 flex items-center px-4 text-xl font-medium'>To empower the pupils to pursue a passion for acquiring knowledge, lead lives of integrity, and be self-motivated and socially responsible citizens of the world.</span>
+                        <span className='bg-gray-300 lg:w-[30rem] w-[16rem] h-[20rem] lg:-ml-[6.5rem] -ml-40 z-10'>
+                            <img className='w-full h-full' src={Mission} alt=''></img>
+                        </span>
                     </div>
                 }
                 {showInfo8 && 

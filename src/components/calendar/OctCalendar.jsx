@@ -123,7 +123,7 @@ const OctCalendar = () => {
   const initialDate = new Date(2023, 9, 1)
 
   return (
-    <div className='flex w-fit border border-transparent bg-white'>
+    <div className='flex lg:flex-row flex-col w-fit border border-transparent bg-white rounded'>
         <style>{calendarStyles}</style>
         <div className="w-[19rem] p-4">
             <Calendar
@@ -139,9 +139,9 @@ const OctCalendar = () => {
             // formats={{ dayFormat: customDayFormat }}
             />
         </div>
-        <div className="py-3">
+        <div className="py-3 lg:px-0 px-4">
             <h2 className='text-lg font-semibold mb-3 mt-3'>Events for November 2023</h2>
-            <span className='flex flex-col gap-3 w-[19rem]'>
+            <span className='flex flex-col gap-3 lg:w-[19rem]'>
                 {events.map((event) => (
                     <span key={event.id} className='flex gap-2 '>
                         <span className='text-xs font-semibold'>{formatDateRange(event.start, event.end)}</span>
