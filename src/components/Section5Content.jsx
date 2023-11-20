@@ -35,9 +35,9 @@ const Section5Content = () => {
             <span className='text-4xl opacity-90 font-semibold absolute top-[11.5rem] z-20 left-[47%] -translate-x-[47%] text-[#f6bc75] lg:flex hidden'>(ELD)</span>
         </span>
         <div className='flex flex-col gap-10 py-3'>
-            <span className='flex lg:flex-row flex-col-reverse lg:pr-28 lg:pl-40 lg:mb-10'>
-                <img className='w-[23rem] h-[29rem] object-right lg:flex hidden' src={pic1} alt=''></img>
-                <span className='flex flex-col gap-3 lg:pl-12 px-4 pt-8 pb-4 bg-[#f6bc75] w-full text-[#061c56]'>
+            <span className='flex lg:flex-row flex-col-reverse lg:px-32 lg:mb-10'>
+                <img className='w-[20rem] h-[27rem] lg:flex hidden' src={pic1} alt=''></img>
+                <span className='flex flex-col gap-3 lg:pl-12 px-4 pt-8 bg-[#f6bc75] w-full text-[#061c56]'>
                     <span className='lg:text-5xl text-2xl font-bold lg:w-[30rem]'>Welcome Address</span>
                     <span className='text-sm lg:w-[42rem] space-y-3'>
                         <p>We welcome you to the Exceptional Learners Department and look forward to working with you to find the most effective ways to support your child's education. </p>
@@ -186,7 +186,7 @@ const Section5Content = () => {
                                     <span className='text-sm opacity-80 font-normal lg:w-[30rem] '>The team will create an Individualised Education Plan with agreed outcomes by the end of the session, then hold an IEP meeting to review and agree on the targets. Every IEP must be signed by parents.</span>
                                 </span>
                            </span>
-                           <span className='uppercase absolute top-[50%] -translate-y-[50%] left-[30%] lg:text-2xl text-lg -translate-x-[20%] group-hover:opacity-0 font-semibold text-[#21bdf3] text-center flex'>Plan</span>
+                           <span className='uppercase absolute top-[50%] -translate-y-[50%] left-[50%] lg:text-2xl text-lg -translate-x-[50%] group-hover:opacity-0 font-semibold text-[#21bdf3] text-center flex'>Plan</span>
                         </span>
                         <span className='flex hover:shadow-xl w-fit rounded-lg bg-white relative group'>
                             <span className='opacity-0 flex gap-3 p-2 group-hover:opacity-100 transition-transform duration-1000'>
@@ -196,7 +196,7 @@ const Section5Content = () => {
                                     <span className='text-sm opacity-80 font-normal lg:w-[30rem] w-fit h-fit'>When your child resumes we observe their behaviour and assess their academic abilities over a 4 week period. A record of concern may also be raised by the class teacher.</span>
                                 </span>
                             </span>
-                            <span className='uppercase absolute top-[50%] -translate-y-[50%] left-[30%] lg:text-2xl text-lg -translate-x-[20%] group-hover:opacity-0 font-semibold text-[#21bdf3] text-center flex'>Asses</span>
+                            <span className='uppercase absolute top-[50%] -translate-y-[50%] left-[50%] lg:text-2xl text-lg -translate-x-[50%] group-hover:opacity-0 font-semibold text-[#21bdf3] text-center flex'>Asses</span>
                         </span>
                     </span>
                     <span className='flex lg:flex-row flex-col gap-3 lg:gap-5'>
@@ -220,7 +220,7 @@ const Section5Content = () => {
                                     <span className='text-sm opacity-80 font-normal lg:w-[30rem] w-fit h-fit'>The learning facilitator and therapists work with your child and monitor and record their progress daily.</span>
                                 </span>
                             </span>
-                            <span className='uppercase absolute top-[50%] -translate-y-[50%] left-[30%] lg:text-2xl text-lg -translate-x-[20%] group-hover:opacity-0 font-semibold text-[#21bdf3] text-center flex'>Do</span>
+                            <span className='uppercase absolute top-[50%] -translate-y-[50%] left-[50%] lg:text-2xl text-lg -translate-x-[50%] group-hover:opacity-0 font-semibold text-[#21bdf3] text-center flex'>Do</span>
                         </span>
                     </span>
                 </span>

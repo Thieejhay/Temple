@@ -212,7 +212,7 @@ const ProgramsContent = () => {
                     <hr className='w-10 h-1 rounded-lg bg-[#f6bc75]'></hr>
                     <span className='text-2xl font-semibold text-[#061c56] opacity-90'>SPORTS</span>
                 </span>
-                <div className='flex gap-2 justify-center'>
+                <div className='flex lg:hidden gap-2 justify-center'>
                     <span className='flex flex-col gap-5'>
                         <span className='w-44 py-4 text-xl font-bold uppercase rounded-xl text-[#f6bc75] flex items-center justify-center bg-[#061c56]'>Football</span>
                         <span className='w-44 h-44 rounded-xl bg-gray-100'><img className='w-full h-full' alt='' src={Football}></img></span>
@@ -222,7 +222,7 @@ const ProgramsContent = () => {
                         <span className='w-44 py-4 text-xl font-bold uppercase rounded-xl text-[#f6bc75] flex items-center justify-center bg-[#061c56] flex-col'><span>basket</span><span>ball</span></span>
                     </span>
                 </div>
-                <div className='flex gap-2 justify-center'>
+                <div className='flex lg:hidden gap-2 justify-center'>
                     <span className='flex flex-col gap-5'>
                         <span className='w-44 py-4 text-xl font-bold uppercase rounded-xl text-[#f6bc75] flex items-center justify-center bg-[#061c56]'>volleyball</span>
                         <span className='w-44 h-44 rounded-xl bg-gray-100'><img className='w-full h-full' alt='' src={Volleyball}></img></span>
@@ -232,7 +232,7 @@ const ProgramsContent = () => {
                         <span className='w-44 py-4 text-xl font-bold uppercase rounded-xl text-[#f6bc75] flex items-center justify-center bg-[#061c56] flex-col'><span>table</span><span>tenis</span></span>
                     </span>
                 </div>
-                <div className='flex gap-2 justify-center'>
+                <div className='flex lg:hidden gap-2 justify-center'>
                     <span className='flex flex-col gap-5'>
                         <span className='w-44 py-4 text-xl font-bold uppercase rounded-xl text-[#f6bc75] flex items-center justify-center bg-[#061c56]'>high jump</span>
                         <span className='w-44 h-44 rounded-xl bg-gray-100'><img className='w-full h-full' alt='' src={Highjump}></img></span>
@@ -290,7 +290,7 @@ const ProgramsContent = () => {
                         <span className='w-44 h-44 rounded-xl bg-gray-100'><img className='w-full h-full' alt='' src={Atletics}></img></span>
                     </span>
                 </span>
-                <div className='flex gap-2 justify-center'>
+                <div className='flex lg:hidden gap-2 justify-center'>
                     <span className='flex flex-col gap-5'>
                         <span className='w-44 py-4 text-xl font-bold uppercase rounded-xl text-[#f6bc75] flex items-center justify-center bg-[#061c56]'>Long jump</span>
                         <span className='w-44 h-44 rounded-xl bg-gray-100'><img className='w-full h-full' alt='' src={Longjump}></img></span>
@@ -300,7 +300,7 @@ const ProgramsContent = () => {
                         <span className='w-44 py-4 text-xl font-bold uppercase rounded-xl text-[#f6bc75] flex items-center justify-center bg-[#061c56] flex-col'><span>short</span><span>put</span></span>
                     </span>
                 </div>
-                <div className='flex gap-2 justify-center'>
+                <div className='flex lg:hidden gap-2 justify-center'>
                     <span className='flex flex-col gap-5'>
                         <span className='w-44 py-4 text-xl font-bold uppercase rounded-xl text-[#f6bc75] flex items-center justify-center bg-[#061c56]'>swimming</span>
                         <span className='w-44 h-44 rounded-xl bg-gray-100'><img className='w-full h-full' alt='' src={Swimming}></img></span>
