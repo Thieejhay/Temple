@@ -3,7 +3,7 @@ import { HiOutlineCheckCircle } from 'react-icons/hi'
 import Banner from '../assets/section.png';
 import pic from '../assets/gallery/ey1.png';
 import pic2 from '../assets/gallery/ps2.png';
-import pic3 from '../assets/gallery/s2.png';
+import pic3 from '../assets/gallery/sc5.png';
 import pic4 from '../assets/co.png';
 import { Link } from 'react-router-dom';
 

@@ -208,8 +208,8 @@ const AboutContent = () => {
                 }
                 {showInfo7 && 
                     <div className='flex items-center justify-center'>
-                        <span className='bg-[#061c56] text-[#f6bc75] lg:w-[27rem] w-[15rem] h-[16rem] mt-10 z-20 flex items-center px-4 text-xl font-medium'>To empower the pupils to pursue a passion for acquiring knowledge, lead lives of integrity, and be self-motivated and socially responsible citizens of the world.</span>
-                        <span className='bg-gray-300 lg:w-[30rem] w-[16rem] h-[20rem] lg:-ml-[6.5rem] -ml-40 z-10'>
+                        <span className='bg-[#061c56] text-[#f6bc75] lg:w-[27rem] w-[15rem] h-[13rem] mt-3 z-20 flex items-center px-4 text-xl font-medium'>To empower the pupils to pursue a passion for acquiring knowledge, lead lives of integrity, and be self-motivated and socially responsible citizens of the world.</span>
+                        <span className='bg-gray-300 lg:w-[25rem] w-[16rem] lg:h-[15rem] h-[20rem] lg:-ml-[2rem] -ml-40 z-10'>
                             <img className='w-full h-full' src={Mission} alt=''></img>
                         </span>
                     </div>
@@ -225,7 +225,6 @@ const AboutContent = () => {
                 
             </span>
         </div>
-        
         <div className='flex lg:flex-row flex-col px-4 lg:px-32 lg:pt-16 pt-12 lg:pb-16 pb-10 w-screen relative'>
             <span className='flex absolute right-4 top-0'><img src={wave} alt='' className='w-[75rem] h-[35rem] z-10'></img></span>
             <span className='flex absolute left-0 top-0'><img src={wave2} alt='' className='w-[70rem] h-[35rem] z-10'></img></span>
@@ -293,6 +292,16 @@ const AboutContent = () => {
                             <span className='text-base font-medium'>Business Manager</span>
                         </span>
                     </span>
+                    <span className='flex flex-col w-56 shadow-xl'>
+                        <span className='w-56 h-56 bg-gray-200'><img src={Gloria} alt='' className='w-full h-full rounded-t-md'></img></span>
+                        <span className='text-center rounded-b-md flex py-6 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                            <span className='text-xl font-medium '>Gloria Rhodes-Nash</span>
+                            <span className='text-base font-medium'>Head of Accounts</span>
+                        </span>
+                    </span>
+                    
+                </span>
+                <span className='flex gap-12'>
                     <span className='flex flex-col w-56 shadow-xl '>
                         <span className='w-56 h-56'><img src={Davis} alt='' className='w-full h-full rounded-t-md'></img></span>
                         <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
@@ -300,8 +309,6 @@ const AboutContent = () => {
                             <span className='text-base font-medium'>Principal, Secondary School</span>
                         </span>
                     </span>
-                </span>
-                <span className='flex gap-12'>
                     <span className='flex flex-col w-56 shadow-xl'>
                         <span className='w-56 h-56 bg-gray-200'><img src={Amina} alt='' className='w-full h-full rounded-t-md'></img></span>
                         <span className='text-center rounded-b-md flex py-6 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
@@ -323,20 +330,14 @@ const AboutContent = () => {
                             <span className='text-base font-medium'>Head, Exceptional Learners Department</span>
                         </span>
                     </span>
-                    <span className='flex flex-col w-56 shadow-xl'>
-                        <span className='w-56 h-56 bg-gray-200'><img src={Gloria} alt='' className='w-full h-full rounded-t-md'></img></span>
-                        <span className='text-center rounded-b-md flex py-6 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
-                            <span className='text-xl font-medium '>Gloria Rhodes-Nash</span>
-                            <span className='text-base font-medium'>Head of Accounts</span>
-                        </span>
-                    </span>
+                    
                 </span>
                 <span className='flex gap-12'>
                     <span className='flex flex-col w-56 shadow-xl'>
                         <span className='w-56 h-56 bg-gray-200'><img src={Jos} alt='' className='w-full h-full rounded-t-md'></img></span>
                         <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
                             <span className='text-xl font-medium '>Jos Dawodu</span>
-                            <span className='text-base font-medium'>Vice Principal, Secondary School </span>
+                            <span className='text-base font-medium'>Vice Principal, Secondary School (Academics)</span>
                         </span>
                     </span>
                     <span className='flex flex-col w-56 shadow-xl'>
@@ -366,28 +367,28 @@ const AboutContent = () => {
                         <span className='w-56 h-56 bg-gray-200'><img src={Adu} alt='' className='w-full h-full rounded-t-md'></img></span>
                         <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
                             <span className='text-xl font-medium '>Aduragbemi Ipinolu</span>
-                            <span className='text-base font-medium'>Deputy Head, Early Years and Foundation Stage</span>
+                            <span className='text-base font-medium px-1'>Deputy Head, Early Years and Foundation Stage</span>
                         </span>
                     </span>
                     <span className='flex flex-col w-56 shadow-xl'>
                         <span className='w-56 h-56 bg-gray-200'><img src={Kelechi} alt='' className='w-full h-full rounded-t-md'></img></span>
                         <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
                             <span className='text-xl font-medium '>Kelechi Oti</span>
-                            <span className='text-base font-medium'>Vice Principal, Secondary School </span>
+                            <span className='text-base font-medium'>Vice Principal, Secondary School (Pastoral) </span>
                         </span>
                     </span>
                     <span className='flex flex-col w-56 shadow-xl'>
                         <span className='w-56 h-56 bg-gray-200'><img src={Benita} alt='' className='w-full h-full rounded-t-md'></img></span>
                         <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
                             <span className='text-xl font-medium '>Benita Asinobi</span>
-                            <span className='text-base font-medium px-1'>Deputy Head, Primary School </span>
+                            <span className='text-base font-medium px-1'>Deputy Head, Primary School (Academics) </span>
                         </span>
                     </span>
                     <span className='flex flex-col w-56 shadow-xl'>
                         <span className='w-56 h-56 bg-gray-200'><img src={Judith} alt='' className='w-full h-full rounded-t-md'></img></span>
                         <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
                             <span className='text-xl font-medium '>Judith Onowighose</span>
-                            <span className='text-base font-medium px-1'>Deputy Head, Primary School</span>
+                            <span className='text-base font-medium px-1'>Deputy Head, Primary School (Pastoral)</span>
                         </span>
                     </span>
                 </span>

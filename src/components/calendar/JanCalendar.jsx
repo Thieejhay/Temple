@@ -93,7 +93,7 @@ const JanCalendar = () => {
   const initialDate = new Date(2024, 0, 1)
 
   return (
-    <div className='flex w-fit border border-transparent bg-white'>
+    <div className='flex lg:flex-row flex-col w-fit border border-transparent bg-white rounded'>
         <style>{calendarStyles}</style>
         <div className="w-[19rem] p-4">
             <Calendar
@@ -109,9 +109,9 @@ const JanCalendar = () => {
             // formats={{ dayFormat: customDayFormat }}
             />
         </div>
-        <div className="py-7">
+        <div className="py-3 lg:px-0 px-4">
             <h2 className='text-lg font-semibold mb-4 mt-3'>Events for January 2024</h2>
-            <span className='flex flex-col gap-3 w-[19rem]'>
+            <span className='flex flex-col gap-3 lg:w-[19rem] w-[15rem]'>
                 {events.map((event) => (
                     <span key={event.id} className='flex gap-2 items-center'>
                         <span className='text-xs font-semibold'>{formatDateRange(event.start, event.end)}</span>

@@ -107,7 +107,7 @@ const JunCalendar = () => {
   const initialDate = new Date(2024, 5, 1)
 
   return (
-    <div className='flex w-fit border border-transparent bg-white'>
+    <div className='flex lg:flex-row flex-col w-fit border border-transparent bg-white rounded'>
         <style>{calendarStyles}</style>
         <div className="w-[19rem] p-4">
             <Calendar
@@ -123,9 +123,9 @@ const JunCalendar = () => {
             // formats={{ dayFormat: customDayFormat }}
             />
         </div>
-        <div className="py-[14px]">
+        <div className="py-[14px] lg:px-0 px-4">
             <h2 className='text-lg font-semibold mb-1 mt-1'>Events for June 2024</h2>
-            <span className='flex flex-col gap-3 w-[19rem]'>
+            <span className='flex flex-col gap-3 lg:w-[19rem]'>
                 {events.map((event) => (
                     <span key={event.id} className='flex gap-2'>
                       <span className='text-xs font-semibold'>{formatDateRange(event.start, event.end)}</span>

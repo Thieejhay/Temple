@@ -20,7 +20,7 @@ const NewsContent = () => {
         <div className='flex flex-col lg:py-12 py-4 lg:gap-8 gap-4 bg-white'>
             <span className='flex items-center justify-center'>
                 <span className='flex flex-col gap-2'>
-                    <span className='lg:text-3xl text-xl font-semibold text-[#061c56]'>Monthly New Letters</span>
+                    <span className='lg:text-3xl text-xl font-semibold text-[#061c56]'>Monthly Newsletters</span>
                 </span>
             </span>
             <div className='flex lg:gap-12 gap-4 flex-col lg:px-24 px-4'>
@@ -109,8 +109,8 @@ const NewsContent = () => {
                 </span>
                
             </span>
-            <div className='flex flex-col px-20 lg:gap-8 gap-4'>
-                <span className='flex gap-3'>
+            <div className='flex flex-col lg:px-20 px-4 py-4 lg:gap-8 gap-4'>
+                <span className='flex lg:flex-row flex-col gap-3'>
                     <span className='flex gap-3 w-[25rem]'>
                         <span className='p-2 w-fit h-fit bg-[#061c56] rounded-md flex justify-center items-center text-white flex-col'> 
                             <span className='text-lg font-semibold flex w-fit'>13th Nov</span>
@@ -142,7 +142,7 @@ const NewsContent = () => {
                         </span>
                     </span>
                </span>
-               <span className='flex gap-3'>
+               <span className='flex lg:flex-row flex-col gap-3'>
                     <span className='flex gap-3 w-[25rem]'>
                         <span className='p-2 w-fit h-fit bg-[#061c56] rounded-md flex justify-center items-center text-white flex-col'> 
                             <span className='text-lg font-semibold flex w-fit'>8th Nov</span>
