@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react';
 import NavBar from '../components/NavBar';
-
 import Open2 from '../assets/open9.png';
 import Open3 from '../assets/open8.png';
 

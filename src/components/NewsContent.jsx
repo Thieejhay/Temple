@@ -5,6 +5,7 @@ import news4 from '../assets/news4.png';
 import news5 from '../assets/news5.png';
 import news6 from '../assets/news6.png';
 import news2 from '../assets/news2.png';
+import news7 from '../assets/news7.png';
 import { Link } from 'react-router-dom';
 import NewCalendar from './NewCalendar';
 import Banner from '../assets/event.png';
@@ -25,6 +26,18 @@ const NewsContent = () => {
             </span>
             <div className='flex lg:gap-12 gap-4 flex-col lg:px-24 px-4'>
                <div className='flex gap-3 flex-col'>
+                    <span className='lg:p-6 p-3 flex lg:gap-3 gap-2 border bg-[#061c56] border-[#f6bc75] rounded-md'>
+                        <span className='bg-[#f6bc75] rounded-md lg:p-5 p-2 h-fit text-white lg:text-2xl text-lg font-semibold'>Dec</span>
+                        <span className='w-[20rem] h-56 rounded-lg lg:flex hidden'>
+                            <img className='w-full h-full rounded-lg' src={news7} alt=''></img>
+                        </span>
+                        <span className=' flex flex-col lg:gap-3 gap-1'>
+                            <span className='lg:text-2xl text-lg font-medium lg:leading-5 text-[#f6bc75]'>The Flame: December Temple School Newsletter</span>
+                            <span className='lg:text-base text-sm font-normal lg:w-[40rem] opacity-70 text-white'>It is with great excitement that we bring you the December edition of Temple School's monthly newsletter!</span>
+                            <Link to='/news-7'><span className='text-sm font-normal text-[#f6bc75]'>Read More</span></Link>
+                        </span>
+                        
+                    </span> 
                     <span className='lg:p-6 p-3 flex lg:gap-3 gap-2 border bg-[#f6bc75] border-[#061c56] rounded-md'>
                         <span className='bg-[#061c56] rounded-md lg:p-5 p-2 h-fit text-white lg:text-2xl text-lg font-semibold'>Nov</span>
                         <span className='w-[20rem] h-56 rounded-lg lg:flex hidden'>

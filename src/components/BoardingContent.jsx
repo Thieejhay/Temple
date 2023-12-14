@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Banner from '../assets/dd.png';
-import HomeAlumna from './HomeAlumna';
-import { HiOutlineCheckCircle } from 'react-icons/hi';
+// import HomeAlumna from './HomeAlumna';
+// import { HiOutlineCheckCircle } from 'react-icons/hi';
 import pic from '../assets/gallery/bd.png'
 import pic1 from '../assets/gallery/bd7.png'
 import pic2 from '../assets/gallery/bd1.png'
@@ -9,6 +9,7 @@ import pic3 from '../assets/gallery/bd2.png'
 import pic4 from '../assets/gallery/bd4.png'
 import pic5 from '../assets/gallery/bd8.png'
 import pic6 from '../assets/gallery/bd9.png'
+import pic7 from '../assets/gallery/bd10.png'
 import { BsPlus, BsDot } from 'react-icons/bs'
 import { BiMinus } from 'react-icons/bi';
 
@@ -120,7 +121,7 @@ const BoardingContent = () => {
                         </span>
                         <span className='flex justify-center gap-3'>
                             <span className='w-72 h-40 bg-gray-200 rounded-lg overflow-hidden'>
-                                <img className='w-full h-full rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={pic4} alt=''></img>
+                                <img className='w-full h-full rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={pic7} alt=''></img>
                             </span>
                             <span className='w-72 h-40 bg-gray-200 rounded-lg overflow-hidden'>
                                 <img className='w-full h-full rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={pic6} alt=''></img>
@@ -156,7 +157,7 @@ const BoardingContent = () => {
             </span>
             <span className='bg-gray-200 w-[50%]'></span>
         </span>
-        <span className='flex flex-col py-2 lg:px-24 mb-5'>
+        {/* <span className='flex flex-col py-2 lg:px-24 mb-5'>
             <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr>
             <span className='lg:text-3xl text-xl font-semibold text-center opacity-90 mb-2 my-1 text-[#061c56] mt-4'>Campus-specific facilities and features</span>
             <span className='flex lg:flex-row flex-col justify-center mt-3 lg:gap-20 text-[#061c56] mb-4'>
@@ -206,7 +207,7 @@ const BoardingContent = () => {
                 </span>
             </span>
             <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr> 
-        </span>
+        </span> */}
         <span className='flex flex-col px-36 mb-5'>
             <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
                 <span className=' flex justify-between items-center opacity-80'>
@@ -268,7 +269,7 @@ const BoardingContent = () => {
                 <span className='w-full h-32 bg-gray-200 rounded-lg'></span>
             </span>
         </span> */}
-        <HomeAlumna />
+        {/* <HomeAlumna /> */}
     </div>
   )
 }
