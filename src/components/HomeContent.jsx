@@ -87,8 +87,8 @@ const HomeContent = () => {
                 
             </span>
         </div>
-        <div className='flex flex-col lg:gap-5 gap-3 lg:pt-8 py-5' id='school'>
-            <span className='lg:text-3xl text-xl font-semibold text-center'>Our Schools</span>
+        <div className='flex flex-col lg:gap-5 gap-3 lg:pt-4 py-5' id='school'>
+            <span className='lg:text-3xl text-xl font-semibold text-center uppercase'>Our Schools</span>
             <div className='flex lg:flex-row flex-col lg:gap-10 gap-8 justify-center items-center'>
                 <span className='flex flex-col h-[34rem]'>
                     <span className=' '>
@@ -220,7 +220,7 @@ const HomeContent = () => {
         <div id='gallery'><HomeGallery /></div>
         <HomeAlumna />
         <div className='flex flex-col lg:gap-4 justify-center items-center lg:py-8 py-4 lg:px-32 px-4 bg-[#f6bc75]' id='acc'>
-            <span className='uppercase lg:text-4xl text-xl font-medium text-[#061c56]/90'>accreditation & affiliates</span>
+            <span className='uppercase lg:text-3xl text-xl font-medium text-[#061c56]/90'>accreditation & affiliates</span>
             <span className='lg:text-2xl text-xl font-normal text-center text-[#061c56]'>As part of our efforts to give your child the best education possible, Temple School is affiliated with a number of local and international educational organizations, all with an aim to continuously improving the quality of our education delivery.</span>
         </div>
         <Logos />

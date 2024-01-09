@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { HiOutlineCheckCircle } from 'react-icons/hi';
+// import { HiOutlineCheckCircle } from 'react-icons/hi';
 import pic1 from '../assets/Sec.png';
 import pic12 from '../assets/Secx.png'
 import Pic from '../assets/gallery/Sec.png';
@@ -57,7 +57,7 @@ const Section3Content = () => {
                     </span>
                 </span>
             </span>
-            <span className='flex flex-col px-4 lg:px-0 lg:gap-6 gap-2 lg:pr-32 lg:pl-40 lg:mb-10 mb-5'>
+            <span className='flex flex-col px-4 lg:px-0 lg:gap-6 gap-2 lg:pr-32 lg:pl-36 lg:mb-10 mb-5'>
                     <span className='lg:text-base text-sm opacity-80'>Temple Secondary School stands as an international institution dedicated to the holistic development of students aged 11 through 17. Since its establishment in September 2009, our school has grown into a vibrant community of over four hundred and twenty learners, drawing students from across Lagos, various Nigerian states, and even international locations. </span>
                     <span className='lg:text-base text-sm opacity-80'>Our unique curriculum, a blend of British, Cambridge, and Nigerian educational frameworks, distinguishes Temple Secondary School as a trailblazer in Nigeria. This distinctive approach, embedded within a robust spiritual environment, equips our students with the tools for academic success and personal growth. We take pride in preparing them not only for the challenges of tertiary education but also for the complexities of life beyond the classroom. </span>
                     <span className='lg:text-base text-sm opacity-80'>Temple Secondary School offers a well-rounded education, fostering not just academic excellence but also personal development. Our core skill development focuses on Independence, Critical Thinking, Discipline, Organisation, Collaboration, Leadership, and Creativity. With five academic departments covering Creative and Professional, Languages, Humanities and Social Sciences, Mathematics, and Science, our students are well-prepared for the challenges ahead. </span>
@@ -80,7 +80,7 @@ const Section3Content = () => {
                 </span>
                 <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
             </div>
-            <span className='flex flex-col py-2 lg:px-24 mb-5'>
+            {/* <span className='flex flex-col py-2 lg:px-24 mb-5'>
                 <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr>
                 <span className='lg:text-3xl text-xl font-semibold text-center opacity-90 mb-2 my-1 text-[#061c56] mt-4'>Campus-specific facilities and features</span>
                 <span className='flex lg:flex-row flex-col justify-center mt-3 lg:gap-20 text-[#061c56] mb-4'>
@@ -130,9 +130,9 @@ const Section3Content = () => {
                     </span>
                 </span>
                 <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr> 
-            </span>
+            </span> */}
             <span className='flex flex-col py-8 lg:px-0 px-4 bg-[#21bdf3] text-white mb-5 lg:mb-10'>
-                <span className='lg:text-3xl text-xl font-semibold text-center lg:mb-7 mb-3 opacity-90 text-[#061c56]'>Photo Gallery</span>
+                <span className='lg:text-3xl uppercase text-xl font-semibold text-center lg:mb-7 mb-3 opacity-90 text-[#061c56]'>Photo Gallery</span>
                 <span className='lg:flex hidden px-32 gap-3'>
                     <span className='w-[20rem] h-60 overflow-hidden flex'>
                         <img className='w-full h-full rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic7} alt=''></img>
@@ -193,8 +193,8 @@ const Section3Content = () => {
                     </span>
                 </span>
             </span>
-            <span className='flex flex-col lg:mt-8 mt-3 lg:px-24'>
-                <span className='lg:text-3xl text-xl font-semibold text-center mb-5 opacity-90'>Admissions Procedure</span>
+            <span className='flex flex-col lg:mt-4 mt-3 lg:px-24'>
+                <span className='lg:text-3xl uppercase text-xl font-semibold text-center mb-5 opacity-90'>Admissions Procedure</span>
                 <span className='flex flex-col px-3'>
                     <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
                         <span className=' flex justify-between items-center opacity-80'>

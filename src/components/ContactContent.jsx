@@ -89,7 +89,7 @@ const ContactContent = () => {
                             <span className='bg-[#061c56] lg:w-10 lg:h-10 w-8 h-8 rounded-full flex justify-center items-center'>
                                 <CiLocationOn className='lg:w-7 lg:h-7 w-4 h-4 text-white lg:font-semibold'/>
                             </span>
-                            <span className='lg:text-lg text-xs font-normal w-[7rem] lg:w-fit'>1, Temple Drive,off Olusoji Iduwu st,Illupeju, Lagos </span>
+                            <span className='lg:text-lg text-xs font-normal w-[7rem] lg:w-80'>1, Temple Drive,off Olusoji Iduwu st,Illupeju, Lagos </span>
                         </span>
                         <span className='flex lg:gap-3 gap-1 items-center'>
                             <span className='bg-[#061c56] lg:w-10 lg:h-10 w-8 h-8 rounded-full flex justify-center items-center'>

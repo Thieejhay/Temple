@@ -115,78 +115,108 @@ const NewsContent = () => {
                
             </div>
         </div>
-        <div className='flex flex-col lg:py-6 py-4 lg:gap-8 lg:px-24 px-4'>
+        <div className='flex flex-col lg:py-6 py-4 lg:gap-8 lg:px-20 px-4'>
             <span className='flex items-center justify-center'>
                 <span className='flex flex-col gap-2'>
                     <span className='lg:text-3xl text-xl font-semibold text-[#061c56]'>Upcoming Events</span>
                 </span>
                
             </span>
-            <div className='flex flex-col lg:px-20 px-4 py-4 lg:gap-8 gap-4'>
+            <div className='flex flex-col lg:px-4 px-4 py-4 lg:gap-8 gap-4'>
                 <span className='flex lg:flex-row flex-col gap-3'>
-                    <span className='flex gap-3 w-[25rem]'>
-                        <span className='p-2 w-fit h-fit bg-[#061c56] rounded-md flex justify-center items-center text-white flex-col'> 
-                            <span className='text-lg font-semibold flex w-fit'>13th Nov</span>
-                            <span className='text-lg font-semibold '>2023</span>
+                    <span className='flex gap-3'>
+                        <span className='w-36 px-2 bg-[#061c56] rounded-md flex justify-center items-center text-white'> 
+                            <span className='text-lg font-semibold flex'>21st Jan</span>
                         </span>
-                        <span className='flex flex-col gap-1 pt-4'>
-                            <span className=' text-xl font-semibold opacity-80'>November Cycle Test 2</span>
+                        <span className='flex flex-col gap-1 pt-4 w-[15rem]'>
+                            <span className=' text-xl font-semibold opacity-80'>EYFS & Primary Parent's Discussion Day</span>
                             <span className='text-lg font-normal'></span>
                         </span>
                     </span>
-                    <span className='flex gap-3 w-[25rem]'>
-                        <span className='p-2 w-fit h-fit bg-[#061c56] rounded-md flex justify-center items-center text-white flex-col'> 
-                            <span className='text-lg font-semibold flex w-fit'>27th Nov</span>
-                            <span className='text-lg font-semibold '>2023</span>
+                    <span className='flex gap-3'>
+                        <span className='w-36 px-2 bg-[#061c56] rounded-md flex justify-center items-center text-white'> 
+                            <span className='text-lg font-semibold flex w-fit'>28th Jan</span>
+
                         </span>
-                        <span className='flex flex-col gap-1 pt-4'>
-                            <span className=' text-xl font-semibold opacity-80'>Revision Week</span>
+                        <span className='flex flex-col gap-1 pt-4 w-[15rem]'>
+                            <span className=' text-xl font-semibold opacity-80'>Secondary & College Parent's Discussion Day</span>
                             <span className='text-lg font-normal'></span>
                         </span>
                     </span>
-                    <span className='flex gap-3 w-[25rem]'>
-                        <span className='p-2 w-fit h-fit bg-[#061c56] rounded-md flex justify-center items-center text-white flex-col'> 
-                            <span className='text-lg font-semibold flex w-fit'>4th Dec</span>
-                            <span className='text-lg font-semibold '>2023</span>
+                    <span className='flex gap-3'>
+                        <span className='w-36 px-2 bg-[#061c56] rounded-md flex justify-center items-center text-white'> 
+                            <span className='text-lg font-semibold flex w-fit'>17th Feb</span>
+
                         </span>
-                        <span className='flex flex-col gap-1 pt-4'>
-                            <span className=' text-xl font-semibold opacity-80'>End of Term Examination</span>
+                        <span className='flex flex-col gap-1 pt-4 w-[15rem]'>
+                            <span className=' text-xl font-semibold opacity-80'>Inter House Sport EYFS/PRI</span>
                             <span className='text-lg font-normal'></span>
                         </span>
                     </span>
                </span>
                <span className='flex lg:flex-row flex-col gap-3'>
-                    <span className='flex gap-3 w-[25rem]'>
-                        <span className='p-2 w-fit h-fit bg-[#061c56] rounded-md flex justify-center items-center text-white flex-col'> 
-                            <span className='text-lg font-semibold flex w-fit'>8th Nov</span>
-                            <span className='text-lg font-semibold '>2023</span>
+                    <span className='flex gap-3'>
+                        <span className='w-36 px-2 bg-[#061c56] rounded-md flex justify-center items-center text-white'> 
+                            <span className='text-lg font-semibold flex'>24th Feb</span>
                         </span>
-                        <span className='flex flex-col gap-1 pt-4'>
-                            <span className=' text-xl font-semibold opacity-80'>Entrance Examination</span>
+                        <span className='flex flex-col gap-1 pt-4 w-[15rem]'>
+                            <span className=' text-xl font-semibold opacity-80'>Inter House Sport SEC/COL</span>
                             <span className='text-lg font-normal'></span>
                         </span>
                     </span>
-                    <span className='flex gap-3 w-[25rem]'>
-                        <span className='p-2 w-fit h-fit bg-[#061c56] rounded-md flex justify-center items-center text-white flex-col'> 
-                            <span className='text-lg font-semibold flex w-fit'>14th Nov</span>
-                            <span className='text-lg font-semibold '>2023</span>
+                    <span className='flex gap-3'>
+                        <span className='w-36 px-2 bg-[#061c56] rounded-md flex justify-center items-center text-white'> 
+                            <span className='text-lg font-semibold flex w-fit'>26th Feb</span>
+
                         </span>
-                        <span className='flex flex-col gap-1 pt-4'>
-                            <span className=' text-xl font-semibold opacity-80'>Christmas Concert</span>
+                        <span className='flex flex-col gap-1 pt-4 w-[15rem]'>
+                            <span className=' text-xl font-semibold opacity-80'>Half-Term Break</span>
                             <span className='text-lg font-normal'></span>
                         </span>
                     </span>
-                    <span className='flex gap-3 w-[25rem]'>
-                        <span className='p-2 w-fit h-fit bg-[#061c56] rounded-md flex justify-center items-center text-white flex-col'> 
-                            <span className='text-lg font-semibold flex w-fit'>18th Dec</span>
-                            <span className='text-lg font-semibold '>2023</span>
+                    <span className='flex gap-3'>
+                        <span className='w-36 px-2 bg-[#061c56] rounded-md flex justify-center items-center text-white'> 
+                            <span className='text-lg font-semibold flex w-fit'>4th Mar</span>
+
                         </span>
-                        <span className='flex flex-col gap-1 pt-4'>
-                            <span className=' text-xl font-semibold opacity-80'>January Vacation</span>
+                        <span className='flex flex-col gap-1 pt-4 w-[15rem]'>
+                            <span className=' text-xl font-semibold opacity-80'>Second Half Term Resumes</span>
                             <span className='text-lg font-normal'></span>
                         </span>
                     </span>
                </span>
+               {/* <span className='flex lg:flex-row flex-col gap-3'>
+                    <span className='flex gap-3'>
+                        <span className='w-36 px-2 bg-[#061c56] rounded-md flex justify-center items-center text-white'> 
+                            <span className='text-lg font-semibold flex w-fit'>24th Feb</span>
+
+                        </span>
+                        <span className='flex flex-col gap-1 pt-4 w-[20rem]'>
+                            <span className=' text-xl font-semibold opacity-80'>Inter House Sport SEC/COL</span>
+                            <span className='text-lg font-normal'></span>
+                        </span>
+                    </span>
+                    <span className='flex gap-3'>
+                        <span className='w-36 px-2 bg-[#061c56] rounded-md flex justify-center items-center text-white'> 
+                            <span className='text-lg font-semibold flex w-fit'>26th Feb</span>
+
+                        </span>
+                        <span className='flex flex-col gap-1 pt-4 w-[20rem]'>
+                            <span className=' text-xl font-semibold opacity-80'>Half-Term Break</span>
+                            <span className='text-lg font-normal'></span>
+                        </span>
+                    </span>
+                    <span className='flex gap-3'>
+                        <span className='w-36 px-2 bg-[#061c56] rounded-md flex justify-center items-center text-white'> 
+                            <span className='text-lg font-semibold flex w-fit'>4th Feb</span>
+
+                        </span>
+                        <span className='flex flex-col gap-1 pt-4 w-[20rem]'>
+                            <span className=' text-xl font-semibold opacity-80'>Second Half Term Resumes</span>
+                            <span className='text-lg font-normal'></span>
+                        </span>
+                    </span>
+               </span> */}
             </div>
         </div>
         <NewCalendar />

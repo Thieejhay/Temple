@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { HiOutlineCheckCircle } from 'react-icons/hi';
+// import { HiOutlineCheckCircle } from 'react-icons/hi';
 import { BsPlus, BsDot } from 'react-icons/bs'
 import { BiMinus } from 'react-icons/bi';
 import Banner from '../assets/cob.png';
@@ -40,7 +40,7 @@ const Section4Content = () => {
         </span>
         <div className='flex flex-col mb-8 py-3'>
             <span className='flex lg:flex-row flex-col-reverse lg:px-32 lg:mb-10 mb-5'>
-                <img className='w-[20rem] h-[27rem] lg:flex hidden' src={Pic1} alt=''></img>
+                <img className='w-[20rem] h-[25rem] lg:flex hidden' src={Pic1} alt=''></img>
                 <span className='flex flex-col gap-3 lg:pl-12 px-4 pt-8 bg-[#f6bc75] w-full text-[#061c56]'>
                     <span className='lg:text-5xl text-2xl font-bold lg:w-[30rem]'>Welcome Address by Head of College</span>
                     <span className='text-sm lg:w-[42rem]  space-y-3 text-[#061c56]'>
@@ -53,7 +53,7 @@ const Section4Content = () => {
                     </span>
                 </span>
             </span>
-            <span className='flex flex-col px-4 lg:px-0 lg:gap-6 gap-2 lg:pr-32 lg:pl-40 lg:mb-10 mb-5'>
+            <span className='flex flex-col px-4 lg:px-0 lg:gap-6 gap-2 lg:pr-32 lg:pl-36 lg:mb-10 mb-5'>
                     <span className='lg:text-base text-sm opacity-80'>Moving from Year 11 to the Sixth Form can be one of the most exciting and challenging periods in a student’s life. At Temple College, our Sixth Form experience gives careful thought to this transition and enables a much more adult approach to study.</span>
                     <span className='lg:text-base text-sm opacity-80'>Temple College prides itself on its unique and inclusive curriculum that goes Beyond Education to prepare students for life as independent young adults, university life, career development and leadership.</span>
                     <span className='lg:text-base text-sm opacity-80'>We believe in the success of every student, and our ethos is to Discover the strength of each student, Develop a strong academic foundation, and ultimately Deploy independent, driven visionaries.</span>
@@ -75,7 +75,7 @@ const Section4Content = () => {
                 </span>
                 <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
             </div>
-            <span className='flex flex-col py-2 lg:px-24 mb-5'>
+            {/* <span className='flex flex-col py-2 lg:px-24 mb-5'>
                 <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr>
                 <span className='lg:text-3xl text-xl font-semibold text-center opacity-90 mb-2 my-1 text-[#061c56] mt-4'>Campus-specific facilities and features</span>
                 <span className='flex lg:flex-row flex-col justify-center mt-3 lg:gap-20 text-[#061c56] mb-4'>
@@ -125,9 +125,9 @@ const Section4Content = () => {
                     </span>
                 </span>
                 <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr> 
-            </span>
+            </span> */}
             <span className='flex flex-col py-8 lg:px-0 px-4 bg-[#21bdf3] text-white mb-5 lg:mb-10'>
-                <span className='lg:text-3xl text-xl font-semibold text-center lg:mb-7 mb-3 opacity-90 text-[#061c56]'>Photo Gallery</span>
+                <span className='lg:text-3xl uppercase text-xl font-semibold text-center lg:mb-7 mb-3 opacity-90 text-[#061c56]'>Photo Gallery</span>
                 <span className='lg:flex hidden px-32 gap-3'>
                     <span className='w-[21rem] h-48 ' >
                         <img className='w-full h-full rounded-lg object-cover' src={Pic7} alt=''></img>
@@ -173,8 +173,8 @@ const Section4Content = () => {
                     </span>
                 </span>
             </span>
-            <span className='flex flex-col lg:mt-8 mt-3 lg:px-24'>
-                <span className='lg:text-3xl text-xl font-semibold text-center mb-5 opacity-90'>Admissions Procedure</span>
+            <span className='flex flex-col lg:mt-4 mt-3 lg:px-24'>
+                <span className='lg:text-3xl uppercase text-xl font-semibold text-center mb-5 opacity-90'>Admissions Procedure</span>
                 <span className='flex flex-col px-3'>
                     <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
                         <span className=' flex justify-between items-center opacity-80'>

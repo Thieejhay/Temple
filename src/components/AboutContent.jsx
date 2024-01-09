@@ -125,7 +125,7 @@ const AboutContent = () => {
             <span className='flex rounded-lg bg-white lg:p-6 p-3 lg:w-[53rem]  lg:h-[26rem]'>
                 {showInfo1 && 
                     <div className='flex flex-col lg:gap-3 gap-1'>
-                        <span className='lg:text-xl text-base text-center lg:text-start font-normal lg:w-[50rem] opacity-70'>At Temple, we believe that every child can excel at something and it is our responsibility to identify that 'something' and develop it.</span>
+                        <span className='lg:text-xl text-base text-center lg:text-start font-medium lg:w-[50rem] opacity-70'>At Temple, we believe that every child can excel at something and it is our responsibility to identify that 'something' and develop it.</span>
                         <span className='lg:text-xl text-base text-center lg:text-start font-normal opacity-70'>Our major aims are to prepare the children towards becoming:</span>
                         <span className='flex lg:gap-6 gap-3 p-2 bg-gray-100 h-[17rem] rounded-lg'>
                             <span className='flex flex-col gap-2'>
@@ -257,7 +257,7 @@ const AboutContent = () => {
             </span>
             <span className='lg:text-2xl text-xl font-semibold mt-[25.5rem] opacity-80 lg:hidden  flex'>Mr Robert Okharedia</span>
         </div>
-        <div className='flex flex-col py-8 gap-3 lg:gap-7 items-center' id='team'>
+        <div className='flex flex-col pb-8 pt-16 gap-3 lg:gap-7 items-center' id='team'>
             <span className='lg:text-3xl text-xl font-semibold text-center uppercase'>Meet the management team</span>
             <span className='flex lg:text-center text-justify lg:w-[90%] px-4 lg:px-0'>
                 <span className='text-sm font-normal opacity-80'>This Team form the Senior Management Team(SMT). The SMT meets at least twice each term to ensure common values and practices run right through all sections of Temple School. This team also develops strategies, policies and programs to ensure that Temple maintains a culture of continuous improvement. It is a creative and committed team that drives the striving for excellence within the school.</span>
@@ -273,21 +273,21 @@ const AboutContent = () => {
                     </span> */}
                     <span className='flex flex-col w-56 shadow-xl'>
                         <span className='w-56 h-56 bg-gray-200'><img src={Shirley} alt='' className='w-full h-full '></img></span>
-                        <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                        <span className='text-center rounded-b-md flex py-6 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
                             <span className='text-xl font-medium'>Shirley Okharedia</span>
                             <span className='text-base font-medium'>Founding Director</span>
                         </span>
                     </span>
                     <span className='flex flex-col w-56 shadow-xl'>
                         <span className='w-56 h-56 bg-gray-200'><img src={Adeola} alt='' className='w-full h-full rounded-t-md'></img></span>
-                        <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                        <span className='text-center rounded-b-md flex py-6 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
                             <span className='text-xl font-medium '>Adeola Arofin</span>
                             <span className='text-base font-medium'>Director of Education</span>
                         </span>
                     </span>
                     <span className='flex flex-col w-56 shadow-xl'>
                         <span className='w-56 h-56 bg-gray-200'><img src={Ben} alt='' className='w-full h-full rounded-md-t'></img></span>
-                        <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                        <span className='text-center rounded-b-md flex py-6 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
                             <span className='text-xl font-medium '>Benjamin Ankamah</span>
                             <span className='text-base font-medium'>Business Manager</span>
                         </span>
@@ -304,7 +304,7 @@ const AboutContent = () => {
                 <span className='flex gap-12'>
                     <span className='flex flex-col w-56 shadow-xl '>
                         <span className='w-56 h-56'><img src={Davis} alt='' className='w-full h-full rounded-t-md'></img></span>
-                        <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
+                        <span className='text-center rounded-b-md flex py-6 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
                             <span className='text-xl font-medium '>Davis Ogunleye</span>
                             <span className='text-base font-medium'>Principal, Secondary School</span>
                         </span>

@@ -15,9 +15,9 @@ import Pic12 from '../assets/gallery/dd.png'
 const HomeGallery = () => {
 
   return (
-    <div className='flex flex-col py-8 lg:px-28 px-4 bg-[#21bdf3] text-white'>
+    <div className='flex flex-col pb-8 pt-4 lg:px-28 px-4 bg-[#21bdf3] text-white'>
             <span className='flex flex-col gap-2 text-center lg:mt-6 mt-3'>
-                <span className='uppercase lg:text-4xl text-xl font-semibold opacity-90 text-[#061c56]'>Gallery</span>
+                <span className='uppercase lg:text-3xl text-xl font-semibold opacity-90 text-[#061c56]'>Gallery</span>
             </span>
         <div className='lg:flex hidden gap-3 mt-6 '>
             <span className='overflow-hidden flex w-52 h-48 rounded-lg'><img className='w-52 h-48 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic2} alt=''></img></span>

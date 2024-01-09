@@ -40,10 +40,10 @@ const ProgramsContent = () => {
              <img src={Banner} alt='' className='w-full h-full opacity-50 flex z-10'></img>
             <span className='lg:text-4xl text-2xl opacity-90 font-semibold absolute lg:top-28 top-12 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75] flex'>Programs</span>
         </span>
-        <span className='flex lg:flex-row flex-col lg:pl-28 px-4 lg:px-0 lg:py-6 py-3 gap-4 lg:gap-16 bg-gray-200'>
+        <span className='flex lg:flex-row flex-col lg:pl-24 px-4 lg:px-0 lg:py-6 py-3 gap-4 lg:gap-16 bg-gray-200'>
             <span className='flex flex-col gap-3 lg:gap-5 justify-end'>
                 <span className='lg:text-5xl text-2xl font-medium text-[#061c56] lg:w-80 opacity-90'>Co-curicular Activities</span>
-                <span className='text-xs lg:w-[25rem] opacity-80'>There is a wide range of extracurricular activities available for Temple children. We believe that by offering all these enrichment opportunities outside the classroom, we can help our pupils develop more fully as individuals. Every child is encouraged to participate, and meetings are held once a week.</span>
+                <span className='text-base lg:w-[27rem] opacity-80'>There is a wide range of extracurricular activities available for Temple children. We believe that by offering all these enrichment opportunities outside the classroom, we can help our pupils develop more fully as individuals. Every child is encouraged to participate, and meetings are held once a week.</span>
             </span>
             <span className='flex lg:gap-4 gap-2'>
                 <span className='w-56 h-32 lg:h-72 bg-gray-500 rounded-lg'><img src={Arts} className='w-full h-full' alt=''></img></span>
@@ -196,21 +196,21 @@ const ProgramsContent = () => {
                 </span>
             </span>
             <span className='flex flex-col gap-4'>
-                <span className='flex flex-col lg:gap-3 gap-1'>
+                <span className='flex flex-col lg:gap-2 gap-1'>
                     <hr className='w-10 h-1 rounded-lg bg-[#f6bc75]'></hr>
-                    <span className='text-2xl font-semibold opacity-90 text-[#061c56]'>Field Trip</span>
+                    <span className='text-2xl uppercase font-semibold opacity-90 text-[#061c56]'>Field Trip</span>
                     <span className='lg:text-base text-sm opacity-80'>The school also arranges a number of foreign visits that support the curriculum and give students the chance to expand their horizons as well as to help them understand different cultures. We enjoy exciting activities during our residential trips abroad, such as abseiling, archery, kayaking, zip-wire, and grass sledging. We also get the chance to do things like explore coastal walks, hunt for fossils, look for red squirrels in woodlands on the Isle of Wight, and go to other fun and safe camps.</span>
                 </span>
-                <span className='flex flex-col lg:gap-3 gap-1'>
+                <span className='flex flex-col lg:gap-2 gap-1'>
                     <hr className='w-10 h-1 rounded-lg bg-[#f6bc75]'></hr>
-                    <span className='text-2xl font-semibold opacity-90 text-[#061c56]'>Community Work</span>
+                    <span className='text-2xl uppercase font-semibold opacity-90 text-[#061c56]'>Community Work</span>
                     <span className='lg:text-base text-sm opacity-80'>The school also arranges a number of foreign visits that support the curriculum and give students the chance to expand their horizons as well as to help them to understand different cultures. We enjoy exciting activities during our residential trips abroad such as abseiling, archery, kayaking, zip wire and grass sledging. We also get the chance to do things like exploring coastal walks, hunting for fossils and looking for red squirrels in woodlands on the Isle of Wight and other fun and safe camps.</span>
                 </span>
             </span>
-            <span className='flex flex-col lg:gap-8 gap-3'>
-                <span className='flex flex-col lg:gap-3 gap-1'>
+            <span className='flex flex-col lg:gap-5 gap-3'>
+                <span className='flex flex-col lg:gap-2 gap-1'>
                     <hr className='w-10 h-1 rounded-lg bg-[#f6bc75]'></hr>
-                    <span className='text-2xl font-semibold text-[#061c56] opacity-90'>SPORTS</span>
+                    <span className='text-2xl uppercase font-semibold text-[#061c56] opacity-90'>Sports</span>
                 </span>
                 <div className='flex lg:hidden gap-2 justify-center'>
                     <span className='flex flex-col gap-5'>

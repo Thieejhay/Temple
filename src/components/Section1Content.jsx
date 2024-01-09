@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { HiOutlineCheckCircle } from 'react-icons/hi';
+// import { HiOutlineCheckCircle } from 'react-icons/hi';
 import pic1 from '../assets/Eyfs.png';
 import pic12 from '../assets/RITA.png'
 import Pic from '../assets/gallery/pic.png';
@@ -68,7 +68,7 @@ const Section1Content = () => {
                     </span>
                 </span>
             </span>
-            <span className='flex flex-col px-4 lg:px-0 lg:gap-6 gap-2 lg:pr-32 lg:pl-40 lg:mb-10 mb-5'>
+            <span className='flex flex-col px-4 lg:px-0 lg:gap-6 gap-2 lg:pr-32 lg:pl-36 lg:mb-10 mb-5'>
                     <span className='lg:text-base text-sm opacity-80'>The children in Early Years and Foundation stage are between 1 and 4 years. This is an important stage in every child's life and development. We are aware of this and we have made learning as fun as possible.</span>
                     <span className='lg:text-base text-sm opacity-80'>Our overall aim is to provide each child with the appropriate work within a stimulating and nurturing environment so that each child has the opportunity and incentive to achieve his/her full potential. Children learn best when their efforts receive positive encouragement and this is an integral part of our classroom practice in our Early Years and Foundation Stage.</span>
                     <span className='lg:text-base text-sm opacity-80'>Early childhood is the foundation on which children build the rest of their lives. The Early Years and Foundation Stage makes a crucial contribution to children's early development and learning. Starting school is an important step! At Temple we have a carefully planned pre-school induction programme to make the transition from home to school sensitive and appropriate for each child. We provide children with a rich variety of teaching and learning experiences that are appropriate to their needs. Learning takes place in a secure and stimulating environment where first hand learning experiences encourage the development of imagination, creativity and the enjoyment of learning.</span>
@@ -324,7 +324,7 @@ const Section1Content = () => {
                     </span>
                 </span>
             </span>
-            <span className='flex flex-col py-2 lg:px-24 lg:mb-10 mb-5'>
+            {/* <span className='flex flex-col py-2 lg:px-24 lg:mb-10 mb-5'>
                 <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr>
                 <span className='lg:text-3xl text-xl font-semibold text-center opacity-90 mb-2 my-1 text-[#061c56] mt-4'>Campus-specific facilities and features</span>
                 <span className='flex lg:flex-row flex-col justify-center mt-3 lg:gap-20 text-[#061c56] mb-4'>
@@ -374,9 +374,9 @@ const Section1Content = () => {
                     </span>
                 </span>
                 <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr> 
-            </span>
+            </span> */}
             <span className='flex flex-col py-8 lg:px-0 px-4 bg-[#21bdf3] text-white mb-5 lg:mb-10'>
-                <span className='lg:text-3xl text-xl font-semibold text-center lg:mb-7 mb-3 opacity-90 text-[#061c56]'>Photo Gallery</span>
+                <span className='lg:text-3xl uppercase text-xl font-semibold text-center lg:mb-7 mb-3 opacity-90 text-[#061c56]'>Photo Gallery</span>
                 <span className='lg:flex hidden px-32 gap-3'>
                     <span className='w-[20rem] h-60 overflow-hidden flex'>
                         <img className='w-full h-full rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic7} alt=''></img>
@@ -424,11 +424,11 @@ const Section1Content = () => {
                 </span>
                 <span className='lg:flex hidden gap-3 mt-6 px-32'>
                     <span className='w-52 h-48 overflow-hidden flex' >
-                        <img className='w-full h-full object-cover rounded-lg' src={Pic11} alt=''></img>
+                        <img className='w-full h-full object-cover rounded-lg transition-transform duration-1000 transform hover:scale-125' src={Pic11} alt=''></img>
                     </span>
                     <span className='w-[21rem] h-48 overflow-hidden flex' >
                         <img className='w-full h-full rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic8} alt=''></img>
-                    </span> transition-transform duration-1000 transform hover:scale-125
+                    </span> 
                     <span className='w-[22rem] h-48 overflow-hidden flex' >
                         <img className='w-full h-full rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic9} alt=''></img>
                     </span>
@@ -437,8 +437,8 @@ const Section1Content = () => {
                     </span>
                 </span>
             </span>
-            <span className='flex flex-col lg:mt-8 mt-3 lg:px-24'>
-                <span className='lg:text-3xl text-xl font-semibold text-center mb-5 opacity-90'>Admissions Procedure</span>
+            <span className='flex flex-col lg:mt-4 mt-3 lg:px-24'>
+                <span className='lg:text-3xl uppercase text-xl font-semibold text-center mb-5 opacity-90'>Admissions Procedure</span>
                 <span className='flex flex-col px-3'>
                     <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
                         <span className=' flex justify-between items-center opacity-80'>

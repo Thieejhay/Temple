@@ -1,5 +1,5 @@
 import React , { useState } from 'react';
-import { HiOutlineCheckCircle } from 'react-icons/hi';
+// import { HiOutlineCheckCircle } from 'react-icons/hi';
 import pic1 from '../assets/Prim.png';
 import pic12 from '../assets/AMINA.png'
 import Pic from '../assets/gallery/Primary6.png';
@@ -59,7 +59,7 @@ const Section2Content = () => {
                     </span>
                 </span>
             </span>
-            <span className='flex flex-col px-4 lg:px-0 lg:gap-6 gap-2 lg:pr-32 lg:pl-40 lg:mb-10 mb-5'>
+            <span className='flex flex-col px-4 lg:px-0 lg:gap-6 gap-2 lg:pr-32 lg:pl-36 lg:mb-10 mb-5'>
                     <span className='lg:text-base  text-sm opacity-80'>Welcome to Temple Primary School, where our commitment to providing a distinctive hybrid curriculum stands as the cornerstone of our educational approach. In our primary section, we prioritize a broad and balanced education that fosters the holistic development of our students, encompassing spiritual, moral, cultural, mental, and physical dimensions. Our educators set high expectations, acknowledging and addressing the unique needs of each learner. Lessons are thoughtfully crafted based on a nuanced understanding of the diversities among our pupils, including those with exceptional abilities. </span>
                     <span className='lg:text-base text-sm opacity-80'>The primary curriculum at Temple is a harmonious fusion of the Cambridge Curriculum, National Curriculum, and Nigerian Curriculum. This integrative approach is realized through cross-curricular themes, creating a dynamic and comprehensive learning experience. Core subjects such as English, Mathematics, Science, and Information Communication Technology (I.C.T.) form the foundation, while our elective curriculum offers a diverse range of studies including History, Geography, French, Religious Education, Citizenship, Global Perspectives, Art, Music, and Physical Education (P.E). </span>
                     <span className='lg:text-base text-sm opacity-80'>In addition to the academic curriculum, our learners actively participate in co-curricular activities like swimming, coding, and robotics, while engaging in extra-curricular events such as taekwondo, ballet, drama, debate, and contemporary dance. As a testament to their academic prowess, our pupils sit for the Cambridge Checkpoint in Year 6. </span>
@@ -81,7 +81,7 @@ const Section2Content = () => {
                 </span>
                 <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
             </div>
-            <span className='flex flex-col py-2 lg:px-24 mb-5'>
+            {/* <span className='flex flex-col py-2 lg:px-24 mb-5'>
                 <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr>
                 <span className='lg:text-3xl text-xl font-semibold text-center opacity-90 mb-2 my-1 text-[#061c56] mt-4'>Campus-specific facilities and features</span>
                 <span className='flex lg:flex-row flex-col justify-center mt-3 lg:gap-20 text-[#061c56] mb-4'>
@@ -131,9 +131,9 @@ const Section2Content = () => {
                     </span>
                 </span>
                 <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr> 
-            </span>
+            </span> */}
             <span className='flex flex-col py-8 lg:px-0 px-4 bg-[#21bdf3] text-white mb-5 lg:mb-10'>
-                <span className='lg:text-3xl text-xl font-semibold text-center lg:mb-7 mb-3 opacity-90 text-[#061c56]'>Photo Gallery</span>
+                <span className='lg:text-3xl uppercase text-xl font-semibold text-center lg:mb-7 mb-3 opacity-90 text-[#061c56]'>Photo Gallery</span>
                 <span className='lg:flex hidden px-32 gap-3'>
                     <span className='w-[20rem] h-60 overflow-hidden flex'>
                         <img className='w-full h-full rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic7} alt=''></img>
@@ -194,8 +194,8 @@ const Section2Content = () => {
                     </span>
                 </span>
             </span>
-            <span className='flex flex-col lg:mt-8 mt-3 lg:px-24'>
-                <span className='lg:text-3xl text-xl font-semibold text-center mb-5 opacity-90'>Admissions Procedure</span>
+            <span className='flex flex-col lg:mt-4 mt-3 lg:px-24'>
+                <span className='lg:text-3xl uppercase text-xl font-semibold text-center mb-5 opacity-90'>Admissions Procedure</span>
                 <span className='flex flex-col px-3'>
                     <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
                         <span className=' flex justify-between items-center opacity-80'>
