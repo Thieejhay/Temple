@@ -26,7 +26,7 @@ import { Link } from 'react-router-dom';
 const HomeContent = () => {
   return (
     <div className='flex flex-col w-screen overflow-hidden'>
-        <div className='flex lg:h-[30rem] h-[15rem]'>
+        <div className='flex lg:h-[32rem] h-[15rem]'>
             <HomeBanner />
         </div>
         <div className='flex lg:flex-row flex-col px-4 lg:px-32 lg:pt-16 pt-12 lg:pb-16 pb-10 w-screen relative' id='director'>

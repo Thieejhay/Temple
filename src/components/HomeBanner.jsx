@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Bg1 from '../assets/234.png';
 import Bg2 from '../assets/345.png';
-import Bg3 from '../assets/321.png';
+import Bg3 from '../assets/123.png';
 
 
 
@@ -53,6 +53,7 @@ const HomeBanner = () => {
         backgroundImage: `url(${imageSlide[currentSlide].backgroundImage})`,
         backgroundSize: 'cover',
         width: '100vw',
+        height: '32rem',
         transition: 'background 0.3s ease-in',
 
       };
@@ -61,7 +62,7 @@ const HomeBanner = () => {
   return (
 
     <div className="flex w-screen flex-col">
-        <div className='lg:h-[30rem] h-[15rem]'><div style={bgImageStyle} className="flex h-full"></div></div>
+        <div className='lg:h-[32rem] h-[15rem]'><div style={bgImageStyle} className="flex h-full"></div></div>
         <span className="flex lg:gap-4 gap-2 lg:-mt-[25rem] -mt-56  lg:pl-12 px-4 ">
             <span className="flex flex-col mt-2">
             {imageSlide.map((slide, index) => (
@@ -85,9 +86,7 @@ const HomeBanner = () => {
                   {imageSlide[currentSlide].textx}
               </span>
             </span>
-        </span>
-
-        
+        </span> 
     </div>
   )
 }
