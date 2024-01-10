@@ -22,7 +22,7 @@ const HomeGallery = () => {
         <div className='lg:flex hidden gap-3 mt-6 '>
             <span className='overflow-hidden flex w-52 h-48 rounded-lg'><img className='w-52 h-48 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic2} alt=''></img></span>
             <span className='overflow-hidden flex w-[21rem] h-48 rounded-lg'><img className='w-[21rem] h-48 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic9} alt=''></img></span>
-            <span className='overflow-hidden flex w-[22rem] h-48 rounded-lg'><img className='w-[22rem] h-48 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic12} alt=''></img></span>
+            <span className='overflow-hidden flex w-[22rem] h-48 rounded-lg'><img className='w-[22rem] h-48 rounded-lg transition-transform duration-1000 transform hover:scale-125' src={Pic12} alt=''></img></span>
             <span className='overflow-hidden flex w-52 h-48 rounded-lg'><img className='w-52 h-48 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic3} alt=''></img></span>
         </div>
         <div className='flex lg:hidden gap-3 mt-3'>

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 // import { HiOutlineCheckCircle } from 'react-icons/hi';
 import { BsPlus, BsDot } from 'react-icons/bs'
 import { BiMinus } from 'react-icons/bi';
-import Banner from '../assets/cob.png';
+import Banner from '../assets/cobb.png';
 import Pic1 from '../assets/coll.png';
 import Pic2 from '../assets/gallery/c2.png';
 import Pic3 from '../assets/gallery/cl1.png';
