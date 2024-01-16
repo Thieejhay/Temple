@@ -29,40 +29,40 @@ const HomeContent = () => {
         <div className='flex lg:h-[32rem] h-[15rem]'>
             <HomeBanner />
         </div>
-        <div className='flex lg:flex-row flex-col px-4 lg:px-32 lg:pt-16 pt-12 lg:pb-16 pb-10 w-screen relative' id='director'>
-            <span className='flex absolute right-4 top-0'><img src={wave} alt='' className='w-[75rem] h-[35rem] z-10'></img></span>
-            <span className='flex absolute left-0 top-0'><img src={wave2} alt='' className='w-[70rem] h-[35rem] z-10'></img></span>
-            <span className='flex absolute right-40 top-44'><img src={wave3} alt='' className='w-[5rem] h-[4rem] z-30'></img></span>
+        <div className='flex lg:flex-row flex-col px-4 lg:px-32 lg:pt-16 pt-4 lg:pb-16 pb-5 w-screen relative' id='director'>
+            <span className='lg:flex hidden absolute right-4 top-0'><img src={wave} alt='' className='w-[75rem] h-[35rem] z-10'></img></span>
+            <span className='lg:flex hidden absolute left-0 top-0'><img src={wave2} alt='' className='w-[70rem] h-[35rem] z-10'></img></span>
+            <span className='lg:flex hidden absolute right-40 top-44'><img src={wave3} alt='' className='w-[5rem] h-[4rem] z-30'></img></span>
             <span className='flex flex-col lg:w-[50%] lg:pb-6 z-20'>
                 <span className='lg:text-xl text-base font-semibold text-[#061c56] lg:mb-2 opacity-90'>Message From The Founding Director</span>
                 <span className='flex flex-col lg:mb-4 lg:gap-1 text-[#061c56]'>
                     <span className='lg:text-4xl text-2xl uppercase font-bold opacity-80'>Charting a Legacy </span>
                     <span className='lg:text-4xl text-2xl uppercase font-bold opacity-80'>of Excellence.</span>
                 </span>
-                <span className='mt-1 text-base leading-5 opacity-80 w-[96%]'>
+                <span className='mt-1 text-base leading-5 opacity-80 lg:w-[96%] text-justify'>
                 Over the past 18 years, we have grown and flourished, guided by a vision of providing exceptional education that nurtures young minds and shapes future leaders.
                 </span>
-                <span className='mt-1 text-base leading-5 opacity-80 w-[96%]'>
+                <span className='mt-1 text-base leading-5 opacity-80 lg:w-[96%] text-justify'>
                 At Temple School, we are not just an educational institution; we are a close-knit community where every individual is cherished, respected, and encouraged to shine. Our unwavering commitment to academic excellence, coupled with a rich tapestry of co-curricular activities, helps students discover their passions and talents while fostering holistic development.
                 </span>
-                <span className='mt-1 text-base leading-5 opacity-80 w-[96%]'>
+                <span className='mt-1 text-base leading-5 opacity-80 lg:w-[96%] text-justify'>
                 As we embark on this journey together, let us continue to uphold the values that define us - integrity, empathy, and a thirst for knowledge. Our dedicated faculty and staff are here to support and inspire every student, fostering an environment where curiosity thrives and dreams are realized.
                 </span>
-                <span className='mt-1 text-base leading-5 opacity-80 w-[96%]'>
+                <span className='mt-1 text-base leading-5 opacity-80 lg:w-[96%] text-justify'>
                 I am excited to welcome you to Temple School, where every day is an opportunity to learn, grow, and make cherished memories. Here's to a future filled with success and boundless possibilities.
                 </span>
                 <span className='lg:text-2xl text-xl font-semibold mt-2 opacity-80 hidden lg:flex'>Mrs Shirley Okharedia</span>
             </span>
-            <span className='flex relative lg:w-[50%] mt-6 lg:mt-0 z-20'>
-                <span className='w-80 h-[25rem] bg-[#061c56] rounded-md lg:bottom-12 left-1 lg:left-24 absolute'></span>
-                <span className='lg:w-[21rem] w-[19rem] h-[24rem] lg:h-[25rem] bg-gray-800 rounded-md lg:bottom-20 left-7 -bottom-[23.5rem] lg:left-32 absolute'>
+            <span className='flex relative lg:w-[50%] mt-3 lg:mt-0 z-20'>
+                <span className='w-80 h-[25rem] hidden lg:flex bg-[#061c56] rounded-md lg:bottom-12 left-1 lg:left-24 absolute'></span>
+                <span className='lg:w-[21rem] w-full lg:h-[25rem] bg-gray-800 rounded-md lg:bottom-20 lg:left-32 lg:absolute'>
                     <img className='w-full h-full' alt='' src={Founder}></img>
                 </span>
             </span>
-            <span className='lg:text-2xl text-xl font-semibold mt-[25.5rem] opacity-80 lg:hidden  flex'>Mrs Shirley Okharedia</span>
+            <span className='lg:text-2xl text-xl font-semibold opacity-80 lg:hidden  flex'>Mrs Shirley Okharedia</span>
         </div>
         <div className='flex flex-col lg:pb-12 pb-3 justify-center items-center '>
-            <span className='lg:text-3xl font-semibold uppercase opacity-90 text-center px-4'>Educating The Whole Child Because Every Child Is Worthy</span>
+            <span className='lg:text-3xl font-semibold uppercase opacity-90 text-center px-4 text-[#061c56]'>Educating The Whole Child Because Every Child Is Worthy</span>
             <span className='flex flex-col items-center gap-1'>
                 <span className='lg:text-sm text-xs font-normal opacity-80 text-center lg:px-40 px-4'>We believe in nurturing the potential within every young mind, guiding them towards a future brimming with possibilities. With faith in our students' potential and a dedication to holistic growth, we embark on a journey of learning that goes beyond textbooks, fostering character, compassion, and curiosity along the way.</span>
                 
@@ -179,12 +179,13 @@ const HomeContent = () => {
                     <span className='lg:w-32 w-16 h-16 lg:h-32 rounded-full '>
                         <img src={Medal} alt='' className='w-full h-full'></img>
                     </span>
-                    <span className='flex flex-col text-[#f6bc75] lg:w-fit w-[10rem]'>
+                    <span className='flex flex-col text-[#f6bc75] w-fit'>
                         <span className='lg:text-3xl text-sm font-medium lg:tracking-wider'>Our Students Are Talented,</span>
                         <span className='lg:text-2xl text-sm font-normal lg:tracking-wider'>passionate, hard-working and full of ideas.</span>
+                        <a href='https://basic.edves.net/#tab2' rel="noreferrer" target='_blank'><span className='lg:hidden flex px-2 py-1 text-base w-fit h-fit font-semibold hover:text-white bg-[#f6bc75] rounded-md drop-shadow-md text-[#061c56] '>Apply Now</span></a>
                     </span>
                 </span>
-                <a href='https://basic.edves.net/#tab2' rel="noreferrer" target='_blank'><span className='lg:px-8 lg:py-5 px-1 py-1 text-xl w-fit h-fit font-semibold hover:text-white bg-[#f6bc75] rounded-md drop-shadow-md text-[#061c56] '>Apply Now</span></a>
+                <a href='https://basic.edves.net/#tab2' rel="noreferrer" target='_blank'><span className='lg:flex hidden lg:px-8 lg:py-5 px-1 py-1 text-xl w-fit h-fit font-semibold hover:text-white bg-[#f6bc75] rounded-md drop-shadow-md text-[#061c56] '>Apply Now</span></a>
             </span>
             <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
         </div>
@@ -198,16 +199,16 @@ const HomeContent = () => {
         <div className='flex flex-col bg-[#061c56] py-1 lg:px-24 px-4 w-screen lg:h-40 lg:gap-2' >
             <hr className='w-full h-1 border-none rounded-md bg-[#f6bc75]'></hr>
             <span className='flex justify-center lg:px-6 text-[#f6bc75] text-center lg:text-2xl text-lg uppercase lg:tracking-wider font-medium'>Our teacher and students achievements</span>
-            <span className='flex lg:gap-80 gap-10 my-3 justify-center items-center'>
-                <span className='flex flex-col gap-0 items-center'>
+            <span className='flex lg:gap-80 justify-between my-3 lg:justify-center items-center'>
+                <span className='flex flex-col gap-0 items-center w-28'>
                     <span className='lg:text-5xl text-2xl font-medium text-white lg:leading-10'>2004</span>
                     <span className='text-sm font-normal text-[#d9bc6d]'>Founded</span>
                 </span>
-                <span className='flex flex-col gap-0 items-center'>
+                <span className='flex flex-col gap-0 items-center w-28'>
                     <span className='lg:text-5xl text-2xl font-medium text-white lg:leading-10'>934</span>
                     <span className='text-sm font-normal text-[#d9bc6d] text-center'>Certified Teachers</span>
                 </span>
-                <span className='flex flex-col gap-0 items-center'>
+                <span className='flex flex-col gap-0 items-center w-28'>
                     <span className='lg:text-5xl text-2xl font-medium text-white lg:leading-10'>6000</span>
                     <span className='text-sm font-normal text-[#d9bc6d] text-center'>Graduated Students</span>
                 </span>

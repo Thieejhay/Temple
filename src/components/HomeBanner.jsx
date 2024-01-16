@@ -53,7 +53,6 @@ const HomeBanner = () => {
         backgroundImage: `url(${imageSlide[currentSlide].backgroundImage})`,
         backgroundSize: 'cover',
         width: '100vw',
-        height: '32rem',
         transition: 'background 0.3s ease-in',
 
       };

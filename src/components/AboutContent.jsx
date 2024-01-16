@@ -225,52 +225,34 @@ const AboutContent = () => {
                 
             </span>
         </div>
-        <div className='flex lg:flex-row flex-col px-4 lg:px-32 lg:pt-16 pt-12 lg:pb-16 pb-10 w-screen relative'>
-            <span className='flex absolute right-4 top-0'><img src={wave} alt='' className='w-[75rem] h-[35rem] z-10'></img></span>
-            <span className='flex absolute left-0 top-0'><img src={wave2} alt='' className='w-[70rem] h-[35rem] z-10'></img></span>
-            {/* <span className='flex absolute right-40 top-44'><img src={wave3} alt='' className='w-[5rem] h-[4rem] z-30'></img></span> */}
-            <span className='flex relative lg:w-[40%] mt-6 lg:mt-6 z-20'>
-                <span className='w-80 h-[27rem] bg-[#061c56] rounded-md -top-5 left-1 lg:left-12 absolute'></span>
-                <span className='lg:w-[21rem] w-[19rem] h-[24rem] lg:h-[27rem] bg-gray-800 rounded-md lg:bottom-20 left-7 -top-6 lg:left-16 absolute'>
-                    <img className='w-full h-full' alt='' src={Robert}></img>
+        <div className='flex lg:flex-row flex-col px-4 lg:px-32 lg:pt-16 pt-12 lg:pb-0 pb-10 w-screen relative'>
+            <span className='lg:flex hidden absolute right-4 top-0'><img src={wave} alt='' className='w-[75rem] h-[30rem] z-10'></img></span>
+            <span className='lg:flex hidden absolute left-0 top-0'><img src={wave2} alt='' className='w-[70rem] h-[30rem] z-10'></img></span>
+            <span className='flex relative lg:w-[38%] mt-6 lg:mt-6 z-20'>
+                <span className='w-[21rem] h-[25rem] bg-[#061c56] rounded-md -top-5 left-1 lg:left-12 absolute'></span>
+                <span className='lg:w-[21rem] w-[19rem] h-[24rem] lg:bottom-20 left-7 -top-6 lg:left-16 absolute'>
+                    <img className='w-full h-full rounded-md' alt='' src={Robert}></img>
                 </span>
             </span>
-            <span className='flex flex-col lg:w-[60%] lg:pb-6 z-20'>
-                <span className='lg:text-xl text-base font-semibold text-[#061c56] lg:mb-2 opacity-90'>Message From The Chairman</span>
-                {/* <span className='flex flex-col lg:mb-4 lg:gap-1 text-[#061c56]'>
-                    <span className='lg:text-4xl text-2xl uppercase font-bold opacity-80'>Charting a Legacy </span>
-                    <span className='lg:text-4xl text-2xl uppercase font-bold opacity-80'>of Excellence.</span>
-                </span> */}
-                <span className='mt-1 text-base leading-5 opacity-80 w-[96%]'>
-                Over the past 18 years, we have grown and flourished, guided by a vision of providing exceptional education that nurtures young minds and shapes future leaders.
+            <span className='flex flex-col lg:w-[60%] lg:pb-6 z-20 lg:mt-8'>
+                <span className='lg:text-2xl text-base font-semibold text-[#061c56] lg:mb-2 opacity-90'>Chairman's Bio</span>
+                <span className='mt-1 text-base leading-5 opacity-80 lg:w-[96%] text-justify'>
+                Robert Okharedia is an accomplished entrepreneur, skilled at developing businesses and fostering wealth creation. His extensive professional career includes the position of Chairman, CFO, and facility provider at Temple Group of Schools Ltd, which serves over 900 students. He is also Chairman of Ubiaja Investment Company Ltd, responsible for factory production of garri and a farm. Previously, he was CEO of Transnational Haulage Ltd, where he procured over 120 brand new trucks and trailers, managed over 270 employees, and generated an annual revenue of over 2.8 billion Naira.
                 </span>
-                <span className='mt-1 text-base leading-5 opacity-80 w-[96%]'>
-                At Temple School, we are not just an educational institution; we are a close-knit community where every individual is cherished, respected, and encouraged to shine. Our unwavering commitment to academic excellence, coupled with a rich tapestry of co-curricular activities, helps students discover their passions and talents while fostering holistic development.
-                </span>
-                <span className='mt-1 text-base leading-5 opacity-80 w-[96%]'>
-                As we embark on this journey together, let us continue to uphold the values that define us - integrity, empathy, and a thirst for knowledge. Our dedicated faculty and staff are here to support and inspire every student, fostering an environment where curiosity thrives and dreams are realized.
-                </span>
-                <span className='mt-1 text-base leading-5 opacity-80 w-[96%]'>
-                I am excited to welcome you to Temple School, where every day is an opportunity to learn, grow, and make cherished memories. Here's to a future filled with success and boundless possibilities.
+                <span className='mt-1 text-base leading-5 opacity-80 lg:w-[96%] text-justify'>
+                Robert Okharedia holds a Master's degree in Business Administration from John F Kennedy University and a Bachelor's degree in Economics from Notre Dame Namur University. He is married with five children and seven grandchildren and serves on the boards of Temple Group of Schools, Esan Microfinance bank, and Maryland Comprehensive Secondary School. Additionally, he is known for his philanthropic work in various community intervention programs and schools.
                 </span>
                 <span className='lg:text-2xl text-xl font-semibold mt-2 opacity-80 hidden lg:flex'>Mr Robert Okharedia</span>
             </span>
-            <span className='lg:text-2xl text-xl font-semibold mt-[25.5rem] opacity-80 lg:hidden  flex'>Mr Robert Okharedia</span>
+            <span className='lg:text-2xl text-xl font-semibold opacity-80 lg:hidden  flex'>Mr Robert Okharedia</span>
         </div>
-        <div className='flex flex-col pb-8 pt-16 gap-3 lg:gap-7 items-center' id='team'>
+        <div className='flex flex-col pb-8 pt-16 gap-3 lg:gap-2 items-center' id='team'>
             <span className='lg:text-3xl text-xl font-semibold text-center uppercase'>Meet the management team</span>
             <span className='flex lg:text-center text-justify lg:w-[90%] px-4 lg:px-0'>
                 <span className='text-sm font-normal opacity-80'>This Team form the Senior Management Team(SMT). The SMT meets at least twice each term to ensure common values and practices run right through all sections of Temple School. This team also develops strategies, policies and programs to ensure that Temple maintains a culture of continuous improvement. It is a creative and committed team that drives the striving for excellence within the school.</span>
             </span>
-            <div className='hidden flex-col gap-6 lg:flex'>
+            <div className='hidden flex-col gap-6 lg:flex lg:mt-3'>
                 <span className='flex gap-12'>
-                    {/* <span className='flex flex-col w-56 shadow-xl'>
-                        <span className='w-56 h-56 bg-gray-200'><img src={Robert} alt='' className='w-full h-full rounded-b-none rounded-t-md'></img></span>
-                        <span className='text-center rounded-b-md flex py-3 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
-                            <span className='text-xl font-medium '>Robert Okharedia</span>
-                            <span className='text-base font-medium'>Chairman</span>
-                        </span>
-                    </span> */}
                     <span className='flex flex-col w-56 shadow-xl'>
                         <span className='w-56 h-56 bg-gray-200'><img src={Shirley} alt='' className='w-full h-full '></img></span>
                         <span className='text-center rounded-b-md flex py-6 flex-col bg-[#061c56] hover:text-white text-[#f6bc75]'>
