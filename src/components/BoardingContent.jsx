@@ -249,32 +249,6 @@ const BoardingContent = () => {
                 </span>
             </span>
         </span>
-        {/* <span className='flex flex-col px-36 gap-4 mb-8 mt-4'>
-            <span className='flex flex-col gap-2'>
-                <hr className='w-10 h-1 rounded-lg bg-[#f6bc75]'></hr>
-                <span className='text-xl font-medium'>Daily Routine:</span>
-                <span className='text-lg font-light opacity-80 w-80 leading-5'>Schedule for Boarding Students Morning Wake-up and Evening Bedtime Routine Study Sessions and Free Time</span>
-            </span>
-            <span className='flex gap-3'>
-                <span className='w-full h-32 bg-gray-200 rounded-lg'></span>
-            </span>
-        </span> */}
-        {/* <span className='flex px-36 h-80 mt-5'>
-            <span className='bg-gray-200 w-[50%]'></span>
-            <span className='bg-gray-100 w-[50%] flex flex-col gap-2 pl-20 justify-center'>
-                <span className='text-xl font-medium'>Nutritious Dining:</span>
-                <hr className='w-10 h-1 rounded-lg bg-[#f6bc75]'></hr>
-                <span className='text-lg font-light opacity-80 w-[22rem] leading-5'>Overview of Boarding Dining Facilities Sample Menu and Dietary Accommodations</span>
-            </span>
-        </span>
-        <span className='flex px-36 h-80 mb-5'>
-            <span className='bg-gray-100 w-[50%] flex flex-col gap-2 pl-20 justify-center'>
-                <span className='text-xl font-medium'>Academic Support</span>
-                <hr className='w-10 h-1 rounded-lg bg-[#f6bc75]'></hr>
-                <span className='text-lg font-light opacity-80 w-[22rem] leading-5'>Boarding Tutors and Support Staff Study Groups and Resources Available</span>
-            </span>
-            <span className='bg-gray-200 w-[50%]'></span>
-        </span> */}
         {/* <span className='flex flex-col py-2 lg:px-24 mb-5'>
             <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr>
             <span className='lg:text-3xl text-xl font-semibold text-center opacity-90 mb-2 my-1 text-[#061c56] mt-4'>Campus-specific facilities and features</span>
@@ -366,27 +340,7 @@ const BoardingContent = () => {
                 }
             </span>
         </span>
-        {/* <span className='flex px-36 items-center justify-between mt-8 mb-4'>
-            <span className='flex flex-col gap-2'>
-                <hr className='w-10 h-1 rounded-lg bg-[#f6bc75]'></hr>
-                <span className='text-xl font-medium'>Our Boarding Houses</span>
-                <span className='text-lg font-light opacity-80 w-80 leading-5'>House Names and Descriptions Facilities and Amenities in Each House</span>
-            </span>
-            <span className='flex gap-3'>
-                <span className='w-80 h-40 bg-gray-200 rounded-lg'></span>
-                <span className='w-80 h-40 bg-gray-200 rounded-lg'></span>
-            </span>
-        </span>
-        <span className='flex flex-col px-36 gap-4 mb-6'>
-            <span className='flex flex-col gap-2'>
-                <hr className='w-10 h-1 rounded-lg bg-[#f6bc75]'></hr>
-                <span className='text-xl font-medium'>Daily Routine:</span>
-                <span className='text-lg font-light opacity-80 w-80 leading-5'>Schedule for Boarding Students Morning Wake-up and Evening Bedtime Routine Study Sessions and Free Time</span>
-            </span>
-            <span className='flex gap-3'>
-                <span className='w-full h-32 bg-gray-200 rounded-lg'></span>
-            </span>
-        </span> */}
+        
         {/* <HomeAlumna /> */}
     </div>
   )

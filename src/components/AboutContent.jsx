@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Banner from '../assets/about.png';
 import Adeola from '../assets/ADEOLA.png';
 import Oseri from '../assets/OSERI.png';
@@ -465,6 +466,16 @@ const AboutContent = () => {
                         <img src={Logo7} alt='' className='lg:w-[25rem] lg:h-28 w-[10rem] h-12'></img>
                     </span>
                 </span>
+            </span>
+        </div>
+        <div className='flex flex-col lg:px-24 px-4 py-5 gap-2'>
+            <span className='uppercase lg:text-3xl text-xl font-semibold text-center mb-3'>Temple School Policy</span>
+             <span className='flex flex-col lg:gap-2 gap-1'>
+                <hr className='w-10 h-1 rounded-lg bg-[#f6bc75]'></hr>
+                <span className='text-2xl font-semibold opacity-90 text-[#061c56]'>Safeguarding Statement</span>
+                <span className='lg:text-base text-sm opacity-80'>Temple School’s entire philosophy is deeply rooted in an unwavering commitment to the safety and wellbeing of every child, young person and adult in Temple, through consistent and effective safeguarding procedures. We expect all staff and volunteers to share this commitment, and we provide equitable opportunities for all our children, regardless of background or ability.</span>
+                <Link to='/policy'><span className='px-6 py-2 border uppercase bg-[#f6bc75] text-base font-normal text-[#061c56] hover:text-white rounded-md w-fit'>
+                read more</span></Link>
             </span>
         </div>
     </div>
