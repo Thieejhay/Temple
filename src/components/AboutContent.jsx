@@ -468,7 +468,7 @@ const AboutContent = () => {
                 </span>
             </span>
         </div>
-        <div className='flex flex-col lg:px-24 px-4 py-5 gap-2'>
+        <div className='flex flex-col lg:px-24 px-4 py-5 gap-2' id='policy'>
             <span className='uppercase lg:text-3xl text-xl font-semibold text-center mb-3'>Temple School Policy</span>
              <span className='flex flex-col lg:gap-2 gap-1'>
                 <hr className='w-10 h-1 rounded-lg bg-[#f6bc75]'></hr>

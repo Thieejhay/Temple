@@ -149,6 +149,10 @@ const NavBar = () => {
                             <HashLink to='/about-us#accc' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'>
                                 <span >Accreditation & Affiliates</span>
                             </HashLink>
+                            <hr className='w-full h-1 text-white opacity-50'></hr>
+                            <HashLink to='/about-us#policy' smooth className='text-base p-2 rounded text-white hover:text-[#061c56] hover:bg-white'>
+                                <span >Temple policy</span>
+                            </HashLink>
                         </span>
                     )}
                 </span>
