@@ -93,7 +93,7 @@ const Policy = () => {
                         </span>
                         {showMore.showMore1 && 
                             <span className='flex flex-col lg:pl-6 space-y-2 lg:pt-1 opacity-70'>
-                                <span className='text-base'>Take complaint to concerned staff or to the Customer Care Team (front desk)</span>
+                                <span className='text-base'>Take complaint to concerned staff or to the Customer Care Team (front desk) (If concern is not satisfactorily addressed, move to next stage)</span>
                             </span>
                         }
                     </span>
@@ -104,7 +104,7 @@ const Policy = () => {
                         </span>
                         {showMore.showMore2 && 
                             <span className='flex flex-col lg:pl-6 space-y-2 lg:pt-1 opacity-70'>
-                                <span className='text-base'>Escalate concern to the Year Head or Head of Department</span>
+                                <span className='text-base'>Escalate concern to the Year Head or Head of Department (If concern is not satisfactorily addressed, move to next stage)</span>
                             </span>
                         }
                     </span>
@@ -115,7 +115,7 @@ const Policy = () => {
                         </span>
                         {showMore.showMore3 && 
                             <span className='flex flex-col lg:pl-6 space-y-2 lg:pt-1 opacity-70'>
-                                <span className='text-base'>Escalate concern to the Head of Section</span>
+                                <span className='text-base'>Escalate concern to the Head of Section (If concern is not satisfactorily addressed, move to next stage)</span>
                             </span>
                         }
                     </span>
@@ -126,7 +126,7 @@ const Policy = () => {
                         </span>
                         {showMore.showMore4 && 
                             <span className='flex flex-col lg:pl-6 space-y-2 lg:pt-1 opacity-70'>
-                                <span className='text-base'>Escalate concern to the Director of Education</span>
+                                <span className='text-base'>Escalate concern to the Director of Education (If concern is not satisfactorily addressed, move to next stage)</span>
                             </span>
                         }
                     </span>
