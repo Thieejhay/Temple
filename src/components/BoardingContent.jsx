@@ -33,16 +33,16 @@ const BoardingContent = () => {
 
   return (
     <div className='flex flex-col w-screen'>
-        <span className='flex justify-center items-center relative h-[20rem] bg-black'>
+        <span className='flex justify-center items-center relative h-[10rem] lg:h-[20rem] bg-black'>
             <img src={Banner} alt='' className='w-full h-full opacity-50 flex z-10'></img>
-            <span className='text-4xl opacity-90 tracking-wide font-semibold absolute top-36 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75] flex'>Boarding</span>
+            <span className='lg:text-4xl text-2xl opacity-90 tracking-wide font-semibold absolute lg:top-36 top-16 z-20 left-[50%] -translate-x-[50%] text-[#f6bc75] flex'>Boarding</span>
         </span>
         <span className='flex flex-col gap-10 py-3 mb-8'>
-            <span className='flex px-36 '>
+            <span className='flex lg:px-36 '>
                 {/* <img className='w-[23rem] object-right' src='' alt=''></img> */}
-                <span className='flex flex-col gap-8 px-16 items-center pt-8 pb-4 bg-[#f6bc75] w-full text-[#061c56]'>
-                    <span className=' text-5xl font-bold '>Welcome to Temple School's Boarding</span>
-                    <span className='text-xl space-y-3'>
+                <span className='flex flex-col lg:gap-8 gap-3 lg:px-16 px-4 items-center pt-8 pb-4 bg-[#f6bc75] w-full text-[#061c56]'>
+                    <span className=' lg:text-5xl text-2xl font-bold'>Welcome to Temple School's Boarding</span>
+                    <span className='lg:text-xl text-sm space-y-3'>
                         <p>Welcome to your new home away from home. Our residence team are happy to go through a warm orientation for the new residents. </p>
                         <p>At Temple, we're excited to open our doors to prospective boarders like you. Our boarding community is a place where safety, comfort, and friendship come together to create a second home.</p>
                         <p>We're dedicated to nurturing your growth, supporting your studies, and making your experience here unforgettable. From engaging activities to caring staff, we're here to help you thrive.</p>
@@ -55,22 +55,22 @@ const BoardingContent = () => {
                 </span>
             </span>
         </span>
-        <span className='flex px-36 items-center justify-between mb-4'>
+        <span className='flex lg:flex-row flex-col lg:px-32 px-4 lg:items-center justify-between mb-4'>
             <span className='flex flex-col gap-2'>
                 <hr className='w-10 h-1 rounded-lg bg-[#f6bc75]'></hr>
-                <span className='text-3xl font-medium text-[#061c56]'>Our Boarding Houses</span>
+                <span className='lg:text-3xl text-xl font-medium text-[#061c56]'>Our Boarding Houses</span>
                 
             </span>
-            <span className='flex gap-3'>
-                <span className='w-80 h-40 bg-gray-200 rounded-lg overflow-hidden'>
+            <span className='flex lg:gap-3 gap-1'>
+                <span className='lg:w-80 w-[50%] lg:h-40 bg-gray-200 rounded-lg overflow-hidden'>
                     <img className='w-full h-full rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={pic} alt=''></img>
                 </span>
-                <span className='w-80 h-40 bg-gray-200 rounded-lg overflow-hidden'>
+                <span className='lg:w-80 w-[50%] lg:h-40 bg-gray-200 rounded-lg overflow-hidden'>
                     <img className='w-full h-full rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={pic1} alt=''></img>
                 </span>
             </span>
         </span>
-        <span className='flex flex-col px-36'>
+        <span className='flex flex-col lg:px-32 px-4'>
             <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
                 <span className=' flex justify-between items-center opacity-80'>
                     <span className='lg:text-xl text-lg'>Boys Residence at Temple School</span>
@@ -115,7 +115,7 @@ const BoardingContent = () => {
                 }
             </span>
         </span>
-        <span className='flex flex-col px-36'>
+        <span className='flex flex-col lg:px-32 px-4'>
             <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#f6bc75] text-[#061c56]'>
                 <span className=' flex justify-between items-center opacity-90'>
                     <span className='lg:text-xl text-lg'>Girls Residence at Temple School</span>
@@ -173,21 +173,21 @@ const BoardingContent = () => {
                 }
             </span>
         </span>
-        <span className='flex flex-col gap-4 px-36 py-6'>
+        <span className='flex flex-col gap-4 lg:px-32 px-4 lg:py-6 py-3'>
             <span className='flex flex-col lg:gap-2 gap-1'>
                 <hr className='w-10 h-1 rounded-lg bg-[#f6bc75]'></hr>
-                <span className='text-2xl font-semibold opacity-90 text-[#061c56]'>Comprehensive Overview of Amenities and Facilities Available Facilities and Amenities</span>
+                <span className='lg:text-2xl text-xl font-semibold opacity-90 text-[#061c56]'>Comprehensive Overview of Amenities and Facilities Available Facilities and Amenities</span>
                 <span className='flex flex-col gap-2 opacity-90'>
                     <span className='flex gap-2 items-center'>
-                        <span className='text-2xl font-bold'><BsDot /></span>
+                        <span className='lg:text-2xl text-xl lg:font-bold'><BsDot /></span>
                         <span className='text-base font-normal'>Common Areas: Shared spaces within the Boys Residence are well-maintained, providing areas for recreational activities, study groups, and relaxation.</span>
                     </span>
                     <span className='flex gap-2 items-center'>
-                        <span className='text-2xl font-bold'><BsDot /></span>
+                        <span className='lg:text-2xl text-xl lg:font-bold'><BsDot /></span>
                         <span className='text-base font-normal'>Supervision: 24/7 supervision is in place, ensuring the safety and well-being of our students at all times.</span>
                     </span>
                     <span className='flex gap-2 items-center'>
-                        <span className='text-2xl font-bold'><BsDot /></span>
+                        <span className='lg:text-2xl text-xl lg:font-bold'><BsDot /></span>
                         <span className='text-base font-normal'>Security: Stringent security measures are implemented to create a secure living environment for all boarders.</span>
                     </span>
                 </span>
@@ -195,27 +195,27 @@ const BoardingContent = () => {
             </span>
             <span className='flex flex-col lg:gap-2 gap-1'>
                 <hr className='w-10 h-1 rounded-lg bg-[#f6bc75]'></hr>
-                <span className='text-2xl font-semibold opacity-90 text-[#061c56]'>Life at Temple School Boarding Community</span>
-                <span className='lg:text-base text-sm opacity-80'>Bonding Activities, Events, and Community-building Initiatives</span>
+                <span className='lg:text-2xl text-xl font-semibold opacity-90 text-[#061c56]'>Life at Temple School Boarding Community</span>
+                <span className='text-base  opacity-80'>Bonding Activities, Events, and Community-building Initiatives</span>
                 <span className='flex flex-col gap-2 opacity-90'>
                     <span className='flex gap-2 items-center'>
-                        <span className='text-2xl font-bold'><BsDot /></span>
+                        <span className='lg:text-2xl text-xl lg:font-bold'><BsDot /></span>
                         <span className='text-base font-normal'>Swimming: Dive into our swimming program, where students can improve their swimming skills, learn water safety, and enjoy the benefits of this refreshing sport.</span>
                     </span>
                     <span className='flex gap-2 items-center'>
-                        <span className='text-2xl font-bold'><BsDot /></span>
+                        <span className='lg:text-2xl text-xl lg:font-bold'><BsDot /></span>
                         <span className='text-base font-normal'>Football: Join our football sessions designed to enhance teamwork, coordination, and fitness while enjoying the thrill of the game on our well-maintained fields.</span>
                     </span>
                     <span className='flex gap-2 items-center'>
-                        <span className='text-2xl font-bold'><BsDot /></span>
+                        <span className='lg:text-2xl text-xl lg:font-bold'><BsDot /></span>
                         <span className='text-base font-normal'>Basketball: Shoot hoops and dribble your way through our basketball program, focusing on skill development, strategy, and sportsmanship.</span>
                     </span>
                     <span className='flex gap-2 items-center'>
-                        <span className='text-2xl font-bold'><BsDot /></span>
+                        <span className='lg:text-2xl text-xl lg:font-bold'><BsDot /></span>
                         <span className='text-base font-normal'>Tag Rugby: Engage in the exhilarating sport of tag rugby, combining elements of rugby with agility and strategy, offering a fun and fast-paced experience.</span>
                     </span>
                 </span>
-                <span className='lg:text-base text-sm opacity-80'>These activities are not only enjoyable but also contribute to the physical, mental, and social well-being of our students. They are part of our commitment to providing a well-rounded educational experience that goes beyond the classroom, nurturing skills, teamwork, and a healthy lifestyle.</span>
+                <span className='text-base  opacity-80'>These activities are not only enjoyable but also contribute to the physical, mental, and social well-being of our students. They are part of our commitment to providing a well-rounded educational experience that goes beyond the classroom, nurturing skills, teamwork, and a healthy lifestyle.</span>
             </span>
         </span>
         <span className='flex flex-col py-8 lg:px-0 px-4 bg-[#21bdf3] text-white mb-5 lg:mb-10'>
@@ -248,6 +248,22 @@ const BoardingContent = () => {
                     <img className='w-full h-full rounded-lg object-cover' src={pic6} alt=''></img>
                 </span>
             </span>
+            <div className='flex lg:hidden gap-3'>
+                <span className='overflow-hidden flex w-44 h-24 rounded-lg'><img className='w-44 h-24 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={pic3} alt=''></img></span>
+                <span className='overflow-hidden flex w-[19rem] h-24 rounded-lg'><img className='w-[19rem] h-24 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={pic2} alt=''></img></span>
+            </div>
+            <div className='flex lg:hidden gap-3 mt-3'>
+                <span className='overflow-hidden flex w-[19rem] h-24 rounded-lg'><img className='w-[19rem] h-24 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={pic5} alt=''></img></span>
+                <span className='overflow-hidden flex w-44 h-24 rounded-lg'><img className='w-44 h-24 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={pic4} alt=''></img></span>
+            </div>
+            <div className='flex lg:hidden gap-3'>
+                <span className='overflow-hidden flex w-44 h-24 rounded-lg'><img className='w-44 h-24 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={pic1} alt=''></img></span>
+                <span className='overflow-hidden flex w-[19rem] h-24 rounded-lg'><img className='w-[19rem] h-24 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={pic} alt=''></img></span>
+            </div>
+            <div className='flex lg:hidden gap-3 mt-3'>
+                <span className='overflow-hidden flex w-[19rem] h-24 rounded-lg'><img className='w-[19rem] h-24 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={pic7} alt=''></img></span>
+                <span className='overflow-hidden flex w-44 h-24 rounded-lg'><img className='w-44 h-24 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={pic6} alt=''></img></span>
+            </div>
         </span>
         {/* <span className='flex flex-col py-2 lg:px-24 mb-5'>
             <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr>
@@ -300,7 +316,7 @@ const BoardingContent = () => {
             </span>
             <hr className='w-full h-1 border-none rounded-md bg-[#061c56]'></hr> 
         </span> */}
-        <span className='flex flex-col px-36 mb-5'>
+        <span className='flex flex-col lg:px-32 px-4 mb-5'>
             <span className='flex flex-col gap-3 px-4 py-4 rounded-sm bg-[#061c56] text-[#f6bc75]'>
                 <span className=' flex justify-between items-center opacity-80'>
                     <span className='lg:text-xl text-lg'>Rules and Procedures</span>

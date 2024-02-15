@@ -62,7 +62,7 @@ const HomeContent = () => {
             <span className='lg:text-2xl text-xl font-semibold opacity-80 lg:hidden  flex'>Mrs Shirley Okharedia</span>
         </div>
         <div className='flex flex-col lg:pb-12 pb-3 justify-center items-center '>
-            <span className='lg:text-3xl font-semibold uppercase opacity-90 text-center px-4 text-[#061c56]'>Educating The Whole Child Because Every Child Is Worthy</span>
+            <span className='lg:text-3xl font-semibold uppercase opacity-90 text-center px-4'>Educating The Whole Child Because Every Child Is Worthy</span>
             <span className='flex flex-col items-center gap-1'>
                 <span className='lg:text-sm text-xs font-normal opacity-80 text-center lg:px-40 px-4'>We believe in nurturing the potential within every young mind, guiding them towards a future brimming with possibilities. With faith in our students' potential and a dedication to holistic growth, we embark on a journey of learning that goes beyond textbooks, fostering character, compassion, and curiosity along the way.</span>
                 

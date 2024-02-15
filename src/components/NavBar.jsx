@@ -4,6 +4,8 @@ import {BiPhoneCall} from 'react-icons/bi';
 import Logo from '../assets/Templelogo.png'
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+import {HiOutlineMenu} from 'react-icons/hi';
+import {CgClose} from 'react-icons/cg';
 
 const NavBar = () => {
     // const [showHomeDropdown, setShowHomeDropdown] = useState(false);
@@ -63,6 +65,10 @@ const NavBar = () => {
         };
       }, [hideTimeout]);
 
+    const [isOpen, setIsOpen] = useState(false);
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+      };
 
 
 
@@ -88,7 +94,7 @@ const NavBar = () => {
                 <a href='https://templesch.edves.net/login/' rel="noreferrer" target='_blank' ><span className='px-3 py-2 text-[#335672] bg-[#f6bc75] rounded hover:text-white uppercase text-xs'>parents/students portal</span></a>
             </span>
         </div>
-        <span className='flex lg:hidden gap-3 items-center px-2 py-2 bg-[#061c56]/80'>
+        <span className='flex lg:hidden gap-2 items-center px-2 py-2 bg-[#061c56]/80 relative'>
                 <span className='flex items-center gap-1'>
                     <BiPhoneCall className='w-3 h-3'/>
                     <span className='text-xs font-medium'>+234 809 520 0447</span>
@@ -97,7 +103,11 @@ const NavBar = () => {
                     <FaEnvelope />
                     <span className='text-xs font-medium'>info@templeschoolng.com</span>
                 </span>
-            </span>
+                <span className='rounded p-1 bg-white' onClick={toggleMenu}>
+                    {isOpen ? <CgClose className='text-2xl text-[#061c56]'/> : <HiOutlineMenu className='text-2xl text-[#061c56]'/>} 
+                </span>
+                {/* <HiOutlineMenu className='text-3xl' onClick = {() => {setToggleMenu(true)}}/> */}
+        </span>
         <div className='lg:flex hidden bg-[#061c56]/80 py-2 px-12'>
             <span className='flex gap-7'>
                 <span className='relative'>
@@ -187,6 +197,22 @@ const NavBar = () => {
                 <Link to='/contact-us'><span className='text-sm font-semibold uppercase hover:text-[#f6bc75]'>Contact us</span></Link>
             </span>
         </div>
+        {
+            isOpen && (
+                <div className='absolute top-32 left-0 bg-[#061c56] rounded-b-md py-2 px-2 w-full z-50 flex flex-col text-start'>
+                    <div className='flex flex-col px-2 gap-2'>
+                        <Link to='/' smooth><span className="text-white opacity-90 text-lg font-semibold">Home</span></Link>
+                        <Link to='/about-us' smooth><span className="text-white opacity-90 text-lg font-semibold">About Us</span></Link>
+                        <Link to='/section' smooth ><span className="text-white opacity-90 text-lg font-semibold">Sections</span></Link>
+                        <Link to='/programs' smooth ><span className="text-white opacity-90 text-lg font-semibold">Programs</span></Link>
+                        <Link to='/eld' smooth ><span className="text-white opacity-90 text-lg font-semibold">Eld</span></Link>
+                        <Link to='/boarding' smooth ><span className="text-white opacity-90 text-lg font-semibold">Boarding</span></Link>
+                        <Link to='/news&events' smooth ><span className="text-white opacity-90 text-lg font-semibold">News & events</span></Link>
+                        <Link to='/contact-us' smooth ><span className="text-white opacity-90 text-lg font-semibold">Contact Us</span></Link>
+                    </div>
+                </div>
+            )
+        }
     </div>
   )
 }
