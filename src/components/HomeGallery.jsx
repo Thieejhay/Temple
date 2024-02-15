@@ -61,16 +61,19 @@ const HomeGallery = () => {
             <span className='overflow-hidden flex w-52 h-48 rounded-lg'> <img className='w-52 h-48 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic10} alt=''></img></span>
             <span className='overflow-hidden flex w-[22rem] h-48 rounded-lg'> <img className='w-[22rem] h-48 rounded-lg object-cover transition-transform duration-1000 transform hover:scale-125' src={Pic11} alt=''></img></span>
         </div>
-        <div className='flex lg:gap-12 items-center justify-center lg:mt-20 mt-5'>
-            <span className='flex flex-col lg:gap-4 gap-2 justify-center'>
+        <div className='flex lg:flex-row flex-col lg:gap-12 lg:items-center justify-center lg:mt-20 mt-5'>
+            <span className='flex flex-col lg:gap-4 gap-1 justify-center'>
                 <span className='lg:text-3xl text-xl font-semibold uppercase w-60'>
                     Watch Our Videos
                 </span>
                 <span className='text-base font-normal opacity-80 lg:w-80 w-60'>A leading British International school offering quality education in Nigeria</span>
-                <a href='https://youtube.com/@TempleSchools' rel="noreferrer" target='_blank'><span className='px-5 py-2 bg-[#f6bc75] text-[#061c56] hover:text-white text-sm w-fit rounded-md'>Watch more on our youtube channel</span></a>
+                <a href='https://youtube.com/@TempleSchools' rel="noreferrer" target='_blank'><span className='px-5 py-2 mt-1 bg-[#f6bc75] text-[#061c56] hover:text-white text-sm w-fit rounded-md'>Watch more on our youtube channel</span></a>
             </span>
-            <span className='bg-gray-300'>
+            <span className='bg-gray-300 lg:flex hidden'>
                 <iframe width="570" height="310" className='rounded-lg' src="https://www.youtube.com/embed/tEh0P9MNmls?si=dIba9KcA5DSJi1D3" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            </span>
+            <span className='bg-gray-300 flex lg:hidden mt-4'>
+                <iframe width="550" height="310" className='rounded-lg' src="https://www.youtube.com/embed/tEh0P9MNmls?si=dIba9KcA5DSJi1D3" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
             </span>
         </div>
     </div>

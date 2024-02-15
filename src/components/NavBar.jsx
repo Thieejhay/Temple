@@ -94,19 +94,20 @@ const NavBar = () => {
                 <a href='https://templesch.edves.net/login/' rel="noreferrer" target='_blank' ><span className='px-3 py-2 text-[#335672] bg-[#f6bc75] rounded hover:text-white uppercase text-xs'>parents/students portal</span></a>
             </span>
         </div>
-        <span className='flex lg:hidden gap-2 items-center px-2 py-2 bg-[#061c56]/80 relative'>
-                <span className='flex items-center gap-1'>
-                    <BiPhoneCall className='w-3 h-3'/>
-                    <span className='text-xs font-medium'>+234 809 520 0447</span>
-                </span>
-                <span className='flex items-center gap-1'>
-                    <FaEnvelope />
-                    <span className='text-xs font-medium'>info@templeschoolng.com</span>
+        <span className='flex lg:hidden justify-between px-2 py-2 bg-[#061c56]/80 relative'>
+                <span className='flex items-center gap-2'>
+                    <span className='flex items-center gap-1'>
+                        <BiPhoneCall className='w-3 h-3'/>
+                        <span className='text-xs font-medium'>+234 809 520 0447</span>
+                    </span>
+                    <span className='flex items-center gap-1'>
+                        <FaEnvelope />
+                        <span className='text-xs font-medium'>info@templeschoolng.com</span>
+                    </span>
                 </span>
                 <span className='rounded p-1 bg-white' onClick={toggleMenu}>
                     {isOpen ? <CgClose className='text-2xl text-[#061c56]'/> : <HiOutlineMenu className='text-2xl text-[#061c56]'/>} 
                 </span>
-                {/* <HiOutlineMenu className='text-3xl' onClick = {() => {setToggleMenu(true)}}/> */}
         </span>
         <div className='lg:flex hidden bg-[#061c56]/80 py-2 px-12'>
             <span className='flex gap-7'>

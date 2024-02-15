@@ -209,8 +209,8 @@ const AboutContent = () => {
                 }
                 {showInfo7 && 
                     <div className='flex items-center justify-center'>
-                        <span className='bg-[#061c56] text-[#f6bc75] lg:w-[27rem] w-[15rem] h-[13rem] mt-3 z-20 flex items-center px-4 text-xl font-medium'>To empower the pupils to pursue a passion for acquiring knowledge, lead lives of integrity, and be self-motivated and socially responsible citizens of the world.</span>
-                        <span className='bg-gray-300 lg:w-[25rem] w-[16rem] lg:h-[15rem] h-[20rem] lg:-ml-[2rem] -ml-40 z-10'>
+                        <span className='bg-[#061c56] text-[#f6bc75] lg:w-[27rem] w-[15rem] h-[13rem] mt-3 z-20 flex items-center px-4 lg:text-xl text-lg font-medium'>To empower the pupils to pursue a passion for acquiring knowledge, lead lives of integrity, and be self-motivated and socially responsible citizens of the world.</span>
+                        <span className='bg-gray-300 lg:w-[25rem] w-[16rem] h-[15rem] lg:-ml-[2rem] -ml-24 z-10'>
                             <img className='w-full h-full' src={Mission} alt=''></img>
                         </span>
                     </div>

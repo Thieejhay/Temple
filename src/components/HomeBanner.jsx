@@ -74,7 +74,7 @@ const HomeBanner = () => {
               ></span>
             ))}
             </span>
-            <span className='flex flex-col gap-3'>
+            <span className='flex flex-col lg:gap-3'>
               <span className="lg:text-6xl text-2xl font-semibold text-[#f6bc75] w-fit">
                   {imageSlide[currentSlide].textxx}
               </span>
