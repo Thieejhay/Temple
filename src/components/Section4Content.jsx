@@ -47,7 +47,8 @@ const Section4Content = () => {
                         <p>Temple College is a private co-educational day and boarding sixth form that intensively and cohesively prepares post 16-year olds for entry into universities that are best suited for each student.</p>
                         <p>We believe in the success of every student and are always driven by our school ethos; to Discover the strength of each student, Develop a strong academic foundation, and ultimately Deploy independent, driven visionaries.</p>
                     </span>
-                    <span className='flex flex-col gap-1 w-[42rem] items-end italic'>
+                    <span className='flex flex-col gap-1 lg:w-[42rem] items-end italic'>
+                        <img className='w-[11rem] h-[11rem] flex items-start lg:hidden rounded-lg' src={Pic1} alt=''></img>
                         <span className='text-lg '>Mrs Adeola Arofin</span>
                         <span className='text-lg '>Head of Temple School College Section</span>
                     </span>
@@ -185,7 +186,7 @@ const Section4Content = () => {
                             <span className='flex flex-col lg:pl-6 space-y-2 lg:pt-4 opacity-70'>
                                 <span className='flex gap-2 items-center'>
                                     <span className='text-xl font-bold'><BsDot /></span>
-                                    <span className='text-lg font-normal'>Pick up registration from any section of the school (Early Years/Primary/Secondary). See respective addresses below.</span>
+                                    <span className='text-lg font-normal'>Pick up registration forms from any section of the school (Early Years/Primary/Secondary). See respective addresses below.</span>
                                 </span>
                                 <span className='flex gap-2 items-center'>
                                     <span className='text-xl font-bold'><BsDot /></span>

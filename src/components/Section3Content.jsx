@@ -205,7 +205,7 @@ const Section3Content = () => {
                             <span className='flex flex-col lg:pl-6 space-y-2 lg:pt-4 opacity-70'>
                                 <span className='flex gap-2 items-center'>
                                     <span className='text-xl font-bold'><BsDot /></span>
-                                    <span className='text-lg font-normal'>Pick up registration from any section of the school (Early Years/Primary/Secondary). See respective addresses below.</span>
+                                    <span className='text-lg font-normal'>Pick up registration forms from any section of the school (Early Years/Primary/Secondary). See respective addresses below.</span>
                                 </span>
                                 <span className='flex gap-2 items-center'>
                                     <span className='text-xl font-bold'><BsDot /></span>

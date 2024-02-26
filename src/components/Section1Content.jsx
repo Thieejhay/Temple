@@ -54,7 +54,7 @@ const Section1Content = () => {
             <span className='flex lg:flex-row flex-col-reverse lg:px-32 lg:mb-10 mb-5' >
                 <img className='w-[20rem] h-[27rem] lg:flex hidden' src={pic1} alt=''></img>
                 <span className='flex flex-col gap-3 lg:pl-12 px-4 pt-8 bg-[#f6bc75] w-full text-[#061c56]'>
-                    <span className=' lg:text-5xl text-2xl font-bold lg:w-[30rem]'>Welcome Address by Head Teacher </span>
+                    <span className=' lg:text-5xl text-2xl font-bold lg:w-[30rem]'>Welcome Address by Head of EYFS</span>
                     <span className='text-sm lg:w-[42rem] space-y-3'>
                         <p>It is with great pleasure that we welcome you and our little ones to the 2023/2024 session.</p>
                         <p>We realise that this will be a new experience for your child having been at home for some weeks and for others, a change of school.</p>
@@ -64,7 +64,7 @@ const Section1Content = () => {
                     <span className='flex flex-col gap-1 lg:w-[42rem] items-end italic'>
                         <img className='w-[11rem] h-[11rem] flex items-start lg:hidden rounded-lg' src={pic12} alt=''></img>
                         <span className='lg:text-lg text-base '>Mrs. Johnson-Nadar</span>
-                        <span className='lg:text-lg text-base  lg:mt-0 -mt-2'>Head Section</span>
+                        <span className='lg:text-lg text-base  lg:mt-0 -mt-2'>Head of EYFS</span>
                     </span>
                 </span>
             </span>
@@ -449,7 +449,7 @@ const Section1Content = () => {
                             <span className='flex flex-col lg:pl-6 space-y-2 lg:pt-4 opacity-70'>
                                 <span className='flex gap-2 items-center'>
                                     <span className='text-xl font-bold'><BsDot /></span>
-                                    <span className='text-lg font-normal'>Pick up registration from any section of the school (Early Years/Primary/Secondary). See respective addresses below.</span>
+                                    <span className='text-lg font-normal'>Pick up registration forms from any section of the school (Early Years/Primary/Secondary). See respective addresses below.</span>
                                 </span>
                                 <span className='flex gap-2 items-center'>
                                     <span className='text-xl font-bold'><BsDot /></span>
