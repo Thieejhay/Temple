@@ -206,7 +206,7 @@ const NavBar = () => {
                         <Link to='/about-us' smooth><span className="text-white opacity-90 text-lg font-semibold">About Us</span></Link>
                         <Link to='/section' smooth ><span className="text-white opacity-90 text-lg font-semibold">Sections</span></Link>
                         <Link to='/programs' smooth ><span className="text-white opacity-90 text-lg font-semibold">Programs</span></Link>
-                        <Link to='/eld' smooth ><span className="text-white opacity-90 text-lg font-semibold">Eld</span></Link>
+                        <Link to='/eld' smooth ><span className="text-white opacity-90 text-lg font-semibold">ELD</span></Link>
                         <Link to='/boarding' smooth ><span className="text-white opacity-90 text-lg font-semibold">Boarding</span></Link>
                         <Link to='/news&events' smooth ><span className="text-white opacity-90 text-lg font-semibold">News & events</span></Link>
                         <Link to='/contact-us' smooth ><span className="text-white opacity-90 text-lg font-semibold">Contact Us</span></Link>

@@ -7,6 +7,7 @@ import news6 from '../assets/news6.png';
 import news2 from '../assets/news2.png';
 import news7 from '../assets/news7.png';
 import news8 from '../assets/news8.png';
+import news9 from '../assets/news9.png';
 import { Link } from 'react-router-dom';
 import NewCalendar from './NewCalendar';
 import Banner from '../assets/event.png';
@@ -25,6 +26,18 @@ const NewsContent = () => {
             </span>
             <div className='flex lg:gap-12 gap-4 flex-col lg:px-24 px-4'>
                <div className='flex gap-3 flex-col'>
+                    <span className='lg:p-6 p-3 flex lg:gap-3 gap-2 border bg-[#061c56] border-[#f6bc75] rounded-md'>
+                        <span className='bg-[#f6bc75] rounded-md lg:p-5 p-2 h-fit text-white lg:text-2xl text-lg font-semibold'>Feb</span>
+                        <span className='w-[20rem] h-56 rounded-lg lg:flex hidden'>
+                            <img className='w-full h-full rounded-lg' src={news9} alt=''></img>
+                        </span>
+                        <span className=' flex flex-col lg:gap-3 gap-1'>
+                            <span className='lg:text-2xl text-lg font-medium lg:leading-5 text-[#f6bc75]'>The Flame: Febuary Temple School Newsletter</span>
+                            <span className='lg:text-base text-sm font-normal lg:w-[40rem] opacity-70 text-white'>Welcome to the February edition of "The Flame"!</span>
+                            <Link to='/news-9'><span className='text-sm font-normal text-[#f6bc75]'>Read More</span></Link>
+                        </span>
+                        
+                    </span> 
                     <span className='lg:p-6 p-3 flex lg:gap-3 gap-2 border bg-[#f6bc75] border-[#061c56] rounded-md'>
                         <span className='bg-[#061c56] rounded-md lg:p-5 p-2 h-fit text-white lg:text-2xl text-lg font-semibold'>Jan</span>
                         <span className='w-[20rem] h-56 rounded-lg lg:flex hidden'>
@@ -35,7 +48,6 @@ const NewsContent = () => {
                             <span className='lg:text-base text-sm font-normal lg:w-[40rem] opacity-90 text-white'>Welcome to the first edition of our monthly newsletter in the year 2024! We extend our warmest greetings to all the parents and guardians of Temple School. We hope you are doing great in your mind and body.</span>
                             <Link to='/news-8'><span className='text-sm font-normal text-[#061c56]'>Read More</span></Link>
                         </span>
-                        
                     </span> 
                     <span className='lg:p-6 p-3 flex lg:gap-3 gap-2 border bg-[#061c56] border-[#f6bc75] rounded-md'>
                         <span className='bg-[#f6bc75] rounded-md lg:p-5 p-2 h-fit text-white lg:text-2xl text-lg font-semibold'>Dec</span>

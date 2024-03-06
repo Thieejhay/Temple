@@ -5,6 +5,8 @@ import news4 from '../assets/news4.png';
 import news5 from '../assets/news5.png';
 import news6 from '../assets/news6.png';
 import news7 from '../assets/news7.png';
+import Alumi from '../assets/Alumi.png';
+import Alumi2 from '../assets/Alumi2.png'
 
 
 
@@ -64,7 +66,7 @@ export const swiper = [
 export const swiperalumna = [
     {
         id: 0,
-        img: '',
+        img: Alumi,
         mssg: 'I came to Temple College in 2018/2019 academic session to prepare for my WAEC and SAT examinations. During the year I spent in Temple I learnt a lot of things from both my classmates and teachers. My first week in Temple was very stressful because of all the work Dr Denloye-Abiodun bombarded us with but I will be forever grateful to her for teaching me to be independent and how to stand my ground no matter the situation.',
         name: 'Nzenwa Chukwunonso',
         desc: 'Reaching for Greater Heights',
@@ -72,20 +74,20 @@ export const swiperalumna = [
     },
     {
         id: 1,
-        img: '',
+        img: Alumi2,
         mssg: 'I am glad to have been given this opportunity to share my experiences and my journey through Temple School.I would like to urge anyone reading this to explore different options (academically and extracurricular-wise) to find thosethings you truly enjoy and are willing to strive for excellence towards, as that is what Temple School, in my experience,promotes; many varities of opportunities to shine brightly. This is the one thing that I have been made to take to heart, havingleft the secondary school environment and continue to do so.',
         name: 'Maria Paul',
         desc: '',
         rating: '5.0'
     },
-    {
-        id: 2,
-        img: '',
-        mssg: 'I came to Temple College in 2018/2019 academic session to prepare for my WAEC and SAT examinations. During the year I spent in Temple I learnt a lot of things from both my classmates and teachers. My first week in Temple was very stressful because of all the work Dr Denloye-Abiodun bombarded us with but I will be forever grateful to her for teaching me to be independent and how to stand my ground no matter the situation.',
-        name: 'Sidharth Kichugari',
-        desc: '',
-        rating: '4.5'
-    },
+    // {
+    //     id: 2,
+    //     img: '',
+    //     mssg: 'I came to Temple College in 2018/2019 academic session to prepare for my WAEC and SAT examinations. During the year I spent in Temple I learnt a lot of things from both my classmates and teachers. My first week in Temple was very stressful because of all the work Dr Denloye-Abiodun bombarded us with but I will be forever grateful to her for teaching me to be independent and how to stand my ground no matter the situation.',
+    //     name: 'Sidharth Kichugari',
+    //     desc: '',
+    //     rating: '4.5'
+    // },
 ]
 
 export const events = [

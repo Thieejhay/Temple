@@ -1,6 +1,5 @@
 import React from 'react';
 import {Swiper, SwiperSlide} from 'swiper/react';
-import Alumi from '../assets/Alumi.png'
 import { Pagination, Navigation } from 'swiper/modules';
 import {swiperalumna} from '../data/data'
 import 'swiper/css'
@@ -37,7 +36,7 @@ const HomeAlumna = () => {
                         <SwiperSlide className='flex lg:pl-64 px-3 lg:px-0' key={i}>
                             <div className='flex lg:gap-10 gap-2 w-fit'>
                                 <span className='lg:w-64 w-32 h-40 lg:h-72 rounded-md bg-gray-200'>
-                                    <img src={Alumi} alt='' className='w-full h-full'></img>
+                                    <img src={swiperalumna.img} alt='' className='w-full h-full'></img>
                                 </span>
                                 <div className='flex flex-col lg:pt-9 lg:gap-7 gap-3'>
                                     <span className='text-xs lg:w-[35rem] w-[14rem]'>

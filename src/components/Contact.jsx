@@ -17,7 +17,7 @@ const Contact = () => {
                         <img className='w-10 h-10' src={Logo} alt=''></img>
                         <span className='text-3xl font-medium text-white'>Temple School</span>
                     </span>
-                    <span className='lg:text-sm text-xs font-normal text-white lg:w-[38rem]'>Temple School is situated on four sites: two in Lupeju, one in Ikeja, and the other off Allen Avenue. Ilupeju is home to the Early Years and Primary Schools, while the secondary school is in Ikeja and the college is off Allen Avenue. All four sites are within easy-to-access areas on mainland Lagos.</span>
+                    <span className='lg:text-sm text-xs font-normal text-white lg:w-[38rem]'>Temple School is situated on four sites: two in Ilupeju, one in Ikeja, and the other off Allen Avenue. Ilupeju is home to the Early Years and Primary Schools, while the secondary school is in Ikeja and the college is off Allen Avenue. All four sites are within easy-to-access areas on mainland Lagos.</span>
                 </span>
                 <span className='flex flex-col lg:gap-5 gap-2'>
                     <span className='text-white text-2xl font-medium'>Follow Us</span>
