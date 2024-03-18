@@ -1,9 +1,9 @@
 import news1 from '../assets/news.png';
 import news2 from '../assets/news2.png';
 import news3 from '../assets/news3.png';
-import news4 from '../assets/news4.png';
-import news5 from '../assets/news5.png';
-import news6 from '../assets/news6.png';
+import news4 from '../assets/mar copy.png';
+import news5 from '../assets/news9.png';
+import news6 from '../assets/news8.png';
 import news7 from '../assets/news7.png';
 import Alumi from '../assets/Alumi.png';
 import Alumi2 from '../assets/Alumi2.png'
@@ -11,54 +11,61 @@ import Alumi2 from '../assets/Alumi2.png'
 
 
 export const swiper = [
+  {
+    id: 0,
+    title: 'The Flame: March Temple School Newsletter',
+    mssg: 'We would like to extend our heartfelt appreciation to all the incredible individuals who made our 20th',
+    src: news4,
+    link: '/news-10'
+},
+{
+    id: 1,
+    title: 'The Flame: Febuary Temple School Newsletter',
+    mssg: 'Welcome to the February edition of "The Flame"!',
+    src: news5,
+    link: '/news-9'
+},
+{
+    id: 2,
+    title: 'The Flame: January Temple School Newsletter',
+    mssg: "Welcome to the first edition of our monthly newsletter in the year 2024!",
+    src: news6,
+    link: '/news-8'
+},
     {
-        id: 0,
+        id: 3,
         title: 'The Flame: December Temple School Newsletter',
         mssg: "We are excited to bring you another issue packed with news, updates, and exciting events.",
         src: news7,
         link: '/news-7'
     },
     {
-        id: 1,
+        id: 4,
         title: 'The Flame: November Temple School Newsletter',
         mssg: "We are excited to bring you another issue packed with news, updates, and exciting events.",
         src: news1,
         link: '/news-1'
     },
     {
-      id: 2,
+      id: 5,
       title: "The Flame: October Temple School Newsletter",
       mssg: "It is with great excitement that we bring you the October edition of Temple School's monthly newsletter!",
       src: news2,
       link: '/news-6'
   },
     {
-        id: 3,
+        id: 6,
         title: "The Flame: September Temple School Newsletter",
         mssg: 'Welcome to the new academic session. The 2023/2024 academic session promises to be full of exciting...',
         src: news3,
         link: '/news-2'
     },
     {
-        id: 4,
+        id: 7,
         title: 'The Flame: August Temple School Newsletter',
         mssg: 'Welcome to the August edition of our monthly newsletter. We hope you are all having a wonderful ...',
         src: news4,
         link: '/news-3'
-    },
-    {
-        id: 5,
-        title: 'The Flame: July Temple School Newsletter',
-        mssg: "As we enter the final weeks of the school year, we are excited to present to you the second edition of our...",
-        src: news5,
-        link: '/news-4'
-    },
-    {
-        id: 6,
-        title: 'The Flame: June Temple School Newsletter',
-        mssg: "With great pleasure, we welcome you to the June edition of Temble School's monthly newsletter.",
-        src: news6,
-        link: '/news-5'
     },
 ];
 
